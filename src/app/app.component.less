@@ -22,7 +22,12 @@
         .gs-app-full-size-content();
         flex-direction: column;
 
-        .gs-app-main-content-top,
+        .gs-app-main-content-top {
+          .gs-app-full-size-content();
+          flex: none;
+          height: 60px;
+        }
+
         .gs-app-main-content-bottom {
           .gs-app-full-size-content();
 
@@ -50,6 +55,7 @@
 
 .gs-app-full-size-content() {
   display: flex;
+  position: relative;
   width: 100%;
   height: 100%;
 }
