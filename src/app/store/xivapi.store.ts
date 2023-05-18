@@ -7,12 +7,22 @@ import { CharacterModel } from '../model/xivapi-character.model';
 export class XivapiStore {
   private _charactersSubject: BehaviorSubject<CharacterModel[]> =
     new BehaviorSubject([] as CharacterModel[]);
+  private _selectedCharacterSubject: BehaviorSubject<CharacterModel> =
+    new BehaviorSubject({} as CharacterModel);
   private _isCharacterFetcing = false;
 
   constructor(private _xivapiService: XivapiService) {}
 
   public get characters(): CharacterModel[] {
     return this._charactersSubject.getValue();
+  }
+
+  public get selectedCharacter(): CharacterModel {
+    return this._selectedCharacterSubject.getValue();
+  }
+
+  public set selectedCharacter(value: CharacterModel) {
+    this._selectedCharacterSubject.next(value);
   }
 
   public get isCharacterFetcing(): boolean {

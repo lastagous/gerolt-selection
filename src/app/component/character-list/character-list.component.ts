@@ -14,6 +14,14 @@ export class CharacterListComponent {
     return this._xivapiStore.characters;
   }
 
+  public get selectedCharacter(): CharacterModel {
+    return this._xivapiStore.selectedCharacter;
+  }
+
+  public set selectedCharacter(value: CharacterModel) {
+    this._xivapiStore.selectedCharacter = value;
+  }
+
   public get isCharacterFetcing(): boolean {
     return this._xivapiStore.isCharacterFetcing;
   }

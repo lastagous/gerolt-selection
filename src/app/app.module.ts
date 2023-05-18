@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
-import { DataViewModule } from 'primeng/dataview';
 import { RippleModule } from 'primeng/ripple';
+import { TableModule } from 'primeng/table';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
@@ -21,11 +21,11 @@ import { CharacterListComponent } from './component/character-list/character-lis
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    DataViewModule,
     FormsModule,
     HttpClientModule,
     InputTextModule,
     RippleModule,
+    TableModule,
   ],
   providers: [XivapiStore],
   bootstrap: [AppComponent],
