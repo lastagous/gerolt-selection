@@ -6,6 +6,8 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
+import { XviapiStore } from './store/xviapi.store';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, SearchLodestoneComponent],
@@ -13,9 +15,10 @@ import { SearchLodestoneComponent } from './component/search-lodestone/search-lo
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
+    HttpClientModule,
     InputTextModule,
   ],
-  providers: [],
+  providers: [XviapiStore],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
