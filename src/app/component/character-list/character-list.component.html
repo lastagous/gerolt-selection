@@ -1,0 +1,31 @@
+<div class="gs-app-character-list">
+  <p-dataView [value]="characters" [loading]="isCharacterFetcing">
+    <ng-template let-character pTemplate="listItem">
+      <div pRipple class="gs-app-character-list-item">
+        <img
+          class="gs-app-character-list-item-image"
+          [src]="character.Character.Avatar"
+        />
+        <div class="gs-app-character-list-item-description">
+          <div class="gs-app-character-list-item-description-name">
+            <span>{{ character.Character.Name }}</span>
+          </div>
+          <div class="gs-app-character-list-item-description-home-world">
+            <span
+              class="gs-app-character-list-item-description-home-world-data-center"
+            >
+              <i class="pi pi-database"></i>
+              <span>{{ character.Character.DC }}</span>
+            </span>
+            <span
+              class="gs-app-character-list-item-description-home-world-server"
+            >
+              <i class="pi pi-home"></i>
+              <span>{{ character.Character.Server }}</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </p-dataView>
+</div>

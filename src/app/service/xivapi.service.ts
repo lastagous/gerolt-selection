@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { CharacterModel } from '../model/xviapi-character.model';
+import { CharacterModel } from '../model/xivapi-character.model';
 
 @Injectable({
   providedIn: 'root',
 })
-export class XviapiService {
+export class XivapiService {
   constructor(private http: HttpClient) {}
 
   public getCharactor(

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { XviapiStore } from 'src/app/store/xviapi.store';
+import { XivapiStore } from 'src/app/store/xivapi.store';
 
 @Component({
   selector: 'app-search-lodestone',
@@ -10,7 +10,7 @@ export class SearchLodestoneComponent {
   private _searchString: string;
   private _isSearching = false;
 
-  constructor(private _xviapiStore: XviapiStore) {}
+  constructor(private _xivapiStore: XivapiStore) {}
 
   public get searchString(): string {
     return this._searchString;
@@ -31,7 +31,7 @@ export class SearchLodestoneComponent {
     )?.[1];
     console.log(id);
     if (id) {
-      await this._xviapiStore.getCharacter(id);
+      await this._xivapiStore.getCharacter(id);
     }
     this._isSearching = false;
   }
