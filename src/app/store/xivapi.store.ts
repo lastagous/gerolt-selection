@@ -36,7 +36,6 @@ export class XivapiStore {
       const characters = this._charactersSubject.getValue();
       characters.push(character);
       this._charactersSubject.next(characters);
-      console.log(this.characters);
       this._isCharacterFetcing = false;
     });
   }
