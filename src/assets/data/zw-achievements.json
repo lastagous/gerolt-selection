@@ -1,0 +1,198 @@
+[
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、コルタナとホーリーシールドを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1376611200,
+      "Version": "2.0"
+    },
+    "ID": 129,
+    "IconHD": "/i/030000/030446_hr1.png",
+    "IconID": 30446,
+    "Name_ja": "古の武器：コルタナ＆ホーリーシールド"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、スファライを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1376611200,
+      "Version": "2.0"
+    },
+    "ID": 130,
+    "IconHD": "/i/031000/031034_hr1.png",
+    "IconID": 31034,
+    "Name_ja": "古の武器：スファライ"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、ブラビューラを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1376611200,
+      "Version": "2.0"
+    },
+    "ID": 131,
+    "IconHD": "/i/031000/031440_hr1.png",
+    "IconID": 31440,
+    "Name_ja": "古の武器：ブラビューラ"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、ゲイボルグを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1376611200,
+      "Version": "2.0"
+    },
+    "ID": 132,
+    "IconHD": "/i/031000/031842_hr1.png",
+    "IconID": 31842,
+    "Name_ja": "古の武器：ゲイボルグ"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、アルテミスの弓を入手する",
+    "GamePatch": {
+      "ReleaseDate": 1376611200,
+      "Version": "2.0"
+    },
+    "ID": 133,
+    "IconHD": "/i/032000/032238_hr1.png",
+    "IconID": 32238,
+    "Name_ja": "古の武器：アルテミスの弓"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、タイラスを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1376611200,
+      "Version": "2.0"
+    },
+    "ID": 134,
+    "IconHD": "/i/032000/032626_hr1.png",
+    "IconID": 32626,
+    "Name_ja": "古の武器：タイラス"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、星屑のロッドを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1376611200,
+      "Version": "2.0"
+    },
+    "ID": 135,
+    "IconHD": "/i/033000/033012_hr1.png",
+    "IconID": 33012,
+    "Name_ja": "古の武器：星屑のロッド"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、コルタナ、ホーリーシールド、スファライ、ブラビューラ、ゲイボルグ、アルテミスの弓、タイラス、星屑のロッド、ウイユヴェール、マダレムジエンを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1376611200,
+      "Version": "2.0"
+    },
+    "ID": 136,
+    "IconHD": "/i/002000/002502_hr1.png",
+    "IconID": 2502,
+    "Name_ja": "蘇りし古の武器"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、ウイユヴェールを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1387245600,
+      "Version": "2.1"
+    },
+    "ID": 597,
+    "IconHD": "/i/033000/033457_hr1.png",
+    "IconID": 33457,
+    "Name_ja": "古の武器：ウイユヴェール"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、マダレムジエンを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1387245600,
+      "Version": "2.1"
+    },
+    "ID": 598,
+    "IconHD": "/i/033000/033458_hr1.png",
+    "IconID": 33458,
+    "Name_ja": "古の武器：マダレムジエン"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "「古の武器・アニムス」のいずれかを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1395831600,
+      "Version": "2.2"
+    },
+    "ID": 925,
+    "IconHD": "/i/000000/000501_hr1.png",
+    "IconID": 501,
+    "Name_ja": "黄道の輝き"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "「古の武器・ノウス」のいずれかを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1401951600,
+      "Version": "2.28"
+    },
+    "ID": 926,
+    "IconHD": "/i/000000/000501_hr1.png",
+    "IconID": 501,
+    "Name_ja": "星々の輝き"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "「古の武器・ネクサス」のいずれかを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1410807600,
+      "Version": "2.38"
+    },
+    "ID": 1028,
+    "IconHD": "/i/000000/000501_hr1.png",
+    "IconID": 501,
+    "Name_ja": "ネクサスの輝き"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "古の武器"
+    },
+    "Description_ja": "クエスト「蘇る古の武器」をコンプリートし、吉光を入手する",
+    "GamePatch": {
+      "ReleaseDate": 1414465200,
+      "Version": "2.4"
+    },
+    "ID": 1053,
+    "IconHD": "/i/033000/033855_hr1.png",
+    "IconID": 33855,
+    "Name_ja": "古の武器：吉光"
+  }
+]

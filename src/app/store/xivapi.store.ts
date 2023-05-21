@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { XivapiService } from '../service/xivapi.service';
-import { BehaviorSubject, Subscription } from 'rxjs';
+import { BehaviorSubject, Observable, Subscription } from 'rxjs';
 import { CharacterModel } from '../model/xivapi-character.model';
 
 @Injectable()
@@ -39,5 +39,9 @@ export class XivapiStore {
       console.log(this.characters);
       this._isCharacterFetcing = false;
     });
+  }
+
+  public search(payload: any): Observable<Object> {
+    return this._xivapiService.search(payload);
   }
 }

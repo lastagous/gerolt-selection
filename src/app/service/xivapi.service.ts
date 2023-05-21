@@ -18,6 +18,10 @@ export class XivapiService {
     ) as Observable<CharacterModel>;
   }
 
+  public search(payload: any): Observable<Object> {
+    return this.http.post('https://xivapi.com/search', payload);
+  }
+
   private createOptionString(options: any[]): string {
     let result = '';
     options.forEach((option) => {
