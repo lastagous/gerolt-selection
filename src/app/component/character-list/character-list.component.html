@@ -7,7 +7,10 @@
       [loading]="isCharacterFetcing"
     >
       <ng-template let-character pTemplate="body">
-        <tr [pSelectableRow]="character">
+        <tr
+          [pSelectableRow]="character"
+          [pSelectableRowDisabled]="isUndisclosedAchievements(character)"
+        >
           <td>
             <div class="gs-app-character-list-item">
               <img
@@ -33,6 +36,11 @@
                   </span>
                 </div>
               </div>
+              <p-chip
+                *ngIf="isUndisclosedAchievements(character)"
+                class="gs-app-character-list-item-chip"
+                label="Undisclosed Achievements"
+              />
             </div>
           </td>
         </tr>

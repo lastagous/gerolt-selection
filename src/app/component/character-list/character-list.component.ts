@@ -25,4 +25,11 @@ export class CharacterListComponent {
   public get isCharacterFetcing(): boolean {
     return this._xivapiStore.isCharacterFetcing;
   }
+
+  public isUndisclosedAchievements(character: CharacterModel): boolean {
+    return (
+      character.AchievementsPublic === false ||
+      character.Achievements?.Points === 0
+    );
+  }
 }
