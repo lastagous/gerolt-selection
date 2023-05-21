@@ -1,13 +1,22 @@
 <div class="gs-app-search-lodestone">
-  <span class="p-input-icon-left">
-    <i *ngIf="!isSearching" class="pi pi-search"></i>
-    <i *ngIf="isSearching" class="pi pi-spin pi-spinner"></i>
+  <div class="gs-app-search-lodestone-text-box">
     <input
       type="text"
       pInputText
       [(ngModel)]="searchString"
+      [disabled]="isCharacterFetcing"
       placeholder="https://jp.finalfantasyxiv.com/lodestone/character/00000000"
       (keydown.enter)="onKeyDownEnter($event)"
+      [class.ng-invalid]="isSearchBoxError"
+      [class.ng-dirty]="isSearchBoxError"
     />
-  </span>
+  </div>
+  <div class="gs-app-search-lodestone-search-button">
+    <p-button
+      label="Search"
+      icon="pi pi-search"
+      [disabled]="isCharacterFetcing"
+      (click)="onKeyDownEnter($event)"
+    ></p-button>
+  </div>
 </div>

@@ -10,6 +10,7 @@ import { ScrollPanelModule } from 'primeng/scrollpanel';
 import { TabMenuModule } from 'primeng/tabmenu';
 import { TooltipModule } from 'primeng/tooltip';
 import { ChipModule } from 'primeng/chip';
+import { ButtonModule } from 'primeng/button';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
@@ -29,6 +30,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    ButtonModule,
     ChipModule,
     FormsModule,
     HttpClientModule,

@@ -8,7 +8,7 @@ import { XivapiStore } from 'src/app/store/xivapi.store';
 })
 export class SearchLodestoneComponent {
   private _searchString: string;
-  private _isSearching = false;
+  private _isSearchBoxError: boolean;
 
   constructor(private _xivapiStore: XivapiStore) {}
 
@@ -20,19 +20,24 @@ export class SearchLodestoneComponent {
     this._searchString = value;
   }
 
-  public get isSearching(): boolean {
-    return this._isSearching;
+  public get isSearchBoxError(): boolean {
+    return this._isSearchBoxError;
   }
 
-  public async onKeyDownEnter(event: any): Promise<void> {
-    this._isSearching = true;
+  public get isCharacterFetcing(): boolean {
+    return this._xivapiStore.isCharacterFetcing;
+  }
+
+  public onKeyDownEnter(event: any): void {
     const id = this._searchString.match(
-      new RegExp('/lodestone/character/([^/]+)/?')
+      new RegExp('finalfantasyxiv.com/lodestone/character/([^/]+)/?')
     )?.[1];
-    console.log(id);
     if (id) {
-      await this._xivapiStore.getCharacter(id);
+      this._searchString = '';
+      this._isSearchBoxError = false;
+      this._xivapiStore.getCharacter(id);
+    } else {
+      this._isSearchBoxError = true;
     }
-    this._isSearching = false;
   }
 }
