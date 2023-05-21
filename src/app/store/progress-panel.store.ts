@@ -90,7 +90,7 @@ export class ProgressPanelStore {
 
   public isAchievementCompleted(id: number): boolean {
     return Boolean(
-      this._xivapiStore.selectedCharacter.Achievements?.List.find(
+      this._xivapiStore.selectedCharacter?.Achievements?.List.find(
         (achievement) => achievement.ID === id
       )
     );
