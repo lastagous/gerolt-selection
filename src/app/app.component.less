@@ -17,6 +17,12 @@
         .gs-app-main-header-right {
           .gs-app-full-size-content();
         }
+
+        .gs-app-main-header-left {
+          align-items: center;
+          padding-left: 16px;
+          font-weight: bold;
+        }
       }
 
       .gs-app-main-content {
@@ -53,6 +59,28 @@
         .gs-app-main-footer-center,
         .gs-app-main-footer-right {
           .gs-app-full-size-content();
+          align-items: center;
+        }
+
+        .gs-app-main-footer-center {
+          justify-content: center;
+
+          .icon-area {
+            position: relative;
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            padding: 8px;
+
+            .icon {
+              height: 32px;
+            }
+          }
+        }
+
+        .gs-app-main-footer-right {
+          padding-right: 16px;
+          justify-content: flex-end;
         }
       }
     }

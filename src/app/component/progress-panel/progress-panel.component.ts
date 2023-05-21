@@ -45,7 +45,7 @@ export class ProgressPanelComponent {
   }
 
   public getJobImageSrc(jobName: string): string {
-    return `/assets/icon/job/${jobName}.png`;
+    return `assets/icon/job/${jobName}.png`;
   }
 
   public getIcon(iconPath: string): string {

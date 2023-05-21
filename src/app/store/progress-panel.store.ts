@@ -3,7 +3,6 @@ import {
   AchievementModel,
   ItemAchievementPareModel,
   ItemModel,
-  JobAchievementViewModel,
   TabItem,
 } from 'src/app/model/progress-panel.model';
 import { XivapiStore } from 'src/app/store/xivapi.store';
