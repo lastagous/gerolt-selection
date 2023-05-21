@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ProgressPanelStore } from './progress-panel.store';
+import { ProgressPanelStore } from '../../store/progress-panel.store';
 import {
   JobAchievementViewModel,
   TabItem,
@@ -85,5 +85,9 @@ export class ProgressPanelComponent {
       'RDM',
     ];
     return jobSort?.indexOf(a.key) - jobSort?.indexOf(b.key);
+  }
+
+  public isAchievementCompleted(id: number): boolean {
+    return this._progressPanelStore.isAchievementCompleted(id);
   }
 }

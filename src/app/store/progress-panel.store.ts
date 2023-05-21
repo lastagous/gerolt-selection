@@ -6,14 +6,13 @@ import {
   TabItem,
 } from 'src/app/model/progress-panel.model';
 import { XivapiStore } from 'src/app/store/xivapi.store';
-import _zwAchievementsJson from '../../../assets/data/zw-achievements.json';
-import _awAchievementsJson from '../../../assets/data/aw-achievements.json';
-import _ewAchievementsJson from '../../../assets/data/ew-achievements.json';
-import _rwAchievementsJson from '../../../assets/data/rw-achievements.json';
-import _mwAchievementsJson from '../../../assets/data/mw-achievements.json';
-import _itemsJson from '../../../assets/data/items.json';
+import _zwAchievementsJson from '../../assets/data/zw-achievements.json';
+import _awAchievementsJson from '../../assets/data/aw-achievements.json';
+import _ewAchievementsJson from '../../assets/data/ew-achievements.json';
+import _rwAchievementsJson from '../../assets/data/rw-achievements.json';
+import _mwAchievementsJson from '../../assets/data/mw-achievements.json';
+import _itemsJson from '../../assets/data/items.json';
 import { MenuItem } from 'primeng/api';
-import { KeyValue } from '@angular/common';
 
 @Injectable()
 export class ProgressPanelStore {
@@ -65,6 +64,14 @@ export class ProgressPanelStore {
 
   public set selectedTabItem(value: TabItem) {
     this._selectedTabItem = value;
+  }
+
+  public isAchievementCompleted(id: number): boolean {
+    return Boolean(
+      this._xivapiStore.selectedCharacter.Achievements?.List.find(
+        (achievement) => achievement.ID === id
+      )
+    );
   }
 
   private createTabIndex(): void {

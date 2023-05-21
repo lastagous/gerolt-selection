@@ -15,7 +15,7 @@ import { SearchLodestoneComponent } from './component/search-lodestone/search-lo
 import { XivapiStore } from './store/xivapi.store';
 import { CharacterListComponent } from './component/character-list/character-list.component';
 import { ProgressPanelComponent } from './component/progress-panel/progress-panel.component';
-import { ProgressPanelStore } from './component/progress-panel/progress-panel.store';
+import { ProgressPanelStore } from './store/progress-panel.store';
 import { RouterModule } from '@angular/router';
 
 @NgModule({

@@ -22,6 +22,9 @@
           <div
             *ngFor="let jobAchievement of viewMap.value"
             class="gs-app-progress-panel-scroll-panel-achievements-list-achievement-area"
+            [class.completed]="
+              isAchievementCompleted(jobAchievement.Achivement.ID)
+            "
           >
             <div
               class="gs-app-progress-panel-scroll-panel-achievements-list-achievement-area-top"
