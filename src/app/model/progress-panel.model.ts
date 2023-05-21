@@ -35,11 +35,16 @@ export interface TabItem {
   label: string;
   title: string;
   achievements: AchievementModel[];
-  viewMap: Map<string, JobAchievementViewModel[]>;
+  viewList: JobAchievementViewModel[];
 }
 
 export interface JobAchievementViewModel {
-  JobName: string;
+  JobNameEn: string;
+  JobNameJa: string;
+  itemAchievementPares: ItemAchievementPareModel[];
+}
+
+export interface ItemAchievementPareModel {
   Version: string;
   Achivement: AchievementModel;
   Items: ItemModel[];

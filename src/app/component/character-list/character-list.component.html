@@ -1,41 +1,47 @@
 <div class="gs-app-character-list">
-  <p-table
-    selectionMode="single"
-    [(selection)]="selectedCharacter"
-    p-dataView
-    [value]="characters"
-    [loading]="isCharacterFetcing"
-  >
-    <ng-template let-character pTemplate="body">
-      <tr [pSelectableRow]="character">
-        <td>
-          <div class="gs-app-character-list-item">
-            <img
-              class="gs-app-character-list-item-image"
-              [src]="character.Character.Avatar"
-            />
-            <div class="gs-app-character-list-item-description">
-              <div class="gs-app-character-list-item-description-name">
-                <span>{{ character.Character.Name }}</span>
-              </div>
-              <div class="gs-app-character-list-item-description-home-world">
-                <span
-                  class="gs-app-character-list-item-description-home-world-data-center"
-                >
-                  <i class="pi pi-database"></i>
-                  <span>{{ character.Character.DC }}</span>
-                </span>
-                <span
-                  class="gs-app-character-list-item-description-home-world-server"
-                >
-                  <i class="pi pi-home"></i>
-                  <span>{{ character.Character.Server }}</span>
-                </span>
+  <p-scrollPanel [style]="{ width: '100%', height: '700px' }">
+    <p-table
+      selectionMode="single"
+      [(selection)]="selectedCharacter"
+      [value]="characters"
+      [loading]="isCharacterFetcing"
+    >
+      <ng-template let-character pTemplate="body">
+        <tr [pSelectableRow]="character">
+          <td>
+            <div class="gs-app-character-list-item">
+              <img
+                class="gs-app-character-list-item-image"
+                [src]="character.Character.Avatar"
+              />
+              <div class="gs-app-character-list-item-description">
+                <div class="gs-app-character-list-item-description-name">
+                  <span>{{ character.Character.Name }}</span>
+                </div>
+                <div class="gs-app-character-list-item-description-home-world">
+                  <span
+                    class="gs-app-character-list-item-description-home-world-data-center"
+                  >
+                    <i class="pi pi-database"></i>
+                    <span>{{ character.Character.DC }}</span>
+                  </span>
+                  <span
+                    class="gs-app-character-list-item-description-home-world-server"
+                  >
+                    <i class="pi pi-home"></i>
+                    <span>{{ character.Character.Server }}</span>
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
-        </td>
-      </tr>
-    </ng-template>
-  </p-table>
+          </td>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="emptymessage">
+        <tr>
+          <td>Search for your character!</td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </p-scrollPanel>
 </div>

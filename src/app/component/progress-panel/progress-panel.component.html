@@ -8,6 +8,53 @@
   </div>
   <div class="gs-app-progress-panel-scroll-panel">
     <p-scrollPanel [style]="{ width: '100%', height: '650px' }">
+      <p-table [value]="selectedTabitem.viewList">
+        <ng-template let-tabViewItem pTemplate="body">
+          <tr class="gs-app-progress-panel-scroll-panel-achievements">
+            <td
+              class="gs-app-progress-panel-scroll-panel-achievements-job-icon-area"
+            >
+              <img
+                class="gs-app-progress-panel-scroll-panel-achievements-job-icon icon"
+                [src]="getJobImageSrc(tabViewItem.JobNameEn)"
+              />
+            </td>
+            <td class="gs-app-progress-panel-scroll-panel-achievements-list">
+              <div
+                *ngFor="let jobAchievement of tabViewItem.itemAchievementPares"
+                class="gs-app-progress-panel-scroll-panel-achievements-list-achievement-area"
+                [class.completed]="
+                  isAchievementCompleted(jobAchievement.Achivement.ID)
+                "
+              >
+                <div
+                  class="gs-app-progress-panel-scroll-panel-achievements-list-achievement-area-top"
+                >
+                  {{
+                    getStepName(
+                      tabViewItem.itemAchievementPares,
+                      jobAchievement
+                    )
+                  }}
+                </div>
+                <div
+                  class="gs-app-progress-panel-scroll-panel-achievements-list-achievement-area-bottom"
+                >
+                  <img
+                    *ngFor="let item of jobAchievement.Items"
+                    class="icon"
+                    [pTooltip]="item.Name_ja"
+                    tooltipPosition="top"
+                    [src]="getIcon(item.IconHD)"
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </p-scrollPanel>
+    <!-- <p-scrollPanel [style]="{ width: '100%', height: '650px' }">
       <div
         class="gs-app-progress-panel-scroll-panel-achievements"
         *ngFor="
@@ -45,6 +92,6 @@
           </div>
         </div>
       </div>
-    </p-scrollPanel>
+    </p-scrollPanel> -->
   </div>
 </div>

@@ -59,34 +59,6 @@ export class ProgressPanelComponent {
     return `STEP. ${sources.indexOf(target) + 1}`;
   }
 
-  public getViewMapOrder(
-    a: KeyValue<string, JobAchievementViewModel[]>,
-    b: KeyValue<string, JobAchievementViewModel[]>
-  ): number {
-    const jobSort: string[] = [
-      'PLD',
-      'WAR',
-      'DRK',
-      'GNB',
-      'WHM',
-      'SCH',
-      'AST',
-      'SGE',
-      'MNK',
-      'DRG',
-      'NIN',
-      'SAM',
-      'RPR',
-      'BRD',
-      'MCH',
-      'DNC',
-      'BLM',
-      'SMN',
-      'RDM',
-    ];
-    return jobSort?.indexOf(a.key) - jobSort?.indexOf(b.key);
-  }
-
   public isAchievementCompleted(id: number): boolean {
     return this._progressPanelStore.isAchievementCompleted(id);
   }

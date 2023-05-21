@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {
   AchievementModel,
+  ItemAchievementPareModel,
   ItemModel,
   JobAchievementViewModel,
   TabItem,
@@ -26,6 +27,27 @@ export class ProgressPanelStore {
   private _items: ItemModel[] = [];
   private _menuItems: MenuItem[] = [];
   private _activeItem: MenuItem;
+  private _jobSort: string[] = [
+    'PLD',
+    'WAR',
+    'DRK',
+    'GNB',
+    'WHM',
+    'SCH',
+    'AST',
+    'SGE',
+    'MNK',
+    'DRG',
+    'NIN',
+    'SAM',
+    'RPR',
+    'BRD',
+    'MCH',
+    'DNC',
+    'BLM',
+    'SMN',
+    'RDM',
+  ];
 
   constructor(private _xivapiStore: XivapiStore) {
     // Get data with the following method when updated to a new version
@@ -80,32 +102,31 @@ export class ProgressPanelStore {
         label: 'ZW',
         title: 'ゾディアックウェポン',
         achievements: this._zwAchievements,
-        // Map(key: job_name, value: JobAchievementViewModel[])
-        viewMap: new Map<string, JobAchievementViewModel[]>(),
+        viewList: [],
       },
       {
         label: 'AW',
         title: 'アニマウェポン',
         achievements: this._awAchievements,
-        viewMap: new Map<string, JobAchievementViewModel[]>(),
+        viewList: [],
       },
       {
         label: 'EW',
         title: 'エウレカウェポン',
         achievements: this._ewAchievements,
-        viewMap: new Map<string, JobAchievementViewModel[]>(),
+        viewList: [],
       },
       {
         label: 'RW',
         title: 'レジスタンス・ウェポン',
         achievements: this._rwAchievements,
-        viewMap: new Map<string, JobAchievementViewModel[]>(),
+        viewList: [],
       },
       {
         label: 'MW',
         title: 'マンダヴィルウェポン',
         achievements: this._mwAchievements,
-        viewMap: new Map<string, JobAchievementViewModel[]>(),
+        viewList: [],
       },
     ] as TabItem[];
     this.createViewMap();
@@ -142,20 +163,35 @@ export class ProgressPanelStore {
         }
 
         if (items.length) {
-          const jobName = items[0].ClassJobCategory.Name_en;
-          const jobAchievementViewModel = {
-            JobName: jobName,
+          const itemAchievementPareModel = {
             Version: achievement.GamePatch.Version,
             Achivement: achievement,
             Items: items,
-          } as JobAchievementViewModel;
-          if (tab.viewMap.has(jobName)) {
-            tab.viewMap.get(jobName)?.push(jobAchievementViewModel);
+          } as ItemAchievementPareModel;
+          const jobAchievementViewModel = tab.viewList.find(
+            (viewModel) =>
+              viewModel.JobNameEn === items[0].ClassJobCategory.Name_en
+          );
+
+          if (jobAchievementViewModel) {
+            jobAchievementViewModel.itemAchievementPares.push(
+              itemAchievementPareModel
+            );
           } else {
-            tab.viewMap.set(jobName, [jobAchievementViewModel]);
+            tab.viewList.push({
+              JobNameEn: items[0].ClassJobCategory.Name_en,
+              JobNameJa: items[0].ClassJobCategory.Name_ja,
+              itemAchievementPares: [itemAchievementPareModel],
+            });
           }
         }
       });
+
+      tab.viewList.sort(
+        (a, b) =>
+          this._jobSort.indexOf(a.JobNameEn) -
+          this._jobSort.indexOf(b.JobNameEn)
+      );
     });
   }
 
