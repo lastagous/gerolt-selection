@@ -38,7 +38,9 @@ export class XivapiStore {
       this._isCharacterFetcing = true;
       this._xivapiService.getCharactor(id).subscribe((character) => {
         console.log(character);
-        const characters = this._charactersSubject.getValue();
+        const characters = this._charactersSubject
+          .getValue()
+          .filter((char) => char.Character.ID !== character.Character.ID);
         characters.push(character);
         this._charactersSubject.next(characters);
         this._cookieStore.setCharacter({
