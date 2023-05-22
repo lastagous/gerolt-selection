@@ -43,6 +43,11 @@ export class XivapiStore {
           .filter((char) => char.Character.ID !== character.Character.ID);
         characters.push(character);
         this._charactersSubject.next(characters);
+
+        if (character.AchievementsPublic !== false) {
+          this.selectedCharacter = character;
+        }
+
         this._cookieStore.setCharacter({
           Avatar: character.Character.Avatar,
           ID: character.Character.ID,
