@@ -1,8 +1,27 @@
 <div class="gs-app">
   <div class="gs-app-main">
     <div class="gs-app-main-header">
-      <div class="gs-app-main-header-left">ゲロルトの工匠記録</div>
-      <div class="gs-app-main-header-right"></div>
+      <div class="gs-app-main-header-left">
+        <img
+          class="gs-app-main-header-left-logo"
+          [src]="logoPath"
+          alt="ゲロルトの工匠記録"
+        />
+      </div>
+      <div class="gs-app-main-header-right">
+        <span *ngIf="logoLink" class="gs-app-main-header-right-creator-name">
+          Logo designed by
+          <a
+            href="https://github.com/lastagous/gerolt-selection"
+            target="_blank"
+          >
+            {{ logoCreator }}
+          </a>
+        </span>
+        <span *ngIf="!logoLink" class="gs-app-main-header-right-creator-name">
+          Logo designed by {{ logoCreator }}
+        </span>
+      </div>
     </div>
     <div class="gs-app-main-content">
       <div class="gs-app-main-content-top">

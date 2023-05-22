@@ -21,6 +21,7 @@ import { CharacterListComponent } from './component/character-list/character-lis
 import { ProgressPanelComponent } from './component/progress-panel/progress-panel.component';
 import { ProgressPanelStore } from './store/progress-panel.store';
 import { CookieStore } from './store/cookie.store';
+import { LogoStore } from './store/logo.store';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,13 @@ import { CookieStore } from './store/cookie.store';
     TabMenuModule,
     TooltipModule,
   ],
-  providers: [CookieService, CookieStore, ProgressPanelStore, XivapiStore],
+  providers: [
+    CookieService,
+    CookieStore,
+    LogoStore,
+    ProgressPanelStore,
+    XivapiStore,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
