@@ -30,8 +30,7 @@ export class CookieStore {
           ) as CookieCharacterModel[]
         ).filter((char) => char.ID !== value.ID)
       : [];
-    characters.push(value);
-    this.characters = characters;
+    this.characters = [value].concat(characters);
   }
 
   public removeCharacter(id: number) {
