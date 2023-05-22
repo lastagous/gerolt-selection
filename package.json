@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy --base-href=/gerolt_selection/"
+    "deploy": "ng deploy --base-href=/gerolt-selection/"
   },
   "private": true,
   "dependencies": {
