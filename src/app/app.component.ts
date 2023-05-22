@@ -13,5 +13,5 @@ export class AppComponent implements OnInit {
     this.primengConfig.ripple = true;
   }
 
-  title = 'Gerolt Selection';
+  title = 'ゲロルトの工匠記録';
 }
