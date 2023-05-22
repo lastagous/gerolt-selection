@@ -13,6 +13,7 @@ import _rwAchievementsJson from '../../assets/data/rw-achievements.json';
 import _mwAchievementsJson from '../../assets/data/mw-achievements.json';
 import _itemsJson from '../../assets/data/items.json';
 import { MenuItem } from 'primeng/api';
+import { CharacterModel } from '../model/xivapi-character.model';
 
 @Injectable()
 export class ProgressPanelStore {
@@ -93,6 +94,22 @@ export class ProgressPanelStore {
         (achievement) => achievement.ID === id
       )
     );
+  }
+
+  public getCompleteRate(label: string, character: CharacterModel): number {
+    const achievements = this._tabItems
+      .find((tab) => tab.label === label)
+      ?.viewList.flatMap((viewItem) => viewItem.itemAchievementPares);
+
+    if (achievements) {
+      const completed = achievements.filter((achievement) =>
+        character.Achievements?.List.find(
+          (char) => char.ID === achievement.Achivement.ID
+        )
+      );
+      return completed.length / achievements.length;
+    }
+    return 0;
   }
 
   private createTabIndex(): void {

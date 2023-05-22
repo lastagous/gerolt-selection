@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CharacterModel } from 'src/app/model/xivapi-character.model';
+import { ProgressPanelStore } from 'src/app/store/progress-panel.store';
 import { XivapiStore } from 'src/app/store/xivapi.store';
 
 @Component({
@@ -8,7 +9,10 @@ import { XivapiStore } from 'src/app/store/xivapi.store';
   styleUrls: ['./character-list.component.less'],
 })
 export class CharacterListComponent {
-  constructor(private _xivapiStore: XivapiStore) {}
+  constructor(
+    private _progressPanelStore: ProgressPanelStore,
+    private _xivapiStore: XivapiStore
+  ) {}
 
   public get characters(): CharacterModel[] {
     return this._xivapiStore.characters;
@@ -31,5 +35,31 @@ export class CharacterListComponent {
       character.AchievementsPublic === false ||
       character.Achievements?.Points === 0
     );
+  }
+
+  public onShareClick(character: CharacterModel): void {
+    const share = 'https://lastagous.github.io/gerolt-selection/';
+    let completeRate = '';
+    let totalRaito = 0;
+    this._progressPanelStore.tabItems.forEach((tabItem) => {
+      const raito = this._progressPanelStore.getCompleteRate(
+        tabItem.label,
+        character
+      );
+      totalRaito += raito;
+      const totalBlocks = 8;
+      const blockNum = Math.floor(raito / (1 / totalBlocks));
+      const block = '■';
+      const none = '・';
+      completeRate += `${tabItem.label} [${block.repeat(blockNum)}${none.repeat(
+        totalBlocks - blockNum
+      )}] ${Math.floor(raito * 100)}%\n`;
+    });
+    const tweet = `${character.Character.Name} の武器生成の達成度 ${Math.floor(
+      (totalRaito * 100) / this._progressPanelStore.tabItems.length
+    )}%\n\n`;
+    const hashtags = 'FF14,ゲロルトの工匠記録';
+    const url = `http://twitter.com/share?url=${share}&text=${tweet}${completeRate}&hashtags=${hashtags}`;
+    window.open(encodeURI(url), '_blank');
   }
 }

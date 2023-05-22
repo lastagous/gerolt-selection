@@ -41,6 +41,15 @@
                 class="gs-app-character-list-item-chip"
                 label="Undisclosed Achievements"
               />
+              <div class="gs-app-character-list-item-share">
+                <p-button
+                  *ngIf="!isUndisclosedAchievements(character)"
+                  label="Share"
+                  styleClass="p-button-rounded p-button-sm"
+                  icon="pi pi-twitter"
+                  (click)="onShareClick(character)"
+                ></p-button>
+              </div>
             </div>
           </td>
         </tr>
