@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { XivapiService } from '../service/xivapi.service';
 import { BehaviorSubject, Observable, Subscription } from 'rxjs';
 import { CharacterModel } from '../model/xivapi-character.model';
+import { CookieStore } from './cookie.store';
 
 @Injectable()
 export class XivapiStore {
@@ -11,7 +12,10 @@ export class XivapiStore {
     new BehaviorSubject({} as CharacterModel);
   private _isCharacterFetcing = false;
 
-  constructor(private _xivapiService: XivapiService) {}
+  constructor(
+    private _cookieStore: CookieStore,
+    private _xivapiService: XivapiService
+  ) {}
 
   public get characters(): CharacterModel[] {
     return this._charactersSubject.getValue();
@@ -29,14 +33,22 @@ export class XivapiStore {
     return this._isCharacterFetcing;
   }
 
-  public getCharacter(id: string): Subscription {
-    this._isCharacterFetcing = true;
-    return this._xivapiService.getCharactor(id).subscribe((character) => {
-      console.log(character);
-      const characters = this._charactersSubject.getValue();
-      characters.push(character);
-      this._charactersSubject.next(characters);
-      this._isCharacterFetcing = false;
+  public async getCharacter(id: string): Promise<void> {
+    return new Promise((resolve, reject) => {
+      this._isCharacterFetcing = true;
+      this._xivapiService.getCharactor(id).subscribe((character) => {
+        console.log(character);
+        const characters = this._charactersSubject.getValue();
+        characters.push(character);
+        this._charactersSubject.next(characters);
+        this._cookieStore.setCharacter({
+          Avatar: character.Character.Avatar,
+          ID: character.Character.ID,
+          Name: character.Character.Name,
+        });
+        this._isCharacterFetcing = false;
+        resolve();
+      });
     });
   }
 

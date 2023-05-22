@@ -8,13 +8,70 @@
     width: 100%;
     padding: 8px;
     display: flex;
+    flex-direction: column;
 
-    .gs-app-search-lodestone-text-box {
-      flex: 1 1 0;
-      padding-right: 8px;
+    .gs-app-search-lodestone-search-area {
+      display: flex;
 
-      > input {
-        width: 100%;
+      .gs-app-search-lodestone-text-box {
+        flex: 1 1 0;
+        padding-right: 8px;
+
+        > input {
+          width: 100%;
+        }
+      }
+    }
+
+    .gs-app-search-lodestone-cookie-panel {
+      .p-scrollpanel-content {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: auto;
+      }
+
+      .gs-app-search-lodestone-cookie-panel-card {
+        height: 56px;
+        width: 280px;
+        flex: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        border: 1px solid var(--surface-border);
+        margin-top: 4px;
+        margin-right: 8px;
+
+        .gs-app-search-lodestone-cookie-panel-card-icon {
+          display: flex;
+          align-items: center;
+          padding-left: 8px;
+
+          .gs-app-search-lodestone-cookie-panel-card-icon-image {
+            height: 48px;
+          }
+        }
+
+        .gs-app-search-lodestone-cookie-panel-card-description {
+          padding-left: 8px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+
+        .gs-app-search-lodestone-cookie-panel-card-button {
+          display: flex;
+          justify-content: space-between;
+          padding-left: 4px;
+          padding-right: 4px;
+          margin-left: auto;
+          width: 92px;
+
+          > p-button {
+            padding: 2px;
+          }
+        }
       }
     }
   }

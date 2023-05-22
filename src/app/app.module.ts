@@ -11,6 +11,8 @@ import { TabMenuModule } from 'primeng/tabmenu';
 import { TooltipModule } from 'primeng/tooltip';
 import { ChipModule } from 'primeng/chip';
 import { ButtonModule } from 'primeng/button';
+import { RouterModule } from '@angular/router';
+import { CookieService } from 'ngx-cookie-service';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
@@ -18,7 +20,7 @@ import { XivapiStore } from './store/xivapi.store';
 import { CharacterListComponent } from './component/character-list/character-list.component';
 import { ProgressPanelComponent } from './component/progress-panel/progress-panel.component';
 import { ProgressPanelStore } from './store/progress-panel.store';
-import { RouterModule } from '@angular/router';
+import { CookieStore } from './store/cookie.store';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,7 @@ import { RouterModule } from '@angular/router';
     TabMenuModule,
     TooltipModule,
   ],
-  providers: [ProgressPanelStore, XivapiStore],
+  providers: [CookieService, CookieStore, ProgressPanelStore, XivapiStore],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

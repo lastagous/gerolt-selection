@@ -1,22 +1,54 @@
 <div class="gs-app-search-lodestone">
-  <div class="gs-app-search-lodestone-text-box">
-    <input
-      type="text"
-      pInputText
-      [(ngModel)]="searchString"
-      [disabled]="isCharacterFetcing"
-      placeholder="https://jp.finalfantasyxiv.com/lodestone/character/00000000"
-      (keydown.enter)="onKeyDownEnter($event)"
-      [class.ng-invalid]="isSearchBoxError"
-      [class.ng-dirty]="isSearchBoxError"
-    />
+  <div class="gs-app-search-lodestone-search-area">
+    <div class="gs-app-search-lodestone-text-box">
+      <input
+        type="text"
+        pInputText
+        [(ngModel)]="searchString"
+        [disabled]="isCharacterFetcing"
+        placeholder="https://jp.finalfantasyxiv.com/lodestone/character/00000000"
+        (keydown.enter)="onKeyDownEnter($event)"
+        [class.ng-invalid]="isSearchBoxError"
+        [class.ng-dirty]="isSearchBoxError"
+      />
+    </div>
+    <div class="gs-app-search-lodestone-search-button">
+      <p-button
+        label="Search"
+        icon="pi pi-search"
+        [disabled]="isCharacterFetcing"
+        (click)="onKeyDownEnter($event)"
+      ></p-button>
+    </div>
   </div>
-  <div class="gs-app-search-lodestone-search-button">
-    <p-button
-      label="Search"
-      icon="pi pi-search"
-      [disabled]="isCharacterFetcing"
-      (click)="onKeyDownEnter($event)"
-    ></p-button>
+  <div class="gs-app-search-lodestone-cookie-panel">
+    <p-scrollPanel [style]="{ width: '100%', height: '64px' }">
+      <div
+        *ngFor="let character of characters"
+        class="gs-app-search-lodestone-cookie-panel-card"
+      >
+        <div class="gs-app-search-lodestone-cookie-panel-card-icon">
+          <img
+            class="gs-app-search-lodestone-cookie-panel-card-icon-image"
+            [src]="character.Avatar"
+          />
+        </div>
+        <div class="gs-app-search-lodestone-cookie-panel-card-description">
+          {{ character.Name }}
+        </div>
+        <div class="gs-app-search-lodestone-cookie-panel-card-button">
+          <p-button
+            icon="pi pi-search"
+            styleClass="p-button-rounded p-button-outlined"
+            (click)="onSearchButtonClick(character.ID)"
+          ></p-button>
+          <p-button
+            icon="pi pi-trash"
+            styleClass="p-button-rounded p-button-outlined p-button-danger"
+            (click)="onSearchRemoveClick(character.ID)"
+          ></p-button>
+        </div>
+      </div>
+    </p-scrollPanel>
   </div>
 </div>
