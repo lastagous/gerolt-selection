@@ -7,10 +7,8 @@
           [src]="logoPath"
           alt="ゲロルトの工匠記録"
         />
-      </div>
-      <div class="gs-app-main-header-right">
         <span *ngIf="logoLink" class="gs-app-main-header-right-creator-name">
-          Logo designed by
+          Logo by
           <a
             href="https://github.com/lastagous/gerolt-selection"
             target="_blank"
@@ -19,9 +17,10 @@
           </a>
         </span>
         <span *ngIf="!logoLink" class="gs-app-main-header-right-creator-name">
-          Logo designed by {{ logoCreator }}
+          Logo by {{ logoCreator }}
         </span>
       </div>
+      <div class="gs-app-main-header-right"></div>
     </div>
     <div class="gs-app-main-content">
       <div class="gs-app-main-content-top">
