@@ -1,4 +1,6 @@
 :host ::ng-deep {
+  @tablet: ~"only screen and (max-width: 1360px)";
+
   .gs-app {
     .gs-app-full-size-content();
 
@@ -14,7 +16,6 @@
         height: 48px;
 
         .gs-app-main-header-left,
-        .gs-app-main-header-center,
         .gs-app-main-header-right {
           .gs-app-full-size-content();
         }
@@ -23,6 +24,10 @@
           align-items: center;
           padding-left: 16px;
           font-weight: bold;
+        }
+
+        @media @tablet {
+          flex-direction: column;
         }
       }
 
@@ -48,6 +53,16 @@
           .gs-app-main-content-bottom-right {
             .gs-app-full-size-content();
           }
+
+          @media @tablet {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+          }
+        }
+
+        @media @tablet {
+          width: 100%;
         }
       }
 
@@ -91,6 +106,10 @@
         .gs-app-main-footer-right {
           padding-right: 16px;
           justify-content: flex-end;
+        }
+
+        @media @tablet {
+          flex-direction: column;
         }
       }
     }
