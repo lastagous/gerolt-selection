@@ -1,0 +1,954 @@
+[
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "オナーバウンドとテナシティを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2569,
+    "IconHD": "/i/030000/030620_hr1.png",
+    "IconID": 30620,
+    "Name_ja": "レジスタンス・ウェポン：オナーバウンド＆テナシティ"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "スカルレンダーを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2570,
+    "IconHD": "/i/031000/031593_hr1.png",
+    "IconID": 31593,
+    "Name_ja": "レジスタンス・ウェポン：スカルレンダー"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ウォウボーンを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2571,
+    "IconHD": "/i/034000/034352_hr1.png",
+    "IconID": 34352,
+    "Name_ja": "レジスタンス・ウェポン：ウォウボーン"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "クラウンブレードを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2572,
+    "IconHD": "/i/036000/036041_hr1.png",
+    "IconID": 36041,
+    "Name_ja": "レジスタンス・ウェポン：クラウンブレード"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ドライツァックを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2573,
+    "IconHD": "/i/031000/031995_hr1.png",
+    "IconID": 31995,
+    "Name_ja": "レジスタンス・ウェポン：ドライツァック"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "サンサーラを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2574,
+    "IconHD": "/i/031000/031186_hr1.png",
+    "IconID": 31186,
+    "Name_ja": "レジスタンス・ウェポン：サンサーラ"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "骨不知を入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2575,
+    "IconHD": "/i/033000/033970_hr1.png",
+    "IconID": 33970,
+    "Name_ja": "レジスタンス・ウェポン：骨不知"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "星切を入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2576,
+    "IconHD": "/i/036000/036502_hr1.png",
+    "IconID": 36502,
+    "Name_ja": "レジスタンス・ウェポン：星切"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブリリアンスを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2577,
+    "IconHD": "/i/032000/032386_hr1.png",
+    "IconID": 32386,
+    "Name_ja": "レジスタンス・ウェポン：ブリリアンス"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ローマンを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2578,
+    "IconHD": "/i/034000/034468_hr1.png",
+    "IconID": 34468,
+    "Name_ja": "レジスタンス・ウェポン：ローマン"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "エンチュフラを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2579,
+    "IconHD": "/i/036000/036244_hr1.png",
+    "IconID": 36244,
+    "Name_ja": "レジスタンス・ウェポン：エンチュフラ"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ソウルスカージを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2580,
+    "IconHD": "/i/033000/033140_hr1.png",
+    "IconID": 33140,
+    "Name_ja": "レジスタンス・ウェポン：ソウルスカージ"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "エスピリトゥスを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2581,
+    "IconHD": "/i/033000/033322_hr1.png",
+    "IconID": 33322,
+    "Name_ja": "レジスタンス・ウェポン：エスピリトゥス"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "テイルキーパーを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2582,
+    "IconHD": "/i/036000/036801_hr1.png",
+    "IconID": 36801,
+    "Name_ja": "レジスタンス・ウェポン：テイルキーパー"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "イングリムを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2583,
+    "IconHD": "/i/032000/032769_hr1.png",
+    "IconID": 32769,
+    "Name_ja": "レジスタンス・ウェポン：イングリム"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "アカデモスを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2584,
+    "IconHD": "/i/033000/033321_hr1.png",
+    "IconID": 33321,
+    "Name_ja": "レジスタンス・ウェポン：アカデモス"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ソールスティスを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1586260800,
+      "Version": "5.25"
+    },
+    "ID": 2585,
+    "IconHD": "/i/034000/034945_hr1.png",
+    "IconID": 34945,
+    "Name_ja": "レジスタンス・ウェポン：ソールスティス"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "オナーバウンド・リコレクションとテナシティ・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2694,
+    "IconHD": "/i/030000/030620_hr1.png",
+    "IconID": 30620,
+    "Name_ja": "レジスタンス・ウェポン：オナーバウンド・リコレクション＆テナシティ・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "スカルレンダー・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2695,
+    "IconHD": "/i/031000/031593_hr1.png",
+    "IconID": 31593,
+    "Name_ja": "レジスタンス・ウェポン：スカルレンダー・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ウォウボーン・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2696,
+    "IconHD": "/i/034000/034352_hr1.png",
+    "IconID": 34352,
+    "Name_ja": "レジスタンス・ウェポン：ウォウボーン・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "クラウンブレード・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2697,
+    "IconHD": "/i/036000/036041_hr1.png",
+    "IconID": 36041,
+    "Name_ja": "レジスタンス・ウェポン：クラウンブレード・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ドライツァック・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2698,
+    "IconHD": "/i/031000/031995_hr1.png",
+    "IconID": 31995,
+    "Name_ja": "レジスタンス・ウェポン：ドライツァック・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "サンサーラ・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2699,
+    "IconHD": "/i/031000/031186_hr1.png",
+    "IconID": 31186,
+    "Name_ja": "レジスタンス・ウェポン：サンサーラ・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "骨不知【記】を入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2700,
+    "IconHD": "/i/033000/033970_hr1.png",
+    "IconID": 33970,
+    "Name_ja": "レジスタンス・ウェポン：骨不知【記】"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "星切【記】を入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2701,
+    "IconHD": "/i/036000/036502_hr1.png",
+    "IconID": 36502,
+    "Name_ja": "レジスタンス・ウェポン：星切【記】"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブリリアンス・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2702,
+    "IconHD": "/i/032000/032386_hr1.png",
+    "IconID": 32386,
+    "Name_ja": "レジスタンス・ウェポン：ブリリアンス・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ローマン・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2703,
+    "IconHD": "/i/034000/034468_hr1.png",
+    "IconID": 34468,
+    "Name_ja": "レジスタンス・ウェポン：ローマン・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "エンチュフラ・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2704,
+    "IconHD": "/i/036000/036244_hr1.png",
+    "IconID": 36244,
+    "Name_ja": "レジスタンス・ウェポン：エンチュフラ・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ソウルスカージ・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2705,
+    "IconHD": "/i/033000/033140_hr1.png",
+    "IconID": 33140,
+    "Name_ja": "レジスタンス・ウェポン：ソウルスカージ・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "エスピリトゥス・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2706,
+    "IconHD": "/i/033000/033322_hr1.png",
+    "IconID": 33322,
+    "Name_ja": "レジスタンス・ウェポン：エスピリトゥス・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "テイルキーパー・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2707,
+    "IconHD": "/i/036000/036801_hr1.png",
+    "IconID": 36801,
+    "Name_ja": "レジスタンス・ウェポン：テイルキーパー・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "イングリム・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2708,
+    "IconHD": "/i/032000/032769_hr1.png",
+    "IconID": 32769,
+    "Name_ja": "レジスタンス・ウェポン：イングリム・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "アカデモス・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2709,
+    "IconHD": "/i/033000/033321_hr1.png",
+    "IconID": 33321,
+    "Name_ja": "レジスタンス・ウェポン：アカデモス・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ソールスティス・リコレクションを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1602374400,
+      "Version": "5.35"
+    },
+    "ID": 2710,
+    "IconHD": "/i/034000/034945_hr1.png",
+    "IconID": 34945,
+    "Name_ja": "レジスタンス・ウェポン：ソールスティス・リコレクション"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・バスタードソードREとジャッジオーダー・カイトシールドREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2768,
+    "IconHD": "/i/030000/030629_hr1.png",
+    "IconID": 30629,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・バスタードソードRE＆ジャッジオーダー・カイトシールドRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・ラブリュスREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2769,
+    "IconHD": "/i/031000/031204_hr1.png",
+    "IconID": 31204,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・ラブリュスRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・ツヴァイハンダーREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2770,
+    "IconHD": "/i/034000/034358_hr1.png",
+    "IconID": 34358,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・ツヴァイハンダーRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・マナトリガーREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2771,
+    "IconHD": "/i/036000/036050_hr1.png",
+    "IconID": 36050,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・マナトリガーRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・スピアREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2772,
+    "IconHD": "/i/031000/031606_hr1.png",
+    "IconID": 31606,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・スピアRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・ナックルREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2773,
+    "IconHD": "/i/031000/031194_hr1.png",
+    "IconID": 31194,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・ナックルRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・ナイフREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2774,
+    "IconHD": "/i/033000/033980_hr1.png",
+    "IconID": 33980,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・ナイフRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・サムライブレードREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2775,
+    "IconHD": "/i/036000/036509_hr1.png",
+    "IconID": 36509,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・サムライブレードRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・コンポジットボウREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2776,
+    "IconHD": "/i/032000/032393_hr1.png",
+    "IconID": 32393,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・コンポジットボウRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・リボルバーREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2777,
+    "IconHD": "/i/034000/034404_hr1.png",
+    "IconID": 34404,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・リボルバーRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・チャクラムREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2778,
+    "IconHD": "/i/036000/036249_hr1.png",
+    "IconID": 36249,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・チャクラムRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・ロッドREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2779,
+    "IconHD": "/i/033000/033148_hr1.png",
+    "IconID": 33148,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・ロッドRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・インデックスREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2780,
+    "IconHD": "/i/033000/033213_hr1.png",
+    "IconID": 33213,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・インデックスRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・レイピアREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2781,
+    "IconHD": "/i/036000/036808_hr1.png",
+    "IconID": 36808,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・レイピアRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・ケーンREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2782,
+    "IconHD": "/i/032000/032777_hr1.png",
+    "IconID": 32777,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・ケーンRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・コーデックスREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2783,
+    "IconHD": "/i/033000/033214_hr1.png",
+    "IconID": 33214,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・コーデックスRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ジャッジオーダー・アストロメーターREを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1612263600,
+      "Version": "5.45"
+    },
+    "ID": 2784,
+    "IconHD": "/i/034000/034952_hr1.png",
+    "IconID": 34952,
+    "Name_ja": "レジスタンス・ウェポン：ジャッジオーダー・アストロメーターRE"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズオナーとブレイズフォーティチュードを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2857,
+    "IconHD": "/i/030000/030633_hr1.png",
+    "IconID": 30633,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズオナー＆ブレイズフォーティチュード"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズヴァラーを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2858,
+    "IconHD": "/i/031000/031208_hr1.png",
+    "IconID": 31208,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズヴァラー"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズジャスティスを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2859,
+    "IconHD": "/i/034000/034362_hr1.png",
+    "IconID": 34362,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズジャスティス"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズリゾルヴを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2860,
+    "IconHD": "/i/036000/036054_hr1.png",
+    "IconID": 36054,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズリゾルヴ"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズグローリーを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2861,
+    "IconHD": "/i/031000/031610_hr1.png",
+    "IconID": 31610,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズグローリー"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズセレネティーを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2862,
+    "IconHD": "/i/031000/031198_hr1.png",
+    "IconID": 31198,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズセレネティー"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズサトゥルティーを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2863,
+    "IconHD": "/i/033000/033984_hr1.png",
+    "IconID": 33984,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズサトゥルティー"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズフィアルティーを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2864,
+    "IconHD": "/i/036000/036513_hr1.png",
+    "IconID": 36513,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズフィアルティー"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズミューズを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2865,
+    "IconHD": "/i/032000/032397_hr1.png",
+    "IconID": 32397,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズミューズ"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズインジェヌイティーを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2866,
+    "IconHD": "/i/034000/034408_hr1.png",
+    "IconID": 34408,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズインジェヌイティー"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズユーフォリアを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2867,
+    "IconHD": "/i/036000/036253_hr1.png",
+    "IconID": 36253,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズユーフォリア"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズフューリーを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2868,
+    "IconHD": "/i/033000/033152_hr1.png",
+    "IconID": 33152,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズフューリー"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズアキュメンを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2869,
+    "IconHD": "/i/033000/033222_hr1.png",
+    "IconID": 33222,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズアキュメン"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズテンペランスを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2870,
+    "IconHD": "/i/036000/036812_hr1.png",
+    "IconID": 36812,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズテンペランス"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズマーシーを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2871,
+    "IconHD": "/i/032000/032781_hr1.png",
+    "IconID": 32781,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズマーシー"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズウィズダムを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2872,
+    "IconHD": "/i/033000/033221_hr1.png",
+    "IconID": 33221,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズウィズダム"
+  },
+  {
+    "AchievementCategory": {
+      "Name_ja": "レジスタンス・ウェポン"
+    },
+    "Description_ja": "ブレイズプロヴェデンスを入手する",
+    "GamePatch": {
+      "ReleaseDate": 1621940400,
+      "Version": "5.55"
+    },
+    "ID": 2873,
+    "IconHD": "/i/034000/034956_hr1.png",
+    "IconID": 34956,
+    "Name_ja": "レジスタンス・ウェポン：ブレイズプロヴェデンス"
+  }
+]
