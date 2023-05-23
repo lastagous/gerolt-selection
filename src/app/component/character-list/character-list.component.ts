@@ -59,7 +59,7 @@ export class CharacterListComponent {
       (totalRaito * 100) / this._progressPanelStore.tabItems.length
     )}%\n\n`;
     const hashtags = 'FF14,ゲロルトの工匠記録';
-    const url = `http://twitter.com/share?url=${share}&text=${tweet}${completeRate}&hashtags=${hashtags}`;
+    const url = `https://twitter.com/intent/tweet?url=${share}&text=${tweet}${completeRate}&hashtags=${hashtags}`;
     window.open(encodeURI(url), '_blank');
   }
 }
