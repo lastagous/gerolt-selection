@@ -13,6 +13,8 @@ import { ChipModule } from 'primeng/chip';
 import { ButtonModule } from 'primeng/button';
 import { RouterModule } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';
+import { ToastModule } from 'primeng/toast';
+import { MessageService } from 'primeng/api';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
@@ -43,12 +45,14 @@ import { LogoStore } from './store/logo.store';
     ScrollPanelModule,
     TableModule,
     TabMenuModule,
+    ToastModule,
     TooltipModule,
   ],
   providers: [
     CookieService,
     CookieStore,
     LogoStore,
+    MessageService,
     ProgressPanelStore,
     XivapiStore,
   ],
