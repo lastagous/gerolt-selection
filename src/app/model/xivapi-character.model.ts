@@ -1,4 +1,4 @@
-export interface CharacterModel {
+export interface XivapiCharacterModel {
   Achievements?: Achievements;
   AchievementsPublic: boolean;
   Character: Character;

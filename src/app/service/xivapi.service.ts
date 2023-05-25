@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { CharacterModel } from '../model/xivapi-character.model';
+import { XivapiCharacterModel } from '../model/xivapi-character.model';
 
 @Injectable({
   providedIn: 'root',
@@ -12,10 +12,10 @@ export class XivapiService {
   public getCharactor(
     id: string,
     options: any[] = [{ key: 'data', value: 'AC' }]
-  ): Observable<CharacterModel> {
+  ): Observable<XivapiCharacterModel> {
     return this.http.get(
       `https://xivapi.com/character/${id}` + this.createOptionString(options)
-    ) as Observable<CharacterModel>;
+    ) as Observable<XivapiCharacterModel>;
   }
 
   public search(payload: any): Observable<Object> {

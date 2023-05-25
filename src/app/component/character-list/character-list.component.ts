@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CharacterModel } from 'src/app/model/xivapi-character.model';
+import { XivapiCharacterModel } from 'src/app/model/xivapi-character.model';
 import { ProgressPanelStore } from 'src/app/store/progress-panel.store';
 import { XivapiStore } from 'src/app/store/xivapi.store';
 
@@ -14,15 +14,15 @@ export class CharacterListComponent {
     private _xivapiStore: XivapiStore
   ) {}
 
-  public get characters(): CharacterModel[] {
+  public get characters(): XivapiCharacterModel[] {
     return this._xivapiStore.characters;
   }
 
-  public get selectedCharacter(): CharacterModel {
+  public get selectedCharacter(): XivapiCharacterModel {
     return this._xivapiStore.selectedCharacter;
   }
 
-  public set selectedCharacter(value: CharacterModel) {
+  public set selectedCharacter(value: XivapiCharacterModel) {
     this._xivapiStore.selectedCharacter = value;
   }
 
@@ -30,14 +30,14 @@ export class CharacterListComponent {
     return this._xivapiStore.isCharacterFetcing;
   }
 
-  public isUndisclosedAchievements(character: CharacterModel): boolean {
+  public isUndisclosedAchievements(character: XivapiCharacterModel): boolean {
     return (
       character.AchievementsPublic === false ||
       character.Achievements?.Points === 0
     );
   }
 
-  public onShareClick(character: CharacterModel): void {
+  public onShareClick(character: XivapiCharacterModel): void {
     const share = 'https://lastagous.github.io/gerolt-selection/';
     let completeRate = '';
     let totalRaito = 0;

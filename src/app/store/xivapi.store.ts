@@ -1,16 +1,16 @@
 import { Injectable } from '@angular/core';
 import { XivapiService } from '../service/xivapi.service';
 import { BehaviorSubject, Observable, Subscription } from 'rxjs';
-import { CharacterModel } from '../model/xivapi-character.model';
+import { XivapiCharacterModel } from '../model/xivapi-character.model';
 import { CookieStore } from './cookie.store';
 import { MessageService } from 'primeng/api';
 
 @Injectable()
 export class XivapiStore {
-  private _charactersSubject: BehaviorSubject<CharacterModel[]> =
-    new BehaviorSubject([] as CharacterModel[]);
-  private _selectedCharacterSubject: BehaviorSubject<CharacterModel> =
-    new BehaviorSubject({} as CharacterModel);
+  private _charactersSubject: BehaviorSubject<XivapiCharacterModel[]> =
+    new BehaviorSubject([] as XivapiCharacterModel[]);
+  private _selectedCharacterSubject: BehaviorSubject<XivapiCharacterModel> =
+    new BehaviorSubject({} as XivapiCharacterModel);
   private _isCharacterFetcing = false;
 
   constructor(
@@ -19,15 +19,15 @@ export class XivapiStore {
     private _xivapiService: XivapiService
   ) {}
 
-  public get characters(): CharacterModel[] {
+  public get characters(): XivapiCharacterModel[] {
     return this._charactersSubject.getValue();
   }
 
-  public get selectedCharacter(): CharacterModel {
+  public get selectedCharacter(): XivapiCharacterModel {
     return this._selectedCharacterSubject.getValue();
   }
 
-  public set selectedCharacter(value: CharacterModel) {
+  public set selectedCharacter(value: XivapiCharacterModel) {
     this._selectedCharacterSubject.next(value);
   }
 

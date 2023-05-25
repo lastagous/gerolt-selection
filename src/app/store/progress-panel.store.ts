@@ -13,7 +13,7 @@ import _rwAchievementsJson from '../../assets/data/rw-achievements.json';
 import _mwAchievementsJson from '../../assets/data/mw-achievements.json';
 import _itemsJson from '../../assets/data/items.json';
 import { MenuItem } from 'primeng/api';
-import { CharacterModel } from '../model/xivapi-character.model';
+import { XivapiCharacterModel } from '../model/xivapi-character.model';
 
 @Injectable()
 export class ProgressPanelStore {
@@ -96,7 +96,10 @@ export class ProgressPanelStore {
     );
   }
 
-  public getCompleteRate(label: string, character: CharacterModel): number {
+  public getCompleteRate(
+    label: string,
+    character: XivapiCharacterModel
+  ): number {
     const achievements = this._tabItems
       .find((tab) => tab.label === label)
       ?.viewList.flatMap((viewItem) => viewItem.itemAchievementPares);
