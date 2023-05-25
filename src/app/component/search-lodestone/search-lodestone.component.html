@@ -43,11 +43,15 @@
           <p-button
             icon="pi pi-search"
             styleClass="p-button-rounded p-button-outlined"
+            pTooltip="再検索"
+            tooltipPosition="bottom"
             (click)="onSearchButtonClick(character.ID)"
           ></p-button>
           <p-button
             icon="pi pi-trash"
             styleClass="p-button-rounded p-button-outlined p-button-danger"
+            pTooltip="履歴から削除"
+            tooltipPosition="bottom"
             (click)="onSearchRemoveClick(character.ID)"
           ></p-button>
         </div>
