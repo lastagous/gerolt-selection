@@ -1,4 +1,6 @@
 :host ::ng-deep {
+  @tablet: ~"only screen and (max-width: 1360px)";
+
   width: 100%;
   height: 100%;
   display: flex;
@@ -83,6 +85,10 @@
 
       .gs-app-search-lodestone-utility-panel-hashtag-button {
         padding-left: 16px;
+
+        @media @tablet {
+          display: none;
+        }
       }
     }
   }
