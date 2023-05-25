@@ -21,22 +21,22 @@
       ></p-button>
     </div>
   </div>
-  <div class="gs-app-search-lodestone-cookie-panel">
+  <div class="gs-app-search-lodestone-utility-panel">
     <p-scrollPanel [style]="{ width: '100%', height: '64px' }">
       <div
         *ngFor="let character of characters"
-        class="gs-app-search-lodestone-cookie-panel-card"
+        class="gs-app-search-lodestone-utility-panel-card"
       >
-        <div class="gs-app-search-lodestone-cookie-panel-card-icon">
+        <div class="gs-app-search-lodestone-utility-panel-card-icon">
           <img
-            class="gs-app-search-lodestone-cookie-panel-card-icon-image"
+            class="gs-app-search-lodestone-utility-panel-card-icon-image"
             [src]="character.Avatar"
           />
         </div>
-        <div class="gs-app-search-lodestone-cookie-panel-card-description">
+        <div class="gs-app-search-lodestone-utility-panel-card-description">
           {{ character.Name }}
         </div>
-        <div class="gs-app-search-lodestone-cookie-panel-card-button">
+        <div class="gs-app-search-lodestone-utility-panel-card-button">
           <p-button
             icon="pi pi-search"
             styleClass="p-button-rounded p-button-outlined"
