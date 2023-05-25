@@ -22,7 +22,10 @@
     </div>
   </div>
   <div class="gs-app-search-lodestone-utility-panel">
-    <p-scrollPanel [style]="{ width: '100%', height: '64px' }">
+    <p-scrollPanel
+      class="gs-app-search-lodestone-utility-panel-scroll-panel"
+      [style]="{ width: '100%', height: '64px' }"
+    >
       <div
         *ngFor="let character of characters"
         class="gs-app-search-lodestone-utility-panel-card"
@@ -50,5 +53,12 @@
         </div>
       </div>
     </p-scrollPanel>
+    <p-button
+      label="#ゲロルトの工匠記録"
+      class="gs-app-search-lodestone-utility-panel-hashtag-button"
+      styleClass="p-button-rounded p-button-sm"
+      icon="pi pi-twitter"
+      (click)="onHashtagClick()"
+    ></p-button>
   </div>
 </div>

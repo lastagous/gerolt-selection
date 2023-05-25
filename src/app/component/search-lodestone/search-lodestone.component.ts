@@ -57,4 +57,9 @@ export class SearchLodestoneComponent {
   public onSearchRemoveClick(id: number): void {
     this._cookieStore.removeCharacter(id);
   }
+
+  public onHashtagClick(): void {
+    const url = `https://twitter.com/hashtag/ゲロルトの工匠記録?&f=live`;
+    window.open(encodeURI(url), '_blank');
+  }
 }
