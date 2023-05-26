@@ -1,5 +1,9 @@
 <div class="gs-app-character-list">
+  <div *ngIf="!characters.length" class="gs-app-character-list-empty-message">
+    Search ボタンからキャラクターを検索してください！
+  </div>
   <p-scrollPanel
+    *ngIf="characters.length"
     class="gs-app-character-list-scroll-panel"
     [style]="{ width: '100%', height: '96px' }"
   >
