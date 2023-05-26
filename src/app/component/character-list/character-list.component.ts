@@ -55,7 +55,9 @@ export class CharacterListComponent {
   }
 
   public onCharacterSelected(character: StorageCharacterModel) {
-    this._localStorageStore.selectedCharacter = character;
+    if (!this.isUndisclosedAchievements(character.data)) {
+      this._localStorageStore.selectedCharacter = character;
+    }
   }
 
   public onSearchButtonClick(id: number): void {

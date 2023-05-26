@@ -37,6 +37,7 @@ export class LocalstorageStore {
       (character) => character.data.Character.ID !== value.data.Character.ID
     );
     this.characters = [value].concat(characters);
+    this.selectedCharacter = value;
   }
 
   public removeCharacter(id: number): void {
@@ -44,5 +45,8 @@ export class LocalstorageStore {
       (character) => character.data.Character.ID !== id
     );
     this.characters = characters;
+    if (this.selectedCharacter.data?.Character.ID === id) {
+      this.selectedCharacter = {} as StorageCharacterModel;
+    }
   }
 }
