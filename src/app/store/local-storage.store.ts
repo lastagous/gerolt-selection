@@ -5,17 +5,22 @@ import { BehaviorSubject } from 'rxjs';
 
 @Injectable()
 export class LocalstorageStore {
+  private _charactersSubject: BehaviorSubject<StorageCharacterModel[]> =
+    new BehaviorSubject([] as StorageCharacterModel[]);
   private _selectedCharacterSubject: BehaviorSubject<StorageCharacterModel> =
     new BehaviorSubject({} as StorageCharacterModel);
 
-  constructor(private _localStorageService: LocalStorageService) {}
+  constructor(private _localStorageService: LocalStorageService) {
+    const characters = this._localStorageService.getItem('characters');
+    this._charactersSubject.next(characters ? characters : []);
+  }
 
   public get characters(): StorageCharacterModel[] {
-    const characters = this._localStorageService.getItem('characters');
-    return characters ? characters : [];
+    return this._charactersSubject.getValue();
   }
 
   public set characters(value: StorageCharacterModel[]) {
+    this._charactersSubject.next(value);
     this._localStorageService.setItem('characters', value);
   }
 
@@ -31,7 +36,13 @@ export class LocalstorageStore {
     const characters = this.characters.filter(
       (character) => character.data.Character.ID !== value.data.Character.ID
     );
-    characters.push(value);
+    this.characters = [value].concat(characters);
+  }
+
+  public removeCharacter(id: number): void {
+    const characters = this.characters.filter(
+      (character) => character.data.Character.ID !== id
+    );
     this.characters = characters;
   }
 }

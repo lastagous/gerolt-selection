@@ -6,6 +6,8 @@
     <div
       *ngFor="let character of characters"
       class="gs-app-character-list-card"
+      [class.selected]="isSelected(character)"
+      (click)="onCharacterSelected(character)"
     >
       <div class="gs-app-character-list-card-icon">
         <img
@@ -61,7 +63,7 @@
             styleClass="p-button-rounded p-button-outlined p-button-sm"
             pTooltip="ツイートする！"
             tooltipPosition="bottom"
-            (click)="onSearchRemoveClick(character.data.Character.ID)"
+            (click)="onShareClick(character.data)"
           ></p-button>
         </div>
       </div>

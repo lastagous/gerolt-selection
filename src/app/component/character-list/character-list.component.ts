@@ -39,6 +39,14 @@ export class CharacterListComponent {
     return Math.floor(timeDiff / (1000 * 60 * 60 * 24));
   }
 
+  public isSelected(character: StorageCharacterModel) {
+    return (
+      character.data.Character.ID ===
+        this._localStorageStore.selectedCharacter.data?.Character.ID &&
+      !this.isUndisclosedAchievements(character.data)
+    );
+  }
+
   public isUndisclosedAchievements(character: XivapiCharacterModel): boolean {
     return (
       character.AchievementsPublic === false ||
@@ -46,11 +54,17 @@ export class CharacterListComponent {
     );
   }
 
+  public onCharacterSelected(character: StorageCharacterModel) {
+    this._localStorageStore.selectedCharacter = character;
+  }
+
   public onSearchButtonClick(id: number): void {
     this._xivapiStore.getCharacter(String(id));
   }
 
-  public onSearchRemoveClick(id: number): void {}
+  public onSearchRemoveClick(id: number): void {
+    this._localStorageStore.removeCharacter(id);
+  }
 
   public onShareClick(character: XivapiCharacterModel): void {
     const share = 'https://lastagous.github.io/gerolt-selection/';
