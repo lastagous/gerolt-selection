@@ -3,117 +3,58 @@
   height: 96px;
 
   .gs-app-character-list {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 16px;
 
-    .p-scrollpanel-content {
-      padding-right: 0;
+    .gs-app-character-list-scroll-panel {
+      flex: 1;
+      overflow: hidden;
 
-      .p-datatable {
-        height: 100%;
-      }
-    }
-
-    .gs-app-character-list-item {
-      display: flex;
-      align-items: center;
-
-      .gs-app-character-list-item-image {
-        padding-right: 16px;
-        width: 112px;
-        height: 96px;
-      }
-
-      .gs-app-character-list-item-description {
+      .p-scrollpanel-content {
         display: flex;
-        flex-direction: column;
-
-        .gs-app-character-list-item-description-name {
-          font-size: x-large;
-
-          > span {
-            padding-left: 8px;
-          }
-        }
-
-        .gs-app-character-list-item-description-home-world {
-          .gs-app-character-list-item-description-home-world-data-center,
-          .gs-app-character-list-item-description-home-world-server {
-            > .pi {
-              padding-left: 8px;
-            }
-
-            > span {
-              padding-left: 4px;
-            }
-          }
-        }
-      }
-
-      .gs-app-character-list-item-chip {
-        padding-left: 16px;
-
-        .p-chip-text {
-          font-size: small;
-        }
-      }
-
-      .gs-app-character-list-item-share {
-        margin-left: auto;
-        padding-right: 24px;
-      }
-    }
-  }
-
-  .gs-app-search-lodestone-utility-panel-scroll-panel {
-    flex: 1;
-    overflow: hidden;
-
-    .p-scrollpanel-content {
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-      height: auto;
-
-      .gs-app-search-lodestone-utility-panel-card {
-        height: 80px;
-        width: 280px;
-        flex: none;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
         align-items: center;
-        border: 1px solid var(--surface-border);
-        margin-top: 4px;
-        margin-right: 8px;
+        flex-direction: row;
+        height: auto;
 
-        .gs-app-search-lodestone-utility-panel-card-icon {
+        .gs-app-character-list-card {
+          height: 80px;
+          width: 280px;
+          flex: none;
           display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
           align-items: center;
-          padding-left: 8px;
+          border: 1px solid var(--surface-border);
+          margin-top: 4px;
+          margin-right: 8px;
 
-          .gs-app-search-lodestone-utility-panel-card-icon-image {
-            height: 48px;
+          .gs-app-character-list-card-icon {
+            display: flex;
+            align-items: center;
+            padding-left: 8px;
+
+            .gs-app-character-list-card-icon-image {
+              height: 48px;
+            }
           }
-        }
 
-        .gs-app-search-lodestone-utility-panel-card-description {
-          padding-left: 8px;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-        }
+          .gs-app-character-list-card-description {
+            padding-left: 8px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
 
-        .gs-app-search-lodestone-utility-panel-card-button {
-          display: flex;
-          justify-content: space-between;
-          padding-left: 4px;
-          padding-right: 4px;
-          margin-left: auto;
-          width: 92px;
+          .gs-app-character-list-card-button {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 4px;
+            padding-right: 4px;
+            margin-left: auto;
+            width: 92px;
 
-          > p-button {
-            padding: 2px;
+            > p-button {
+              padding: 2px;
+            }
           }
         }
       }

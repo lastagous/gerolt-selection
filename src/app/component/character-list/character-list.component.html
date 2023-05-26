@@ -1,22 +1,22 @@
 <div class="gs-app-character-list">
   <p-scrollPanel
-    class="gs-app-search-lodestone-utility-panel-scroll-panel"
+    class="gs-app-character-list-scroll-panel"
     [style]="{ width: '100%', height: '96px' }"
   >
     <div
       *ngFor="let character of characters"
-      class="gs-app-search-lodestone-utility-panel-card"
+      class="gs-app-character-list-card"
     >
-      <div class="gs-app-search-lodestone-utility-panel-card-icon">
+      <div class="gs-app-character-list-card-icon">
         <img
-          class="gs-app-search-lodestone-utility-panel-card-icon-image"
+          class="gs-app-character-list-card-icon-image"
           [src]="character.data.Character.Avatar"
         />
       </div>
-      <div class="gs-app-search-lodestone-utility-panel-card-description">
+      <div class="gs-app-character-list-card-description">
         {{ character.data.Character.Name }}
       </div>
-      <div class="gs-app-search-lodestone-utility-panel-card-button">
+      <div class="gs-app-character-list-card-button">
         <p-button
           icon="pi pi-refresh"
           styleClass="p-button-rounded p-button-outlined"
