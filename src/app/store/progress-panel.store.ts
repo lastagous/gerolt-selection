@@ -14,6 +14,7 @@ import _mwAchievementsJson from '../../assets/data/mw-achievements.json';
 import _itemsJson from '../../assets/data/items.json';
 import { MenuItem } from 'primeng/api';
 import { XivapiCharacterModel } from '../model/xivapi-character.model';
+import { LocalstorageStore } from './local-storage.store';
 
 @Injectable()
 export class ProgressPanelStore {
@@ -49,7 +50,10 @@ export class ProgressPanelStore {
     'RDM',
   ];
 
-  constructor(private _xivapiStore: XivapiStore) {
+  constructor(
+    private _localStorageStore: LocalstorageStore,
+    private _xivapiStore: XivapiStore
+  ) {
     // Get data with the following method when updated to a new version
     // this.searchWeponAchievements();
 
@@ -90,7 +94,7 @@ export class ProgressPanelStore {
 
   public isAchievementCompleted(id: number): boolean {
     return Boolean(
-      this._xivapiStore.selectedCharacter?.Achievements?.List.find(
+      this._localStorageStore.selectedCharacter?.data?.Achievements?.List.find(
         (achievement) => achievement.ID === id
       )
     );

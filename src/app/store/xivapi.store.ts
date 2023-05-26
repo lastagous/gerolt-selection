@@ -10,8 +10,6 @@ import { StorageCharacterModel } from '../model/localstorage.model';
 export class XivapiStore {
   private _charactersSubject: BehaviorSubject<XivapiCharacterModel[]> =
     new BehaviorSubject([] as XivapiCharacterModel[]);
-  private _selectedCharacterSubject: BehaviorSubject<XivapiCharacterModel> =
-    new BehaviorSubject({} as XivapiCharacterModel);
   private _isCharacterFetcing = false;
 
   constructor(
@@ -22,14 +20,6 @@ export class XivapiStore {
 
   public get characters(): XivapiCharacterModel[] {
     return this._charactersSubject.getValue();
-  }
-
-  public get selectedCharacter(): XivapiCharacterModel {
-    return this._selectedCharacterSubject.getValue();
-  }
-
-  public set selectedCharacter(value: XivapiCharacterModel) {
-    this._selectedCharacterSubject.next(value);
   }
 
   public get isCharacterFetcing(): boolean {

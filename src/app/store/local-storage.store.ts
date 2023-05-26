@@ -1,9 +1,13 @@
 import { Injectable } from '@angular/core';
 import { LocalStorageService } from '../service/local-storage.service';
 import { StorageCharacterModel } from '../model/localstorage.model';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable()
 export class LocalstorageStore {
+  private _selectedCharacterSubject: BehaviorSubject<StorageCharacterModel> =
+    new BehaviorSubject({} as StorageCharacterModel);
+
   constructor(private _localStorageService: LocalStorageService) {}
 
   public get characters(): StorageCharacterModel[] {
@@ -13,6 +17,14 @@ export class LocalstorageStore {
 
   public set characters(value: StorageCharacterModel[]) {
     this._localStorageService.setItem('characters', value);
+  }
+
+  public get selectedCharacter(): StorageCharacterModel {
+    return this._selectedCharacterSubject.getValue();
+  }
+
+  public set selectedCharacter(value: StorageCharacterModel) {
+    this._selectedCharacterSubject.next(value);
   }
 
   public setCharacter(value: StorageCharacterModel): void {

@@ -11,8 +11,6 @@ import { XivapiStore } from 'src/app/store/xivapi.store';
   styleUrls: ['./character-list.component.less'],
 })
 export class CharacterListComponent {
-  private _selectedCharacter: StorageCharacterModel;
-
   constructor(
     private _localStorageStore: LocalstorageStore,
     private _progressPanelStore: ProgressPanelStore,
@@ -24,11 +22,11 @@ export class CharacterListComponent {
   }
 
   public get selectedCharacter(): StorageCharacterModel {
-    return this._selectedCharacter;
+    return this._localStorageStore.selectedCharacter;
   }
 
   public set selectedCharacter(value: StorageCharacterModel) {
-    this._selectedCharacter = value;
+    this._localStorageStore.selectedCharacter = value;
   }
 
   public get isCharacterFetcing(): boolean {
