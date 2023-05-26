@@ -39,21 +39,53 @@
 
           .gs-app-character-list-card-description {
             padding-left: 8px;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
+
+            .gs-app-character-list-card-description-name {
+              font-weight: bold;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+
+            > div {
+              > i {
+                padding-right: 8px;
+              }
+            }
           }
 
           .gs-app-character-list-card-button {
             display: flex;
-            justify-content: space-between;
-            padding-left: 4px;
-            padding-right: 4px;
+            flex-direction: column;
             margin-left: auto;
             width: 92px;
+            padding-left: 4px;
+            padding-right: 4px;
 
-            > p-button {
-              padding: 2px;
+            .gs-app-character-list-card-button-top {
+              display: flex;
+              justify-content: space-between;
+
+              > p-button {
+                padding: 2px;
+
+                > button {
+                  padding: 2px;
+                }
+              }
+            }
+
+            .gs-app-character-list-card-button-bottom {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              padding-top: 2px;
+
+              > p-button {
+                > button {
+                  padding: 4px 12px;
+                }
+              }
             }
           }
         }

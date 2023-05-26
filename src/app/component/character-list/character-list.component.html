@@ -14,23 +14,49 @@
         />
       </div>
       <div class="gs-app-character-list-card-description">
-        {{ character.data.Character.Name }}
+        <div class="gs-app-character-list-card-description-name">
+          <i
+            *ngIf="isUndisclosedAchievements(character.data)"
+            class="pi pi-eye-slash"
+          ></i>
+          <span>{{ character.data.Character.Name }}</span>
+        </div>
+        <div
+          class="gs-app-character-list-card-description-timestamp"
+          pTooltip="最終更新"
+          tooltipPosition="bottom"
+        >
+          <i class="pi pi-history"></i>
+          <span>{{ getUpdateTime(character.updateTimestamp) }}日前</span>
+        </div>
       </div>
       <div class="gs-app-character-list-card-button">
-        <p-button
-          icon="pi pi-refresh"
-          styleClass="p-button-rounded p-button-outlined"
-          pTooltip="更新"
-          tooltipPosition="bottom"
-          (click)="onSearchButtonClick(character.data.Character.ID)"
-        ></p-button>
-        <p-button
-          icon="pi pi-trash"
-          styleClass="p-button-rounded p-button-outlined p-button-danger"
-          pTooltip="削除"
-          tooltipPosition="bottom"
-          (click)="onSearchRemoveClick(character.data.Character.ID)"
-        ></p-button>
+        <div class="gs-app-character-list-card-button-top">
+          <p-button
+            icon="pi pi-refresh"
+            styleClass="p-button-rounded p-button-outlined"
+            pTooltip="更新"
+            tooltipPosition="top"
+            (click)="onSearchButtonClick(character.data.Character.ID)"
+          ></p-button>
+          <p-button
+            icon="pi pi-trash"
+            styleClass="p-button-rounded p-button-outlined p-button-danger"
+            pTooltip="削除"
+            tooltipPosition="top"
+            (click)="onSearchRemoveClick(character.data.Character.ID)"
+          ></p-button>
+        </div>
+        <div class="gs-app-character-list-card-button-bottom">
+          <p-button
+            icon="pi pi-twitter"
+            label="Share"
+            styleClass="p-button-rounded p-button-outlined p-button-sm"
+            pTooltip="ツイートする！"
+            tooltipPosition="bottom"
+            (click)="onSearchRemoveClick(character.data.Character.ID)"
+          ></p-button>
+        </div>
       </div>
     </div>
   </p-scrollPanel>

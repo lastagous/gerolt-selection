@@ -35,6 +35,12 @@ export class CharacterListComponent {
     return this._xivapiStore.isCharacterFetcing;
   }
 
+  public getUpdateTime(timestamp: number): number {
+    const timeDiff =
+      new Date().getTime() - new Date(timestamp * 1000).getTime();
+    return Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+  }
+
   public isUndisclosedAchievements(character: XivapiCharacterModel): boolean {
     return (
       character.AchievementsPublic === false ||
