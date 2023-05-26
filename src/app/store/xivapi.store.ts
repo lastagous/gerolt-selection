@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
 import { XivapiService } from '../service/xivapi.service';
-import { BehaviorSubject, Observable, Subscription } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { XivapiCharacterModel } from '../model/xivapi-character.model';
-import { CookieStore } from './cookie.store';
 import { MessageService } from 'primeng/api';
+import { LocalstorageStore } from './local-storage.store';
+import { StorageCharacterModel } from '../model/localstorage.model';
 
 @Injectable()
 export class XivapiStore {
@@ -14,7 +15,7 @@ export class XivapiStore {
   private _isCharacterFetcing = false;
 
   constructor(
-    private _cookieStore: CookieStore,
+    private _localStorageStore: LocalstorageStore,
     private _messageService: MessageService,
     private _xivapiService: XivapiService
   ) {}
@@ -47,15 +48,10 @@ export class XivapiStore {
           characters.push(character);
           this._charactersSubject.next(characters);
 
-          if (character.AchievementsPublic !== false) {
-            this.selectedCharacter = character;
-          }
-
-          this._cookieStore.setCharacter({
-            Avatar: character.Character.Avatar,
-            ID: character.Character.ID,
-            Name: character.Character.Name,
-          });
+          this._localStorageStore.setCharacter({
+            data: character,
+            updateTimestamp: Math.floor(new Date().getTime() / 1000),
+          } as StorageCharacterModel);
           this._isCharacterFetcing = false;
           resolve();
         },

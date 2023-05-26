@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+import { StorageCharacterModel } from 'src/app/model/localstorage.model';
 import { XivapiCharacterModel } from 'src/app/model/xivapi-character.model';
+import { LocalstorageStore } from 'src/app/store/local-storage.store';
 import { ProgressPanelStore } from 'src/app/store/progress-panel.store';
 import { XivapiStore } from 'src/app/store/xivapi.store';
 
@@ -9,21 +11,24 @@ import { XivapiStore } from 'src/app/store/xivapi.store';
   styleUrls: ['./character-list.component.less'],
 })
 export class CharacterListComponent {
+  private _selectedCharacter: StorageCharacterModel;
+
   constructor(
+    private _localStorageStore: LocalstorageStore,
     private _progressPanelStore: ProgressPanelStore,
     private _xivapiStore: XivapiStore
   ) {}
 
-  public get characters(): XivapiCharacterModel[] {
-    return this._xivapiStore.characters;
+  public get characters(): StorageCharacterModel[] {
+    return this._localStorageStore.characters;
   }
 
-  public get selectedCharacter(): XivapiCharacterModel {
-    return this._xivapiStore.selectedCharacter;
+  public get selectedCharacter(): StorageCharacterModel {
+    return this._selectedCharacter;
   }
 
-  public set selectedCharacter(value: XivapiCharacterModel) {
-    this._xivapiStore.selectedCharacter = value;
+  public set selectedCharacter(value: StorageCharacterModel) {
+    this._selectedCharacter = value;
   }
 
   public get isCharacterFetcing(): boolean {
@@ -36,6 +41,12 @@ export class CharacterListComponent {
       character.Achievements?.Points === 0
     );
   }
+
+  public onSearchButtonClick(id: number): void {
+    this._xivapiStore.getCharacter(String(id));
+  }
+
+  public onSearchRemoveClick(id: number): void {}
 
   public onShareClick(character: XivapiCharacterModel): void {
     const share = 'https://lastagous.github.io/gerolt-selection/';

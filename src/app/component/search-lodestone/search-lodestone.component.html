@@ -21,42 +21,8 @@
       ></p-button>
     </div>
   </div>
-  <div class="gs-app-search-lodestone-utility-panel">
-    <p-scrollPanel
-      class="gs-app-search-lodestone-utility-panel-scroll-panel"
-      [style]="{ width: '100%', height: '64px' }"
-    >
-      <div
-        *ngFor="let character of characters"
-        class="gs-app-search-lodestone-utility-panel-card"
-      >
-        <div class="gs-app-search-lodestone-utility-panel-card-icon">
-          <img
-            class="gs-app-search-lodestone-utility-panel-card-icon-image"
-            [src]="character.Avatar"
-          />
-        </div>
-        <div class="gs-app-search-lodestone-utility-panel-card-description">
-          {{ character.Name }}
-        </div>
-        <div class="gs-app-search-lodestone-utility-panel-card-button">
-          <p-button
-            icon="pi pi-refresh"
-            styleClass="p-button-rounded p-button-outlined"
-            pTooltip="更新"
-            tooltipPosition="bottom"
-            (click)="onSearchButtonClick(character.ID)"
-          ></p-button>
-          <p-button
-            icon="pi pi-trash"
-            styleClass="p-button-rounded p-button-outlined p-button-danger"
-            pTooltip="削除"
-            tooltipPosition="bottom"
-            (click)="onSearchRemoveClick(character.ID)"
-          ></p-button>
-        </div>
-      </div>
-    </p-scrollPanel>
+  <!-- <div class="gs-app-search-lodestone-utility-panel">
+    
     <p-button
       label="#ゲロルトの工匠記録"
       class="gs-app-search-lodestone-utility-panel-hashtag-button"
@@ -64,5 +30,5 @@
       icon="pi pi-twitter"
       (click)="onHashtagClick()"
     ></p-button>
-  </div>
+  </div> -->
 </div>

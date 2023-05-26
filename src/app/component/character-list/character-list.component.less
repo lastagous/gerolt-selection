@@ -1,6 +1,6 @@
 :host ::ng-deep {
   width: 100%;
-  height: 100%;
+  height: 96px;
 
   .gs-app-character-list {
     padding-left: 16px;
@@ -61,6 +61,61 @@
       .gs-app-character-list-item-share {
         margin-left: auto;
         padding-right: 24px;
+      }
+    }
+  }
+
+  .gs-app-search-lodestone-utility-panel-scroll-panel {
+    flex: 1;
+    overflow: hidden;
+
+    .p-scrollpanel-content {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      height: auto;
+
+      .gs-app-search-lodestone-utility-panel-card {
+        height: 80px;
+        width: 280px;
+        flex: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        border: 1px solid var(--surface-border);
+        margin-top: 4px;
+        margin-right: 8px;
+
+        .gs-app-search-lodestone-utility-panel-card-icon {
+          display: flex;
+          align-items: center;
+          padding-left: 8px;
+
+          .gs-app-search-lodestone-utility-panel-card-icon-image {
+            height: 48px;
+          }
+        }
+
+        .gs-app-search-lodestone-utility-panel-card-description {
+          padding-left: 8px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+
+        .gs-app-search-lodestone-utility-panel-card-button {
+          display: flex;
+          justify-content: space-between;
+          padding-left: 4px;
+          padding-right: 4px;
+          margin-left: auto;
+          width: 92px;
+
+          > p-button {
+            padding: 2px;
+          }
+        }
       }
     }
   }

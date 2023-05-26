@@ -1,6 +1,6 @@
 import { XivapiCharacterModel } from './xivapi-character.model';
 
-export interface CharacterModel {
-  character: XivapiCharacterModel;
+export interface StorageCharacterModel {
+  data: XivapiCharacterModel;
   updateTimestamp: number;
 }
