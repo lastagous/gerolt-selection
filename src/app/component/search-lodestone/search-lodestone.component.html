@@ -15,7 +15,7 @@
     <div class="gs-app-search-lodestone-search-button">
       <p-button
         label="Search"
-        icon="pi pi-search"
+        [icon]="getSearchButtonIcon()"
         [disabled]="isCharacterFetcing"
         (click)="onKeyDownEnter($event)"
       ></p-button>

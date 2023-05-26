@@ -28,6 +28,10 @@ export class SearchLodestoneComponent {
     return this._xivapiStore.isCharacterFetcing;
   }
 
+  public getSearchButtonIcon(): string {
+    return this.isCharacterFetcing ? 'pi pi-spin pi-spinner' : 'pi pi-search';
+  }
+
   public onKeyDownEnter(event: any): void {
     const id = this._searchString?.match(
       new RegExp('finalfantasyxiv.com/lodestone/character/([^/]+)/?')
