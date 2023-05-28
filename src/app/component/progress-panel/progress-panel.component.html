@@ -1,6 +1,10 @@
 <div class="gs-app-progress-panel">
   <div class="gs-app-progress-panel-tab-menu">
-    <p-tabMenu [model]="menuItems" [activeItem]="activeItem"></p-tabMenu>
+    <p-tabMenu
+      [model]="menuItems"
+      [activeItem]="activeItem"
+      (activeItemChange)="onActiveItemChange($event)"
+    ></p-tabMenu>
   </div>
   <div class="gs-app-progress-panel-scroll-panel">
     <p-scrollPanel [style]="{ width: '100%', height: '640px' }">

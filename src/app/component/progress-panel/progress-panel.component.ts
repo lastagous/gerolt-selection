@@ -22,8 +22,8 @@ export class ProgressPanelComponent {
     return this._progressPanelStore.activeItem;
   }
 
-  public set activeItem(value: ProgressPanelMenuItem) {
-    this._progressPanelStore.activeItem = value;
+  public onActiveItemChange(event: any) {
+    this._progressPanelStore.activeItem = event as ProgressPanelMenuItem;
   }
 
   public getJobIcon(jobName: string): string {
