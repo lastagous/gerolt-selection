@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PrimeNGConfig } from 'primeng/api';
 import { LogoStore } from './store/logo.store';
+import { SearchJsonStore } from './store/search-json-data.store';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,8 @@ import { LogoStore } from './store/logo.store';
 export class AppComponent implements OnInit {
   constructor(
     private primengConfig: PrimeNGConfig,
-    private _logoStore: LogoStore
+    private _logoStore: LogoStore,
+    private _searchJsonStore: SearchJsonStore
   ) {}
 
   ngOnInit(): void {

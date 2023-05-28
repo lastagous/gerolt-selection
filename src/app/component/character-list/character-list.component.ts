@@ -72,9 +72,9 @@ export class CharacterListComponent {
     const share = 'https://lastagous.github.io/gerolt-selection/';
     let completeRate = '';
     let totalRaito = 0;
-    this._progressPanelStore.tabItems.forEach((tabItem) => {
+    this._progressPanelStore.menuItems.forEach((menuItem) => {
       const raito = this._progressPanelStore.getCompleteRate(
-        tabItem.label,
+        menuItem.label ? menuItem.label : '',
         character
       );
       totalRaito += raito;
@@ -82,12 +82,12 @@ export class CharacterListComponent {
       const blockNum = Math.floor(raito / (1 / totalBlocks));
       const block = '■';
       const none = '・';
-      completeRate += `${tabItem.label} [${block.repeat(blockNum)}${none.repeat(
-        totalBlocks - blockNum
-      )}] ${Math.floor(raito * 100)}%\n`;
+      completeRate += `${menuItem.label} [${block.repeat(
+        blockNum
+      )}${none.repeat(totalBlocks - blockNum)}] ${Math.floor(raito * 100)}%\n`;
     });
     const tweet = `${character.Character.Name} の武器生成の達成度 ${Math.floor(
-      (totalRaito * 100) / this._progressPanelStore.tabItems.length
+      (totalRaito * 100) / this._progressPanelStore.menuItems.length
     )}%\n\n`;
     const hashtags = 'FF14,ゲロルトの工匠記録';
     const url = `https://twitter.com/intent/tweet?url=${share}&text=${tweet}${completeRate}&hashtags=${hashtags}`;

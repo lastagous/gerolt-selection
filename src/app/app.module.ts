@@ -24,6 +24,7 @@ import { ProgressPanelStore } from './store/progress-panel.store';
 import { LogoStore } from './store/logo.store';
 import { LocalStorageService } from './service/local-storage.service';
 import { LocalstorageStore } from './store/local-storage.store';
+import { SearchJsonStore } from './store/search-json-data.store';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { LocalstorageStore } from './store/local-storage.store';
     LogoStore,
     MessageService,
     ProgressPanelStore,
+    SearchJsonStore,
     XivapiStore,
   ],
   bootstrap: [AppComponent],
