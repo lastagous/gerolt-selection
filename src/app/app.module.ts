@@ -12,7 +12,6 @@ import { TooltipModule } from 'primeng/tooltip';
 import { ChipModule } from 'primeng/chip';
 import { ButtonModule } from 'primeng/button';
 import { RouterModule } from '@angular/router';
-import { CookieService } from 'ngx-cookie-service';
 import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
 
@@ -22,8 +21,10 @@ import { XivapiStore } from './store/xivapi.store';
 import { CharacterListComponent } from './component/character-list/character-list.component';
 import { ProgressPanelComponent } from './component/progress-panel/progress-panel.component';
 import { ProgressPanelStore } from './store/progress-panel.store';
-import { CookieStore } from './store/cookie.store';
 import { LogoStore } from './store/logo.store';
+import { LocalStorageService } from './service/local-storage.service';
+import { LocalstorageStore } from './store/local-storage.store';
+import { SearchJsonStore } from './store/search-json-data.store';
 
 @NgModule({
   declarations: [
@@ -49,11 +50,12 @@ import { LogoStore } from './store/logo.store';
     TooltipModule,
   ],
   providers: [
-    CookieService,
-    CookieStore,
+    LocalStorageService,
+    LocalstorageStore,
     LogoStore,
     MessageService,
     ProgressPanelStore,
+    SearchJsonStore,
     XivapiStore,
   ],
   bootstrap: [AppComponent],

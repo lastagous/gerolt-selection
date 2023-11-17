@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { ProgressPanelStore } from '../../store/progress-panel.store';
-import {
-  JobAchievementViewModel,
-  TabItem,
-} from 'src/app/model/progress-panel.model';
 import { MenuItem } from 'primeng/api';
-import { KeyValue } from '@angular/common';
+import {
+  ProgressPanelMenuItem,
+  UpgradeStepModel,
+} from 'src/app/model/progress-panel.model';
 
 @Component({
   selector: 'app-progress-panel',
@@ -19,32 +18,15 @@ export class ProgressPanelComponent {
     return this._progressPanelStore.menuItems;
   }
 
-  public get activeItem(): MenuItem {
+  public get activeItem(): ProgressPanelMenuItem {
     return this._progressPanelStore.activeItem;
   }
 
-  public set activeItem(value: MenuItem) {
-    this._progressPanelStore.activeItem = value;
+  public onActiveItemChange(event: any) {
+    this._progressPanelStore.activeItem = event as ProgressPanelMenuItem;
   }
 
-  public get tabItems(): TabItem[] {
-    return this._progressPanelStore.tabItems;
-  }
-
-  public get selectedTabitem(): TabItem {
-    return this._progressPanelStore.selectedTabItem;
-  }
-
-  public activeItemChange(item: MenuItem): void {
-    const target = this._progressPanelStore.tabItems.find(
-      (tabItem) => tabItem.label === item.label
-    );
-    if (target) {
-      this._progressPanelStore.selectedTabItem = target;
-    }
-  }
-
-  public getJobImageSrc(jobName: string): string {
+  public getJobIcon(jobName: string): string {
     return `assets/icon/job/${jobName}.png`;
   }
 
@@ -53,8 +35,8 @@ export class ProgressPanelComponent {
   }
 
   public getStepName(
-    sources: JobAchievementViewModel[],
-    target: JobAchievementViewModel
+    sources: UpgradeStepModel[],
+    target: UpgradeStepModel
   ): string {
     return `STEP. ${sources.indexOf(target) + 1}`;
   }

@@ -1,66 +1,117 @@
 :host ::ng-deep {
   width: 100%;
-  height: 100%;
+  height: 96px;
 
   .gs-app-character-list {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 16px;
+    height: 100%;
 
-    .p-scrollpanel-content {
-      padding-right: 0;
-
-      .p-datatable {
-        height: 100%;
-      }
+    .gs-app-character-list-empty-message {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
-    .gs-app-character-list-item {
-      display: flex;
-      align-items: center;
+    .gs-app-character-list-scroll-panel {
+      flex: 1;
+      overflow: hidden;
 
-      .gs-app-character-list-item-image {
-        padding-right: 16px;
-        width: 112px;
-        height: 96px;
-      }
-
-      .gs-app-character-list-item-description {
+      .p-scrollpanel-content {
         display: flex;
-        flex-direction: column;
+        align-items: center;
+        flex-direction: row;
+        height: auto;
 
-        .gs-app-character-list-item-description-name {
-          font-size: x-large;
+        .gs-app-character-list-card {
+          height: 80px;
+          width: 280px;
+          flex: none;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          align-items: center;
+          border: 1px solid var(--surface-border);
+          border-radius: 3px;
+          margin-top: 4px;
+          margin-right: 8px;
 
-          > span {
+          &:hover {
+            border-color: #81c784;
+          }
+
+          &.selected {
+            background-color: #383838;
+            border-color: #81c784;
+          }
+
+          .gs-app-character-list-card-icon {
+            display: flex;
+            align-items: center;
             padding-left: 8px;
-          }
-        }
 
-        .gs-app-character-list-item-description-home-world {
-          .gs-app-character-list-item-description-home-world-data-center,
-          .gs-app-character-list-item-description-home-world-server {
-            > .pi {
-              padding-left: 8px;
-            }
-
-            > span {
-              padding-left: 4px;
+            .gs-app-character-list-card-icon-image {
+              height: 48px;
             }
           }
+
+          .gs-app-character-list-card-description {
+            padding-left: 8px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+
+            .gs-app-character-list-card-description-name {
+              font-weight: bold;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+
+            > div {
+              > i {
+                padding-right: 8px;
+              }
+            }
+          }
+
+          .gs-app-character-list-card-button {
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            width: 92px;
+            padding-left: 4px;
+            padding-right: 4px;
+
+            .gs-app-character-list-card-button-top {
+              display: flex;
+              justify-content: space-between;
+
+              > p-button {
+                padding: 2px;
+
+                > button {
+                  padding: 2px;
+                }
+              }
+            }
+
+            .gs-app-character-list-card-button-bottom {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              padding-top: 2px;
+
+              > p-button {
+                > button {
+                  padding: 4px 12px;
+                }
+              }
+            }
+          }
         }
-      }
-
-      .gs-app-character-list-item-chip {
-        padding-left: 16px;
-
-        .p-chip-text {
-          font-size: small;
-        }
-      }
-
-      .gs-app-character-list-item-share {
-        margin-left: auto;
-        padding-right: 24px;
       }
     }
   }

@@ -1,34 +1,25 @@
 import { Injectable } from '@angular/core';
 import { XivapiService } from '../service/xivapi.service';
-import { BehaviorSubject, Observable, Subscription } from 'rxjs';
-import { CharacterModel } from '../model/xivapi-character.model';
-import { CookieStore } from './cookie.store';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { XivapiCharacterModel } from '../model/xivapi-character.model';
 import { MessageService } from 'primeng/api';
+import { LocalstorageStore } from './local-storage.store';
+import { StorageCharacterModel } from '../model/localstorage.model';
 
 @Injectable()
 export class XivapiStore {
-  private _charactersSubject: BehaviorSubject<CharacterModel[]> =
-    new BehaviorSubject([] as CharacterModel[]);
-  private _selectedCharacterSubject: BehaviorSubject<CharacterModel> =
-    new BehaviorSubject({} as CharacterModel);
+  private _charactersSubject: BehaviorSubject<XivapiCharacterModel[]> =
+    new BehaviorSubject([] as XivapiCharacterModel[]);
   private _isCharacterFetcing = false;
 
   constructor(
-    private _cookieStore: CookieStore,
+    private _localStorageStore: LocalstorageStore,
     private _messageService: MessageService,
     private _xivapiService: XivapiService
   ) {}
 
-  public get characters(): CharacterModel[] {
+  public get characters(): XivapiCharacterModel[] {
     return this._charactersSubject.getValue();
-  }
-
-  public get selectedCharacter(): CharacterModel {
-    return this._selectedCharacterSubject.getValue();
-  }
-
-  public set selectedCharacter(value: CharacterModel) {
-    this._selectedCharacterSubject.next(value);
   }
 
   public get isCharacterFetcing(): boolean {
@@ -47,15 +38,10 @@ export class XivapiStore {
           characters.push(character);
           this._charactersSubject.next(characters);
 
-          if (character.AchievementsPublic !== false) {
-            this.selectedCharacter = character;
-          }
-
-          this._cookieStore.setCharacter({
-            Avatar: character.Character.Avatar,
-            ID: character.Character.ID,
-            Name: character.Character.Name,
-          });
+          this._localStorageStore.setCharacter({
+            data: character,
+            updateTimestamp: Math.floor(new Date().getTime() / 1000),
+          } as StorageCharacterModel);
           this._isCharacterFetcing = false;
           resolve();
         },

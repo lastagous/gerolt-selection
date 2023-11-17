@@ -2,7 +2,7 @@
   @tablet: ~"only screen and (max-width: 1360px)";
 
   width: 100%;
-  height: 100%;
+  height: 48px;
   display: flex;
   align-items: center;
 
@@ -25,72 +25,17 @@
       }
     }
 
-    .gs-app-search-lodestone-utility-panel {
-      display: flex;
-      align-items: center;
+    // .gs-app-character-list {
+    //   display: flex;
+    //   align-items: center;
 
-      .gs-app-search-lodestone-utility-panel-scroll-panel {
-        flex: 1;
-        overflow: hidden;
+    //   .gs-app-character-list-hashtag-button {
+    //     padding-left: 16px;
 
-        .p-scrollpanel-content {
-          display: flex;
-          align-items: center;
-          flex-direction: row;
-          height: auto;
-
-          .gs-app-search-lodestone-utility-panel-card {
-            height: 56px;
-            width: 280px;
-            flex: none;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-items: center;
-            border: 1px solid var(--surface-border);
-            margin-top: 4px;
-            margin-right: 8px;
-
-            .gs-app-search-lodestone-utility-panel-card-icon {
-              display: flex;
-              align-items: center;
-              padding-left: 8px;
-
-              .gs-app-search-lodestone-utility-panel-card-icon-image {
-                height: 48px;
-              }
-            }
-
-            .gs-app-search-lodestone-utility-panel-card-description {
-              padding-left: 8px;
-              overflow: hidden;
-              white-space: nowrap;
-              text-overflow: ellipsis;
-            }
-
-            .gs-app-search-lodestone-utility-panel-card-button {
-              display: flex;
-              justify-content: space-between;
-              padding-left: 4px;
-              padding-right: 4px;
-              margin-left: auto;
-              width: 92px;
-
-              > p-button {
-                padding: 2px;
-              }
-            }
-          }
-        }
-      }
-
-      .gs-app-search-lodestone-utility-panel-hashtag-button {
-        padding-left: 16px;
-
-        @media @tablet {
-          display: none;
-        }
-      }
-    }
+    //     @media @tablet {
+    //       display: none;
+    //     }
+    //   }
+    // }
   }
 }

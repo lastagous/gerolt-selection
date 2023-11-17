@@ -3,49 +3,44 @@
     <p-tabMenu
       [model]="menuItems"
       [activeItem]="activeItem"
-      (activeItemChange)="activeItemChange($event)"
+      (activeItemChange)="onActiveItemChange($event)"
     ></p-tabMenu>
   </div>
   <div class="gs-app-progress-panel-scroll-panel">
-    <p-scrollPanel [style]="{ width: '100%', height: '650px' }">
-      <p-table [value]="selectedTabitem.viewList">
-        <ng-template let-tabViewItem pTemplate="body">
+    <p-scrollPanel [style]="{ width: '100%', height: '640px' }">
+      <p-table [value]="activeItem.data ? activeItem.data.progressJobs : []">
+        <ng-template let-progressJob pTemplate="body">
           <tr class="gs-app-progress-panel-scroll-panel-achievements">
             <td
               class="gs-app-progress-panel-scroll-panel-achievements-job-icon-area"
             >
               <img
                 class="gs-app-progress-panel-scroll-panel-achievements-job-icon icon"
-                [src]="getJobImageSrc(tabViewItem.JobNameEn)"
+                [src]="getJobIcon(progressJob.name)"
               />
             </td>
             <td class="gs-app-progress-panel-scroll-panel-achievements-list">
               <div
-                *ngFor="let jobAchievement of tabViewItem.itemAchievementPares"
+                *ngFor="let upgradeStep of progressJob.upgradeSteps"
                 class="gs-app-progress-panel-scroll-panel-achievements-list-achievement-area"
                 [class.completed]="
-                  isAchievementCompleted(jobAchievement.Achivement.ID)
+                  isAchievementCompleted(upgradeStep.achievement?.ID)
                 "
               >
                 <div
                   class="gs-app-progress-panel-scroll-panel-achievements-list-achievement-area-top"
                 >
-                  {{
-                    getStepName(
-                      tabViewItem.itemAchievementPares,
-                      jobAchievement
-                    )
-                  }}
+                  {{ getStepName(progressJob.upgradeSteps, upgradeStep) }}
                 </div>
                 <div
                   class="gs-app-progress-panel-scroll-panel-achievements-list-achievement-area-bottom"
                 >
                   <img
-                    *ngFor="let item of jobAchievement.Items"
+                    *ngFor="let item of upgradeStep.items"
                     class="icon"
                     [pTooltip]="item.Name_ja"
                     tooltipPosition="top"
-                    [src]="getIcon(item.IconHD)"
+                    [src]="getIcon(item.Icon)"
                   />
                 </div>
               </div>

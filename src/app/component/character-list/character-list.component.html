@@ -1,64 +1,76 @@
 <div class="gs-app-character-list">
-  <p-scrollPanel [style]="{ width: '100%', height: '700px' }">
-    <p-table
-      selectionMode="single"
-      [(selection)]="selectedCharacter"
-      [value]="characters"
-      [loading]="isCharacterFetcing"
+  <div *ngIf="!characters.length" class="gs-app-character-list-empty-message">
+    Search ボタンからキャラクターを検索してください！
+  </div>
+  <p-scrollPanel
+    *ngIf="characters.length"
+    class="gs-app-character-list-scroll-panel"
+    [style]="{ width: '100%', height: '96px' }"
+  >
+    <div
+      *ngFor="let character of characters"
+      class="gs-app-character-list-card"
+      [class.selected]="isSelected(character)"
+      (click)="onCharacterSelected(character)"
     >
-      <ng-template let-character pTemplate="body">
-        <tr
-          [pSelectableRow]="character"
-          [pSelectableRowDisabled]="isUndisclosedAchievements(character)"
+      <div class="gs-app-character-list-card-icon">
+        <img
+          class="gs-app-character-list-card-icon-image"
+          [src]="character.data.Character.Avatar"
+        />
+      </div>
+      <div class="gs-app-character-list-card-description">
+        <div class="gs-app-character-list-card-description-name">
+          <i
+            *ngIf="isUndisclosedAchievements(character.data)"
+            class="pi pi-eye-slash"
+          ></i>
+          <span
+            [pTooltip]="character.data.Character.Name"
+            tooltipPosition="top"
+            >{{ character.data.Character.Name }}</span
+          >
+        </div>
+        <div
+          class="gs-app-character-list-card-description-timestamp"
+          pTooltip="最終更新"
+          tooltipPosition="bottom"
         >
-          <td>
-            <div class="gs-app-character-list-item">
-              <img
-                class="gs-app-character-list-item-image"
-                [src]="character.Character.Avatar"
-              />
-              <div class="gs-app-character-list-item-description">
-                <div class="gs-app-character-list-item-description-name">
-                  <span>{{ character.Character.Name }}</span>
-                </div>
-                <div class="gs-app-character-list-item-description-home-world">
-                  <span
-                    class="gs-app-character-list-item-description-home-world-data-center"
-                  >
-                    <i class="pi pi-database"></i>
-                    <span>{{ character.Character.DC }}</span>
-                  </span>
-                  <span
-                    class="gs-app-character-list-item-description-home-world-server"
-                  >
-                    <i class="pi pi-home"></i>
-                    <span>{{ character.Character.Server }}</span>
-                  </span>
-                </div>
-              </div>
-              <p-chip
-                *ngIf="isUndisclosedAchievements(character)"
-                class="gs-app-character-list-item-chip"
-                label="Undisclosed Achievements"
-              />
-              <div class="gs-app-character-list-item-share">
-                <p-button
-                  *ngIf="!isUndisclosedAchievements(character)"
-                  label="Share"
-                  styleClass="p-button-rounded p-button-sm"
-                  icon="pi pi-twitter"
-                  (click)="onShareClick(character)"
-                ></p-button>
-              </div>
-            </div>
-          </td>
-        </tr>
-      </ng-template>
-      <ng-template pTemplate="emptymessage">
-        <tr>
-          <td>Search for your character!</td>
-        </tr>
-      </ng-template>
-    </p-table>
+          <i class="pi pi-history"></i>
+          <span>{{ getUpdateTime(character.updateTimestamp) }}日前</span>
+        </div>
+      </div>
+      <div class="gs-app-character-list-card-button">
+        <div class="gs-app-character-list-card-button-top">
+          <p-button
+            icon="pi pi-refresh"
+            styleClass="p-button-rounded p-button-outlined"
+            pTooltip="更新"
+            tooltipPosition="top"
+            (click)="onSearchButtonClick(character.data.Character.ID)"
+          ></p-button>
+          <p-button
+            icon="pi pi-trash"
+            styleClass="p-button-rounded p-button-outlined p-button-danger"
+            pTooltip="削除"
+            tooltipPosition="top"
+            (click)="onSearchRemoveClick(character.data.Character.ID)"
+          ></p-button>
+        </div>
+        <div
+          *ngIf="!isUndisclosedAchievements(character.data)"
+          class="gs-app-character-list-card-button-bottom"
+        >
+          <p-button
+            icon="pi pi-twitter"
+            label="Share"
+            styleClass="p-button-rounded p-button-outlined p-button-sm"
+            pTooltip="ツイートする！"
+            tooltipPosition="bottom"
+            (click)="onShareClick(character.data)"
+          ></p-button>
+        </div>
+      </div>
+    </div>
   </p-scrollPanel>
 </div>
