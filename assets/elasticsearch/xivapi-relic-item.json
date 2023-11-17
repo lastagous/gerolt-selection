@@ -1,0 +1,61 @@
+{
+  "indexes": "item",
+  "columns": "ClassJobCategory.Name,ClassJobCategory.Name_de,ClassJobCategory.Name_en,ClassJobCategory.Name_fr,ClassJobCategory.Name_ja,Description_ja,ID,Icon,IconID,LevelEquip,LevelItem,Name,Name_de,Name_en,Name_fr,Name_ja,Patch,Url,UrlType",
+  "body": {
+    "query": {
+      "bool": {
+        "must": [],
+        "must_not": [
+          {
+            "wildcard": {
+              "Name_ja": "*レプリカ*"
+            }
+          },
+          {
+            "wildcard": {
+              "Name_ja": "*カスタム*"
+            }
+          },
+          {
+            "wildcard": {
+              "Description_ja": "*防具*"
+            }
+          },
+          {
+            "wildcard": {
+              "Description_ja": "*模造品*"
+            }
+          },
+          {
+            "wildcard": {
+              "Description_ja": "*1回目の装着*"
+            }
+          },
+          {
+            "wildcard": {
+              "Description_ja": "*装備不可*"
+            }
+          },
+          {
+            "wildcard": {
+              "Description_ja": "*友好部族クエスト*"
+            }
+          },
+          {
+            "wildcard": {
+              "Description_ja": "*スカイスチールツール*"
+            }
+          },
+          {
+            "wildcard": {
+              "Description_ja": "*モーエンツール*"
+            }
+          }
+        ]
+      }
+    },
+    "from": 0,
+    "size": 1000,
+    "sort": []
+  }
+}
