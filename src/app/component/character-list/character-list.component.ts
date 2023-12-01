@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { StorageCharacterModel } from 'src/app/model/localstorage.model';
 import { XivapiCharacterModel } from 'src/app/model/xivapi-character.model';
 import { LocalstorageStore } from 'src/app/store/local-storage.store';
-import { ProgressPanelStore } from 'src/app/store/progress-panel.store';
 import { XivapiStore } from 'src/app/store/xivapi.store';
 
 @Component({
@@ -13,7 +12,6 @@ import { XivapiStore } from 'src/app/store/xivapi.store';
 export class CharacterListComponent {
   constructor(
     private _localStorageStore: LocalstorageStore,
-    private _progressPanelStore: ProgressPanelStore,
     private _xivapiStore: XivapiStore
   ) {}
 
@@ -69,28 +67,28 @@ export class CharacterListComponent {
   }
 
   public onShareClick(character: XivapiCharacterModel): void {
-    const share = 'https://lastagous.github.io/gerolt-selection/';
-    let completeRate = '';
-    let totalRaito = 0;
-    this._progressPanelStore.menuItems.forEach((menuItem) => {
-      const raito = this._progressPanelStore.getCompleteRate(
-        menuItem.label ? menuItem.label : '',
-        character
-      );
-      totalRaito += raito;
-      const totalBlocks = 8;
-      const blockNum = Math.floor(raito / (1 / totalBlocks));
-      const block = '■';
-      const none = '・';
-      completeRate += `${menuItem.label} [${block.repeat(
-        blockNum
-      )}${none.repeat(totalBlocks - blockNum)}] ${Math.floor(raito * 100)}%\n`;
-    });
-    const tweet = `${character.Character.Name} の武器生成の達成度 ${Math.floor(
-      (totalRaito * 100) / this._progressPanelStore.menuItems.length
-    )}%\n\n`;
-    const hashtags = 'FF14,ゲロルトの工匠記録';
-    const url = `https://twitter.com/intent/tweet?url=${share}&text=${tweet}${completeRate}&hashtags=${hashtags}`;
-    window.open(encodeURI(url), '_blank');
+    // const share = 'https://lastagous.github.io/gerolt-selection/';
+    // let completeRate = '';
+    // let totalRaito = 0;
+    // this._progressPanelStore.menuItems.forEach((menuItem) => {
+    //   const raito = this._progressPanelStore.getCompleteRate(
+    //     menuItem.label ? menuItem.label : '',
+    //     character
+    //   );
+    //   totalRaito += raito;
+    //   const totalBlocks = 8;
+    //   const blockNum = Math.floor(raito / (1 / totalBlocks));
+    //   const block = '■';
+    //   const none = '・';
+    //   completeRate += `${menuItem.label} [${block.repeat(
+    //     blockNum
+    //   )}${none.repeat(totalBlocks - blockNum)}] ${Math.floor(raito * 100)}%\n`;
+    // });
+    // const tweet = `${character.Character.Name} の武器生成の達成度 ${Math.floor(
+    //   (totalRaito * 100) / this._progressPanelStore.menuItems.length
+    // )}%\n\n`;
+    // const hashtags = 'FF14,ゲロルトの工匠記録';
+    // const url = `https://twitter.com/intent/tweet?url=${share}&text=${tweet}${completeRate}&hashtags=${hashtags}`;
+    // window.open(encodeURI(url), '_blank');
   }
 }

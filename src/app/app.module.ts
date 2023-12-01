@@ -19,19 +19,18 @@ import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
 import { XivapiStore } from './store/xivapi.store';
 import { CharacterListComponent } from './component/character-list/character-list.component';
-import { ProgressPanelComponent } from './component/progress-panel/progress-panel.component';
-import { ProgressPanelStore } from './store/progress-panel.store';
 import { LogoStore } from './store/logo.store';
 import { LocalStorageService } from './service/local-storage.service';
 import { LocalstorageStore } from './store/local-storage.store';
-import { SearchJsonStore } from './store/search-json-data.store';
+import { StepByStepComponent } from './component/step-by-step/step-by-step.component';
+import { StepByStepStore } from './component/step-by-step/step-by-step.store';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchLodestoneComponent,
     CharacterListComponent,
-    ProgressPanelComponent,
+    StepByStepComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,9 +53,8 @@ import { SearchJsonStore } from './store/search-json-data.store';
     LocalstorageStore,
     LogoStore,
     MessageService,
-    ProgressPanelStore,
-    SearchJsonStore,
     XivapiStore,
+    StepByStepStore,
   ],
   bootstrap: [AppComponent],
 })

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import _logosJson from '../../assets/data/logos.json';
+import _logosJson from '../../assets/logo/logos.json';
 import { LogoModel } from '../model/logo.model';
 
 @Injectable()

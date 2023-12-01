@@ -57,8 +57,4 @@ export class XivapiStore {
       );
     });
   }
-
-  public search(payload: any): Observable<Object> {
-    return this._xivapiService.search(payload);
-  }
 }

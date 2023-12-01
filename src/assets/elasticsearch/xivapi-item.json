@@ -1,0 +1,12 @@
+{
+  "body": {
+    "query": {
+      "bool": {
+        "should": []
+      }
+    },
+    "from": 0,
+    "size": 1000,
+    "sort": []
+  }
+}

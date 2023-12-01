@@ -7,7 +7,12 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy --base-href=/gerolt-selection/"
+    "deploy": "ng deploy --base-href=/gerolt-selection/",
+    "jsondata:achievements": "npx ts-node src/cmd/create-json.ts achievements",
+    "jsondata:quests": "npx ts-node src/cmd/create-json.ts quests",
+    "jsondata:items": "npx ts-node src/cmd/create-json.ts items",
+    "jsondata:relations": "npx ts-node src/cmd/create-json.ts relations",
+    "jsondata:all": "npx ts-node src/cmd/create-json.ts all"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +24,9 @@
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
+    "@xivapi/js": "^0.4.3",
     "angular-cli-ghpages": "^1.0.6",
+    "garlandtools-api": "^1.0.3",
     "ngx-cookie-service": "^15.0.0",
     "primeflex": "^3.3.0",
     "primeicons": "^6.0.1",
@@ -33,6 +40,7 @@
     "@angular/cli": "~15.2.0",
     "@angular/compiler-cli": "^15.2.0",
     "@types/jasmine": "~4.3.0",
+    "@types/node": "^20.9.1",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
