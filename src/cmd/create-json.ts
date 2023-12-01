@@ -56,13 +56,14 @@ const achievements = async () => {
 };
 
 const summaryQuests = async () => {
+  // (g == 149-158) === zw job quest
   // (g == 74) === zodiac weapon
   // (g == 75) === anima weapon
   // (g == 76) === eureka weapon
   // (g == 77) === resistance weapon
   // (g == 73) === manderville weapon
   const fetchQuests = ((await garlandtools.quests()) as SummaryQuest[]).filter(
-    (a) => a.g == 74 || a.g == 75 || a.g == 76 || a.g == 77 || a.g == 73
+    (a) => (a.g >= 149 && a.g <= 158) || (a.g >= 73 && a.g <= 77)
   );
 
   // [info] require relative path 'root' is this file in folder
