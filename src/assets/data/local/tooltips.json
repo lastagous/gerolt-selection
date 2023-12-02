@@ -1,0 +1,3870 @@
+[
+  {
+    "itemId": 1675,
+    "tooltipId": "f036916741a"
+  },
+  {
+    "itemId": 1746,
+    "tooltipId": "ec78b78e823"
+  },
+  {
+    "itemId": 1816,
+    "tooltipId": "6bff305d55d"
+  },
+  {
+    "itemId": 1885,
+    "tooltipId": "893d3c103b4"
+  },
+  {
+    "itemId": 1955,
+    "tooltipId": "5eb88c0184d"
+  },
+  {
+    "itemId": 2052,
+    "tooltipId": "0f08f17cbbf"
+  },
+  {
+    "itemId": 2140,
+    "tooltipId": "c62dd8a606e"
+  },
+  {
+    "itemId": 2213,
+    "tooltipId": "dfdc5c986bd"
+  },
+  {
+    "itemId": 2214,
+    "tooltipId": "1ccc5d84c7e"
+  },
+  {
+    "itemId": 2306,
+    "tooltipId": "d1d458c7a81"
+  },
+  {
+    "itemId": 6257,
+    "tooltipId": "c3c235e7ca5"
+  },
+  {
+    "itemId": 6258,
+    "tooltipId": "26f5a0f9988"
+  },
+  {
+    "itemId": 6259,
+    "tooltipId": "172a2496ca2"
+  },
+  {
+    "itemId": 6260,
+    "tooltipId": "81592312f3a"
+  },
+  {
+    "itemId": 6261,
+    "tooltipId": "144865c071c"
+  },
+  {
+    "itemId": 6262,
+    "tooltipId": "d19447e548d"
+  },
+  {
+    "itemId": 6263,
+    "tooltipId": "d479632ab0a"
+  },
+  {
+    "itemId": 6264,
+    "tooltipId": "7cb3733fc7a"
+  },
+  {
+    "itemId": 6265,
+    "tooltipId": "52a24052a77"
+  },
+  {
+    "itemId": 6266,
+    "tooltipId": "fd5cd559d65"
+  },
+  {
+    "itemId": 7824,
+    "tooltipId": "c47c20d73a5"
+  },
+  {
+    "itemId": 7825,
+    "tooltipId": "830b03bc9b7"
+  },
+  {
+    "itemId": 7826,
+    "tooltipId": "fd925de8ee6"
+  },
+  {
+    "itemId": 7827,
+    "tooltipId": "182a139ad05"
+  },
+  {
+    "itemId": 7828,
+    "tooltipId": "fae5e883c0c"
+  },
+  {
+    "itemId": 7829,
+    "tooltipId": "7ac4618d4c5"
+  },
+  {
+    "itemId": 7830,
+    "tooltipId": "d46815525f4"
+  },
+  {
+    "itemId": 7831,
+    "tooltipId": "0c9a43e4014"
+  },
+  {
+    "itemId": 7832,
+    "tooltipId": "c6118835360"
+  },
+  {
+    "itemId": 7833,
+    "tooltipId": "096267687df"
+  },
+  {
+    "itemId": 7834,
+    "tooltipId": "24dc485b4c8"
+  },
+  {
+    "itemId": 7835,
+    "tooltipId": "47e66a1e96a"
+  },
+  {
+    "itemId": 7836,
+    "tooltipId": "ed90d5e5f57"
+  },
+  {
+    "itemId": 7837,
+    "tooltipId": "75b32c59bc7"
+  },
+  {
+    "itemId": 7838,
+    "tooltipId": "733f1249911"
+  },
+  {
+    "itemId": 7839,
+    "tooltipId": "fad3971fb32"
+  },
+  {
+    "itemId": 7840,
+    "tooltipId": "4c2aa6285ae"
+  },
+  {
+    "itemId": 7841,
+    "tooltipId": "cc9c5f34be8"
+  },
+  {
+    "itemId": 7842,
+    "tooltipId": "0fbd1b65f97"
+  },
+  {
+    "itemId": 7843,
+    "tooltipId": "9685f49a6bc"
+  },
+  {
+    "itemId": 7863,
+    "tooltipId": "1811df917b3"
+  },
+  {
+    "itemId": 7864,
+    "tooltipId": "a35eda383b1"
+  },
+  {
+    "itemId": 7865,
+    "tooltipId": "a4d710d1be8"
+  },
+  {
+    "itemId": 7866,
+    "tooltipId": "004486c30d8"
+  },
+  {
+    "itemId": 7867,
+    "tooltipId": "8994ccf991b"
+  },
+  {
+    "itemId": 7868,
+    "tooltipId": "349654df6a1"
+  },
+  {
+    "itemId": 7869,
+    "tooltipId": "32f9d344b01"
+  },
+  {
+    "itemId": 7870,
+    "tooltipId": "1c68c2d979d"
+  },
+  {
+    "itemId": 7871,
+    "tooltipId": "b11a6e3bafc"
+  },
+  {
+    "itemId": 7872,
+    "tooltipId": "0e5c3ddccd0"
+  },
+  {
+    "itemId": 7888,
+    "tooltipId": "d16585ce8d5"
+  },
+  {
+    "itemId": 8649,
+    "tooltipId": "fe0462845fb"
+  },
+  {
+    "itemId": 8650,
+    "tooltipId": "ca128448bbb"
+  },
+  {
+    "itemId": 8651,
+    "tooltipId": "dc4d8c3723a"
+  },
+  {
+    "itemId": 8652,
+    "tooltipId": "6bf0defbb81"
+  },
+  {
+    "itemId": 8653,
+    "tooltipId": "1d4d46a95b8"
+  },
+  {
+    "itemId": 8654,
+    "tooltipId": "a4571e3505d"
+  },
+  {
+    "itemId": 8655,
+    "tooltipId": "1bd1e53d5a7"
+  },
+  {
+    "itemId": 8656,
+    "tooltipId": "02b3bc6234b"
+  },
+  {
+    "itemId": 8657,
+    "tooltipId": "774bba3ca6a"
+  },
+  {
+    "itemId": 8658,
+    "tooltipId": "a59a3cf58bb"
+  },
+  {
+    "itemId": 9250,
+    "tooltipId": "0e76f63ae7c"
+  },
+  {
+    "itemId": 9251,
+    "tooltipId": "ae7f891b127"
+  },
+  {
+    "itemId": 9252,
+    "tooltipId": "786a5c6b06f"
+  },
+  {
+    "itemId": 9253,
+    "tooltipId": "f7faeae697e"
+  },
+  {
+    "itemId": 9254,
+    "tooltipId": "2d7b83cb80e"
+  },
+  {
+    "itemId": 9491,
+    "tooltipId": "8c886018268"
+  },
+  {
+    "itemId": 9492,
+    "tooltipId": "27d363b4142"
+  },
+  {
+    "itemId": 9493,
+    "tooltipId": "ac59358568c"
+  },
+  {
+    "itemId": 9494,
+    "tooltipId": "d45e7b93f88"
+  },
+  {
+    "itemId": 9495,
+    "tooltipId": "2d37d63fc1e"
+  },
+  {
+    "itemId": 9496,
+    "tooltipId": "8ba81058ead"
+  },
+  {
+    "itemId": 9497,
+    "tooltipId": "abe94728a94"
+  },
+  {
+    "itemId": 9498,
+    "tooltipId": "d4ebb19c75f"
+  },
+  {
+    "itemId": 9499,
+    "tooltipId": "986ad489ff5"
+  },
+  {
+    "itemId": 9500,
+    "tooltipId": "1ea47510218"
+  },
+  {
+    "itemId": 9501,
+    "tooltipId": "d9f5fa009cb"
+  },
+  {
+    "itemId": 10054,
+    "tooltipId": "598abb7dd01"
+  },
+  {
+    "itemId": 10055,
+    "tooltipId": "099a61e4271"
+  },
+  {
+    "itemId": 10056,
+    "tooltipId": "74dbad6b694"
+  },
+  {
+    "itemId": 10057,
+    "tooltipId": "37fb2c76401"
+  },
+  {
+    "itemId": 10058,
+    "tooltipId": "32b9fecf683"
+  },
+  {
+    "itemId": 10059,
+    "tooltipId": "5a44646f9bd"
+  },
+  {
+    "itemId": 10060,
+    "tooltipId": "54544cbc40f"
+  },
+  {
+    "itemId": 10061,
+    "tooltipId": "2b216db16bc"
+  },
+  {
+    "itemId": 10062,
+    "tooltipId": "67e19fd475b"
+  },
+  {
+    "itemId": 10063,
+    "tooltipId": "9139260df17"
+  },
+  {
+    "itemId": 10064,
+    "tooltipId": "ab5dc14def0"
+  },
+  {
+    "itemId": 22925,
+    "tooltipId": "7eda188f89d"
+  },
+  {
+    "itemId": 22926,
+    "tooltipId": "cc2bf224289"
+  },
+  {
+    "itemId": 22927,
+    "tooltipId": "944e7f9c625"
+  },
+  {
+    "itemId": 22928,
+    "tooltipId": "64aee900cee"
+  },
+  {
+    "itemId": 22929,
+    "tooltipId": "dd8f25933a3"
+  },
+  {
+    "itemId": 22930,
+    "tooltipId": "7d3c9932a96"
+  },
+  {
+    "itemId": 22931,
+    "tooltipId": "0780731aaec"
+  },
+  {
+    "itemId": 22932,
+    "tooltipId": "ee971f3e1d9"
+  },
+  {
+    "itemId": 22933,
+    "tooltipId": "6bd5abcf7e0"
+  },
+  {
+    "itemId": 22934,
+    "tooltipId": "e491cfa10e8"
+  },
+  {
+    "itemId": 22935,
+    "tooltipId": "e7f56cbfe4c"
+  },
+  {
+    "itemId": 22936,
+    "tooltipId": "ff037874674"
+  },
+  {
+    "itemId": 22937,
+    "tooltipId": "79ffccde012"
+  },
+  {
+    "itemId": 22938,
+    "tooltipId": "1a493cdcf24"
+  },
+  {
+    "itemId": 22939,
+    "tooltipId": "8b32759d509"
+  },
+  {
+    "itemId": 22940,
+    "tooltipId": "ea486e78d8e"
+  },
+  {
+    "itemId": 22941,
+    "tooltipId": "d42291d97c6"
+  },
+  {
+    "itemId": 22942,
+    "tooltipId": "06d77b79ed1"
+  },
+  {
+    "itemId": 22943,
+    "tooltipId": "accedb77d94"
+  },
+  {
+    "itemId": 22944,
+    "tooltipId": "d0eee5b72f2"
+  },
+  {
+    "itemId": 22945,
+    "tooltipId": "effd9934af8"
+  },
+  {
+    "itemId": 22946,
+    "tooltipId": "eb36e280003"
+  },
+  {
+    "itemId": 22947,
+    "tooltipId": "cc5f8b6d0e7"
+  },
+  {
+    "itemId": 22948,
+    "tooltipId": "6a7070df2ec"
+  },
+  {
+    "itemId": 22949,
+    "tooltipId": "84430a6586d"
+  },
+  {
+    "itemId": 22950,
+    "tooltipId": "79383ed3893"
+  },
+  {
+    "itemId": 22951,
+    "tooltipId": "9c6cbf45a67"
+  },
+  {
+    "itemId": 22952,
+    "tooltipId": "697f7f7d9bf"
+  },
+  {
+    "itemId": 22953,
+    "tooltipId": "5e21c9ddef7"
+  },
+  {
+    "itemId": 22954,
+    "tooltipId": "3b9a64078df"
+  },
+  {
+    "itemId": 22955,
+    "tooltipId": "b22c2707a9c"
+  },
+  {
+    "itemId": 22956,
+    "tooltipId": "3a7bfdee7fd"
+  },
+  {
+    "itemId": 22957,
+    "tooltipId": "0f77aeab83a"
+  },
+  {
+    "itemId": 22958,
+    "tooltipId": "28ac9a88061"
+  },
+  {
+    "itemId": 22959,
+    "tooltipId": "6999ccbbab4"
+  },
+  {
+    "itemId": 22960,
+    "tooltipId": "341c19e3db7"
+  },
+  {
+    "itemId": 22961,
+    "tooltipId": "52e21db391d"
+  },
+  {
+    "itemId": 22962,
+    "tooltipId": "238f5d1111f"
+  },
+  {
+    "itemId": 22963,
+    "tooltipId": "42c7df0f42f"
+  },
+  {
+    "itemId": 22964,
+    "tooltipId": "b10e727f893"
+  },
+  {
+    "itemId": 22965,
+    "tooltipId": "c414e87b84f"
+  },
+  {
+    "itemId": 22966,
+    "tooltipId": "a41b713e80b"
+  },
+  {
+    "itemId": 22967,
+    "tooltipId": "153f30febc5"
+  },
+  {
+    "itemId": 22968,
+    "tooltipId": "2d09b6dd726"
+  },
+  {
+    "itemId": 22969,
+    "tooltipId": "47e4c1f0ae5"
+  },
+  {
+    "itemId": 22970,
+    "tooltipId": "a102655740f"
+  },
+  {
+    "itemId": 22971,
+    "tooltipId": "27886642bdd"
+  },
+  {
+    "itemId": 22972,
+    "tooltipId": "50573969d56"
+  },
+  {
+    "itemId": 24039,
+    "tooltipId": "f0e31e2178f"
+  },
+  {
+    "itemId": 24040,
+    "tooltipId": "309422b6a39"
+  },
+  {
+    "itemId": 24041,
+    "tooltipId": "ed77c98d993"
+  },
+  {
+    "itemId": 24042,
+    "tooltipId": "cc6052eb505"
+  },
+  {
+    "itemId": 24043,
+    "tooltipId": "aeb905b7bef"
+  },
+  {
+    "itemId": 24044,
+    "tooltipId": "4b3271ccd19"
+  },
+  {
+    "itemId": 24045,
+    "tooltipId": "b3df73d3edb"
+  },
+  {
+    "itemId": 24046,
+    "tooltipId": "f7a5d68048f"
+  },
+  {
+    "itemId": 24047,
+    "tooltipId": "f02eeeae84f"
+  },
+  {
+    "itemId": 24048,
+    "tooltipId": "00fef49601a"
+  },
+  {
+    "itemId": 24049,
+    "tooltipId": "bbe084cd93a"
+  },
+  {
+    "itemId": 24050,
+    "tooltipId": "a7380ef6ab2"
+  },
+  {
+    "itemId": 24051,
+    "tooltipId": "dbc8b7ec681"
+  },
+  {
+    "itemId": 24052,
+    "tooltipId": "cbc3e3d5f2e"
+  },
+  {
+    "itemId": 24053,
+    "tooltipId": "26f7178d717"
+  },
+  {
+    "itemId": 24054,
+    "tooltipId": "9d274141ced"
+  },
+  {
+    "itemId": 24055,
+    "tooltipId": "d7458156a5d"
+  },
+  {
+    "itemId": 24056,
+    "tooltipId": "0466e83a8e8"
+  },
+  {
+    "itemId": 24057,
+    "tooltipId": "5f64f4c88fe"
+  },
+  {
+    "itemId": 24058,
+    "tooltipId": "ae24f6fd200"
+  },
+  {
+    "itemId": 24059,
+    "tooltipId": "1e2e366f164"
+  },
+  {
+    "itemId": 24060,
+    "tooltipId": "55fb798f7aa"
+  },
+  {
+    "itemId": 24061,
+    "tooltipId": "fbb4a7e2d1b"
+  },
+  {
+    "itemId": 24062,
+    "tooltipId": "1fcbc1c9747"
+  },
+  {
+    "itemId": 24063,
+    "tooltipId": "6ccadcc0ef3"
+  },
+  {
+    "itemId": 24064,
+    "tooltipId": "35721e7906e"
+  },
+  {
+    "itemId": 24065,
+    "tooltipId": "19e37b60a37"
+  },
+  {
+    "itemId": 24066,
+    "tooltipId": "e6c39eb6ca1"
+  },
+  {
+    "itemId": 24067,
+    "tooltipId": "a9ddb95b71a"
+  },
+  {
+    "itemId": 24068,
+    "tooltipId": "386d891d713"
+  },
+  {
+    "itemId": 24069,
+    "tooltipId": "ac500130814"
+  },
+  {
+    "itemId": 24070,
+    "tooltipId": "992b8a615b7"
+  },
+  {
+    "itemId": 24071,
+    "tooltipId": "ae8a223279d"
+  },
+  {
+    "itemId": 24072,
+    "tooltipId": "0a4170051cc"
+  },
+  {
+    "itemId": 24073,
+    "tooltipId": "2621627fb5f"
+  },
+  {
+    "itemId": 24074,
+    "tooltipId": "5eedbe58f1f"
+  },
+  {
+    "itemId": 24075,
+    "tooltipId": "9dcf2014a1a"
+  },
+  {
+    "itemId": 24076,
+    "tooltipId": "bd7cf2d7c98"
+  },
+  {
+    "itemId": 24077,
+    "tooltipId": "9b115da075c"
+  },
+  {
+    "itemId": 24078,
+    "tooltipId": "8102a140bb9"
+  },
+  {
+    "itemId": 24079,
+    "tooltipId": "065b125a44f"
+  },
+  {
+    "itemId": 24080,
+    "tooltipId": "713d6a891b2"
+  },
+  {
+    "itemId": 24081,
+    "tooltipId": "22cbfd13a97"
+  },
+  {
+    "itemId": 24082,
+    "tooltipId": "c34103dc58e"
+  },
+  {
+    "itemId": 24083,
+    "tooltipId": "9239a67ef71"
+  },
+  {
+    "itemId": 24084,
+    "tooltipId": "ca701a4b2bb"
+  },
+  {
+    "itemId": 24085,
+    "tooltipId": "b46d05cc040"
+  },
+  {
+    "itemId": 24086,
+    "tooltipId": "f58db9366fa"
+  },
+  {
+    "itemId": 24643,
+    "tooltipId": "f14ed7b1e5d"
+  },
+  {
+    "itemId": 24644,
+    "tooltipId": "88e6eb07fb0"
+  },
+  {
+    "itemId": 24645,
+    "tooltipId": "7bc1d76e31d"
+  },
+  {
+    "itemId": 24646,
+    "tooltipId": "f266cb641f2"
+  },
+  {
+    "itemId": 24647,
+    "tooltipId": "c43f86bee5c"
+  },
+  {
+    "itemId": 24648,
+    "tooltipId": "196a8199819"
+  },
+  {
+    "itemId": 24649,
+    "tooltipId": "69bba95b4f9"
+  },
+  {
+    "itemId": 24650,
+    "tooltipId": "8b8b56d0757"
+  },
+  {
+    "itemId": 24651,
+    "tooltipId": "3de400bd6e4"
+  },
+  {
+    "itemId": 24652,
+    "tooltipId": "67855738c4f"
+  },
+  {
+    "itemId": 24653,
+    "tooltipId": "a499107c08a"
+  },
+  {
+    "itemId": 24654,
+    "tooltipId": "58021c6f4d1"
+  },
+  {
+    "itemId": 24655,
+    "tooltipId": "e560c75fd39"
+  },
+  {
+    "itemId": 24656,
+    "tooltipId": "b46e1d72ea3"
+  },
+  {
+    "itemId": 24657,
+    "tooltipId": "517faf4fad1"
+  },
+  {
+    "itemId": 24658,
+    "tooltipId": "ce61c19465a"
+  },
+  {
+    "itemId": 24659,
+    "tooltipId": "bfb6a7c5e8c"
+  },
+  {
+    "itemId": 24660,
+    "tooltipId": "6b47dfa64b4"
+  },
+  {
+    "itemId": 24661,
+    "tooltipId": "fb1612abe8c"
+  },
+  {
+    "itemId": 24662,
+    "tooltipId": "29e2005992e"
+  },
+  {
+    "itemId": 24663,
+    "tooltipId": "10899b0699d"
+  },
+  {
+    "itemId": 24664,
+    "tooltipId": "8801b9c9982"
+  },
+  {
+    "itemId": 24665,
+    "tooltipId": "a0ae5dcb0dc"
+  },
+  {
+    "itemId": 24666,
+    "tooltipId": "c3749a172f0"
+  },
+  {
+    "itemId": 24667,
+    "tooltipId": "0e564624d76"
+  },
+  {
+    "itemId": 24668,
+    "tooltipId": "d9e559baf70"
+  },
+  {
+    "itemId": 24669,
+    "tooltipId": "65d96f821e4"
+  },
+  {
+    "itemId": 24670,
+    "tooltipId": "5a250d51edd"
+  },
+  {
+    "itemId": 24671,
+    "tooltipId": "c2ac47be20f"
+  },
+  {
+    "itemId": 24672,
+    "tooltipId": "984510188d2"
+  },
+  {
+    "itemId": 24673,
+    "tooltipId": "74b363f5136"
+  },
+  {
+    "itemId": 24674,
+    "tooltipId": "92317e9d7ec"
+  },
+  {
+    "itemId": 24675,
+    "tooltipId": "dbea3748f8a"
+  },
+  {
+    "itemId": 24676,
+    "tooltipId": "186b931f731"
+  },
+  {
+    "itemId": 24677,
+    "tooltipId": "bd518ff0474"
+  },
+  {
+    "itemId": 24678,
+    "tooltipId": "37ead74b696"
+  },
+  {
+    "itemId": 24679,
+    "tooltipId": "780b10c3559"
+  },
+  {
+    "itemId": 24680,
+    "tooltipId": "e7c8e7385bc"
+  },
+  {
+    "itemId": 24681,
+    "tooltipId": "a17d368ae64"
+  },
+  {
+    "itemId": 24682,
+    "tooltipId": "9a2742b5fbc"
+  },
+  {
+    "itemId": 24683,
+    "tooltipId": "a1c8518be11"
+  },
+  {
+    "itemId": 24684,
+    "tooltipId": "6510b73c9c0"
+  },
+  {
+    "itemId": 24685,
+    "tooltipId": "98c62cf6064"
+  },
+  {
+    "itemId": 24686,
+    "tooltipId": "1f0fceaa20b"
+  },
+  {
+    "itemId": 24687,
+    "tooltipId": "f0b4381dc7f"
+  },
+  {
+    "itemId": 24688,
+    "tooltipId": "e14a54d94fa"
+  },
+  {
+    "itemId": 24689,
+    "tooltipId": "b743ede0c79"
+  },
+  {
+    "itemId": 24690,
+    "tooltipId": "7c934268f59"
+  },
+  {
+    "itemId": 21942,
+    "tooltipId": "6433f6ece66"
+  },
+  {
+    "itemId": 21943,
+    "tooltipId": "1a2e564db3c"
+  },
+  {
+    "itemId": 21944,
+    "tooltipId": "58ff15c4f8e"
+  },
+  {
+    "itemId": 21945,
+    "tooltipId": "52466cbd4ea"
+  },
+  {
+    "itemId": 21946,
+    "tooltipId": "2506aeead15"
+  },
+  {
+    "itemId": 21947,
+    "tooltipId": "4060625949a"
+  },
+  {
+    "itemId": 21948,
+    "tooltipId": "39896dbcb90"
+  },
+  {
+    "itemId": 21949,
+    "tooltipId": "77024d92502"
+  },
+  {
+    "itemId": 21950,
+    "tooltipId": "725fc29daf5"
+  },
+  {
+    "itemId": 21951,
+    "tooltipId": "11f8213933c"
+  },
+  {
+    "itemId": 21952,
+    "tooltipId": "d30f24fe96e"
+  },
+  {
+    "itemId": 21953,
+    "tooltipId": "fccc5d6bae2"
+  },
+  {
+    "itemId": 21954,
+    "tooltipId": "a0efa89686a"
+  },
+  {
+    "itemId": 21955,
+    "tooltipId": "8b5c9596a7e"
+  },
+  {
+    "itemId": 21956,
+    "tooltipId": "186da3c6070"
+  },
+  {
+    "itemId": 21957,
+    "tooltipId": "dbc89d8016b"
+  },
+  {
+    "itemId": 21958,
+    "tooltipId": "626d944158c"
+  },
+  {
+    "itemId": 21959,
+    "tooltipId": "d862e35dca4"
+  },
+  {
+    "itemId": 21960,
+    "tooltipId": "9577f1c7665"
+  },
+  {
+    "itemId": 21961,
+    "tooltipId": "432742b3457"
+  },
+  {
+    "itemId": 21962,
+    "tooltipId": "66190ee2e6f"
+  },
+  {
+    "itemId": 21963,
+    "tooltipId": "d8b40d79ac5"
+  },
+  {
+    "itemId": 21964,
+    "tooltipId": "2be91d6395c"
+  },
+  {
+    "itemId": 21965,
+    "tooltipId": "b86a943a5b3"
+  },
+  {
+    "itemId": 21966,
+    "tooltipId": "a4ef688abdf"
+  },
+  {
+    "itemId": 21967,
+    "tooltipId": "55ccb65b644"
+  },
+  {
+    "itemId": 21968,
+    "tooltipId": "a57522afd36"
+  },
+  {
+    "itemId": 21969,
+    "tooltipId": "52ebac6110e"
+  },
+  {
+    "itemId": 21970,
+    "tooltipId": "c516d24778f"
+  },
+  {
+    "itemId": 21971,
+    "tooltipId": "1ab5c92e82d"
+  },
+  {
+    "itemId": 21972,
+    "tooltipId": "1100c446db4"
+  },
+  {
+    "itemId": 21973,
+    "tooltipId": "c7d10871f8d"
+  },
+  {
+    "itemId": 21974,
+    "tooltipId": "94fe82ab44f"
+  },
+  {
+    "itemId": 21975,
+    "tooltipId": "3a619c5c9a2"
+  },
+  {
+    "itemId": 21976,
+    "tooltipId": "cf35873916d"
+  },
+  {
+    "itemId": 21977,
+    "tooltipId": "ed80ea01cc6"
+  },
+  {
+    "itemId": 21978,
+    "tooltipId": "e29c1477990"
+  },
+  {
+    "itemId": 21979,
+    "tooltipId": "8f343303664"
+  },
+  {
+    "itemId": 21980,
+    "tooltipId": "8d91fa4c634"
+  },
+  {
+    "itemId": 21981,
+    "tooltipId": "6b6de27ccb4"
+  },
+  {
+    "itemId": 21982,
+    "tooltipId": "98321010460"
+  },
+  {
+    "itemId": 21983,
+    "tooltipId": "37cc4d06760"
+  },
+  {
+    "itemId": 21984,
+    "tooltipId": "818af3058ee"
+  },
+  {
+    "itemId": 21985,
+    "tooltipId": "4aa36c84097"
+  },
+  {
+    "itemId": 21986,
+    "tooltipId": "0a8c3f825bd"
+  },
+  {
+    "itemId": 21987,
+    "tooltipId": "a482dba5623"
+  },
+  {
+    "itemId": 21988,
+    "tooltipId": "c187737a511"
+  },
+  {
+    "itemId": 21989,
+    "tooltipId": "d616738fcc6"
+  },
+  {
+    "itemId": 21990,
+    "tooltipId": "f3780f68af2"
+  },
+  {
+    "itemId": 21991,
+    "tooltipId": "eabcecf261c"
+  },
+  {
+    "itemId": 21992,
+    "tooltipId": "4fac5bcc7f1"
+  },
+  {
+    "itemId": 21993,
+    "tooltipId": "dcda8c89ad7"
+  },
+  {
+    "itemId": 21994,
+    "tooltipId": "d1e314eb751"
+  },
+  {
+    "itemId": 21995,
+    "tooltipId": "a253a2af7a8"
+  },
+  {
+    "itemId": 21996,
+    "tooltipId": "3dcfcdcad9e"
+  },
+  {
+    "itemId": 21997,
+    "tooltipId": "3e2f5d12394"
+  },
+  {
+    "itemId": 21998,
+    "tooltipId": "adae567c199"
+  },
+  {
+    "itemId": 21999,
+    "tooltipId": "d26b9ecbc49"
+  },
+  {
+    "itemId": 22000,
+    "tooltipId": "d08c1152c60"
+  },
+  {
+    "itemId": 22001,
+    "tooltipId": "b89a3ea30c0"
+  },
+  {
+    "itemId": 22002,
+    "tooltipId": "696d8235e4c"
+  },
+  {
+    "itemId": 22003,
+    "tooltipId": "dc3877b8a08"
+  },
+  {
+    "itemId": 22004,
+    "tooltipId": "4c8457f8f78"
+  },
+  {
+    "itemId": 22005,
+    "tooltipId": "ae862e794b1"
+  },
+  {
+    "itemId": 22006,
+    "tooltipId": "ababa73245b"
+  },
+  {
+    "itemId": 22007,
+    "tooltipId": "45226361919"
+  },
+  {
+    "itemId": 22008,
+    "tooltipId": "0548baeed50"
+  },
+  {
+    "itemId": 22009,
+    "tooltipId": "9a2630efa12"
+  },
+  {
+    "itemId": 22010,
+    "tooltipId": "dea41b56c36"
+  },
+  {
+    "itemId": 22011,
+    "tooltipId": "413e347b0c9"
+  },
+  {
+    "itemId": 22012,
+    "tooltipId": "b5f4279c986"
+  },
+  {
+    "itemId": 22013,
+    "tooltipId": "3d83484be5b"
+  },
+  {
+    "itemId": 22014,
+    "tooltipId": "b5d0855717f"
+  },
+  {
+    "itemId": 22015,
+    "tooltipId": "8f2ee1560d9"
+  },
+  {
+    "itemId": 22016,
+    "tooltipId": "0382e10d04a"
+  },
+  {
+    "itemId": 22017,
+    "tooltipId": "261f05d9b48"
+  },
+  {
+    "itemId": 22018,
+    "tooltipId": "4a0bfc0f384"
+  },
+  {
+    "itemId": 22019,
+    "tooltipId": "00f5f425e7f"
+  },
+  {
+    "itemId": 22020,
+    "tooltipId": "89dd73f668e"
+  },
+  {
+    "itemId": 22021,
+    "tooltipId": "f5391a5e08c"
+  },
+  {
+    "itemId": 22022,
+    "tooltipId": "a79f917d416"
+  },
+  {
+    "itemId": 22023,
+    "tooltipId": "328f9091930"
+  },
+  {
+    "itemId": 22024,
+    "tooltipId": "8d0d6c07faf"
+  },
+  {
+    "itemId": 22025,
+    "tooltipId": "6e3d5f88b6a"
+  },
+  {
+    "itemId": 22026,
+    "tooltipId": "32b45475ba8"
+  },
+  {
+    "itemId": 22027,
+    "tooltipId": "30293c38df0"
+  },
+  {
+    "itemId": 22028,
+    "tooltipId": "2c5b525d254"
+  },
+  {
+    "itemId": 22029,
+    "tooltipId": "edbdc7af93e"
+  },
+  {
+    "itemId": 22030,
+    "tooltipId": "04762c74790"
+  },
+  {
+    "itemId": 22031,
+    "tooltipId": "c44cb16123a"
+  },
+  {
+    "itemId": 22032,
+    "tooltipId": "3d8e0b72dd5"
+  },
+  {
+    "itemId": 22033,
+    "tooltipId": "eb0f00e66a0"
+  },
+  {
+    "itemId": 22034,
+    "tooltipId": "c874b8ffd53"
+  },
+  {
+    "itemId": 22035,
+    "tooltipId": "a9b79136ad9"
+  },
+  {
+    "itemId": 22036,
+    "tooltipId": "8f4d04b2977"
+  },
+  {
+    "itemId": 22037,
+    "tooltipId": "ce1e15172a2"
+  },
+  {
+    "itemId": 22038,
+    "tooltipId": "ca83080c16e"
+  },
+  {
+    "itemId": 22039,
+    "tooltipId": "5f4b89ca60f"
+  },
+  {
+    "itemId": 22040,
+    "tooltipId": "22b1465385f"
+  },
+  {
+    "itemId": 22041,
+    "tooltipId": "03c3ef5ace4"
+  },
+  {
+    "itemId": 22042,
+    "tooltipId": "2b7bd9ccc00"
+  },
+  {
+    "itemId": 22043,
+    "tooltipId": "f8ec1ac815d"
+  },
+  {
+    "itemId": 22044,
+    "tooltipId": "0824242fc8a"
+  },
+  {
+    "itemId": 22045,
+    "tooltipId": "cef677aa7b6"
+  },
+  {
+    "itemId": 22046,
+    "tooltipId": "7f60a850296"
+  },
+  {
+    "itemId": 22047,
+    "tooltipId": "bd748d238db"
+  },
+  {
+    "itemId": 22048,
+    "tooltipId": "7cf6d9e5e18"
+  },
+  {
+    "itemId": 22049,
+    "tooltipId": "f95f4e60981"
+  },
+  {
+    "itemId": 22050,
+    "tooltipId": "4a624905f13"
+  },
+  {
+    "itemId": 22051,
+    "tooltipId": "62e5c9a9a7f"
+  },
+  {
+    "itemId": 22052,
+    "tooltipId": "e3d051d40cf"
+  },
+  {
+    "itemId": 22053,
+    "tooltipId": "cf144490a76"
+  },
+  {
+    "itemId": 22054,
+    "tooltipId": "712dc570133"
+  },
+  {
+    "itemId": 22055,
+    "tooltipId": "a2301fc4cf3"
+  },
+  {
+    "itemId": 22056,
+    "tooltipId": "64523e933f5"
+  },
+  {
+    "itemId": 22057,
+    "tooltipId": "1f086386500"
+  },
+  {
+    "itemId": 22058,
+    "tooltipId": "05af77e219e"
+  },
+  {
+    "itemId": 22059,
+    "tooltipId": "fbd063ada2e"
+  },
+  {
+    "itemId": 22060,
+    "tooltipId": "67fb53003eb"
+  },
+  {
+    "itemId": 22061,
+    "tooltipId": "937e574bb76"
+  },
+  {
+    "itemId": 22062,
+    "tooltipId": "9942db3d3f0"
+  },
+  {
+    "itemId": 22063,
+    "tooltipId": "2202c3f31b7"
+  },
+  {
+    "itemId": 22064,
+    "tooltipId": "4dcdcd29a96"
+  },
+  {
+    "itemId": 22065,
+    "tooltipId": "85c7b85c44a"
+  },
+  {
+    "itemId": 22066,
+    "tooltipId": "c6d3b65d6c5"
+  },
+  {
+    "itemId": 22067,
+    "tooltipId": "1666c0db3ca"
+  },
+  {
+    "itemId": 22068,
+    "tooltipId": "2368125048c"
+  },
+  {
+    "itemId": 22069,
+    "tooltipId": "1ac8e52ff4a"
+  },
+  {
+    "itemId": 22070,
+    "tooltipId": "765282c712f"
+  },
+  {
+    "itemId": 22071,
+    "tooltipId": "f9f46cffb9d"
+  },
+  {
+    "itemId": 22072,
+    "tooltipId": "3409dc5e1dd"
+  },
+  {
+    "itemId": 22073,
+    "tooltipId": "865c18602ab"
+  },
+  {
+    "itemId": 22074,
+    "tooltipId": "3482da0a546"
+  },
+  {
+    "itemId": 22075,
+    "tooltipId": "f1239e268de"
+  },
+  {
+    "itemId": 22076,
+    "tooltipId": "df9102c231e"
+  },
+  {
+    "itemId": 22077,
+    "tooltipId": "3b6761b4e94"
+  },
+  {
+    "itemId": 22078,
+    "tooltipId": "8d2a03329af"
+  },
+  {
+    "itemId": 22079,
+    "tooltipId": "bdf179f5d2a"
+  },
+  {
+    "itemId": 22080,
+    "tooltipId": "84973844c13"
+  },
+  {
+    "itemId": 22081,
+    "tooltipId": "7c9bba0dcd1"
+  },
+  {
+    "itemId": 22082,
+    "tooltipId": "89d70f7e9c3"
+  },
+  {
+    "itemId": 22083,
+    "tooltipId": "70341f96c3b"
+  },
+  {
+    "itemId": 22084,
+    "tooltipId": "b2d866eb7c3"
+  },
+  {
+    "itemId": 22085,
+    "tooltipId": "c24bb34296e"
+  },
+  {
+    "itemId": 22086,
+    "tooltipId": "1bff47a0a9c"
+  },
+  {
+    "itemId": 22087,
+    "tooltipId": "7a24f3f25a8"
+  },
+  {
+    "itemId": 22088,
+    "tooltipId": "e73755f22de"
+  },
+  {
+    "itemId": 22089,
+    "tooltipId": "85fff1b7460"
+  },
+  {
+    "itemId": 22090,
+    "tooltipId": "8da4e99c33a"
+  },
+  {
+    "itemId": 22091,
+    "tooltipId": "0b65b6b57a7"
+  },
+  {
+    "itemId": 22092,
+    "tooltipId": "28f541b4ef7"
+  },
+  {
+    "itemId": 22093,
+    "tooltipId": "ea569874dc4"
+  },
+  {
+    "itemId": 22094,
+    "tooltipId": "f1d70461c69"
+  },
+  {
+    "itemId": 22095,
+    "tooltipId": "e21228f880f"
+  },
+  {
+    "itemId": 22096,
+    "tooltipId": "4deeb3e0d22"
+  },
+  {
+    "itemId": 22097,
+    "tooltipId": "ec047e18b14"
+  },
+  {
+    "itemId": 22098,
+    "tooltipId": "af2f09f8242"
+  },
+  {
+    "itemId": 22099,
+    "tooltipId": "bf587aa15ba"
+  },
+  {
+    "itemId": 22100,
+    "tooltipId": "5fdf2d2cdec"
+  },
+  {
+    "itemId": 22101,
+    "tooltipId": "68f71e410d4"
+  },
+  {
+    "itemId": 22102,
+    "tooltipId": "725340067e8"
+  },
+  {
+    "itemId": 22103,
+    "tooltipId": "3a1fff3ed9a"
+  },
+  {
+    "itemId": 22104,
+    "tooltipId": "eff7e5cc09c"
+  },
+  {
+    "itemId": 22105,
+    "tooltipId": "9ad7fdab7e7"
+  },
+  {
+    "itemId": 22106,
+    "tooltipId": "cd6f6845cb2"
+  },
+  {
+    "itemId": 22107,
+    "tooltipId": "2a947508d79"
+  },
+  {
+    "itemId": 22108,
+    "tooltipId": "e40d1675e23"
+  },
+  {
+    "itemId": 22109,
+    "tooltipId": "85b537b9801"
+  },
+  {
+    "itemId": 22110,
+    "tooltipId": "63759168039"
+  },
+  {
+    "itemId": 22111,
+    "tooltipId": "0967ac84e72"
+  },
+  {
+    "itemId": 22112,
+    "tooltipId": "34c8342ae43"
+  },
+  {
+    "itemId": 22113,
+    "tooltipId": "d7a79e8e6a9"
+  },
+  {
+    "itemId": 22114,
+    "tooltipId": "e9d15b8450d"
+  },
+  {
+    "itemId": 22115,
+    "tooltipId": "2d9abae9b53"
+  },
+  {
+    "itemId": 22116,
+    "tooltipId": "6a9c6629aa0"
+  },
+  {
+    "itemId": 22117,
+    "tooltipId": "70ce5ef2aae"
+  },
+  {
+    "itemId": 22118,
+    "tooltipId": "c21dd93a1ea"
+  },
+  {
+    "itemId": 22119,
+    "tooltipId": "2b93191c4d1"
+  },
+  {
+    "itemId": 22120,
+    "tooltipId": "5788e8a2104"
+  },
+  {
+    "itemId": 22121,
+    "tooltipId": "ff2d25b0938"
+  },
+  {
+    "itemId": 22122,
+    "tooltipId": "5f745483c9f"
+  },
+  {
+    "itemId": 22123,
+    "tooltipId": "865dcdeb624"
+  },
+  {
+    "itemId": 22124,
+    "tooltipId": "3a52d3e7232"
+  },
+  {
+    "itemId": 22125,
+    "tooltipId": "b44d9ac79a8"
+  },
+  {
+    "itemId": 22126,
+    "tooltipId": "01ff693b77e"
+  },
+  {
+    "itemId": 22127,
+    "tooltipId": "f7995ff20fc"
+  },
+  {
+    "itemId": 22128,
+    "tooltipId": "a588ea97ddc"
+  },
+  {
+    "itemId": 22129,
+    "tooltipId": "73d0ccf2402"
+  },
+  {
+    "itemId": 22130,
+    "tooltipId": "99b047aa627"
+  },
+  {
+    "itemId": 22131,
+    "tooltipId": "47cdc8a9276"
+  },
+  {
+    "itemId": 22132,
+    "tooltipId": "fb9037cdfd3"
+  },
+  {
+    "itemId": 22133,
+    "tooltipId": "07170e95096"
+  },
+  {
+    "itemId": 22134,
+    "tooltipId": "0dd5e5d5917"
+  },
+  {
+    "itemId": 22135,
+    "tooltipId": "a982b5d934f"
+  },
+  {
+    "itemId": 22136,
+    "tooltipId": "6c5476022bb"
+  },
+  {
+    "itemId": 22137,
+    "tooltipId": "21ebb0633c3"
+  },
+  {
+    "itemId": 22138,
+    "tooltipId": "23790d33f20"
+  },
+  {
+    "itemId": 22139,
+    "tooltipId": "444346ad380"
+  },
+  {
+    "itemId": 22140,
+    "tooltipId": "41b74d8585b"
+  },
+  {
+    "itemId": 22141,
+    "tooltipId": "b243e06d6c8"
+  },
+  {
+    "itemId": 22142,
+    "tooltipId": "eb398e57c0a"
+  },
+  {
+    "itemId": 22143,
+    "tooltipId": "02a2468d87e"
+  },
+  {
+    "itemId": 22144,
+    "tooltipId": "4fe7f29dee5"
+  },
+  {
+    "itemId": 22145,
+    "tooltipId": "6ed1035cb31"
+  },
+  {
+    "itemId": 22146,
+    "tooltipId": "485c3e80e58"
+  },
+  {
+    "itemId": 22147,
+    "tooltipId": "02adef54240"
+  },
+  {
+    "itemId": 22148,
+    "tooltipId": "81942dba777"
+  },
+  {
+    "itemId": 22149,
+    "tooltipId": "4f0f322e8b4"
+  },
+  {
+    "itemId": 22150,
+    "tooltipId": "3aa81f78765"
+  },
+  {
+    "itemId": 22151,
+    "tooltipId": "1269842c26d"
+  },
+  {
+    "itemId": 22152,
+    "tooltipId": "fa30daa11a2"
+  },
+  {
+    "itemId": 22153,
+    "tooltipId": "cdffbd842f3"
+  },
+  {
+    "itemId": 22154,
+    "tooltipId": "8c645c68c7b"
+  },
+  {
+    "itemId": 22155,
+    "tooltipId": "68b92f79ea2"
+  },
+  {
+    "itemId": 22156,
+    "tooltipId": "07ab6301518"
+  },
+  {
+    "itemId": 22157,
+    "tooltipId": "283659e235e"
+  },
+  {
+    "itemId": 22158,
+    "tooltipId": "2a8b4c34dcd"
+  },
+  {
+    "itemId": 22159,
+    "tooltipId": "90d089f05f8"
+  },
+  {
+    "itemId": 22160,
+    "tooltipId": "a52f6b5cbb8"
+  },
+  {
+    "itemId": 22161,
+    "tooltipId": "8750ac99fae"
+  },
+  {
+    "itemId": 22162,
+    "tooltipId": "c59f0f36543"
+  },
+  {
+    "itemId": 22163,
+    "tooltipId": "989917b2fbb"
+  },
+  {
+    "itemId": 22164,
+    "tooltipId": "5635f30de10"
+  },
+  {
+    "itemId": 22165,
+    "tooltipId": "4242a41f140"
+  },
+  {
+    "itemId": 22166,
+    "tooltipId": "038212f0b0d"
+  },
+  {
+    "itemId": 22167,
+    "tooltipId": "fc3b5690649"
+  },
+  {
+    "itemId": 22168,
+    "tooltipId": "ade3265d9c0"
+  },
+  {
+    "itemId": 22169,
+    "tooltipId": "16ebf18dc71"
+  },
+  {
+    "itemId": 22170,
+    "tooltipId": "fd7697fd66c"
+  },
+  {
+    "itemId": 22171,
+    "tooltipId": "fb123b9d709"
+  },
+  {
+    "itemId": 22172,
+    "tooltipId": "dfe9e7f9a70"
+  },
+  {
+    "itemId": 22173,
+    "tooltipId": "6022e8ff95f"
+  },
+  {
+    "itemId": 22174,
+    "tooltipId": "d2692df84a4"
+  },
+  {
+    "itemId": 22175,
+    "tooltipId": "dbcc248b37f"
+  },
+  {
+    "itemId": 22176,
+    "tooltipId": "e477d8117fb"
+  },
+  {
+    "itemId": 22177,
+    "tooltipId": "55f0f14127d"
+  },
+  {
+    "itemId": 22178,
+    "tooltipId": "0a55962de5e"
+  },
+  {
+    "itemId": 22179,
+    "tooltipId": "2b615b869ca"
+  },
+  {
+    "itemId": 22180,
+    "tooltipId": "d9423969450"
+  },
+  {
+    "itemId": 22181,
+    "tooltipId": "3d40e4382d7"
+  },
+  {
+    "itemId": 22182,
+    "tooltipId": "3a35849159f"
+  },
+  {
+    "itemId": 22183,
+    "tooltipId": "58e50ae8d2d"
+  },
+  {
+    "itemId": 22184,
+    "tooltipId": "6c035ec463e"
+  },
+  {
+    "itemId": 22185,
+    "tooltipId": "3726217aa7b"
+  },
+  {
+    "itemId": 22186,
+    "tooltipId": "b0d2c1f95f0"
+  },
+  {
+    "itemId": 22187,
+    "tooltipId": "e5a1eac9916"
+  },
+  {
+    "itemId": 22188,
+    "tooltipId": "05d11a4a93f"
+  },
+  {
+    "itemId": 22189,
+    "tooltipId": "0348d156040"
+  },
+  {
+    "itemId": 22190,
+    "tooltipId": "20cb0375d3c"
+  },
+  {
+    "itemId": 22191,
+    "tooltipId": "6e85d1090a2"
+  },
+  {
+    "itemId": 22192,
+    "tooltipId": "ffc91eb3205"
+  },
+  {
+    "itemId": 22193,
+    "tooltipId": "96cb68b24f0"
+  },
+  {
+    "itemId": 22194,
+    "tooltipId": "148ac0e1a5a"
+  },
+  {
+    "itemId": 22195,
+    "tooltipId": "132646d900e"
+  },
+  {
+    "itemId": 22196,
+    "tooltipId": "3bc80b702bd"
+  },
+  {
+    "itemId": 22197,
+    "tooltipId": "3f0499d59d1"
+  },
+  {
+    "itemId": 22198,
+    "tooltipId": "4a12017088a"
+  },
+  {
+    "itemId": 22199,
+    "tooltipId": "33cbe08b0d1"
+  },
+  {
+    "itemId": 22200,
+    "tooltipId": "36d47af2792"
+  },
+  {
+    "itemId": 22201,
+    "tooltipId": "ad38fe9ec9d"
+  },
+  {
+    "itemId": 22202,
+    "tooltipId": "cf6b585444b"
+  },
+  {
+    "itemId": 22203,
+    "tooltipId": "e8cd8cf415d"
+  },
+  {
+    "itemId": 22204,
+    "tooltipId": "49e58d7a88c"
+  },
+  {
+    "itemId": 22205,
+    "tooltipId": "c2f8bab681e"
+  },
+  {
+    "itemId": 22206,
+    "tooltipId": "1a8d6807922"
+  },
+  {
+    "itemId": 22207,
+    "tooltipId": "18bb902bb75"
+  },
+  {
+    "itemId": 22208,
+    "tooltipId": "ae507da8c9c"
+  },
+  {
+    "itemId": 22209,
+    "tooltipId": "77b33526a79"
+  },
+  {
+    "itemId": 22210,
+    "tooltipId": "5999e0759d7"
+  },
+  {
+    "itemId": 22211,
+    "tooltipId": "9df8fff0b82"
+  },
+  {
+    "itemId": 22212,
+    "tooltipId": "d730089532f"
+  },
+  {
+    "itemId": 22213,
+    "tooltipId": "2ab03a852b2"
+  },
+  {
+    "itemId": 22214,
+    "tooltipId": "2f33fc9111b"
+  },
+  {
+    "itemId": 22215,
+    "tooltipId": "4385a006f2c"
+  },
+  {
+    "itemId": 22216,
+    "tooltipId": "737b14bde9c"
+  },
+  {
+    "itemId": 22217,
+    "tooltipId": "620a329af63"
+  },
+  {
+    "itemId": 22218,
+    "tooltipId": "c714ad4433f"
+  },
+  {
+    "itemId": 22219,
+    "tooltipId": "01fb0dbc830"
+  },
+  {
+    "itemId": 22220,
+    "tooltipId": "7926a670426"
+  },
+  {
+    "itemId": 22221,
+    "tooltipId": "bc97e87a4d7"
+  },
+  {
+    "itemId": 22222,
+    "tooltipId": "2ea76d3659a"
+  },
+  {
+    "itemId": 22223,
+    "tooltipId": "11ac9111cb4"
+  },
+  {
+    "itemId": 22224,
+    "tooltipId": "7dc1c6dfd86"
+  },
+  {
+    "itemId": 22225,
+    "tooltipId": "88fb078c52c"
+  },
+  {
+    "itemId": 22226,
+    "tooltipId": "ad59c13f8f3"
+  },
+  {
+    "itemId": 22227,
+    "tooltipId": "657a1d8bde1"
+  },
+  {
+    "itemId": 22228,
+    "tooltipId": "3ae1a416919"
+  },
+  {
+    "itemId": 22229,
+    "tooltipId": "760205729a1"
+  },
+  {
+    "itemId": 22230,
+    "tooltipId": "2b9b07470f9"
+  },
+  {
+    "itemId": 22231,
+    "tooltipId": "ab53171c5f1"
+  },
+  {
+    "itemId": 22232,
+    "tooltipId": "78e6dcd24e5"
+  },
+  {
+    "itemId": 22233,
+    "tooltipId": "fae94d04ebb"
+  },
+  {
+    "itemId": 22234,
+    "tooltipId": "7e796370bc0"
+  },
+  {
+    "itemId": 22235,
+    "tooltipId": "8326df0a9fe"
+  },
+  {
+    "itemId": 22236,
+    "tooltipId": "b00962140a3"
+  },
+  {
+    "itemId": 22237,
+    "tooltipId": "dba3f0889b2"
+  },
+  {
+    "itemId": 22238,
+    "tooltipId": "c1cc1864600"
+  },
+  {
+    "itemId": 22239,
+    "tooltipId": "dc433362ce3"
+  },
+  {
+    "itemId": 22240,
+    "tooltipId": "bcbb3de37c0"
+  },
+  {
+    "itemId": 22241,
+    "tooltipId": "864e47e9548"
+  },
+  {
+    "itemId": 22242,
+    "tooltipId": "fed9e063479"
+  },
+  {
+    "itemId": 22243,
+    "tooltipId": "bd25b20832d"
+  },
+  {
+    "itemId": 22244,
+    "tooltipId": "2b4635349e8"
+  },
+  {
+    "itemId": 22245,
+    "tooltipId": "870c55e286f"
+  },
+  {
+    "itemId": 22246,
+    "tooltipId": "dafc3409673"
+  },
+  {
+    "itemId": 22247,
+    "tooltipId": "7633bce95b5"
+  },
+  {
+    "itemId": 22248,
+    "tooltipId": "1644dbda754"
+  },
+  {
+    "itemId": 22249,
+    "tooltipId": "0c9b92ccd8e"
+  },
+  {
+    "itemId": 22250,
+    "tooltipId": "de210ab8c17"
+  },
+  {
+    "itemId": 22251,
+    "tooltipId": "3899c41fbae"
+  },
+  {
+    "itemId": 22252,
+    "tooltipId": "3e11b7cf347"
+  },
+  {
+    "itemId": 22253,
+    "tooltipId": "f2a4be4a4c4"
+  },
+  {
+    "itemId": 22254,
+    "tooltipId": "800eb703aef"
+  },
+  {
+    "itemId": 22255,
+    "tooltipId": "bc02fc86cdd"
+  },
+  {
+    "itemId": 22256,
+    "tooltipId": "1e441314e21"
+  },
+  {
+    "itemId": 22257,
+    "tooltipId": "4f2137f2881"
+  },
+  {
+    "itemId": 22258,
+    "tooltipId": "47b3ac853a4"
+  },
+  {
+    "itemId": 22259,
+    "tooltipId": "0f7858d89ba"
+  },
+  {
+    "itemId": 22260,
+    "tooltipId": "55af142f5f3"
+  },
+  {
+    "itemId": 22261,
+    "tooltipId": "237485bf26c"
+  },
+  {
+    "itemId": 22262,
+    "tooltipId": "cb02ac2d6f8"
+  },
+  {
+    "itemId": 22263,
+    "tooltipId": "427ce09c60d"
+  },
+  {
+    "itemId": 22264,
+    "tooltipId": "f9cd4768857"
+  },
+  {
+    "itemId": 22265,
+    "tooltipId": "6cd2dab4089"
+  },
+  {
+    "itemId": 22266,
+    "tooltipId": "d840900126d"
+  },
+  {
+    "itemId": 22267,
+    "tooltipId": "50a8ef654e7"
+  },
+  {
+    "itemId": 22268,
+    "tooltipId": "d266748bee2"
+  },
+  {
+    "itemId": 22269,
+    "tooltipId": "cbcfa25e086"
+  },
+  {
+    "itemId": 22270,
+    "tooltipId": "227027395c5"
+  },
+  {
+    "itemId": 22271,
+    "tooltipId": "babdd2ccbbf"
+  },
+  {
+    "itemId": 22272,
+    "tooltipId": "801cfba9eb0"
+  },
+  {
+    "itemId": 22273,
+    "tooltipId": "8725f519646"
+  },
+  {
+    "itemId": 22274,
+    "tooltipId": "2607b927164"
+  },
+  {
+    "itemId": 22275,
+    "tooltipId": "0098fa75256"
+  },
+  {
+    "itemId": 22276,
+    "tooltipId": "b7d6cf90ada"
+  },
+  {
+    "itemId": 22277,
+    "tooltipId": "ddac1727f95"
+  },
+  {
+    "itemId": 22278,
+    "tooltipId": "74ef4926c2a"
+  },
+  {
+    "itemId": 22279,
+    "tooltipId": "8f85057245b"
+  },
+  {
+    "itemId": 22280,
+    "tooltipId": "c37b29d4953"
+  },
+  {
+    "itemId": 22281,
+    "tooltipId": "ccb4df78942"
+  },
+  {
+    "itemId": 22282,
+    "tooltipId": "46d886789ba"
+  },
+  {
+    "itemId": 22283,
+    "tooltipId": "bb74b0623e8"
+  },
+  {
+    "itemId": 22284,
+    "tooltipId": "86829b8bafc"
+  },
+  {
+    "itemId": 22285,
+    "tooltipId": "58ce8787045"
+  },
+  {
+    "itemId": 22286,
+    "tooltipId": "ce59b42b962"
+  },
+  {
+    "itemId": 22287,
+    "tooltipId": "5febf3fce34"
+  },
+  {
+    "itemId": 22288,
+    "tooltipId": "780c225c522"
+  },
+  {
+    "itemId": 22289,
+    "tooltipId": "baeb4214a51"
+  },
+  {
+    "itemId": 22290,
+    "tooltipId": "9f21470a5bb"
+  },
+  {
+    "itemId": 22291,
+    "tooltipId": "495a238b702"
+  },
+  {
+    "itemId": 22292,
+    "tooltipId": "aceb5ef38ba"
+  },
+  {
+    "itemId": 22293,
+    "tooltipId": "d5c986c8328"
+  },
+  {
+    "itemId": 22294,
+    "tooltipId": "9ac11ae2532"
+  },
+  {
+    "itemId": 22295,
+    "tooltipId": "3706484c9b4"
+  },
+  {
+    "itemId": 22296,
+    "tooltipId": "bfdf558880a"
+  },
+  {
+    "itemId": 22297,
+    "tooltipId": "49025ceb490"
+  },
+  {
+    "itemId": 22298,
+    "tooltipId": "159334578d1"
+  },
+  {
+    "itemId": 22299,
+    "tooltipId": "28403bf54fb"
+  },
+  {
+    "itemId": 22300,
+    "tooltipId": "cb1c89116c3"
+  },
+  {
+    "itemId": 22301,
+    "tooltipId": "cdbb03355d8"
+  },
+  {
+    "itemId": 22302,
+    "tooltipId": "899992ec107"
+  },
+  {
+    "itemId": 22303,
+    "tooltipId": "e754cb2ab6c"
+  },
+  {
+    "itemId": 22304,
+    "tooltipId": "ce98d2c3ea3"
+  },
+  {
+    "itemId": 22305,
+    "tooltipId": "cda0ad19201"
+  },
+  {
+    "itemId": 9539,
+    "tooltipId": "03276c09581"
+  },
+  {
+    "itemId": 9540,
+    "tooltipId": "2d7c8242d8d"
+  },
+  {
+    "itemId": 16064,
+    "tooltipId": "b3f273419ce"
+  },
+  {
+    "itemId": 16932,
+    "tooltipId": "d52f0c7a2f9"
+  },
+  {
+    "itemId": 30228,
+    "tooltipId": "8c5ab934920"
+  },
+  {
+    "itemId": 30229,
+    "tooltipId": "06889bef77f"
+  },
+  {
+    "itemId": 30230,
+    "tooltipId": "275c3ace931"
+  },
+  {
+    "itemId": 30231,
+    "tooltipId": "413ee28a03c"
+  },
+  {
+    "itemId": 30232,
+    "tooltipId": "70dd28cb578"
+  },
+  {
+    "itemId": 30233,
+    "tooltipId": "8be7ec2ea84"
+  },
+  {
+    "itemId": 30234,
+    "tooltipId": "996c8446e0a"
+  },
+  {
+    "itemId": 30235,
+    "tooltipId": "507e3d8210d"
+  },
+  {
+    "itemId": 30236,
+    "tooltipId": "9e32cc283a7"
+  },
+  {
+    "itemId": 30237,
+    "tooltipId": "19e100f034a"
+  },
+  {
+    "itemId": 30238,
+    "tooltipId": "a2b2a813a81"
+  },
+  {
+    "itemId": 30239,
+    "tooltipId": "f8f2789cf49"
+  },
+  {
+    "itemId": 30240,
+    "tooltipId": "8fa1f0fad33"
+  },
+  {
+    "itemId": 30241,
+    "tooltipId": "6d5087b392a"
+  },
+  {
+    "itemId": 30242,
+    "tooltipId": "8a699120e00"
+  },
+  {
+    "itemId": 30243,
+    "tooltipId": "a0108612d4a"
+  },
+  {
+    "itemId": 30244,
+    "tooltipId": "940d9ea8ab8"
+  },
+  {
+    "itemId": 30245,
+    "tooltipId": "350587c5da5"
+  },
+  {
+    "itemId": 30886,
+    "tooltipId": "86dbad72032"
+  },
+  {
+    "itemId": 38400,
+    "tooltipId": "78f9f05728e"
+  },
+  {
+    "itemId": 38401,
+    "tooltipId": "fc33bbd9117"
+  },
+  {
+    "itemId": 38402,
+    "tooltipId": "2d61fa3c41b"
+  },
+  {
+    "itemId": 38403,
+    "tooltipId": "07fdb699f84"
+  },
+  {
+    "itemId": 38404,
+    "tooltipId": "f8cd7c7c056"
+  },
+  {
+    "itemId": 38405,
+    "tooltipId": "4b3c7a66496"
+  },
+  {
+    "itemId": 38406,
+    "tooltipId": "dabe5deca27"
+  },
+  {
+    "itemId": 38407,
+    "tooltipId": "bc49f780b53"
+  },
+  {
+    "itemId": 38408,
+    "tooltipId": "c1d4fdd6ed3"
+  },
+  {
+    "itemId": 38409,
+    "tooltipId": "c8cdf063b8e"
+  },
+  {
+    "itemId": 38410,
+    "tooltipId": "7b001b21cfe"
+  },
+  {
+    "itemId": 38411,
+    "tooltipId": "c13cce8000f"
+  },
+  {
+    "itemId": 38412,
+    "tooltipId": "c19b8fa46af"
+  },
+  {
+    "itemId": 38413,
+    "tooltipId": "2bf646b7e22"
+  },
+  {
+    "itemId": 38414,
+    "tooltipId": "c6d86d341a2"
+  },
+  {
+    "itemId": 38415,
+    "tooltipId": "5d9d1b85d8f"
+  },
+  {
+    "itemId": 38416,
+    "tooltipId": "cf100bef6df"
+  },
+  {
+    "itemId": 38417,
+    "tooltipId": "4600598ba21"
+  },
+  {
+    "itemId": 38418,
+    "tooltipId": "9fda2cf0dc5"
+  },
+  {
+    "itemId": 38419,
+    "tooltipId": "0930d13eaa5"
+  },
+  {
+    "itemId": 38420,
+    "tooltipId": "4c20b11c5e6"
+  },
+  {
+    "itemId": 38940,
+    "tooltipId": "8e3b4f28946"
+  },
+  {
+    "itemId": 39144,
+    "tooltipId": "b7b9da5f856"
+  },
+  {
+    "itemId": 39145,
+    "tooltipId": "9c44eb987ea"
+  },
+  {
+    "itemId": 39146,
+    "tooltipId": "27ad5d3568b"
+  },
+  {
+    "itemId": 39147,
+    "tooltipId": "c72c9ab19c7"
+  },
+  {
+    "itemId": 39148,
+    "tooltipId": "8ef6ddfe59e"
+  },
+  {
+    "itemId": 39149,
+    "tooltipId": "eef4d50ea74"
+  },
+  {
+    "itemId": 39150,
+    "tooltipId": "6abb0100c00"
+  },
+  {
+    "itemId": 39151,
+    "tooltipId": "ba0a8a10b1a"
+  },
+  {
+    "itemId": 39152,
+    "tooltipId": "c1d2b791a8c"
+  },
+  {
+    "itemId": 39153,
+    "tooltipId": "e91dafa52d1"
+  },
+  {
+    "itemId": 39154,
+    "tooltipId": "75cf476e917"
+  },
+  {
+    "itemId": 39155,
+    "tooltipId": "874f90cb237"
+  },
+  {
+    "itemId": 39156,
+    "tooltipId": "a6dd9fd74d6"
+  },
+  {
+    "itemId": 39157,
+    "tooltipId": "ee473f1d5cc"
+  },
+  {
+    "itemId": 39158,
+    "tooltipId": "868d23bfefe"
+  },
+  {
+    "itemId": 39159,
+    "tooltipId": "24b3924be0a"
+  },
+  {
+    "itemId": 39160,
+    "tooltipId": "8038b07dc16"
+  },
+  {
+    "itemId": 39161,
+    "tooltipId": "4b157ec72b6"
+  },
+  {
+    "itemId": 39162,
+    "tooltipId": "8650d2d6be4"
+  },
+  {
+    "itemId": 39163,
+    "tooltipId": "214a0ab3ffd"
+  },
+  {
+    "itemId": 39920,
+    "tooltipId": "94b67e37cfb"
+  },
+  {
+    "itemId": 39921,
+    "tooltipId": "cf66556a7a9"
+  },
+  {
+    "itemId": 39922,
+    "tooltipId": "81cc7378123"
+  },
+  {
+    "itemId": 39923,
+    "tooltipId": "5e5549eca9d"
+  },
+  {
+    "itemId": 39924,
+    "tooltipId": "589479033e2"
+  },
+  {
+    "itemId": 39925,
+    "tooltipId": "dfcade7529d"
+  },
+  {
+    "itemId": 39926,
+    "tooltipId": "4b79b0222c6"
+  },
+  {
+    "itemId": 39927,
+    "tooltipId": "906e48852ce"
+  },
+  {
+    "itemId": 39928,
+    "tooltipId": "39385da68bf"
+  },
+  {
+    "itemId": 39929,
+    "tooltipId": "edae7d6fedb"
+  },
+  {
+    "itemId": 39930,
+    "tooltipId": "4e26bdc07dd"
+  },
+  {
+    "itemId": 39931,
+    "tooltipId": "29ddc8dc63a"
+  },
+  {
+    "itemId": 39932,
+    "tooltipId": "5f6260c995c"
+  },
+  {
+    "itemId": 39933,
+    "tooltipId": "8e9413021e5"
+  },
+  {
+    "itemId": 39934,
+    "tooltipId": "87b10b8c21e"
+  },
+  {
+    "itemId": 39935,
+    "tooltipId": "fe1f9505977"
+  },
+  {
+    "itemId": 39936,
+    "tooltipId": "4d1268c9dff"
+  },
+  {
+    "itemId": 39937,
+    "tooltipId": "ba348d8137e"
+  },
+  {
+    "itemId": 39938,
+    "tooltipId": "41f0afc3efb"
+  },
+  {
+    "itemId": 39939,
+    "tooltipId": "39a7f1d16db"
+  },
+  {
+    "itemId": 40322,
+    "tooltipId": "f9507d8509b"
+  },
+  {
+    "itemId": 7885,
+    "tooltipId": "d4c53bd8429"
+  },
+  {
+    "itemId": 8659,
+    "tooltipId": "9bbaec034d1"
+  },
+  {
+    "itemId": 9506,
+    "tooltipId": "eb9823e96ea"
+  },
+  {
+    "itemId": 9507,
+    "tooltipId": "4b1076bb92e"
+  },
+  {
+    "itemId": 9508,
+    "tooltipId": "7bf1e17e67c"
+  },
+  {
+    "itemId": 9509,
+    "tooltipId": "ea557136942"
+  },
+  {
+    "itemId": 9510,
+    "tooltipId": "936fac5bbb6"
+  },
+  {
+    "itemId": 9511,
+    "tooltipId": "a7aa05f8fcd"
+  },
+  {
+    "itemId": 9512,
+    "tooltipId": "5c918f07731"
+  },
+  {
+    "itemId": 9513,
+    "tooltipId": "258e18ee433"
+  },
+  {
+    "itemId": 9514,
+    "tooltipId": "91ea52b69e6"
+  },
+  {
+    "itemId": 9515,
+    "tooltipId": "23717de2e1b"
+  },
+  {
+    "itemId": 9516,
+    "tooltipId": "b1368b0e1ee"
+  },
+  {
+    "itemId": 9517,
+    "tooltipId": "26c9a760241"
+  },
+  {
+    "itemId": 9538,
+    "tooltipId": "6ac8c79f39e"
+  },
+  {
+    "itemId": 9542,
+    "tooltipId": "9de3e63462f"
+  },
+  {
+    "itemId": 9543,
+    "tooltipId": "6846ecead19"
+  },
+  {
+    "itemId": 9544,
+    "tooltipId": "672ff3699ca"
+  },
+  {
+    "itemId": 13223,
+    "tooltipId": "342d8914462"
+  },
+  {
+    "itemId": 13224,
+    "tooltipId": "33cad2aeda6"
+  },
+  {
+    "itemId": 13225,
+    "tooltipId": "b459df72de7"
+  },
+  {
+    "itemId": 13226,
+    "tooltipId": "4880cb6b074"
+  },
+  {
+    "itemId": 13227,
+    "tooltipId": "fc991f27c07"
+  },
+  {
+    "itemId": 13228,
+    "tooltipId": "9374c6edb53"
+  },
+  {
+    "itemId": 13229,
+    "tooltipId": "4e6fbe22264"
+  },
+  {
+    "itemId": 13230,
+    "tooltipId": "8dca5d01e5d"
+  },
+  {
+    "itemId": 13231,
+    "tooltipId": "7986ec6f55f"
+  },
+  {
+    "itemId": 13232,
+    "tooltipId": "169c4f9baac"
+  },
+  {
+    "itemId": 13233,
+    "tooltipId": "40272a57e9a"
+  },
+  {
+    "itemId": 13234,
+    "tooltipId": "5f52debb806"
+  },
+  {
+    "itemId": 13235,
+    "tooltipId": "a083cdcdbc6"
+  },
+  {
+    "itemId": 13236,
+    "tooltipId": "12cb77d0841"
+  },
+  {
+    "itemId": 13575,
+    "tooltipId": "4e97e9b51ff"
+  },
+  {
+    "itemId": 13576,
+    "tooltipId": "5dfc636701d"
+  },
+  {
+    "itemId": 13577,
+    "tooltipId": "cae6068ad33"
+  },
+  {
+    "itemId": 13578,
+    "tooltipId": "74ebd38b350"
+  },
+  {
+    "itemId": 13579,
+    "tooltipId": "7ad37cdb5d0"
+  },
+  {
+    "itemId": 13580,
+    "tooltipId": "1a9b83307fb"
+  },
+  {
+    "itemId": 13597,
+    "tooltipId": "f423bc22183"
+  },
+  {
+    "itemId": 13598,
+    "tooltipId": "b0ae50faa6b"
+  },
+  {
+    "itemId": 13599,
+    "tooltipId": "4899e76c029"
+  },
+  {
+    "itemId": 13600,
+    "tooltipId": "04c9141674a"
+  },
+  {
+    "itemId": 13601,
+    "tooltipId": "9205eb4081e"
+  },
+  {
+    "itemId": 13602,
+    "tooltipId": "c8368ed1d8b"
+  },
+  {
+    "itemId": 13603,
+    "tooltipId": "bede31d10dd"
+  },
+  {
+    "itemId": 13604,
+    "tooltipId": "950d146ef1e"
+  },
+  {
+    "itemId": 13605,
+    "tooltipId": "41bc3edc081"
+  },
+  {
+    "itemId": 13606,
+    "tooltipId": "fb88a425b42"
+  },
+  {
+    "itemId": 13607,
+    "tooltipId": "390672f13d6"
+  },
+  {
+    "itemId": 13608,
+    "tooltipId": "71a42a7d9cf"
+  },
+  {
+    "itemId": 13609,
+    "tooltipId": "11bbdc4950b"
+  },
+  {
+    "itemId": 13610,
+    "tooltipId": "bbab8f785e1"
+  },
+  {
+    "itemId": 13611,
+    "tooltipId": "28f8346085b"
+  },
+  {
+    "itemId": 13612,
+    "tooltipId": "3f62b4fe8ba"
+  },
+  {
+    "itemId": 13613,
+    "tooltipId": "80ecbdf2490"
+  },
+  {
+    "itemId": 13614,
+    "tooltipId": "21d6bf581fe"
+  },
+  {
+    "itemId": 13615,
+    "tooltipId": "7378fab745d"
+  },
+  {
+    "itemId": 13616,
+    "tooltipId": "33fe99d59c3"
+  },
+  {
+    "itemId": 13617,
+    "tooltipId": "f44bf82f430"
+  },
+  {
+    "itemId": 13618,
+    "tooltipId": "c4da87a29ca"
+  },
+  {
+    "itemId": 13619,
+    "tooltipId": "347148348cd"
+  },
+  {
+    "itemId": 13620,
+    "tooltipId": "48d9090b4b5"
+  },
+  {
+    "itemId": 13621,
+    "tooltipId": "fe4133f6688"
+  },
+  {
+    "itemId": 13622,
+    "tooltipId": "2fce9f37e60"
+  },
+  {
+    "itemId": 13623,
+    "tooltipId": "ebf5d22929a"
+  },
+  {
+    "itemId": 13624,
+    "tooltipId": "4f8b2d7f874"
+  },
+  {
+    "itemId": 14870,
+    "tooltipId": "06c0b471506"
+  },
+  {
+    "itemId": 14871,
+    "tooltipId": "89c3dd92c16"
+  },
+  {
+    "itemId": 14872,
+    "tooltipId": "88fc4968d5f"
+  },
+  {
+    "itemId": 14873,
+    "tooltipId": "c9bddd593c7"
+  },
+  {
+    "itemId": 14874,
+    "tooltipId": "bec358e8127"
+  },
+  {
+    "itemId": 14875,
+    "tooltipId": "385b30ff4f1"
+  },
+  {
+    "itemId": 14876,
+    "tooltipId": "4e20be26050"
+  },
+  {
+    "itemId": 14877,
+    "tooltipId": "5b05fa40d7b"
+  },
+  {
+    "itemId": 14878,
+    "tooltipId": "21ff587cc28"
+  },
+  {
+    "itemId": 14879,
+    "tooltipId": "21f3e652c0a"
+  },
+  {
+    "itemId": 14880,
+    "tooltipId": "0cabb9e95d8"
+  },
+  {
+    "itemId": 14881,
+    "tooltipId": "ffb8d1496aa"
+  },
+  {
+    "itemId": 14882,
+    "tooltipId": "149c26b4cc1"
+  },
+  {
+    "itemId": 14883,
+    "tooltipId": "a339954f590"
+  },
+  {
+    "itemId": 14899,
+    "tooltipId": "333e194da24"
+  },
+  {
+    "itemId": 15223,
+    "tooltipId": "80ed1ac7d77"
+  },
+  {
+    "itemId": 15224,
+    "tooltipId": "1117cd44909"
+  },
+  {
+    "itemId": 15225,
+    "tooltipId": "1d74b70d57b"
+  },
+  {
+    "itemId": 15226,
+    "tooltipId": "43444b7f464"
+  },
+  {
+    "itemId": 15227,
+    "tooltipId": "e110f87c706"
+  },
+  {
+    "itemId": 15228,
+    "tooltipId": "fc910b88f7c"
+  },
+  {
+    "itemId": 15229,
+    "tooltipId": "a6d90f52567"
+  },
+  {
+    "itemId": 15230,
+    "tooltipId": "aeed2910c0d"
+  },
+  {
+    "itemId": 15231,
+    "tooltipId": "97c6e1d84d2"
+  },
+  {
+    "itemId": 15232,
+    "tooltipId": "00feac5b14d"
+  },
+  {
+    "itemId": 15233,
+    "tooltipId": "0e20416b813"
+  },
+  {
+    "itemId": 15234,
+    "tooltipId": "8432a81fa47"
+  },
+  {
+    "itemId": 15235,
+    "tooltipId": "db49ff78d11"
+  },
+  {
+    "itemId": 15236,
+    "tooltipId": "a6119e0b3af"
+  },
+  {
+    "itemId": 15237,
+    "tooltipId": "0a3daa282fd"
+  },
+  {
+    "itemId": 15238,
+    "tooltipId": "f7607d58e95"
+  },
+  {
+    "itemId": 15239,
+    "tooltipId": "e3b68249ee7"
+  },
+  {
+    "itemId": 15240,
+    "tooltipId": "580bf49fb86"
+  },
+  {
+    "itemId": 15241,
+    "tooltipId": "c047f4fe2c7"
+  },
+  {
+    "itemId": 15242,
+    "tooltipId": "6bd599a6025"
+  },
+  {
+    "itemId": 15243,
+    "tooltipId": "fcdc715f7c7"
+  },
+  {
+    "itemId": 15244,
+    "tooltipId": "a2e8660bd5d"
+  },
+  {
+    "itemId": 15245,
+    "tooltipId": "1b7e7f27036"
+  },
+  {
+    "itemId": 15246,
+    "tooltipId": "55ff1fe8018"
+  },
+  {
+    "itemId": 15247,
+    "tooltipId": "59c6fb24715"
+  },
+  {
+    "itemId": 15248,
+    "tooltipId": "1405f6bf8f4"
+  },
+  {
+    "itemId": 15249,
+    "tooltipId": "315e38bb6d9"
+  },
+  {
+    "itemId": 15250,
+    "tooltipId": "58e3d796fe0"
+  },
+  {
+    "itemId": 15251,
+    "tooltipId": "cb74756507f"
+  },
+  {
+    "itemId": 15252,
+    "tooltipId": "c2f83b89f86"
+  },
+  {
+    "itemId": 15253,
+    "tooltipId": "4bfc9fb51b3"
+  },
+  {
+    "itemId": 15254,
+    "tooltipId": "619a2c52353"
+  },
+  {
+    "itemId": 15255,
+    "tooltipId": "421fddbb2fd"
+  },
+  {
+    "itemId": 15256,
+    "tooltipId": "2ab9ea09b84"
+  },
+  {
+    "itemId": 15257,
+    "tooltipId": "796185631a3"
+  },
+  {
+    "itemId": 15258,
+    "tooltipId": "c7e3fefc27d"
+  },
+  {
+    "itemId": 15259,
+    "tooltipId": "8a77f052a70"
+  },
+  {
+    "itemId": 15260,
+    "tooltipId": "fbb13f5b84c"
+  },
+  {
+    "itemId": 15261,
+    "tooltipId": "06eb9c64562"
+  },
+  {
+    "itemId": 15262,
+    "tooltipId": "32f482a2365"
+  },
+  {
+    "itemId": 15263,
+    "tooltipId": "87eba37edfb"
+  },
+  {
+    "itemId": 15264,
+    "tooltipId": "d3b78cd3600"
+  },
+  {
+    "itemId": 16050,
+    "tooltipId": "fa7f0b59c23"
+  },
+  {
+    "itemId": 16051,
+    "tooltipId": "e1e6b42a998"
+  },
+  {
+    "itemId": 16052,
+    "tooltipId": "733b3dfe2f6"
+  },
+  {
+    "itemId": 16053,
+    "tooltipId": "a3bee10b22a"
+  },
+  {
+    "itemId": 16054,
+    "tooltipId": "21531adb76a"
+  },
+  {
+    "itemId": 16055,
+    "tooltipId": "f1c753948f2"
+  },
+  {
+    "itemId": 16056,
+    "tooltipId": "f13db214a0c"
+  },
+  {
+    "itemId": 16057,
+    "tooltipId": "6b6900c109e"
+  },
+  {
+    "itemId": 16058,
+    "tooltipId": "a77cd2696ba"
+  },
+  {
+    "itemId": 16059,
+    "tooltipId": "3dd51a45b5c"
+  },
+  {
+    "itemId": 16060,
+    "tooltipId": "4f791b9eff4"
+  },
+  {
+    "itemId": 16061,
+    "tooltipId": "c17bb971896"
+  },
+  {
+    "itemId": 16062,
+    "tooltipId": "480763a868e"
+  },
+  {
+    "itemId": 16063,
+    "tooltipId": "ff2868acd45"
+  },
+  {
+    "itemId": 16933,
+    "tooltipId": "3416aa8b1c6"
+  },
+  {
+    "itemId": 16934,
+    "tooltipId": "cc73f6895d4"
+  },
+  {
+    "itemId": 17530,
+    "tooltipId": "4fc987d34dc"
+  },
+  {
+    "itemId": 26727,
+    "tooltipId": "58c35d174da"
+  },
+  {
+    "itemId": 26731,
+    "tooltipId": "7def76b6ceb"
+  },
+  {
+    "itemId": 26738,
+    "tooltipId": "70a73ce8da9"
+  },
+  {
+    "itemId": 26739,
+    "tooltipId": "a2a3c61d70b"
+  },
+  {
+    "itemId": 30273,
+    "tooltipId": "b54fd199c84"
+  },
+  {
+    "itemId": 30357,
+    "tooltipId": "9e3311b4660"
+  },
+  {
+    "itemId": 30359,
+    "tooltipId": "896542dca40"
+  },
+  {
+    "itemId": 30361,
+    "tooltipId": "4b6ee18cd30"
+  },
+  {
+    "itemId": 30767,
+    "tooltipId": "2e01a9c624c"
+  },
+  {
+    "itemId": 30768,
+    "tooltipId": "2e12269055c"
+  },
+  {
+    "itemId": 30769,
+    "tooltipId": "6f1e3cad459"
+  },
+  {
+    "itemId": 30770,
+    "tooltipId": "6da6c3b4b17"
+  },
+  {
+    "itemId": 30771,
+    "tooltipId": "02cd7f83024"
+  },
+  {
+    "itemId": 30772,
+    "tooltipId": "c8e29f73aaa"
+  },
+  {
+    "itemId": 30773,
+    "tooltipId": "946e0e42dda"
+  },
+  {
+    "itemId": 30774,
+    "tooltipId": "3df650195f9"
+  },
+  {
+    "itemId": 30775,
+    "tooltipId": "782504a566a"
+  },
+  {
+    "itemId": 30776,
+    "tooltipId": "1376b68fd85"
+  },
+  {
+    "itemId": 30777,
+    "tooltipId": "fead9fd6f61"
+  },
+  {
+    "itemId": 30778,
+    "tooltipId": "2237f24bae8"
+  },
+  {
+    "itemId": 30779,
+    "tooltipId": "c9349942844"
+  },
+  {
+    "itemId": 30780,
+    "tooltipId": "ea4078b6361"
+  },
+  {
+    "itemId": 30781,
+    "tooltipId": "2de41d55886"
+  },
+  {
+    "itemId": 30782,
+    "tooltipId": "88cdd570185"
+  },
+  {
+    "itemId": 30783,
+    "tooltipId": "cb836fa6fbb"
+  },
+  {
+    "itemId": 30784,
+    "tooltipId": "636a8db991e"
+  },
+  {
+    "itemId": 30785,
+    "tooltipId": "db9c38b4951"
+  },
+  {
+    "itemId": 30786,
+    "tooltipId": "079d74dc5ae"
+  },
+  {
+    "itemId": 30787,
+    "tooltipId": "cc4920cfec2"
+  },
+  {
+    "itemId": 30788,
+    "tooltipId": "624c56c8814"
+  },
+  {
+    "itemId": 30789,
+    "tooltipId": "fdd055099ed"
+  },
+  {
+    "itemId": 30790,
+    "tooltipId": "c826263740c"
+  },
+  {
+    "itemId": 30791,
+    "tooltipId": "92f46ecd28d"
+  },
+  {
+    "itemId": 30792,
+    "tooltipId": "f7e8a0c3839"
+  },
+  {
+    "itemId": 30793,
+    "tooltipId": "bf0cbc8478f"
+  },
+  {
+    "itemId": 30794,
+    "tooltipId": "2bf5a8d7fc5"
+  },
+  {
+    "itemId": 30795,
+    "tooltipId": "dbf9c98e766"
+  },
+  {
+    "itemId": 30796,
+    "tooltipId": "9caf1df1759"
+  },
+  {
+    "itemId": 30797,
+    "tooltipId": "f8fe38b74a5"
+  },
+  {
+    "itemId": 30798,
+    "tooltipId": "3e0bb1e4805"
+  },
+  {
+    "itemId": 30799,
+    "tooltipId": "578f0e3e280"
+  },
+  {
+    "itemId": 30800,
+    "tooltipId": "971e83115e4"
+  },
+  {
+    "itemId": 30801,
+    "tooltipId": "855f93d04e3"
+  },
+  {
+    "itemId": 30802,
+    "tooltipId": "e4ae2b42c47"
+  },
+  {
+    "itemId": 30884,
+    "tooltipId": "518cd709492"
+  },
+  {
+    "itemId": 30885,
+    "tooltipId": "1839be0f56c"
+  },
+  {
+    "itemId": 30887,
+    "tooltipId": "c9c87de30fe"
+  },
+  {
+    "itemId": 30888,
+    "tooltipId": "6eb526ac3d1"
+  },
+  {
+    "itemId": 30889,
+    "tooltipId": "13f3af60e07"
+  },
+  {
+    "itemId": 30890,
+    "tooltipId": "f0eef0aa6e8"
+  },
+  {
+    "itemId": 30891,
+    "tooltipId": "d420573edb5"
+  },
+  {
+    "itemId": 30892,
+    "tooltipId": "2b9cf10e515"
+  },
+  {
+    "itemId": 30893,
+    "tooltipId": "19b14f64156"
+  },
+  {
+    "itemId": 31573,
+    "tooltipId": "399e9fffafd"
+  },
+  {
+    "itemId": 31574,
+    "tooltipId": "17edd494600"
+  },
+  {
+    "itemId": 31575,
+    "tooltipId": "1b84f1f098a"
+  },
+  {
+    "itemId": 31576,
+    "tooltipId": "cac8412a7cc"
+  },
+  {
+    "itemId": 32162,
+    "tooltipId": "586fa54a14f"
+  },
+  {
+    "itemId": 32180,
+    "tooltipId": "4a47e6609fa"
+  },
+  {
+    "itemId": 32191,
+    "tooltipId": "0acde0c45c4"
+  },
+  {
+    "itemId": 32192,
+    "tooltipId": "e5574d562f4"
+  },
+  {
+    "itemId": 32193,
+    "tooltipId": "7e5b795e707"
+  },
+  {
+    "itemId": 32194,
+    "tooltipId": "d3c9a9ee296"
+  },
+  {
+    "itemId": 32195,
+    "tooltipId": "a82fbc66919"
+  },
+  {
+    "itemId": 32200,
+    "tooltipId": "4bcc76062fd"
+  },
+  {
+    "itemId": 32201,
+    "tooltipId": "f3f0a8217fb"
+  },
+  {
+    "itemId": 32651,
+    "tooltipId": "bdd473518fb"
+  },
+  {
+    "itemId": 32652,
+    "tooltipId": "ee05886285d"
+  },
+  {
+    "itemId": 32653,
+    "tooltipId": "9a0f18a1e02"
+  },
+  {
+    "itemId": 32654,
+    "tooltipId": "18ac61c10de"
+  },
+  {
+    "itemId": 32655,
+    "tooltipId": "0e60221ed3e"
+  },
+  {
+    "itemId": 32656,
+    "tooltipId": "61d1e804192"
+  },
+  {
+    "itemId": 32657,
+    "tooltipId": "bbc5656d215"
+  },
+  {
+    "itemId": 32658,
+    "tooltipId": "5a0bf8e1b50"
+  },
+  {
+    "itemId": 32659,
+    "tooltipId": "5e2666f5add"
+  },
+  {
+    "itemId": 32660,
+    "tooltipId": "404b1b5e7f6"
+  },
+  {
+    "itemId": 32661,
+    "tooltipId": "e86e1719719"
+  },
+  {
+    "itemId": 32662,
+    "tooltipId": "6f698b65bfb"
+  },
+  {
+    "itemId": 32663,
+    "tooltipId": "b8f03179d21"
+  },
+  {
+    "itemId": 32664,
+    "tooltipId": "f17cb3296c1"
+  },
+  {
+    "itemId": 32665,
+    "tooltipId": "7e194962fa2"
+  },
+  {
+    "itemId": 32666,
+    "tooltipId": "fe7b17956d0"
+  },
+  {
+    "itemId": 32667,
+    "tooltipId": "14d20f168c1"
+  },
+  {
+    "itemId": 32668,
+    "tooltipId": "36f9c2fb3fe"
+  },
+  {
+    "itemId": 32669,
+    "tooltipId": "6e823e3c7d4"
+  },
+  {
+    "itemId": 32670,
+    "tooltipId": "31c9e7815d3"
+  },
+  {
+    "itemId": 32671,
+    "tooltipId": "47e86df8ade"
+  },
+  {
+    "itemId": 32672,
+    "tooltipId": "77f089fdd00"
+  },
+  {
+    "itemId": 32673,
+    "tooltipId": "dfa72556cf4"
+  },
+  {
+    "itemId": 32674,
+    "tooltipId": "43042b2d98e"
+  },
+  {
+    "itemId": 32675,
+    "tooltipId": "515240cf2b7"
+  },
+  {
+    "itemId": 32676,
+    "tooltipId": "b603a2652ad"
+  },
+  {
+    "itemId": 32677,
+    "tooltipId": "0faaf746fbb"
+  },
+  {
+    "itemId": 32678,
+    "tooltipId": "ab49559933e"
+  },
+  {
+    "itemId": 32679,
+    "tooltipId": "190b352a3af"
+  },
+  {
+    "itemId": 32680,
+    "tooltipId": "adedb64a012"
+  },
+  {
+    "itemId": 32681,
+    "tooltipId": "d36451322d1"
+  },
+  {
+    "itemId": 32682,
+    "tooltipId": "1221e9e3284"
+  },
+  {
+    "itemId": 32683,
+    "tooltipId": "a6584649bfc"
+  },
+  {
+    "itemId": 32684,
+    "tooltipId": "3111076df9e"
+  },
+  {
+    "itemId": 32685,
+    "tooltipId": "30a07d86457"
+  },
+  {
+    "itemId": 32686,
+    "tooltipId": "e52593629fa"
+  },
+  {
+    "itemId": 32956,
+    "tooltipId": "c6676f1a0dc"
+  },
+  {
+    "itemId": 32957,
+    "tooltipId": "f9149700fbb"
+  },
+  {
+    "itemId": 32958,
+    "tooltipId": "4e00cbc1a4c"
+  },
+  {
+    "itemId": 32959,
+    "tooltipId": "0e330047fa3"
+  },
+  {
+    "itemId": 33462,
+    "tooltipId": "ab82a5486bc"
+  },
+  {
+    "itemId": 33463,
+    "tooltipId": "ab2dd29d359"
+  },
+  {
+    "itemId": 33464,
+    "tooltipId": "460890d49db"
+  },
+  {
+    "itemId": 33465,
+    "tooltipId": "76f2f7502ee"
+  },
+  {
+    "itemId": 33466,
+    "tooltipId": "a33b69fddb0"
+  },
+  {
+    "itemId": 33467,
+    "tooltipId": "218b8e3dc1a"
+  },
+  {
+    "itemId": 33468,
+    "tooltipId": "411c889f278"
+  },
+  {
+    "itemId": 33469,
+    "tooltipId": "6bf3f032acc"
+  },
+  {
+    "itemId": 33470,
+    "tooltipId": "ec891824c43"
+  },
+  {
+    "itemId": 33471,
+    "tooltipId": "0028e10b578"
+  },
+  {
+    "itemId": 33472,
+    "tooltipId": "6f6126d26ef"
+  },
+  {
+    "itemId": 33473,
+    "tooltipId": "b25ccf3c6fc"
+  },
+  {
+    "itemId": 33474,
+    "tooltipId": "4d63265e2a1"
+  },
+  {
+    "itemId": 33475,
+    "tooltipId": "1e25c64a39f"
+  },
+  {
+    "itemId": 33476,
+    "tooltipId": "9c95f5b6a27"
+  },
+  {
+    "itemId": 33477,
+    "tooltipId": "b723d663158"
+  },
+  {
+    "itemId": 33478,
+    "tooltipId": "c6c3c9396dd"
+  },
+  {
+    "itemId": 33479,
+    "tooltipId": "f7c102022c1"
+  },
+  {
+    "itemId": 33757,
+    "tooltipId": "570327610d7"
+  },
+  {
+    "itemId": 33758,
+    "tooltipId": "bc592229b44"
+  },
+  {
+    "itemId": 33759,
+    "tooltipId": "9ee2de3534a"
+  },
+  {
+    "itemId": 33760,
+    "tooltipId": "2438e7eed9a"
+  },
+  {
+    "itemId": 33763,
+    "tooltipId": "005f44fa3f5"
+  },
+  {
+    "itemId": 33764,
+    "tooltipId": "5d1bb317471"
+  },
+  {
+    "itemId": 33767,
+    "tooltipId": "6fa3328cefc"
+  },
+  {
+    "itemId": 33768,
+    "tooltipId": "add392b3ff9"
+  },
+  {
+    "itemId": 33769,
+    "tooltipId": "dfde29d8505"
+  },
+  {
+    "itemId": 33770,
+    "tooltipId": "1199421258d"
+  },
+  {
+    "itemId": 33771,
+    "tooltipId": "2d2229b0ea0"
+  },
+  {
+    "itemId": 33772,
+    "tooltipId": "cfdba750460"
+  },
+  {
+    "itemId": 33773,
+    "tooltipId": "0dd8a20e589"
+  },
+  {
+    "itemId": 33774,
+    "tooltipId": "d0546a9743b"
+  },
+  {
+    "itemId": 33775,
+    "tooltipId": "4c5acc303c5"
+  },
+  {
+    "itemId": 33776,
+    "tooltipId": "8b02263ea76"
+  },
+  {
+    "itemId": 33796,
+    "tooltipId": "1f69611018c"
+  },
+  {
+    "itemId": 33814,
+    "tooltipId": "92c5c90417c"
+  },
+  {
+    "itemId": 33815,
+    "tooltipId": "e4b81dcd587"
+  },
+  {
+    "itemId": 33816,
+    "tooltipId": "2daf3509237"
+  },
+  {
+    "itemId": 33817,
+    "tooltipId": "6eafe39f1f4"
+  }
+]

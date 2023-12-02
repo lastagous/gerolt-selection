@@ -713,6 +713,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 1746,
+        "tooltipId": "ec78b78e823"
+      }
+    ],
     "achievements": []
   },
   {
@@ -1429,6 +1435,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 1816,
+        "tooltipId": "6bff305d55d"
+      }
+    ],
     "achievements": []
   },
   {
@@ -2139,6 +2151,12 @@
         "Patch": 2,
         "Url": "/Item/1885",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 1885,
+        "tooltipId": "893d3c103b4"
       }
     ],
     "achievements": []
@@ -2865,6 +2883,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 1955,
+        "tooltipId": "5eb88c0184d"
+      }
+    ],
     "achievements": []
   },
   {
@@ -3575,6 +3599,12 @@
         "Patch": 2,
         "Url": "/Item/2052",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 2052,
+        "tooltipId": "0f08f17cbbf"
       }
     ],
     "achievements": []
@@ -4305,6 +4335,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 2140,
+        "tooltipId": "c62dd8a606e"
+      }
+    ],
     "achievements": []
   },
   {
@@ -5005,6 +5041,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 2213,
+        "tooltipId": "dfdc5c986bd"
+      }
+    ],
     "achievements": []
   },
   {
@@ -5697,6 +5739,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 2214,
+        "tooltipId": "1ccc5d84c7e"
+      }
+    ],
     "achievements": []
   },
   {
@@ -5748,6 +5796,12 @@
         "Patch": 4,
         "Url": "/Item/6258",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 6258,
+        "tooltipId": "26f5a0f9988"
       }
     ],
     "achievements": []
@@ -5803,6 +5857,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 6259,
+        "tooltipId": "172a2496ca2"
+      }
+    ],
     "achievements": []
   },
   {
@@ -5854,6 +5914,12 @@
         "Patch": 4,
         "Url": "/Item/6260",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 6260,
+        "tooltipId": "81592312f3a"
       }
     ],
     "achievements": []
@@ -5909,6 +5975,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 6261,
+        "tooltipId": "144865c071c"
+      }
+    ],
     "achievements": []
   },
   {
@@ -5960,6 +6032,12 @@
         "Patch": 4,
         "Url": "/Item/6262",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 6262,
+        "tooltipId": "d19447e548d"
       }
     ],
     "achievements": []
@@ -6015,6 +6093,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 6263,
+        "tooltipId": "d479632ab0a"
+      }
+    ],
     "achievements": []
   },
   {
@@ -6066,6 +6150,12 @@
         "Patch": 4,
         "Url": "/Item/6264",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 6264,
+        "tooltipId": "7cb3733fc7a"
       }
     ],
     "achievements": []
@@ -6121,6 +6211,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 6265,
+        "tooltipId": "52a24052a77"
+      }
+    ],
     "achievements": []
   },
   {
@@ -6172,6 +6268,12 @@
         "Patch": 8,
         "Url": "/Item/7825",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7825,
+        "tooltipId": "830b03bc9b7"
       }
     ],
     "achievements": []
@@ -6227,6 +6329,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7826,
+        "tooltipId": "fd925de8ee6"
+      }
+    ],
     "achievements": []
   },
   {
@@ -6278,6 +6386,12 @@
         "Patch": 8,
         "Url": "/Item/7827",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7827,
+        "tooltipId": "182a139ad05"
       }
     ],
     "achievements": []
@@ -6333,6 +6447,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7828,
+        "tooltipId": "fae5e883c0c"
+      }
+    ],
     "achievements": []
   },
   {
@@ -6384,6 +6504,12 @@
         "Patch": 8,
         "Url": "/Item/7829",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7829,
+        "tooltipId": "7ac4618d4c5"
       }
     ],
     "achievements": []
@@ -6439,6 +6565,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7830,
+        "tooltipId": "d46815525f4"
+      }
+    ],
     "achievements": []
   },
   {
@@ -6490,6 +6622,12 @@
         "Patch": 8,
         "Url": "/Item/7831",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7831,
+        "tooltipId": "0c9a43e4014"
       }
     ],
     "achievements": []
@@ -6545,6 +6683,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7832,
+        "tooltipId": "c6118835360"
+      }
+    ],
     "achievements": []
   },
   {
@@ -6596,6 +6740,12 @@
         "Patch": 8,
         "Url": "/Item/7835",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7835,
+        "tooltipId": "47e66a1e96a"
       }
     ],
     "achievements": []
@@ -6651,6 +6801,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7836,
+        "tooltipId": "ed90d5e5f57"
+      }
+    ],
     "achievements": []
   },
   {
@@ -6702,6 +6858,12 @@
         "Patch": 8,
         "Url": "/Item/7837",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7837,
+        "tooltipId": "75b32c59bc7"
       }
     ],
     "achievements": []
@@ -6757,6 +6919,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7838,
+        "tooltipId": "733f1249911"
+      }
+    ],
     "achievements": []
   },
   {
@@ -6808,6 +6976,12 @@
         "Patch": 8,
         "Url": "/Item/7839",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7839,
+        "tooltipId": "fad3971fb32"
       }
     ],
     "achievements": []
@@ -6863,6 +7037,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7840,
+        "tooltipId": "4c2aa6285ae"
+      }
+    ],
     "achievements": []
   },
   {
@@ -6914,6 +7094,12 @@
         "Patch": 8,
         "Url": "/Item/7841",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7841,
+        "tooltipId": "cc9c5f34be8"
       }
     ],
     "achievements": []
@@ -6969,6 +7155,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7842,
+        "tooltipId": "0fbd1b65f97"
+      }
+    ],
     "achievements": []
   },
   {
@@ -7020,6 +7212,12 @@
         "Patch": 10,
         "Url": "/Item/7864",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7864,
+        "tooltipId": "a35eda383b1"
       }
     ],
     "achievements": []
@@ -7075,6 +7273,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7865,
+        "tooltipId": "a4d710d1be8"
+      }
+    ],
     "achievements": []
   },
   {
@@ -7126,6 +7330,12 @@
         "Patch": 10,
         "Url": "/Item/7866",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7866,
+        "tooltipId": "004486c30d8"
       }
     ],
     "achievements": []
@@ -7181,6 +7391,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7867,
+        "tooltipId": "8994ccf991b"
+      }
+    ],
     "achievements": []
   },
   {
@@ -7232,6 +7448,12 @@
         "Patch": 10,
         "Url": "/Item/7868",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7868,
+        "tooltipId": "349654df6a1"
       }
     ],
     "achievements": []
@@ -7287,6 +7509,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7869,
+        "tooltipId": "32f9d344b01"
+      }
+    ],
     "achievements": []
   },
   {
@@ -7340,6 +7568,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7870,
+        "tooltipId": "1c68c2d979d"
+      }
+    ],
     "achievements": []
   },
   {
@@ -7391,6 +7625,12 @@
         "Patch": 10,
         "Url": "/Item/7871",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7871,
+        "tooltipId": "b11a6e3bafc"
       }
     ],
     "achievements": []
@@ -8116,6 +8356,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7888,
+        "tooltipId": "d16585ce8d5"
+      }
+    ],
     "achievements": []
   },
   {
@@ -8167,6 +8413,12 @@
         "Patch": 13,
         "Url": "/Item/8650",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 8650,
+        "tooltipId": "ca128448bbb"
       }
     ],
     "achievements": []
@@ -8222,6 +8474,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 8651,
+        "tooltipId": "dc4d8c3723a"
+      }
+    ],
     "achievements": []
   },
   {
@@ -8273,6 +8531,12 @@
         "Patch": 13,
         "Url": "/Item/8652",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 8652,
+        "tooltipId": "6bf0defbb81"
       }
     ],
     "achievements": []
@@ -8328,6 +8592,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 8653,
+        "tooltipId": "1d4d46a95b8"
+      }
+    ],
     "achievements": []
   },
   {
@@ -8379,6 +8649,12 @@
         "Patch": 13,
         "Url": "/Item/8654",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 8654,
+        "tooltipId": "a4571e3505d"
       }
     ],
     "achievements": []
@@ -8434,6 +8710,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 8655,
+        "tooltipId": "1bd1e53d5a7"
+      }
+    ],
     "achievements": []
   },
   {
@@ -8485,6 +8767,12 @@
         "Patch": 13,
         "Url": "/Item/8656",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 8656,
+        "tooltipId": "02b3bc6234b"
       }
     ],
     "achievements": []
@@ -8540,6 +8828,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 8657,
+        "tooltipId": "774bba3ca6a"
+      }
+    ],
     "achievements": []
   },
   {
@@ -8591,6 +8885,12 @@
         "Patch": 14,
         "Url": "/Item/9250",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 9250,
+        "tooltipId": "0e76f63ae7c"
       }
     ],
     "achievements": []
@@ -8646,6 +8946,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 9251,
+        "tooltipId": "ae7f891b127"
+      }
+    ],
     "achievements": []
   },
   {
@@ -8697,6 +9003,12 @@
         "Patch": 14,
         "Url": "/Item/9252",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 9252,
+        "tooltipId": "786a5c6b06f"
       }
     ],
     "achievements": []
@@ -8752,6 +9064,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 9253,
+        "tooltipId": "f7faeae697e"
+      }
+    ],
     "achievements": []
   },
   {
@@ -8803,6 +9121,12 @@
         "Patch": 14,
         "Url": "/Item/9254",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 9254,
+        "tooltipId": "2d7b83cb80e"
       }
     ],
     "achievements": []
@@ -8858,6 +9182,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 9492,
+        "tooltipId": "27d363b4142"
+      }
+    ],
     "achievements": []
   },
   {
@@ -8909,6 +9239,12 @@
         "Patch": 15,
         "Url": "/Item/9493",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 9493,
+        "tooltipId": "ac59358568c"
       }
     ],
     "achievements": []
@@ -8964,6 +9300,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 9494,
+        "tooltipId": "d45e7b93f88"
+      }
+    ],
     "achievements": []
   },
   {
@@ -9015,6 +9357,12 @@
         "Patch": 15,
         "Url": "/Item/9495",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 9495,
+        "tooltipId": "2d37d63fc1e"
       }
     ],
     "achievements": []
@@ -9070,6 +9418,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 9496,
+        "tooltipId": "8ba81058ead"
+      }
+    ],
     "achievements": []
   },
   {
@@ -9121,6 +9475,12 @@
         "Patch": 15,
         "Url": "/Item/9497",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 9497,
+        "tooltipId": "abe94728a94"
       }
     ],
     "achievements": []
@@ -9176,6 +9536,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 9498,
+        "tooltipId": "d4ebb19c75f"
+      }
+    ],
     "achievements": []
   },
   {
@@ -9227,6 +9593,12 @@
         "Patch": 15,
         "Url": "/Item/9499",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 9499,
+        "tooltipId": "986ad489ff5"
       }
     ],
     "achievements": []
@@ -9282,6 +9654,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 9501,
+        "tooltipId": "d9f5fa009cb"
+      }
+    ],
     "achievements": []
   },
   {
@@ -9333,6 +9711,12 @@
         "Patch": 17,
         "Url": "/Item/10055",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 10055,
+        "tooltipId": "099a61e4271"
       }
     ],
     "achievements": []
@@ -9388,6 +9772,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 10056,
+        "tooltipId": "74dbad6b694"
+      }
+    ],
     "achievements": []
   },
   {
@@ -9439,6 +9829,12 @@
         "Patch": 17,
         "Url": "/Item/10057",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 10057,
+        "tooltipId": "37fb2c76401"
       }
     ],
     "achievements": []
@@ -9494,6 +9890,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 10058,
+        "tooltipId": "32b9fecf683"
+      }
+    ],
     "achievements": []
   },
   {
@@ -9545,6 +9947,12 @@
         "Patch": 17,
         "Url": "/Item/10059",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 10059,
+        "tooltipId": "5a44646f9bd"
       }
     ],
     "achievements": []
@@ -9600,6 +10008,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 10060,
+        "tooltipId": "54544cbc40f"
+      }
+    ],
     "achievements": []
   },
   {
@@ -9651,6 +10065,12 @@
         "Patch": 17,
         "Url": "/Item/10061",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 10061,
+        "tooltipId": "2b216db16bc"
       }
     ],
     "achievements": []
@@ -9706,6 +10126,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 10062,
+        "tooltipId": "67e19fd475b"
+      }
+    ],
     "achievements": []
   },
   {
@@ -9757,6 +10183,12 @@
         "Patch": 17,
         "Url": "/Item/10064",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 10064,
+        "tooltipId": "ab5dc14def0"
       }
     ],
     "achievements": []
@@ -9812,6 +10244,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22926,
+        "tooltipId": "cc2bf224289"
+      }
+    ],
     "achievements": []
   },
   {
@@ -9863,6 +10301,12 @@
         "Patch": 49,
         "Url": "/Item/22927",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22927,
+        "tooltipId": "944e7f9c625"
       }
     ],
     "achievements": []
@@ -9918,6 +10362,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22928,
+        "tooltipId": "64aee900cee"
+      }
+    ],
     "achievements": []
   },
   {
@@ -9969,6 +10419,12 @@
         "Patch": 49,
         "Url": "/Item/22929",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22929,
+        "tooltipId": "dd8f25933a3"
       }
     ],
     "achievements": []
@@ -10024,6 +10480,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22930,
+        "tooltipId": "7d3c9932a96"
+      }
+    ],
     "achievements": []
   },
   {
@@ -10075,6 +10537,12 @@
         "Patch": 49,
         "Url": "/Item/22931",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22931,
+        "tooltipId": "0780731aaec"
       }
     ],
     "achievements": []
@@ -10130,6 +10598,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22932,
+        "tooltipId": "ee971f3e1d9"
+      }
+    ],
     "achievements": []
   },
   {
@@ -10181,6 +10655,12 @@
         "Patch": 49,
         "Url": "/Item/22933",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22933,
+        "tooltipId": "6bd5abcf7e0"
       }
     ],
     "achievements": []
@@ -10236,6 +10716,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22934,
+        "tooltipId": "e491cfa10e8"
+      }
+    ],
     "achievements": []
   },
   {
@@ -10287,6 +10773,12 @@
         "Patch": 49,
         "Url": "/Item/22935",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22935,
+        "tooltipId": "e7f56cbfe4c"
       }
     ],
     "achievements": []
@@ -10342,6 +10834,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22936,
+        "tooltipId": "ff037874674"
+      }
+    ],
     "achievements": []
   },
   {
@@ -10393,6 +10891,12 @@
         "Patch": 49,
         "Url": "/Item/22937",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22937,
+        "tooltipId": "79ffccde012"
       }
     ],
     "achievements": []
@@ -10448,6 +10952,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22938,
+        "tooltipId": "1a493cdcf24"
+      }
+    ],
     "achievements": []
   },
   {
@@ -10499,6 +11009,12 @@
         "Patch": 49,
         "Url": "/Item/22939",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22939,
+        "tooltipId": "8b32759d509"
       }
     ],
     "achievements": []
@@ -10554,6 +11070,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22942,
+        "tooltipId": "06d77b79ed1"
+      }
+    ],
     "achievements": []
   },
   {
@@ -10605,6 +11127,12 @@
         "Patch": 49,
         "Url": "/Item/22943",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22943,
+        "tooltipId": "accedb77d94"
       }
     ],
     "achievements": []
@@ -10660,6 +11188,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22944,
+        "tooltipId": "d0eee5b72f2"
+      }
+    ],
     "achievements": []
   },
   {
@@ -10711,6 +11245,12 @@
         "Patch": 49,
         "Url": "/Item/22945",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22945,
+        "tooltipId": "effd9934af8"
       }
     ],
     "achievements": []
@@ -10766,6 +11306,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22946,
+        "tooltipId": "eb36e280003"
+      }
+    ],
     "achievements": []
   },
   {
@@ -10817,6 +11363,12 @@
         "Patch": 49,
         "Url": "/Item/22947",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22947,
+        "tooltipId": "cc5f8b6d0e7"
       }
     ],
     "achievements": []
@@ -10872,6 +11424,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22948,
+        "tooltipId": "6a7070df2ec"
+      }
+    ],
     "achievements": []
   },
   {
@@ -10923,6 +11481,12 @@
         "Patch": 49,
         "Url": "/Item/22949",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22949,
+        "tooltipId": "84430a6586d"
       }
     ],
     "achievements": []
@@ -10978,6 +11542,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22950,
+        "tooltipId": "79383ed3893"
+      }
+    ],
     "achievements": []
   },
   {
@@ -11029,6 +11599,12 @@
         "Patch": 49,
         "Url": "/Item/22951",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22951,
+        "tooltipId": "9c6cbf45a67"
       }
     ],
     "achievements": []
@@ -11084,6 +11660,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22952,
+        "tooltipId": "697f7f7d9bf"
+      }
+    ],
     "achievements": []
   },
   {
@@ -11135,6 +11717,12 @@
         "Patch": 49,
         "Url": "/Item/22953",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22953,
+        "tooltipId": "5e21c9ddef7"
       }
     ],
     "achievements": []
@@ -11190,6 +11778,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22954,
+        "tooltipId": "3b9a64078df"
+      }
+    ],
     "achievements": []
   },
   {
@@ -11243,6 +11837,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22955,
+        "tooltipId": "b22c2707a9c"
+      }
+    ],
     "achievements": []
   },
   {
@@ -11294,6 +11894,12 @@
         "Patch": 49,
         "Url": "/Item/22958",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22958,
+        "tooltipId": "28ac9a88061"
       }
     ],
     "achievements": [
@@ -11361,6 +11967,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22959,
+        "tooltipId": "6999ccbbab4"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -11424,6 +12036,12 @@
         "Patch": 49,
         "Url": "/Item/22960",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22960,
+        "tooltipId": "341c19e3db7"
       }
     ],
     "achievements": [
@@ -11491,6 +12109,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22961,
+        "tooltipId": "52e21db391d"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -11554,6 +12178,12 @@
         "Patch": 49,
         "Url": "/Item/22962",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22962,
+        "tooltipId": "238f5d1111f"
       }
     ],
     "achievements": [
@@ -11621,6 +12251,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22963,
+        "tooltipId": "42c7df0f42f"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -11684,6 +12320,12 @@
         "Patch": 49,
         "Url": "/Item/22964",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22964,
+        "tooltipId": "b10e727f893"
       }
     ],
     "achievements": [
@@ -11751,6 +12393,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22965,
+        "tooltipId": "c414e87b84f"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -11814,6 +12462,12 @@
         "Patch": 49,
         "Url": "/Item/22966",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22966,
+        "tooltipId": "a41b713e80b"
       }
     ],
     "achievements": [
@@ -11881,6 +12535,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22967,
+        "tooltipId": "153f30febc5"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -11944,6 +12604,12 @@
         "Patch": 49,
         "Url": "/Item/22968",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22968,
+        "tooltipId": "2d09b6dd726"
       }
     ],
     "achievements": [
@@ -12011,6 +12677,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22969,
+        "tooltipId": "47e4c1f0ae5"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -12074,6 +12746,12 @@
         "Patch": 49,
         "Url": "/Item/22970",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22970,
+        "tooltipId": "a102655740f"
       }
     ],
     "achievements": [
@@ -12141,6 +12819,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22971,
+        "tooltipId": "27886642bdd"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -12206,6 +12890,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24040,
+        "tooltipId": "309422b6a39"
+      }
+    ],
     "achievements": []
   },
   {
@@ -12257,6 +12947,12 @@
         "Patch": 51,
         "Url": "/Item/24041",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24041,
+        "tooltipId": "ed77c98d993"
       }
     ],
     "achievements": []
@@ -12312,6 +13008,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24042,
+        "tooltipId": "cc6052eb505"
+      }
+    ],
     "achievements": []
   },
   {
@@ -12363,6 +13065,12 @@
         "Patch": 51,
         "Url": "/Item/24043",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24043,
+        "tooltipId": "aeb905b7bef"
       }
     ],
     "achievements": []
@@ -12418,6 +13126,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24044,
+        "tooltipId": "4b3271ccd19"
+      }
+    ],
     "achievements": []
   },
   {
@@ -12469,6 +13183,12 @@
         "Patch": 51,
         "Url": "/Item/24045",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24045,
+        "tooltipId": "b3df73d3edb"
       }
     ],
     "achievements": []
@@ -12524,6 +13244,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24046,
+        "tooltipId": "f7a5d68048f"
+      }
+    ],
     "achievements": []
   },
   {
@@ -12575,6 +13301,12 @@
         "Patch": 51,
         "Url": "/Item/24047",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24047,
+        "tooltipId": "f02eeeae84f"
       }
     ],
     "achievements": []
@@ -12630,6 +13362,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24048,
+        "tooltipId": "00fef49601a"
+      }
+    ],
     "achievements": []
   },
   {
@@ -12681,6 +13419,12 @@
         "Patch": 51,
         "Url": "/Item/24049",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24049,
+        "tooltipId": "bbe084cd93a"
       }
     ],
     "achievements": []
@@ -12736,6 +13480,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24050,
+        "tooltipId": "a7380ef6ab2"
+      }
+    ],
     "achievements": []
   },
   {
@@ -12787,6 +13537,12 @@
         "Patch": 51,
         "Url": "/Item/24051",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24051,
+        "tooltipId": "dbc8b7ec681"
       }
     ],
     "achievements": []
@@ -12842,6 +13598,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24052,
+        "tooltipId": "cbc3e3d5f2e"
+      }
+    ],
     "achievements": []
   },
   {
@@ -12893,6 +13655,12 @@
         "Patch": 51,
         "Url": "/Item/24053",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24053,
+        "tooltipId": "26f7178d717"
       }
     ],
     "achievements": []
@@ -12948,6 +13716,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24056,
+        "tooltipId": "0466e83a8e8"
+      }
+    ],
     "achievements": []
   },
   {
@@ -12999,6 +13773,12 @@
         "Patch": 51,
         "Url": "/Item/24057",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24057,
+        "tooltipId": "5f64f4c88fe"
       }
     ],
     "achievements": []
@@ -13054,6 +13834,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24058,
+        "tooltipId": "ae24f6fd200"
+      }
+    ],
     "achievements": []
   },
   {
@@ -13105,6 +13891,12 @@
         "Patch": 51,
         "Url": "/Item/24059",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24059,
+        "tooltipId": "1e2e366f164"
       }
     ],
     "achievements": []
@@ -13160,6 +13952,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24060,
+        "tooltipId": "55fb798f7aa"
+      }
+    ],
     "achievements": []
   },
   {
@@ -13211,6 +14009,12 @@
         "Patch": 51,
         "Url": "/Item/24061",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24061,
+        "tooltipId": "fbb4a7e2d1b"
       }
     ],
     "achievements": []
@@ -13266,6 +14070,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24062,
+        "tooltipId": "1fcbc1c9747"
+      }
+    ],
     "achievements": []
   },
   {
@@ -13317,6 +14127,12 @@
         "Patch": 51,
         "Url": "/Item/24063",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24063,
+        "tooltipId": "6ccadcc0ef3"
       }
     ],
     "achievements": []
@@ -13372,6 +14188,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24064,
+        "tooltipId": "35721e7906e"
+      }
+    ],
     "achievements": []
   },
   {
@@ -13423,6 +14245,12 @@
         "Patch": 51,
         "Url": "/Item/24065",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24065,
+        "tooltipId": "19e37b60a37"
       }
     ],
     "achievements": []
@@ -13478,6 +14306,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24066,
+        "tooltipId": "e6c39eb6ca1"
+      }
+    ],
     "achievements": []
   },
   {
@@ -13529,6 +14363,12 @@
         "Patch": 51,
         "Url": "/Item/24067",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24067,
+        "tooltipId": "a9ddb95b71a"
       }
     ],
     "achievements": []
@@ -13584,6 +14424,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24068,
+        "tooltipId": "386d891d713"
+      }
+    ],
     "achievements": []
   },
   {
@@ -13637,6 +14483,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24069,
+        "tooltipId": "ac500130814"
+      }
+    ],
     "achievements": []
   },
   {
@@ -13688,6 +14540,12 @@
         "Patch": 51,
         "Url": "/Item/24072",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24072,
+        "tooltipId": "0a4170051cc"
       }
     ],
     "achievements": [
@@ -13755,6 +14613,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24073,
+        "tooltipId": "2621627fb5f"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -13818,6 +14682,12 @@
         "Patch": 51,
         "Url": "/Item/24074",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24074,
+        "tooltipId": "5eedbe58f1f"
       }
     ],
     "achievements": [
@@ -13885,6 +14755,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24075,
+        "tooltipId": "9dcf2014a1a"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -13948,6 +14824,12 @@
         "Patch": 51,
         "Url": "/Item/24076",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24076,
+        "tooltipId": "bd7cf2d7c98"
       }
     ],
     "achievements": [
@@ -14015,6 +14897,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24077,
+        "tooltipId": "9b115da075c"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -14078,6 +14966,12 @@
         "Patch": 51,
         "Url": "/Item/24078",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24078,
+        "tooltipId": "8102a140bb9"
       }
     ],
     "achievements": [
@@ -14145,6 +15039,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24079,
+        "tooltipId": "065b125a44f"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -14208,6 +15108,12 @@
         "Patch": 51,
         "Url": "/Item/24080",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24080,
+        "tooltipId": "713d6a891b2"
       }
     ],
     "achievements": [
@@ -14275,6 +15181,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24081,
+        "tooltipId": "22cbfd13a97"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -14338,6 +15250,12 @@
         "Patch": 51,
         "Url": "/Item/24082",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24082,
+        "tooltipId": "c34103dc58e"
       }
     ],
     "achievements": [
@@ -14405,6 +15323,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24083,
+        "tooltipId": "9239a67ef71"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -14468,6 +15392,12 @@
         "Patch": 51,
         "Url": "/Item/24084",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24084,
+        "tooltipId": "ca701a4b2bb"
       }
     ],
     "achievements": [
@@ -14535,6 +15465,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24085,
+        "tooltipId": "b46d05cc040"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -14600,6 +15536,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24644,
+        "tooltipId": "88e6eb07fb0"
+      }
+    ],
     "achievements": []
   },
   {
@@ -14651,6 +15593,12 @@
         "Patch": 54,
         "Url": "/Item/24645",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24645,
+        "tooltipId": "7bc1d76e31d"
       }
     ],
     "achievements": []
@@ -14706,6 +15654,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24646,
+        "tooltipId": "f266cb641f2"
+      }
+    ],
     "achievements": []
   },
   {
@@ -14757,6 +15711,12 @@
         "Patch": 54,
         "Url": "/Item/24647",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24647,
+        "tooltipId": "c43f86bee5c"
       }
     ],
     "achievements": []
@@ -14812,6 +15772,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24648,
+        "tooltipId": "196a8199819"
+      }
+    ],
     "achievements": []
   },
   {
@@ -14863,6 +15829,12 @@
         "Patch": 54,
         "Url": "/Item/24649",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24649,
+        "tooltipId": "69bba95b4f9"
       }
     ],
     "achievements": []
@@ -14918,6 +15890,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24650,
+        "tooltipId": "8b8b56d0757"
+      }
+    ],
     "achievements": []
   },
   {
@@ -14969,6 +15947,12 @@
         "Patch": 54,
         "Url": "/Item/24651",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24651,
+        "tooltipId": "3de400bd6e4"
       }
     ],
     "achievements": []
@@ -15024,6 +16008,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24652,
+        "tooltipId": "67855738c4f"
+      }
+    ],
     "achievements": []
   },
   {
@@ -15075,6 +16065,12 @@
         "Patch": 54,
         "Url": "/Item/24653",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24653,
+        "tooltipId": "a499107c08a"
       }
     ],
     "achievements": []
@@ -15130,6 +16126,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24654,
+        "tooltipId": "58021c6f4d1"
+      }
+    ],
     "achievements": []
   },
   {
@@ -15181,6 +16183,12 @@
         "Patch": 54,
         "Url": "/Item/24655",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24655,
+        "tooltipId": "e560c75fd39"
       }
     ],
     "achievements": []
@@ -15236,6 +16244,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24656,
+        "tooltipId": "b46e1d72ea3"
+      }
+    ],
     "achievements": []
   },
   {
@@ -15287,6 +16301,12 @@
         "Patch": 54,
         "Url": "/Item/24657",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24657,
+        "tooltipId": "517faf4fad1"
       }
     ],
     "achievements": []
@@ -15342,6 +16362,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24660,
+        "tooltipId": "6b47dfa64b4"
+      }
+    ],
     "achievements": []
   },
   {
@@ -15393,6 +16419,12 @@
         "Patch": 54,
         "Url": "/Item/24661",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24661,
+        "tooltipId": "fb1612abe8c"
       }
     ],
     "achievements": []
@@ -15448,6 +16480,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24662,
+        "tooltipId": "29e2005992e"
+      }
+    ],
     "achievements": []
   },
   {
@@ -15499,6 +16537,12 @@
         "Patch": 54,
         "Url": "/Item/24663",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24663,
+        "tooltipId": "10899b0699d"
       }
     ],
     "achievements": []
@@ -15554,6 +16598,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24664,
+        "tooltipId": "8801b9c9982"
+      }
+    ],
     "achievements": []
   },
   {
@@ -15605,6 +16655,12 @@
         "Patch": 54,
         "Url": "/Item/24665",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24665,
+        "tooltipId": "a0ae5dcb0dc"
       }
     ],
     "achievements": []
@@ -15660,6 +16716,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24666,
+        "tooltipId": "c3749a172f0"
+      }
+    ],
     "achievements": []
   },
   {
@@ -15711,6 +16773,12 @@
         "Patch": 54,
         "Url": "/Item/24667",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24667,
+        "tooltipId": "0e564624d76"
       }
     ],
     "achievements": []
@@ -15766,6 +16834,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24668,
+        "tooltipId": "d9e559baf70"
+      }
+    ],
     "achievements": []
   },
   {
@@ -15817,6 +16891,12 @@
         "Patch": 54,
         "Url": "/Item/24669",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24669,
+        "tooltipId": "65d96f821e4"
       }
     ],
     "achievements": []
@@ -15872,6 +16952,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24670,
+        "tooltipId": "5a250d51edd"
+      }
+    ],
     "achievements": []
   },
   {
@@ -15923,6 +17009,12 @@
         "Patch": 54,
         "Url": "/Item/24671",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24671,
+        "tooltipId": "c2ac47be20f"
       }
     ],
     "achievements": []
@@ -15978,6 +17070,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24672,
+        "tooltipId": "984510188d2"
+      }
+    ],
     "achievements": []
   },
   {
@@ -16029,6 +17127,12 @@
         "Patch": 54,
         "Url": "/Item/24673",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24673,
+        "tooltipId": "74b363f5136"
       }
     ],
     "achievements": []
@@ -16084,6 +17188,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24676,
+        "tooltipId": "186b931f731"
+      }
+    ],
     "achievements": []
   },
   {
@@ -16135,6 +17245,12 @@
         "Patch": 54,
         "Url": "/Item/24677",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24677,
+        "tooltipId": "bd518ff0474"
       }
     ],
     "achievements": []
@@ -16190,6 +17306,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24678,
+        "tooltipId": "37ead74b696"
+      }
+    ],
     "achievements": []
   },
   {
@@ -16241,6 +17363,12 @@
         "Patch": 54,
         "Url": "/Item/24679",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24679,
+        "tooltipId": "780b10c3559"
       }
     ],
     "achievements": []
@@ -16296,6 +17424,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24680,
+        "tooltipId": "e7c8e7385bc"
+      }
+    ],
     "achievements": []
   },
   {
@@ -16347,6 +17481,12 @@
         "Patch": 54,
         "Url": "/Item/24681",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24681,
+        "tooltipId": "a17d368ae64"
       }
     ],
     "achievements": []
@@ -16402,6 +17542,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24682,
+        "tooltipId": "9a2742b5fbc"
+      }
+    ],
     "achievements": []
   },
   {
@@ -16453,6 +17599,12 @@
         "Patch": 54,
         "Url": "/Item/24683",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24683,
+        "tooltipId": "a1c8518be11"
       }
     ],
     "achievements": []
@@ -16508,6 +17660,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24684,
+        "tooltipId": "6510b73c9c0"
+      }
+    ],
     "achievements": []
   },
   {
@@ -16559,6 +17717,12 @@
         "Patch": 54,
         "Url": "/Item/24685",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24685,
+        "tooltipId": "98c62cf6064"
       }
     ],
     "achievements": []
@@ -16614,6 +17778,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24686,
+        "tooltipId": "1f0fceaa20b"
+      }
+    ],
     "achievements": []
   },
   {
@@ -16665,6 +17835,12 @@
         "Patch": 54,
         "Url": "/Item/24687",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24687,
+        "tooltipId": "f0b4381dc7f"
       }
     ],
     "achievements": []
@@ -16720,6 +17896,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24688,
+        "tooltipId": "e14a54d94fa"
+      }
+    ],
     "achievements": []
   },
   {
@@ -16771,6 +17953,12 @@
         "Patch": 54,
         "Url": "/Item/24689",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24689,
+        "tooltipId": "b743ede0c79"
       }
     ],
     "achievements": []
@@ -16826,6 +18014,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21943,
+        "tooltipId": "1a2e564db3c"
+      }
+    ],
     "achievements": []
   },
   {
@@ -16877,6 +18071,12 @@
         "Patch": 44,
         "Url": "/Item/21944",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21944,
+        "tooltipId": "58ff15c4f8e"
       }
     ],
     "achievements": []
@@ -16932,6 +18132,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21945,
+        "tooltipId": "52466cbd4ea"
+      }
+    ],
     "achievements": []
   },
   {
@@ -16983,6 +18189,12 @@
         "Patch": 44,
         "Url": "/Item/21946",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21946,
+        "tooltipId": "2506aeead15"
       }
     ],
     "achievements": []
@@ -17038,6 +18250,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21947,
+        "tooltipId": "4060625949a"
+      }
+    ],
     "achievements": []
   },
   {
@@ -17089,6 +18307,12 @@
         "Patch": 44,
         "Url": "/Item/21948",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21948,
+        "tooltipId": "39896dbcb90"
       }
     ],
     "achievements": []
@@ -17144,6 +18368,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21949,
+        "tooltipId": "77024d92502"
+      }
+    ],
     "achievements": []
   },
   {
@@ -17195,6 +18425,12 @@
         "Patch": 44,
         "Url": "/Item/21950",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21950,
+        "tooltipId": "725fc29daf5"
       }
     ],
     "achievements": []
@@ -17250,6 +18486,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21951,
+        "tooltipId": "11f8213933c"
+      }
+    ],
     "achievements": []
   },
   {
@@ -17301,6 +18543,12 @@
         "Patch": 44,
         "Url": "/Item/21952",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21952,
+        "tooltipId": "d30f24fe96e"
       }
     ],
     "achievements": []
@@ -17356,6 +18604,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21953,
+        "tooltipId": "fccc5d6bae2"
+      }
+    ],
     "achievements": []
   },
   {
@@ -17407,6 +18661,12 @@
         "Patch": 44,
         "Url": "/Item/21954",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21954,
+        "tooltipId": "a0efa89686a"
       }
     ],
     "achievements": []
@@ -17462,6 +18722,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21955,
+        "tooltipId": "8b5c9596a7e"
+      }
+    ],
     "achievements": []
   },
   {
@@ -17513,6 +18779,12 @@
         "Patch": 44,
         "Url": "/Item/21956",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21956,
+        "tooltipId": "186da3c6070"
       }
     ],
     "achievements": []
@@ -17568,6 +18840,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21959,
+        "tooltipId": "d862e35dca4"
+      }
+    ],
     "achievements": []
   },
   {
@@ -17619,6 +18897,12 @@
         "Patch": 44,
         "Url": "/Item/21960",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21960,
+        "tooltipId": "9577f1c7665"
       }
     ],
     "achievements": []
@@ -17674,6 +18958,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21961,
+        "tooltipId": "432742b3457"
+      }
+    ],
     "achievements": []
   },
   {
@@ -17725,6 +19015,12 @@
         "Patch": 44,
         "Url": "/Item/21962",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21962,
+        "tooltipId": "66190ee2e6f"
       }
     ],
     "achievements": []
@@ -17780,6 +19076,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21963,
+        "tooltipId": "d8b40d79ac5"
+      }
+    ],
     "achievements": []
   },
   {
@@ -17831,6 +19133,12 @@
         "Patch": 44,
         "Url": "/Item/21964",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21964,
+        "tooltipId": "2be91d6395c"
       }
     ],
     "achievements": []
@@ -17886,6 +19194,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21965,
+        "tooltipId": "b86a943a5b3"
+      }
+    ],
     "achievements": []
   },
   {
@@ -17937,6 +19251,12 @@
         "Patch": 44,
         "Url": "/Item/21966",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21966,
+        "tooltipId": "a4ef688abdf"
       }
     ],
     "achievements": []
@@ -17992,6 +19312,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21967,
+        "tooltipId": "55ccb65b644"
+      }
+    ],
     "achievements": []
   },
   {
@@ -18043,6 +19369,12 @@
         "Patch": 44,
         "Url": "/Item/21968",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21968,
+        "tooltipId": "a57522afd36"
       }
     ],
     "achievements": []
@@ -18098,6 +19430,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21969,
+        "tooltipId": "52ebac6110e"
+      }
+    ],
     "achievements": []
   },
   {
@@ -18149,6 +19487,12 @@
         "Patch": 44,
         "Url": "/Item/21970",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21970,
+        "tooltipId": "c516d24778f"
       }
     ],
     "achievements": []
@@ -18204,6 +19548,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21971,
+        "tooltipId": "1ab5c92e82d"
+      }
+    ],
     "achievements": []
   },
   {
@@ -18255,6 +19605,12 @@
         "Patch": 44,
         "Url": "/Item/21972",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21972,
+        "tooltipId": "1100c446db4"
       }
     ],
     "achievements": []
@@ -18310,6 +19666,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21975,
+        "tooltipId": "3a619c5c9a2"
+      }
+    ],
     "achievements": []
   },
   {
@@ -18361,6 +19723,12 @@
         "Patch": 44,
         "Url": "/Item/21976",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21976,
+        "tooltipId": "cf35873916d"
       }
     ],
     "achievements": []
@@ -18416,6 +19784,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21977,
+        "tooltipId": "ed80ea01cc6"
+      }
+    ],
     "achievements": []
   },
   {
@@ -18467,6 +19841,12 @@
         "Patch": 44,
         "Url": "/Item/21978",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21978,
+        "tooltipId": "e29c1477990"
       }
     ],
     "achievements": []
@@ -18522,6 +19902,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21979,
+        "tooltipId": "8f343303664"
+      }
+    ],
     "achievements": []
   },
   {
@@ -18573,6 +19959,12 @@
         "Patch": 44,
         "Url": "/Item/21980",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21980,
+        "tooltipId": "8d91fa4c634"
       }
     ],
     "achievements": []
@@ -18628,6 +20020,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21981,
+        "tooltipId": "6b6de27ccb4"
+      }
+    ],
     "achievements": []
   },
   {
@@ -18679,6 +20077,12 @@
         "Patch": 44,
         "Url": "/Item/21982",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21982,
+        "tooltipId": "98321010460"
       }
     ],
     "achievements": []
@@ -18734,6 +20138,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21983,
+        "tooltipId": "37cc4d06760"
+      }
+    ],
     "achievements": []
   },
   {
@@ -18785,6 +20195,12 @@
         "Patch": 44,
         "Url": "/Item/21984",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21984,
+        "tooltipId": "818af3058ee"
       }
     ],
     "achievements": []
@@ -18840,6 +20256,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21985,
+        "tooltipId": "4aa36c84097"
+      }
+    ],
     "achievements": []
   },
   {
@@ -18891,6 +20313,12 @@
         "Patch": 44,
         "Url": "/Item/21986",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21986,
+        "tooltipId": "0a8c3f825bd"
       }
     ],
     "achievements": []
@@ -18946,6 +20374,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21987,
+        "tooltipId": "a482dba5623"
+      }
+    ],
     "achievements": []
   },
   {
@@ -18999,6 +20433,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21988,
+        "tooltipId": "c187737a511"
+      }
+    ],
     "achievements": []
   },
   {
@@ -19050,6 +20490,12 @@
         "Patch": 44,
         "Url": "/Item/21991",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21991,
+        "tooltipId": "eabcecf261c"
       }
     ],
     "achievements": [
@@ -19117,6 +20563,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21992,
+        "tooltipId": "4fac5bcc7f1"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -19180,6 +20632,12 @@
         "Patch": 44,
         "Url": "/Item/21993",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21993,
+        "tooltipId": "dcda8c89ad7"
       }
     ],
     "achievements": [
@@ -19247,6 +20705,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21994,
+        "tooltipId": "d1e314eb751"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -19310,6 +20774,12 @@
         "Patch": 44,
         "Url": "/Item/21995",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21995,
+        "tooltipId": "a253a2af7a8"
       }
     ],
     "achievements": [
@@ -19377,6 +20847,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21996,
+        "tooltipId": "3dcfcdcad9e"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -19440,6 +20916,12 @@
         "Patch": 44,
         "Url": "/Item/21997",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21997,
+        "tooltipId": "3e2f5d12394"
       }
     ],
     "achievements": [
@@ -19507,6 +20989,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21998,
+        "tooltipId": "adae567c199"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -19570,6 +21058,12 @@
         "Patch": 44,
         "Url": "/Item/21999",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21999,
+        "tooltipId": "d26b9ecbc49"
       }
     ],
     "achievements": [
@@ -19637,6 +21131,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22000,
+        "tooltipId": "d08c1152c60"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -19700,6 +21200,12 @@
         "Patch": 44,
         "Url": "/Item/22001",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22001,
+        "tooltipId": "b89a3ea30c0"
       }
     ],
     "achievements": [
@@ -19767,6 +21273,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22002,
+        "tooltipId": "696d8235e4c"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -19832,6 +21344,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22003,
+        "tooltipId": "dc3877b8a08"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -19895,6 +21413,12 @@
         "Patch": 44,
         "Url": "/Item/22004",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22004,
+        "tooltipId": "4c8457f8f78"
       }
     ],
     "achievements": [
@@ -20945,6 +22469,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30229,
+        "tooltipId": "06889bef77f"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -21991,6 +23521,12 @@
         "Patch": 68,
         "Url": "/Item/30230",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30230,
+        "tooltipId": "275c3ace931"
       }
     ],
     "achievements": [
@@ -23041,6 +24577,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30231,
+        "tooltipId": "413ee28a03c"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -24087,6 +25629,12 @@
         "Patch": 68,
         "Url": "/Item/30232",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30232,
+        "tooltipId": "70dd28cb578"
       }
     ],
     "achievements": [
@@ -25137,6 +26685,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30233,
+        "tooltipId": "8be7ec2ea84"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -26183,6 +27737,12 @@
         "Patch": 68,
         "Url": "/Item/30234",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30234,
+        "tooltipId": "996c8446e0a"
       }
     ],
     "achievements": [
@@ -27233,6 +28793,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30235,
+        "tooltipId": "507e3d8210d"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -28279,6 +29845,12 @@
         "Patch": 68,
         "Url": "/Item/30236",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30236,
+        "tooltipId": "9e32cc283a7"
       }
     ],
     "achievements": [
@@ -29329,6 +30901,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30237,
+        "tooltipId": "19e100f034a"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -30375,6 +31953,12 @@
         "Patch": 68,
         "Url": "/Item/30238",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30238,
+        "tooltipId": "a2b2a813a81"
       }
     ],
     "achievements": [
@@ -31425,6 +33009,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30239,
+        "tooltipId": "f8f2789cf49"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -32471,6 +34061,12 @@
         "Patch": 68,
         "Url": "/Item/30240",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30240,
+        "tooltipId": "8fa1f0fad33"
       }
     ],
     "achievements": [
@@ -33521,6 +35117,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30241,
+        "tooltipId": "6d5087b392a"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -34567,6 +36169,12 @@
         "Patch": 68,
         "Url": "/Item/30242",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30242,
+        "tooltipId": "8a699120e00"
       }
     ],
     "achievements": [
@@ -35617,6 +37225,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30243,
+        "tooltipId": "a0108612d4a"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -36665,6 +38279,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30244,
+        "tooltipId": "940d9ea8ab8"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -36728,6 +38348,12 @@
         "Patch": 85,
         "Url": "/Item/38401",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 38401,
+        "tooltipId": "fc33bbd9117"
       }
     ],
     "achievements": [
@@ -36795,6 +38421,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 38402,
+        "tooltipId": "2d61fa3c41b"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -36858,6 +38490,12 @@
         "Patch": 85,
         "Url": "/Item/38403",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 38403,
+        "tooltipId": "07fdb699f84"
       }
     ],
     "achievements": [
@@ -36925,6 +38563,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 38404,
+        "tooltipId": "f8cd7c7c056"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -36988,6 +38632,12 @@
         "Patch": 85,
         "Url": "/Item/38405",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 38405,
+        "tooltipId": "4b3c7a66496"
       }
     ],
     "achievements": [
@@ -37055,6 +38705,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 38406,
+        "tooltipId": "dabe5deca27"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -37118,6 +38774,12 @@
         "Patch": 85,
         "Url": "/Item/38407",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 38407,
+        "tooltipId": "bc49f780b53"
       }
     ],
     "achievements": [
@@ -37185,6 +38847,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 38408,
+        "tooltipId": "c1d4fdd6ed3"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -37248,6 +38916,12 @@
         "Patch": 85,
         "Url": "/Item/38409",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 38409,
+        "tooltipId": "c8cdf063b8e"
       }
     ],
     "achievements": [
@@ -37315,6 +38989,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 38410,
+        "tooltipId": "7b001b21cfe"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -37378,6 +39058,12 @@
         "Patch": 85,
         "Url": "/Item/38411",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 38411,
+        "tooltipId": "c13cce8000f"
       }
     ],
     "achievements": [
@@ -37445,6 +39131,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 38412,
+        "tooltipId": "c19b8fa46af"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -37508,6 +39200,12 @@
         "Patch": 85,
         "Url": "/Item/38413",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 38413,
+        "tooltipId": "2bf646b7e22"
       }
     ],
     "achievements": [
@@ -37575,6 +39273,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 38414,
+        "tooltipId": "c6d86d341a2"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -37638,6 +39342,12 @@
         "Patch": 85,
         "Url": "/Item/38415",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 38415,
+        "tooltipId": "5d9d1b85d8f"
       }
     ],
     "achievements": [
@@ -37705,6 +39415,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 38416,
+        "tooltipId": "cf100bef6df"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -37768,6 +39484,12 @@
         "Patch": 85,
         "Url": "/Item/38417",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 38417,
+        "tooltipId": "4600598ba21"
       }
     ],
     "achievements": [
@@ -37835,6 +39557,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 38418,
+        "tooltipId": "9fda2cf0dc5"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -37898,6 +39626,12 @@
         "Patch": 87,
         "Url": "/Item/39145",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39145,
+        "tooltipId": "9c44eb987ea"
       }
     ],
     "achievements": [
@@ -37965,6 +39699,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39146,
+        "tooltipId": "27ad5d3568b"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -38028,6 +39768,12 @@
         "Patch": 87,
         "Url": "/Item/39147",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39147,
+        "tooltipId": "c72c9ab19c7"
       }
     ],
     "achievements": [
@@ -38095,6 +39841,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39148,
+        "tooltipId": "8ef6ddfe59e"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -38158,6 +39910,12 @@
         "Patch": 87,
         "Url": "/Item/39149",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39149,
+        "tooltipId": "eef4d50ea74"
       }
     ],
     "achievements": [
@@ -38225,6 +39983,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39150,
+        "tooltipId": "6abb0100c00"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -38288,6 +40052,12 @@
         "Patch": 87,
         "Url": "/Item/39151",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39151,
+        "tooltipId": "ba0a8a10b1a"
       }
     ],
     "achievements": [
@@ -38355,6 +40125,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39152,
+        "tooltipId": "c1d2b791a8c"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -38418,6 +40194,12 @@
         "Patch": 87,
         "Url": "/Item/39153",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39153,
+        "tooltipId": "e91dafa52d1"
       }
     ],
     "achievements": [
@@ -38485,6 +40267,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39154,
+        "tooltipId": "75cf476e917"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -38548,6 +40336,12 @@
         "Patch": 87,
         "Url": "/Item/39155",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39155,
+        "tooltipId": "874f90cb237"
       }
     ],
     "achievements": [
@@ -38615,6 +40409,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39156,
+        "tooltipId": "a6dd9fd74d6"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -38678,6 +40478,12 @@
         "Patch": 87,
         "Url": "/Item/39157",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39157,
+        "tooltipId": "ee473f1d5cc"
       }
     ],
     "achievements": [
@@ -38745,6 +40551,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39158,
+        "tooltipId": "868d23bfefe"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -38808,6 +40620,12 @@
         "Patch": 87,
         "Url": "/Item/39159",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39159,
+        "tooltipId": "24b3924be0a"
       }
     ],
     "achievements": [
@@ -38875,6 +40693,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39160,
+        "tooltipId": "8038b07dc16"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -38938,6 +40762,12 @@
         "Patch": 87,
         "Url": "/Item/39161",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39161,
+        "tooltipId": "4b157ec72b6"
       }
     ],
     "achievements": [
@@ -39005,6 +40835,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39162,
+        "tooltipId": "8650d2d6be4"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -39068,6 +40904,12 @@
         "Patch": 89,
         "Url": "/Item/39921",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39921,
+        "tooltipId": "cf66556a7a9"
       }
     ],
     "achievements": [
@@ -39135,6 +40977,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39922,
+        "tooltipId": "81cc7378123"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -39198,6 +41046,12 @@
         "Patch": 89,
         "Url": "/Item/39923",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39923,
+        "tooltipId": "5e5549eca9d"
       }
     ],
     "achievements": [
@@ -39265,6 +41119,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39924,
+        "tooltipId": "589479033e2"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -39328,6 +41188,12 @@
         "Patch": 89,
         "Url": "/Item/39925",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39925,
+        "tooltipId": "dfcade7529d"
       }
     ],
     "achievements": [
@@ -39395,6 +41261,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39926,
+        "tooltipId": "4b79b0222c6"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -39458,6 +41330,12 @@
         "Patch": 89,
         "Url": "/Item/39927",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39927,
+        "tooltipId": "906e48852ce"
       }
     ],
     "achievements": [
@@ -39525,6 +41403,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39928,
+        "tooltipId": "39385da68bf"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -39588,6 +41472,12 @@
         "Patch": 89,
         "Url": "/Item/39929",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39929,
+        "tooltipId": "edae7d6fedb"
       }
     ],
     "achievements": [
@@ -39655,6 +41545,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39930,
+        "tooltipId": "4e26bdc07dd"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -39718,6 +41614,12 @@
         "Patch": 89,
         "Url": "/Item/39931",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39931,
+        "tooltipId": "29ddc8dc63a"
       }
     ],
     "achievements": [
@@ -39785,6 +41687,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39932,
+        "tooltipId": "5f6260c995c"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -39848,6 +41756,12 @@
         "Patch": 89,
         "Url": "/Item/39933",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39933,
+        "tooltipId": "8e9413021e5"
       }
     ],
     "achievements": [
@@ -39915,6 +41829,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39934,
+        "tooltipId": "87b10b8c21e"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -39978,6 +41898,12 @@
         "Patch": 89,
         "Url": "/Item/39935",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39935,
+        "tooltipId": "fe1f9505977"
       }
     ],
     "achievements": [
@@ -40045,6 +41971,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39936,
+        "tooltipId": "4d1268c9dff"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -40108,6 +42040,12 @@
         "Patch": 89,
         "Url": "/Item/39937",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39937,
+        "tooltipId": "ba348d8137e"
       }
     ],
     "achievements": [
@@ -40175,6 +42113,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39938,
+        "tooltipId": "41f0afc3efb"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -40238,6 +42182,12 @@
         "Patch": 24,
         "Url": "/Item/13224",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13224,
+        "tooltipId": "33cad2aeda6"
       }
     ],
     "achievements": [
@@ -40305,6 +42255,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13225,
+        "tooltipId": "b459df72de7"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -40368,6 +42324,12 @@
         "Patch": 24,
         "Url": "/Item/13226",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13226,
+        "tooltipId": "4880cb6b074"
       }
     ],
     "achievements": [
@@ -40435,6 +42397,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13227,
+        "tooltipId": "fc991f27c07"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -40498,6 +42466,12 @@
         "Patch": 24,
         "Url": "/Item/13228",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13228,
+        "tooltipId": "9374c6edb53"
       }
     ],
     "achievements": [
@@ -40565,6 +42539,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13229,
+        "tooltipId": "4e6fbe22264"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -40628,6 +42608,12 @@
         "Patch": 24,
         "Url": "/Item/13230",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13230,
+        "tooltipId": "8dca5d01e5d"
       }
     ],
     "achievements": [
@@ -40695,6 +42681,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13231,
+        "tooltipId": "7986ec6f55f"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -40758,6 +42750,12 @@
         "Patch": 24,
         "Url": "/Item/13232",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13232,
+        "tooltipId": "169c4f9baac"
       }
     ],
     "achievements": [
@@ -40825,6 +42823,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13233,
+        "tooltipId": "40272a57e9a"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -40888,6 +42892,12 @@
         "Patch": 24,
         "Url": "/Item/13234",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13234,
+        "tooltipId": "5f52debb806"
       }
     ],
     "achievements": [
@@ -40955,6 +42965,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13235,
+        "tooltipId": "a083cdcdbc6"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -41020,6 +43036,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13598,
+        "tooltipId": "b0ae50faa6b"
+      }
+    ],
     "achievements": []
   },
   {
@@ -41071,6 +43093,12 @@
         "Patch": 24,
         "Url": "/Item/13599",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13599,
+        "tooltipId": "4899e76c029"
       }
     ],
     "achievements": []
@@ -41126,6 +43154,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13600,
+        "tooltipId": "04c9141674a"
+      }
+    ],
     "achievements": []
   },
   {
@@ -41177,6 +43211,12 @@
         "Patch": 24,
         "Url": "/Item/13601",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13601,
+        "tooltipId": "9205eb4081e"
       }
     ],
     "achievements": []
@@ -41232,6 +43272,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13602,
+        "tooltipId": "c8368ed1d8b"
+      }
+    ],
     "achievements": []
   },
   {
@@ -41283,6 +43329,12 @@
         "Patch": 24,
         "Url": "/Item/13603",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13603,
+        "tooltipId": "bede31d10dd"
       }
     ],
     "achievements": []
@@ -41338,6 +43390,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13604,
+        "tooltipId": "950d146ef1e"
+      }
+    ],
     "achievements": []
   },
   {
@@ -41389,6 +43447,12 @@
         "Patch": 24,
         "Url": "/Item/13605",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13605,
+        "tooltipId": "41bc3edc081"
       }
     ],
     "achievements": []
@@ -41444,6 +43508,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13606,
+        "tooltipId": "fb88a425b42"
+      }
+    ],
     "achievements": []
   },
   {
@@ -41495,6 +43565,12 @@
         "Patch": 24,
         "Url": "/Item/13607",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13607,
+        "tooltipId": "390672f13d6"
       }
     ],
     "achievements": []
@@ -41550,6 +43626,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13608,
+        "tooltipId": "71a42a7d9cf"
+      }
+    ],
     "achievements": []
   },
   {
@@ -41601,6 +43683,12 @@
         "Patch": 24,
         "Url": "/Item/13609",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13609,
+        "tooltipId": "11bbdc4950b"
       }
     ],
     "achievements": []
@@ -41656,6 +43744,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13612,
+        "tooltipId": "3f62b4fe8ba"
+      }
+    ],
     "achievements": []
   },
   {
@@ -41707,6 +43801,12 @@
         "Patch": 24,
         "Url": "/Item/13613",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13613,
+        "tooltipId": "80ecbdf2490"
       }
     ],
     "achievements": []
@@ -41762,6 +43862,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13614,
+        "tooltipId": "21d6bf581fe"
+      }
+    ],
     "achievements": []
   },
   {
@@ -41813,6 +43919,12 @@
         "Patch": 24,
         "Url": "/Item/13615",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13615,
+        "tooltipId": "7378fab745d"
       }
     ],
     "achievements": []
@@ -41868,6 +43980,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13616,
+        "tooltipId": "33fe99d59c3"
+      }
+    ],
     "achievements": []
   },
   {
@@ -41919,6 +44037,12 @@
         "Patch": 24,
         "Url": "/Item/13617",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13617,
+        "tooltipId": "f44bf82f430"
       }
     ],
     "achievements": []
@@ -41974,6 +44098,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13618,
+        "tooltipId": "c4da87a29ca"
+      }
+    ],
     "achievements": []
   },
   {
@@ -42025,6 +44155,12 @@
         "Patch": 24,
         "Url": "/Item/13619",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13619,
+        "tooltipId": "347148348cd"
       }
     ],
     "achievements": []
@@ -42080,6 +44216,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13620,
+        "tooltipId": "48d9090b4b5"
+      }
+    ],
     "achievements": []
   },
   {
@@ -42131,6 +44273,12 @@
         "Patch": 24,
         "Url": "/Item/13621",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 13621,
+        "tooltipId": "fe4133f6688"
       }
     ],
     "achievements": []
@@ -42186,6 +44334,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13622,
+        "tooltipId": "2fce9f37e60"
+      }
+    ],
     "achievements": []
   },
   {
@@ -42239,6 +44393,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13623,
+        "tooltipId": "ebf5d22929a"
+      }
+    ],
     "achievements": []
   },
   {
@@ -42290,6 +44450,12 @@
         "Patch": 26,
         "Url": "/Item/14871",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 14871,
+        "tooltipId": "89c3dd92c16"
       }
     ],
     "achievements": [
@@ -42357,6 +44523,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 14872,
+        "tooltipId": "88fc4968d5f"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -42420,6 +44592,12 @@
         "Patch": 26,
         "Url": "/Item/14873",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 14873,
+        "tooltipId": "c9bddd593c7"
       }
     ],
     "achievements": [
@@ -42487,6 +44665,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 14874,
+        "tooltipId": "bec358e8127"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -42550,6 +44734,12 @@
         "Patch": 26,
         "Url": "/Item/14875",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 14875,
+        "tooltipId": "385b30ff4f1"
       }
     ],
     "achievements": [
@@ -42617,6 +44807,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 14876,
+        "tooltipId": "4e20be26050"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -42680,6 +44876,12 @@
         "Patch": 26,
         "Url": "/Item/14877",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 14877,
+        "tooltipId": "5b05fa40d7b"
       }
     ],
     "achievements": [
@@ -42747,6 +44949,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 14878,
+        "tooltipId": "21ff587cc28"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -42810,6 +45018,12 @@
         "Patch": 26,
         "Url": "/Item/14879",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 14879,
+        "tooltipId": "21f3e652c0a"
       }
     ],
     "achievements": [
@@ -42877,6 +45091,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 14880,
+        "tooltipId": "0cabb9e95d8"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -42940,6 +45160,12 @@
         "Patch": 26,
         "Url": "/Item/14881",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 14881,
+        "tooltipId": "ffb8d1496aa"
       }
     ],
     "achievements": [
@@ -43007,6 +45233,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 14882,
+        "tooltipId": "149c26b4cc1"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -43070,6 +45302,12 @@
         "Patch": 27,
         "Url": "/Item/15224",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15224,
+        "tooltipId": "1117cd44909"
       }
     ],
     "achievements": [
@@ -43137,6 +45375,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15225,
+        "tooltipId": "1d74b70d57b"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -43200,6 +45444,12 @@
         "Patch": 27,
         "Url": "/Item/15226",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15226,
+        "tooltipId": "43444b7f464"
       }
     ],
     "achievements": [
@@ -43267,6 +45517,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15227,
+        "tooltipId": "e110f87c706"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -43330,6 +45586,12 @@
         "Patch": 27,
         "Url": "/Item/15228",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15228,
+        "tooltipId": "fc910b88f7c"
       }
     ],
     "achievements": [
@@ -43397,6 +45659,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15229,
+        "tooltipId": "a6d90f52567"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -43460,6 +45728,12 @@
         "Patch": 27,
         "Url": "/Item/15230",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15230,
+        "tooltipId": "aeed2910c0d"
       }
     ],
     "achievements": [
@@ -43527,6 +45801,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15231,
+        "tooltipId": "97c6e1d84d2"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -43590,6 +45870,12 @@
         "Patch": 27,
         "Url": "/Item/15232",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15232,
+        "tooltipId": "00feac5b14d"
       }
     ],
     "achievements": [
@@ -43657,6 +45943,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15233,
+        "tooltipId": "0e20416b813"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -43720,6 +46012,12 @@
         "Patch": 27,
         "Url": "/Item/15234",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15234,
+        "tooltipId": "8432a81fa47"
       }
     ],
     "achievements": [
@@ -43787,6 +46085,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15235,
+        "tooltipId": "db49ff78d11"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -43850,6 +46154,12 @@
         "Patch": 31,
         "Url": "/Item/15238",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15238,
+        "tooltipId": "f7607d58e95"
       }
     ],
     "achievements": [
@@ -43917,6 +46227,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15239,
+        "tooltipId": "e3b68249ee7"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -43980,6 +46296,12 @@
         "Patch": 31,
         "Url": "/Item/15240",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15240,
+        "tooltipId": "580bf49fb86"
       }
     ],
     "achievements": [
@@ -44047,6 +46369,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15241,
+        "tooltipId": "c047f4fe2c7"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -44110,6 +46438,12 @@
         "Patch": 31,
         "Url": "/Item/15242",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15242,
+        "tooltipId": "6bd599a6025"
       }
     ],
     "achievements": [
@@ -44177,6 +46511,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15243,
+        "tooltipId": "fcdc715f7c7"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -44240,6 +46580,12 @@
         "Patch": 31,
         "Url": "/Item/15244",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15244,
+        "tooltipId": "a2e8660bd5d"
       }
     ],
     "achievements": [
@@ -44307,6 +46653,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15245,
+        "tooltipId": "1b7e7f27036"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -44370,6 +46722,12 @@
         "Patch": 31,
         "Url": "/Item/15246",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15246,
+        "tooltipId": "55ff1fe8018"
       }
     ],
     "achievements": [
@@ -44437,6 +46795,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15247,
+        "tooltipId": "59c6fb24715"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -44500,6 +46864,12 @@
         "Patch": 31,
         "Url": "/Item/15248",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15248,
+        "tooltipId": "1405f6bf8f4"
       }
     ],
     "achievements": [
@@ -44567,6 +46937,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15249,
+        "tooltipId": "315e38bb6d9"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -44630,6 +47006,12 @@
         "Patch": 32,
         "Url": "/Item/15252",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15252,
+        "tooltipId": "c2f83b89f86"
       }
     ],
     "achievements": [
@@ -44697,6 +47079,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15253,
+        "tooltipId": "4bfc9fb51b3"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -44760,6 +47148,12 @@
         "Patch": 32,
         "Url": "/Item/15254",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15254,
+        "tooltipId": "619a2c52353"
       }
     ],
     "achievements": [
@@ -44827,6 +47221,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15255,
+        "tooltipId": "421fddbb2fd"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -44890,6 +47290,12 @@
         "Patch": 32,
         "Url": "/Item/15256",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15256,
+        "tooltipId": "2ab9ea09b84"
       }
     ],
     "achievements": [
@@ -44957,6 +47363,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15257,
+        "tooltipId": "796185631a3"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -45020,6 +47432,12 @@
         "Patch": 32,
         "Url": "/Item/15258",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15258,
+        "tooltipId": "c7e3fefc27d"
       }
     ],
     "achievements": [
@@ -45087,6 +47505,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15259,
+        "tooltipId": "8a77f052a70"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -45150,6 +47574,12 @@
         "Patch": 32,
         "Url": "/Item/15260",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15260,
+        "tooltipId": "fbb13f5b84c"
       }
     ],
     "achievements": [
@@ -45217,6 +47647,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15261,
+        "tooltipId": "06eb9c64562"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -45280,6 +47716,12 @@
         "Patch": 32,
         "Url": "/Item/15262",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15262,
+        "tooltipId": "32f482a2365"
       }
     ],
     "achievements": [
@@ -45347,6 +47789,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15263,
+        "tooltipId": "87eba37edfb"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -45410,6 +47858,12 @@
         "Patch": 34,
         "Url": "/Item/16051",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 16051,
+        "tooltipId": "e1e6b42a998"
       }
     ],
     "achievements": [
@@ -45477,6 +47931,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 16052,
+        "tooltipId": "733b3dfe2f6"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -45540,6 +48000,12 @@
         "Patch": 34,
         "Url": "/Item/16053",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 16053,
+        "tooltipId": "a3bee10b22a"
       }
     ],
     "achievements": [
@@ -45607,6 +48073,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 16054,
+        "tooltipId": "21531adb76a"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -45670,6 +48142,12 @@
         "Patch": 34,
         "Url": "/Item/16055",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 16055,
+        "tooltipId": "f1c753948f2"
       }
     ],
     "achievements": [
@@ -45737,6 +48215,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 16056,
+        "tooltipId": "f13db214a0c"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -45800,6 +48284,12 @@
         "Patch": 34,
         "Url": "/Item/16057",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 16057,
+        "tooltipId": "6b6900c109e"
       }
     ],
     "achievements": [
@@ -45867,6 +48357,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 16058,
+        "tooltipId": "a77cd2696ba"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -45930,6 +48426,12 @@
         "Patch": 34,
         "Url": "/Item/16059",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 16059,
+        "tooltipId": "3dd51a45b5c"
       }
     ],
     "achievements": [
@@ -45997,6 +48499,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 16060,
+        "tooltipId": "4f791b9eff4"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -46062,6 +48570,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 16061,
+        "tooltipId": "c17bb971896"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -46125,6 +48639,12 @@
         "Patch": 34,
         "Url": "/Item/16062",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 16062,
+        "tooltipId": "480763a868e"
       }
     ],
     "achievements": [
@@ -46792,6 +49312,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30768,
+        "tooltipId": "2e12269055c"
+      }
+    ],
     "achievements": []
   },
   {
@@ -47443,6 +49969,12 @@
         "Patch": 71,
         "Url": "/Item/30769",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30769,
+        "tooltipId": "6f1e3cad459"
       }
     ],
     "achievements": []
@@ -48098,6 +50630,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30770,
+        "tooltipId": "6da6c3b4b17"
+      }
+    ],
     "achievements": []
   },
   {
@@ -48749,6 +51287,12 @@
         "Patch": 71,
         "Url": "/Item/30771",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30771,
+        "tooltipId": "02cd7f83024"
       }
     ],
     "achievements": []
@@ -49404,6 +51948,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30772,
+        "tooltipId": "c8e29f73aaa"
+      }
+    ],
     "achievements": []
   },
   {
@@ -50055,6 +52605,12 @@
         "Patch": 71,
         "Url": "/Item/30773",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30773,
+        "tooltipId": "946e0e42dda"
       }
     ],
     "achievements": []
@@ -50710,6 +53266,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30774,
+        "tooltipId": "3df650195f9"
+      }
+    ],
     "achievements": []
   },
   {
@@ -51361,6 +53923,12 @@
         "Patch": 71,
         "Url": "/Item/30775",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30775,
+        "tooltipId": "782504a566a"
       }
     ],
     "achievements": []
@@ -52016,6 +54584,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30776,
+        "tooltipId": "1376b68fd85"
+      }
+    ],
     "achievements": []
   },
   {
@@ -52667,6 +55241,12 @@
         "Patch": 71,
         "Url": "/Item/30777",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30777,
+        "tooltipId": "fead9fd6f61"
       }
     ],
     "achievements": []
@@ -53322,6 +55902,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30778,
+        "tooltipId": "2237f24bae8"
+      }
+    ],
     "achievements": []
   },
   {
@@ -53973,6 +56559,12 @@
         "Patch": 71,
         "Url": "/Item/30779",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30779,
+        "tooltipId": "c9349942844"
       }
     ],
     "achievements": []
@@ -54628,6 +57220,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30780,
+        "tooltipId": "ea4078b6361"
+      }
+    ],
     "achievements": []
   },
   {
@@ -55279,6 +57877,12 @@
         "Patch": 71,
         "Url": "/Item/30781",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30781,
+        "tooltipId": "2de41d55886"
       }
     ],
     "achievements": []
@@ -55934,6 +58538,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30782,
+        "tooltipId": "88cdd570185"
+      }
+    ],
     "achievements": []
   },
   {
@@ -56587,6 +59197,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30783,
+        "tooltipId": "cb836fa6fbb"
+      }
+    ],
     "achievements": []
   },
   {
@@ -57210,6 +59826,12 @@
         "Patch": 71,
         "Url": "/Item/30786",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30786,
+        "tooltipId": "079d74dc5ae"
       }
     ],
     "achievements": [
@@ -57849,6 +60471,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30787,
+        "tooltipId": "cc4920cfec2"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -58484,6 +61112,12 @@
         "Patch": 71,
         "Url": "/Item/30788",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30788,
+        "tooltipId": "624c56c8814"
       }
     ],
     "achievements": [
@@ -59123,6 +61757,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30789,
+        "tooltipId": "fdd055099ed"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -59758,6 +62398,12 @@
         "Patch": 71,
         "Url": "/Item/30790",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30790,
+        "tooltipId": "c826263740c"
       }
     ],
     "achievements": [
@@ -60397,6 +63043,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30791,
+        "tooltipId": "92f46ecd28d"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -61032,6 +63684,12 @@
         "Patch": 71,
         "Url": "/Item/30792",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30792,
+        "tooltipId": "f7e8a0c3839"
       }
     ],
     "achievements": [
@@ -61671,6 +64329,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30793,
+        "tooltipId": "bf0cbc8478f"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -62306,6 +64970,12 @@
         "Patch": 71,
         "Url": "/Item/30794",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30794,
+        "tooltipId": "2bf5a8d7fc5"
       }
     ],
     "achievements": [
@@ -62945,6 +65615,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30795,
+        "tooltipId": "dbf9c98e766"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -63580,6 +66256,12 @@
         "Patch": 71,
         "Url": "/Item/30796",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30796,
+        "tooltipId": "9caf1df1759"
       }
     ],
     "achievements": [
@@ -64219,6 +66901,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30797,
+        "tooltipId": "f8fe38b74a5"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -64854,6 +67542,12 @@
         "Patch": 71,
         "Url": "/Item/30798",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30798,
+        "tooltipId": "3e0bb1e4805"
       }
     ],
     "achievements": [
@@ -65493,6 +68187,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30799,
+        "tooltipId": "578f0e3e280"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -66128,6 +68828,12 @@
         "Patch": 71,
         "Url": "/Item/30800",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 30800,
+        "tooltipId": "971e83115e4"
       }
     ],
     "achievements": [
@@ -66767,6 +69473,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30801,
+        "tooltipId": "855f93d04e3"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -67343,6 +70055,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32652,
+        "tooltipId": "ee05886285d"
+      }
+    ],
     "achievements": []
   },
   {
@@ -67905,6 +70623,12 @@
         "Patch": 74,
         "Url": "/Item/32653",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32653,
+        "tooltipId": "9a0f18a1e02"
       }
     ],
     "achievements": []
@@ -68471,6 +71195,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32654,
+        "tooltipId": "18ac61c10de"
+      }
+    ],
     "achievements": []
   },
   {
@@ -69033,6 +71763,12 @@
         "Patch": 74,
         "Url": "/Item/32655",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32655,
+        "tooltipId": "0e60221ed3e"
       }
     ],
     "achievements": []
@@ -69599,6 +72335,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32656,
+        "tooltipId": "61d1e804192"
+      }
+    ],
     "achievements": []
   },
   {
@@ -70161,6 +72903,12 @@
         "Patch": 74,
         "Url": "/Item/32657",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32657,
+        "tooltipId": "bbc5656d215"
       }
     ],
     "achievements": []
@@ -70727,6 +73475,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32658,
+        "tooltipId": "5a0bf8e1b50"
+      }
+    ],
     "achievements": []
   },
   {
@@ -71289,6 +74043,12 @@
         "Patch": 74,
         "Url": "/Item/32659",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32659,
+        "tooltipId": "5e2666f5add"
       }
     ],
     "achievements": []
@@ -71855,6 +74615,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32660,
+        "tooltipId": "404b1b5e7f6"
+      }
+    ],
     "achievements": []
   },
   {
@@ -72417,6 +75183,12 @@
         "Patch": 74,
         "Url": "/Item/32661",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32661,
+        "tooltipId": "e86e1719719"
       }
     ],
     "achievements": []
@@ -72983,6 +75755,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32662,
+        "tooltipId": "6f698b65bfb"
+      }
+    ],
     "achievements": []
   },
   {
@@ -73545,6 +76323,12 @@
         "Patch": 74,
         "Url": "/Item/32663",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32663,
+        "tooltipId": "b8f03179d21"
       }
     ],
     "achievements": []
@@ -74111,6 +76895,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32664,
+        "tooltipId": "f17cb3296c1"
+      }
+    ],
     "achievements": []
   },
   {
@@ -74673,6 +77463,12 @@
         "Patch": 74,
         "Url": "/Item/32665",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32665,
+        "tooltipId": "7e194962fa2"
       }
     ],
     "achievements": []
@@ -75239,6 +78035,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32666,
+        "tooltipId": "fe7b17956d0"
+      }
+    ],
     "achievements": []
   },
   {
@@ -75801,6 +78603,12 @@
         "Patch": 74,
         "Url": "/Item/32667",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32667,
+        "tooltipId": "14d20f168c1"
       }
     ],
     "achievements": []
@@ -76420,6 +79228,12 @@
         "Patch": 74,
         "Url": "/Item/32670",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32670,
+        "tooltipId": "31c9e7815d3"
       }
     ],
     "achievements": [
@@ -77053,6 +79867,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32671,
+        "tooltipId": "47e86df8ade"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -77682,6 +80502,12 @@
         "Patch": 74,
         "Url": "/Item/32672",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32672,
+        "tooltipId": "77f089fdd00"
       }
     ],
     "achievements": [
@@ -78315,6 +81141,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32673,
+        "tooltipId": "dfa72556cf4"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -78944,6 +81776,12 @@
         "Patch": 74,
         "Url": "/Item/32674",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32674,
+        "tooltipId": "43042b2d98e"
       }
     ],
     "achievements": [
@@ -79577,6 +82415,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32675,
+        "tooltipId": "515240cf2b7"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -80206,6 +83050,12 @@
         "Patch": 74,
         "Url": "/Item/32676",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32676,
+        "tooltipId": "b603a2652ad"
       }
     ],
     "achievements": [
@@ -80839,6 +83689,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32677,
+        "tooltipId": "0faaf746fbb"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -81468,6 +84324,12 @@
         "Patch": 74,
         "Url": "/Item/32678",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32678,
+        "tooltipId": "ab49559933e"
       }
     ],
     "achievements": [
@@ -82101,6 +84963,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32679,
+        "tooltipId": "190b352a3af"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -82730,6 +85598,12 @@
         "Patch": 74,
         "Url": "/Item/32680",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32680,
+        "tooltipId": "adedb64a012"
       }
     ],
     "achievements": [
@@ -83363,6 +86237,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32681,
+        "tooltipId": "d36451322d1"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -83992,6 +86872,12 @@
         "Patch": 74,
         "Url": "/Item/32682",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32682,
+        "tooltipId": "1221e9e3284"
       }
     ],
     "achievements": [
@@ -84625,6 +87511,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32683,
+        "tooltipId": "a6584649bfc"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -85256,6 +88148,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 32684,
+        "tooltipId": "3111076df9e"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -85885,6 +88783,12 @@
         "Patch": 74,
         "Url": "/Item/32685",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32685,
+        "tooltipId": "30a07d86457"
       }
     ],
     "achievements": [
@@ -86648,6 +89552,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 33463,
+        "tooltipId": "ab2dd29d359"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -87407,6 +90317,12 @@
         "Patch": 76,
         "Url": "/Item/33464",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 33464,
+        "tooltipId": "460890d49db"
       }
     ],
     "achievements": [
@@ -88170,6 +91086,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 33465,
+        "tooltipId": "76f2f7502ee"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -88929,6 +91851,12 @@
         "Patch": 76,
         "Url": "/Item/33466",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 33466,
+        "tooltipId": "a33b69fddb0"
       }
     ],
     "achievements": [
@@ -89692,6 +92620,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 33467,
+        "tooltipId": "218b8e3dc1a"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -90451,6 +93385,12 @@
         "Patch": 76,
         "Url": "/Item/33468",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 33468,
+        "tooltipId": "411c889f278"
       }
     ],
     "achievements": [
@@ -91214,6 +94154,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 33469,
+        "tooltipId": "6bf3f032acc"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -91973,6 +94919,12 @@
         "Patch": 76,
         "Url": "/Item/33470",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 33470,
+        "tooltipId": "ec891824c43"
       }
     ],
     "achievements": [
@@ -92736,6 +95688,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 33471,
+        "tooltipId": "0028e10b578"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -93495,6 +96453,12 @@
         "Patch": 76,
         "Url": "/Item/33472",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 33472,
+        "tooltipId": "6f6126d26ef"
       }
     ],
     "achievements": [
@@ -94258,6 +97222,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 33473,
+        "tooltipId": "b25ccf3c6fc"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -95017,6 +97987,12 @@
         "Patch": 76,
         "Url": "/Item/33474",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 33474,
+        "tooltipId": "4d63265e2a1"
       }
     ],
     "achievements": [
@@ -95780,6 +98756,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 33475,
+        "tooltipId": "1e25c64a39f"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -96539,6 +99521,12 @@
         "Patch": 76,
         "Url": "/Item/33476",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 33476,
+        "tooltipId": "9c95f5b6a27"
       }
     ],
     "achievements": [
@@ -97302,6 +100290,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 33477,
+        "tooltipId": "b723d663158"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -98061,6 +101055,12 @@
         "Patch": 76,
         "Url": "/Item/33478",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 33478,
+        "tooltipId": "c6c3c9396dd"
       }
     ],
     "achievements": [
@@ -98838,6 +101838,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 1675,
+        "tooltipId": "f036916741a"
+      }
+    ],
     "achievements": []
   },
   {
@@ -98929,6 +101935,12 @@
         "Patch": 4,
         "Url": "/Item/6266",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 6257,
+        "tooltipId": "c3c235e7ca5"
       }
     ],
     "achievements": []
@@ -99024,6 +102036,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7824,
+        "tooltipId": "c47c20d73a5"
+      }
+    ],
     "achievements": []
   },
   {
@@ -99115,6 +102133,12 @@
         "Patch": 8,
         "Url": "/Item/7843",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 7834,
+        "tooltipId": "24dc485b4c8"
       }
     ],
     "achievements": []
@@ -99210,6 +102234,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 7863,
+        "tooltipId": "1811df917b3"
+      }
+    ],
     "achievements": []
   },
   {
@@ -99301,6 +102331,12 @@
         "Patch": 13,
         "Url": "/Item/8658",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 8649,
+        "tooltipId": "fe0462845fb"
       }
     ],
     "achievements": []
@@ -99396,6 +102432,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 9491,
+        "tooltipId": "8c886018268"
+      }
+    ],
     "achievements": []
   },
   {
@@ -99487,6 +102529,12 @@
         "Patch": 17,
         "Url": "/Item/10063",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 10054,
+        "tooltipId": "598abb7dd01"
       }
     ],
     "achievements": []
@@ -99582,6 +102630,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22925,
+        "tooltipId": "7eda188f89d"
+      }
+    ],
     "achievements": []
   },
   {
@@ -99675,6 +102729,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 22941,
+        "tooltipId": "d42291d97c6"
+      }
+    ],
     "achievements": []
   },
   {
@@ -99766,6 +102826,12 @@
         "Patch": 49,
         "Url": "/Item/22972",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 22957,
+        "tooltipId": "0f77aeab83a"
       }
     ],
     "achievements": [
@@ -99873,6 +102939,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24039,
+        "tooltipId": "f0e31e2178f"
+      }
+    ],
     "achievements": []
   },
   {
@@ -99966,6 +103038,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24055,
+        "tooltipId": "d7458156a5d"
+      }
+    ],
     "achievements": []
   },
   {
@@ -100057,6 +103135,12 @@
         "Patch": 51,
         "Url": "/Item/24086",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24071,
+        "tooltipId": "ae8a223279d"
       }
     ],
     "achievements": [
@@ -100164,6 +103248,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24643,
+        "tooltipId": "f14ed7b1e5d"
+      }
+    ],
     "achievements": []
   },
   {
@@ -100255,6 +103345,12 @@
         "Patch": 54,
         "Url": "/Item/24674",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 24659,
+        "tooltipId": "bfb6a7c5e8c"
       }
     ],
     "achievements": []
@@ -100350,6 +103446,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 24675,
+        "tooltipId": "dbea3748f8a"
+      }
+    ],
     "achievements": []
   },
   {
@@ -100441,6 +103543,12 @@
         "Patch": 44,
         "Url": "/Item/21957",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21942,
+        "tooltipId": "6433f6ece66"
       }
     ],
     "achievements": []
@@ -100536,6 +103644,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21958,
+        "tooltipId": "626d944158c"
+      }
+    ],
     "achievements": []
   },
   {
@@ -100629,6 +103743,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 21974,
+        "tooltipId": "94fe82ab44f"
+      }
+    ],
     "achievements": []
   },
   {
@@ -100720,6 +103840,12 @@
         "Patch": 44,
         "Url": "/Item/22005",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 21990,
+        "tooltipId": "f3780f68af2"
       }
     ],
     "achievements": [
@@ -101810,6 +104936,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30228,
+        "tooltipId": "8c5ab934920"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -101913,6 +105045,12 @@
         "Patch": 85,
         "Url": "/Item/38419",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 38400,
+        "tooltipId": "78f9f05728e"
       }
     ],
     "achievements": [
@@ -102020,6 +105158,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 39144,
+        "tooltipId": "b7b9da5f856"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -102123,6 +105267,12 @@
         "Patch": 89,
         "Url": "/Item/39939",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 39920,
+        "tooltipId": "94b67e37cfb"
       }
     ],
     "achievements": [
@@ -102230,6 +105380,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13223,
+        "tooltipId": "342d8914462"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -102335,6 +105491,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13597,
+        "tooltipId": "f423bc22183"
+      }
+    ],
     "achievements": []
   },
   {
@@ -102428,6 +105590,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 13611,
+        "tooltipId": "28f8346085b"
+      }
+    ],
     "achievements": []
   },
   {
@@ -102519,6 +105687,12 @@
         "Patch": 26,
         "Url": "/Item/14883",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 14870,
+        "tooltipId": "06c0b471506"
       }
     ],
     "achievements": [
@@ -102626,6 +105800,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15223,
+        "tooltipId": "80ed1ac7d77"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -102729,6 +105909,12 @@
         "Patch": 31,
         "Url": "/Item/15250",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 15237,
+        "tooltipId": "0a3daa282fd"
       }
     ],
     "achievements": [
@@ -102836,6 +106022,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 15251,
+        "tooltipId": "cb74756507f"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -102939,6 +106131,12 @@
         "Patch": 34,
         "Url": "/Item/16063",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 16050,
+        "tooltipId": "fa7f0b59c23"
       }
     ],
     "achievements": [
@@ -103646,6 +106844,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30767,
+        "tooltipId": "2e01a9c624c"
+      }
+    ],
     "achievements": []
   },
   {
@@ -104311,6 +107515,12 @@
         "UrlType": "Item"
       }
     ],
+    "tooltips": [
+      {
+        "itemId": 30785,
+        "tooltipId": "db9c38b4951"
+      }
+    ],
     "achievements": [
       {
         "achievement": {
@@ -104925,6 +108135,12 @@
         "Patch": 74,
         "Url": "/Item/32668",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32651,
+        "tooltipId": "bdd473518fb"
       }
     ],
     "achievements": []
@@ -105584,6 +108800,12 @@
         "Patch": 74,
         "Url": "/Item/32686",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 32669,
+        "tooltipId": "6e823e3c7d4"
       }
     ],
     "achievements": [
@@ -106385,6 +109607,12 @@
         "Patch": 76,
         "Url": "/Item/33479",
         "UrlType": "Item"
+      }
+    ],
+    "tooltips": [
+      {
+        "itemId": 33462,
+        "tooltipId": "ab82a5486bc"
       }
     ],
     "achievements": [

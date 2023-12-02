@@ -5,8 +5,12 @@ import {
   Relation,
   SummaryAchievement,
   SummaryQuest,
+  Tooltip,
 } from 'src/types/json-index';
 import * as fs from 'fs';
+import superagent from 'superagent';
+import cheerio from 'cheerio';
+// https://github.com/karashiiro/garlandtools-api
 const garlandtools = require('garlandtools-api');
 garlandtools.setLang('ja');
 const XIVAPI = require('@xivapi/js');
@@ -182,6 +186,7 @@ const relations = () => {
   // [info] require relative path 'root' is this file in folder
   const items = require('../assets/data/xivapi/items.json') as Item[];
   const quests = require('../assets/data/garlandtools/quests.json') as Quest[];
+  const tooltips = require('../assets/data/local/tooltips.json') as Tooltip[];
   const achievements =
     require('../assets/data/garlandtools/achievements.json') as Achievement[];
 
@@ -202,6 +207,7 @@ const relations = () => {
           )
         ),
         items: [item],
+        tooltips: tooltips.filter((tooltip) => tooltip.itemId == item.ID),
         achievements: achievements.filter((achievement) => {
           const regex = new RegExp(
             `.*：.*${item.Name_ja}{1}$|.*：${item.Name_ja}{1}＆.*`
@@ -218,6 +224,7 @@ const relations = () => {
           )
         ),
         items: [item],
+        tooltips: tooltips.filter((tooltip) => tooltip.itemId == item.ID),
         achievements: achievements.filter((achievement) => {
           const regex = new RegExp(
             `.*：.*${item.Name_ja}{1}$|.*：${item.Name_ja}{1}＆.*`
@@ -257,6 +264,49 @@ const relations = () => {
   );
 };
 
+const tooltips = async () => {
+  const items = require('../assets/data/xivapi/items.json') as Item[];
+  // The information registered in tooltips is not queried, so if new information is required, set tooltips to just an empty array.
+  const tooltips = require('../assets/data/local/tooltips.json') as Tooltip[];
+  const urlBase = 'https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/';
+
+  for (let item of items) {
+    if (tooltips.find((tooltip) => tooltip.itemId == item.ID)) continue;
+    const page = await superagent.get(
+      `${urlBase}?&${[
+        'db_search_category=item',
+        `category2=${
+          item.EquipSlotCategory
+            ? item.EquipSlotCategory.MainHand == 1
+              ? 1
+              : 3
+            : ''
+        }`,
+        `min_item_lv=${item.EquipSlotCategory ? item.LevelItem : ''}`,
+        `max_item_lv=${item.EquipSlotCategory ? item.LevelItem : ''}`,
+        `min_gear_lv=${item.EquipSlotCategory ? item.LevelEquip : ''}`,
+        `max_gear_lv=${item.EquipSlotCategory ? item.LevelEquip : ''}`,
+        `q=${encodeURIComponent(item.Name_ja)}`,
+      ].join('&')}`
+    );
+    const $ = cheerio.load(page.text);
+    const tooltipId = $('.db-table__txt--detail_link')
+      .attr('href')
+      ?.split('/')[5];
+    console.log(`${item.Name_ja} -> ${tooltipId}`);
+
+    if (!tooltipId) continue;
+    tooltips.push({
+      itemId: item.ID,
+      tooltipId: tooltipId,
+    } as Tooltip);
+
+    const jsonString = JSON.stringify(tooltips, null, 2);
+    // [info] fs relative path 'root' is execute command in folder
+    fs.writeFileSync('src/assets/data/local/tooltips.json', jsonString);
+  }
+};
+
 const main = async () => {
   switch (process.argv[2]) {
     case 'achievements':
@@ -273,12 +323,16 @@ const main = async () => {
     case 'relations':
       await relations();
       break;
+    case 'tooltips':
+      await tooltips();
+      break;
     case 'all':
       await summaryAchievements();
       await achievements();
       await summaryQuests();
       await quests();
       await items();
+      await tooltips();
       await relations();
       break;
   }

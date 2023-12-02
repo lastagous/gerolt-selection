@@ -110,7 +110,13 @@ export interface Relation {
   classJobCategory: ClassJobCategory;
   quests: Quest[];
   items: Item[];
+  tooltips: Tooltip[];
   achievements: Achievement[];
+}
+
+export interface Tooltip {
+  itemId: number;
+  tooltipId: string;
 }
 
 declare module '*/assets/data/garlandtools/summary-achievements.json' {
@@ -140,5 +146,10 @@ declare module '*/assets/data/xivapi/items.json' {
 
 declare module '*/assets/data/local/relations.json' {
   const value: Relation[];
+  export = value;
+}
+
+declare module '*/assets/data/local/tooltips.json' {
+  const value: Tooltip[];
   export = value;
 }
