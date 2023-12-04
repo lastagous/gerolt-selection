@@ -110,14 +110,21 @@ export interface Relation {
   classJobCategory: ClassJobCategory;
   quests: Quest[];
   items: Item[];
-  tooltips: Tooltip[];
   achievements: Achievement[];
 }
 
 export interface Tooltip {
-  itemId: number;
+  id: number;
   tooltipId: string;
+  urlType: UrlType;
 }
+
+export enum UrlType {
+  item = 'item',
+  quest = 'quest',
+  achievement = 'achievement',
+}
+export default UrlType;
 
 declare module '*/assets/data/garlandtools/summary-achievements.json' {
   const value: SummaryAchievement[];
