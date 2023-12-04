@@ -7,7 +7,7 @@ import {
   SummaryQuest,
   Tooltip,
   // UrlType,
-} from 'src/types/json-index';
+} from 'src/app/model/json-index';
 import * as fs from 'fs';
 import superagent from 'superagent';
 import cheerio from 'cheerio';

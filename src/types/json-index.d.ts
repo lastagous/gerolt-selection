@@ -116,15 +116,8 @@ export interface Relation {
 export interface Tooltip {
   id: number;
   tooltipId: string;
-  urlType: UrlType;
+  urlType: string;
 }
-
-export enum UrlType {
-  item = 'item',
-  quest = 'quest',
-  achievement = 'achievement',
-}
-export default UrlType;
 
 declare module '*/assets/data/garlandtools/summary-achievements.json' {
   const value: SummaryAchievement[];
