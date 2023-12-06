@@ -713,7 +713,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "古の武器：スファライ",
+          "description": "クエスト「蘇る古の武器」をコンプリートし、スファライを入手する",
+          "id": 130,
+          "patch": 2,
+          "points": 10,
+          "category": 62,
+          "title": "Coeurlfist",
+          "icon": 31034
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -1429,7 +1442,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "古の武器：ブラビューラ",
+          "description": "クエスト「蘇る古の武器」をコンプリートし、ブラビューラを入手する",
+          "id": 131,
+          "patch": 2,
+          "points": 10,
+          "category": 62,
+          "title": "Ironeater",
+          "icon": 31440
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -2141,7 +2167,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "古の武器：ゲイボルグ",
+          "description": "クエスト「蘇る古の武器」をコンプリートし、ゲイボルグを入手する",
+          "id": 132,
+          "patch": 2,
+          "points": 10,
+          "category": 62,
+          "title": "Of the Vengeful Lance",
+          "icon": 31842
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -2865,7 +2904,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "古の武器：アルテミスの弓",
+          "description": "クエスト「蘇る古の武器」をコンプリートし、アルテミスの弓を入手する",
+          "id": 133,
+          "patch": 2,
+          "points": 10,
+          "category": 62,
+          "title": "The Godsbow",
+          "icon": 32238
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -3577,7 +3629,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "古の武器：タイラス",
+          "description": "クエスト「蘇る古の武器」をコンプリートし、タイラスを入手する",
+          "id": 134,
+          "patch": 2,
+          "points": 10,
+          "category": 62,
+          "title": "The White",
+          "icon": 32626
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -4305,7 +4370,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "古の武器：星屑のロッド",
+          "description": "クエスト「蘇る古の武器」をコンプリートし、星屑のロッドを入手する",
+          "id": 135,
+          "patch": 2,
+          "points": 10,
+          "category": 62,
+          "title": "Starcaller",
+          "icon": 33012
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -5005,7 +5083,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "古の武器：ウイユヴェール",
+          "description": "クエスト「蘇る古の武器」をコンプリートし、ウイユヴェールを入手する",
+          "id": 597,
+          "patch": 2,
+          "points": 10,
+          "category": 62,
+          "title": "Green Eyes",
+          "icon": 33457
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -5697,7 +5788,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "古の武器：マダレムジエン",
+          "description": "クエスト「蘇る古の武器」をコンプリートし、マダレムジエンを入手する",
+          "id": 598,
+          "patch": 2,
+          "points": 10,
+          "category": 62,
+          "title": "The Strategist",
+          "icon": 33458
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8116,7 +8220,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "古の武器：吉光",
+          "description": "クエスト「蘇る古の武器」をコンプリートし、吉光を入手する",
+          "id": 1053,
+          "patch": 2.4,
+          "points": 10,
+          "category": 62,
+          "title": "The Shadow",
+          "icon": 33855
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -98838,7 +98955,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "古の武器：コルタナ＆ホーリーシールド",
+          "description": "クエスト「蘇る古の武器」をコンプリートし、コルタナとホーリーシールドを入手する",
+          "id": 129,
+          "patch": 2,
+          "points": 10,
+          "category": 62,
+          "title": "The True",
+          "icon": 30446
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {

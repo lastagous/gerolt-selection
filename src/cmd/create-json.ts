@@ -18,13 +18,14 @@ const XIVAPI = require('@xivapi/js');
 const xivapi = new XIVAPI({ language: 'ja' });
 
 const summaryAchievements = async () => {
+  // (t == 62) === relic weapon
   // (t == 63) === zodiac weapon
   // (t == 64) === anima weapon
   // (t == 66) === eureka weapon
   // (t == 68) === resistance weapon
   // (t == 75) === manderville weapon
   const fetchAchievements = ((await garlandtools.achievements()) as SummaryAchievement[]).filter(
-    (a) => a.t == 63 || a.t == 64 || a.t == 66 || a.t == 68 || a.t == 75
+    (a) => a.t == 62 || a.t == 63 || a.t == 64 || a.t == 66 || a.t == 68 || a.t == 75
   );
 
   // [info] require relative path 'root' is this file in folder
