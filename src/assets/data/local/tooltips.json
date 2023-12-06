@@ -6713,5 +6713,75 @@
     "urlType": "achievement",
     "id": 2226,
     "tooltipId": "b879400bde1"
+  },
+  {
+    "urlType": "achievement",
+    "id": 129,
+    "tooltipId": "a53381a2240"
+  },
+  {
+    "urlType": "achievement",
+    "id": 130,
+    "tooltipId": "c8ef2791d45"
+  },
+  {
+    "urlType": "achievement",
+    "id": 131,
+    "tooltipId": "b47bdc2b8fa"
+  },
+  {
+    "urlType": "achievement",
+    "id": 132,
+    "tooltipId": "05fe7fdbd41"
+  },
+  {
+    "urlType": "achievement",
+    "id": 133,
+    "tooltipId": "0759bf6607f"
+  },
+  {
+    "urlType": "achievement",
+    "id": 134,
+    "tooltipId": "77aaf7aa9d8"
+  },
+  {
+    "urlType": "achievement",
+    "id": 135,
+    "tooltipId": "fdedfbbb9e7"
+  },
+  {
+    "urlType": "achievement",
+    "id": 136,
+    "tooltipId": "9937b518eaf"
+  },
+  {
+    "urlType": "achievement",
+    "id": 597,
+    "tooltipId": "e8557a5794c"
+  },
+  {
+    "urlType": "achievement",
+    "id": 598,
+    "tooltipId": "a6995647f03"
+  },
+  {
+    "urlType": "achievement",
+    "id": 925,
+    "tooltipId": "caa7b28420d"
+  },
+  {
+    "urlType": "achievement",
+    "id": 926,
+    "tooltipId": "f12ac360537"
+  },
+  {
+    "urlType": "achievement",
+    "id": 1028,
+    "tooltipId": "05330b7816f"
+  },
+  {
+    "urlType": "achievement",
+    "id": 1053,
+    "tooltipId": "392a11e3a96"
   }
 ]
