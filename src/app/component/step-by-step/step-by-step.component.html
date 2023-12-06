@@ -28,14 +28,15 @@
                 class="eorzeadb_link"
                 *ngIf="step.achievements[0]"
                 [href]="getTooltip(step.achievements[0].achievement.id, achievementUrlType)"
+                target="_blank"
               >
                 <img
-                  class="gs-app-step-by-step-panel-content-card-header-achievement"
+                  class="gs-app-step-by-step-panel-content-card-header-achievement-icon"
                   *ngIf="!isAchievementCompleted(step.achievements[0].achievement.id)"
                   src="../../../assets/icon/achievement/achievement_disable.png"
                 />
                 <img
-                  class="gs-app-step-by-step-panel-content-card-header-achievement"
+                  class="gs-app-step-by-step-panel-content-card-header-achievement-icon"
                   *ngIf="isAchievementCompleted(step.achievements[0].achievement.id)"
                   src="../../../assets/icon/achievement/achievement_enable.png"
                 />
@@ -47,7 +48,7 @@
           <div class="gs-app-step-by-step-panel-content-card-title">
             <div class="gs-app-step-by-step-panel-content-card-title-item" *ngFor="let item of step.items">
               <div class="gs-app-step-by-step-panel-content-card-title-item-content">
-                <a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)">
+                <a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">
                   <div class="gs-app-step-by-step-panel-content-card-title-item-content-icon">
                     <img
                       class="gs-app-step-by-step-panel-content-card-title-item-content-icon-weapon"
@@ -55,7 +56,7 @@
                     />
                   </div>
                 </a>
-                <a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)">
+                <a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">
                   <div class="gs-app-step-by-step-panel-content-card-title-content-item-name">
                     {{ item.Name_ja }}
                   </div>
