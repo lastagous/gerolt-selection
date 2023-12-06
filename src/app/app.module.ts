@@ -14,6 +14,9 @@ import { ButtonModule } from 'primeng/button';
 import { RouterModule } from '@angular/router';
 import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
+import { CardModule } from 'primeng/card';
+import { DividerModule } from 'primeng/divider';
+import { SkeletonModule } from 'primeng/skeleton';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
@@ -26,12 +29,7 @@ import { StepByStepComponent } from './component/step-by-step/step-by-step.compo
 import { StepByStepStore } from './component/step-by-step/step-by-step.store';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SearchLodestoneComponent,
-    CharacterListComponent,
-    StepByStepComponent,
-  ],
+  declarations: [AppComponent, SearchLodestoneComponent, CharacterListComponent, StepByStepComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -47,15 +45,11 @@ import { StepByStepStore } from './component/step-by-step/step-by-step.store';
     TabMenuModule,
     ToastModule,
     TooltipModule,
+    CardModule,
+    DividerModule,
+    SkeletonModule,
   ],
-  providers: [
-    LocalStorageService,
-    LocalstorageStore,
-    LogoStore,
-    MessageService,
-    XivapiStore,
-    StepByStepStore,
-  ],
+  providers: [LocalStorageService, LocalstorageStore, LogoStore, MessageService, XivapiStore, StepByStepStore],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

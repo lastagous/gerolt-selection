@@ -1,61 +1,28 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { Relation } from 'src/types/json-index';
+import { Relation, Tooltip } from 'src/types/json-index';
+import tooltipsJson from '../../../assets/data/local/tooltips.json';
 import relationsJson from '../../../assets/data/local/relations.json';
+import { LocalstorageStore } from 'src/app/store/local-storage.store';
 
 @Injectable()
 export class StepByStepStore {
-  private _weapons: BehaviorSubject<string[]> = new BehaviorSubject<string[]>([
-    'ZW',
-    'AW',
-    'EW',
-    'RW',
-    'MW',
-  ]);
-  private _selectedWeapon: BehaviorSubject<string> =
-    new BehaviorSubject<string>('');
+  private _weapons: BehaviorSubject<string[]> = new BehaviorSubject<string[]>(['ZW', 'AW', 'EW', 'RW', 'MW']);
+  private _selectedWeapon: BehaviorSubject<string> = new BehaviorSubject<string>('');
   private _jobs: BehaviorSubject<string[]> = new BehaviorSubject<string[]>([]);
-  private _selectedJob: BehaviorSubject<string> = new BehaviorSubject<string>(
-    ''
-  );
-  private _steps: BehaviorSubject<Relation[]> = new BehaviorSubject<Relation[]>(
-    []
-  );
+  private _selectedJob: BehaviorSubject<string> = new BehaviorSubject<string>('');
+  private _steps: BehaviorSubject<Relation[]> = new BehaviorSubject<Relation[]>([]);
   private _relations = relationsJson as Relation[];
+  private _tooltips = tooltipsJson as Tooltip[];
 
-  constructor() {
+  constructor(private _localStorageStore: LocalstorageStore) {
     this.selectedWeapon$.subscribe((selectedWeapon) => {
       switch (selectedWeapon) {
         case 'ZW':
-          this.jobs = [
-            'PLD',
-            'WAR',
-            'WHM',
-            'SCH',
-            'MNK',
-            'DRG',
-            'NIN',
-            'BRD',
-            'BLM',
-            'SMN',
-          ];
+          this.jobs = ['PLD', 'WAR', 'WHM', 'SCH', 'MNK', 'DRG', 'NIN', 'BRD', 'BLM', 'SMN'];
           break;
         case 'AW':
-          this.jobs = [
-            'PLD',
-            'WAR',
-            'DRK',
-            'WHM',
-            'SCH',
-            'AST',
-            'MNK',
-            'DRG',
-            'NIN',
-            'BRD',
-            'MCH',
-            'BLM',
-            'SMN',
-          ];
+          this.jobs = ['PLD', 'WAR', 'DRK', 'WHM', 'SCH', 'AST', 'MNK', 'DRG', 'NIN', 'BRD', 'MCH', 'BLM', 'SMN'];
           break;
         case 'EW':
           this.jobs = [
@@ -126,25 +93,15 @@ export class StepByStepStore {
       const level = this.level;
       this.steps = this._relations
         .filter(
-          (relation) =>
-            relation.classJobCategory.Name == this.selectedJob &&
-            relation.items[0]?.LevelEquip == level
+          (relation) => relation.classJobCategory.Name == this.selectedJob && relation.items[0]?.LevelEquip == level
         )
-        .sort((a: Relation, b: Relation) =>
-          a.items[0].LevelItem >= b.items[0].LevelItem ? 1 : -1
-        );
+        .sort((a: Relation, b: Relation) => (a.items[0].LevelItem >= b.items[0].LevelItem ? 1 : -1));
     });
     this.selectedJob$.subscribe((job) => {
       const level = this.level;
       this.steps = this._relations
-        .filter(
-          (relation) =>
-            relation.classJobCategory.Name == job &&
-            relation.items[0]?.LevelEquip == level
-        )
-        .sort((a: Relation, b: Relation) =>
-          a.items[0].LevelItem >= b.items[0].LevelItem ? 1 : -1
-        );
+        .filter((relation) => relation.classJobCategory.Name == job && relation.items[0]?.LevelEquip == level)
+        .sort((a: Relation, b: Relation) => (a.items[0].LevelItem >= b.items[0].LevelItem ? 1 : -1));
     });
   }
 
@@ -206,6 +163,16 @@ export class StepByStepStore {
 
   private set steps(value: Relation[]) {
     this._steps.next(value);
+  }
+
+  public get tooltips(): Tooltip[] {
+    return this._tooltips;
+  }
+
+  public isAchievementCompleted(id: number): boolean {
+    return Boolean(
+      this._localStorageStore.selectedCharacter?.data?.Achievements?.List.find((achievement) => achievement.ID === id)
+    );
   }
 
   private get level(): number {

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { StepByStepStore } from './step-by-step.store';
 import { Relation } from 'src/types/json-index';
 
@@ -22,6 +22,22 @@ export class StepByStepComponent {
     return this._stepByStepStore.steps;
   }
 
+  public get itemUrlType(): string {
+    return 'item';
+  }
+
+  public get questUrlType(): string {
+    return 'quest';
+  }
+
+  public get eventUrlType(): string {
+    return 'event';
+  }
+
+  public get achievementUrlType(): string {
+    return 'achievement';
+  }
+
   public onWeaponClick(weapon: string): void {
     this._stepByStepStore.selectedWeapon = weapon;
   }
@@ -34,7 +50,21 @@ export class StepByStepComponent {
     return `assets/icon/job/${jobName}.png`;
   }
 
-  public getIcon(iconPath: string): string {
+  public getXviapiIcon(iconPath: string): string {
     return `https://xivapi.com${iconPath}`;
+  }
+
+  public getGarlandtoolsIcon(icon: number, type: string): string {
+    return `https://garlandtools.org/files/icons/${type}/${icon}.png`;
+  }
+
+  public getTooltip(id: number, urlType: string): string {
+    const baseUrl = `https://jp.finalfantasyxiv.com/lodestone/playguide/db/${urlType}/`;
+    const tooltipId = this._stepByStepStore.tooltips.find((tooltip) => tooltip.id == id)?.tooltipId;
+    return `${baseUrl}${tooltipId ? tooltipId : ''}${tooltipId ? '/' : ''}`;
+  }
+
+  public isAchievementCompleted(id: number) {
+    return this._stepByStepStore.isAchievementCompleted(id);
   }
 }

@@ -12,66 +12,60 @@
   </div>
   <div class="gs-app-step-by-step-job-panel">
     <div class="gs-app-step-by-step-job-list">
-      <div
-        class="gs-app-step-by-step-job-list-content"
-        *ngFor="let job of jobs"
-        (click)="onJobClick(job)"
-      >
-        <img
-          class="gs-app-step-by-step-job-list-content-job-icon"
-          [src]="getJobIcon(job)"
-        />
+      <div class="gs-app-step-by-step-job-list-content" *ngFor="let job of jobs" (click)="onJobClick(job)">
+        <img class="gs-app-step-by-step-job-list-content-job-icon" [src]="getJobIcon(job)" />
       </div>
     </div>
   </div>
   <div class="gs-app-step-by-step-panel">
-    <div
-      class="gs-app-step-by-step-panel-content"
-      *ngFor="let step of steps; index as i"
-    >
-      <div class="gs-app-step-by-step-panel-info">
-        <div class="gs-app-step-by-step-panel-info-step">{{ i + 1 }} 段目</div>
-        <div class="gs-app-step-by-step-panel-info-content">
-          <div class="gs-app-step-by-step-panel-info-content-icon">
-            <div
-              class="gs-app-step-by-step-panel-info-content-icon-quest-icon"
-              *ngIf="step.quests.length"
-            >
-              Q
-            </div>
-            <div
-              class="gs-app-step-by-step-panel-info-content-icon-acievement-icon"
-              *ngIf="step.achievements.length"
-            >
-              A
-            </div>
-          </div>
-          <div class="gs-app-step-by-step-panel-info-content-title">
-            <div
-              class="gs-app-step-by-step-panel-info-content-title-content"
-              *ngFor="let item of step.items"
-            >
-              <div
-                class="gs-app-step-by-step-panel-info-content-title-content-icon"
+    <div class="gs-app-step-by-step-panel-content" *ngFor="let step of steps; index as i">
+      <p-card>
+        <ng-template pTemplate="header">
+          <div class="gs-app-step-by-step-panel-content-card-header">
+            <div class="gs-app-step-by-step-panel-content-card-header-step">{{ i + 1 }} 段階目</div>
+            <div class="gs-app-step-by-step-panel-content-card-header-achievement">
+              <a
+                class="eorzeadb_link"
+                *ngIf="step.achievements[0]"
+                [href]="getTooltip(step.achievements[0].achievement.id, achievementUrlType)"
               >
                 <img
-                  class="gs-app-step-by-step-panel-info-content-title-content-icon-weapon-icon"
-                  [src]="getIcon(item.Icon)"
+                  class="gs-app-step-by-step-panel-content-card-header-achievement"
+                  *ngIf="!isAchievementCompleted(step.achievements[0].achievement.id)"
+                  src="../../../assets/icon/achievement/achievement_disable.png"
                 />
-              </div>
-              <div
-                class="gs-app-step-by-step-panel-info-content-title-content-name"
-              >
-                {{ item.Name_ja }}
+                <img
+                  class="gs-app-step-by-step-panel-content-card-header-achievement"
+                  *ngIf="isAchievementCompleted(step.achievements[0].achievement.id)"
+                  src="../../../assets/icon/achievement/achievement_enable.png"
+                />
+              </a>
+            </div>
+          </div>
+        </ng-template>
+        <div class="gs-app-step-by-step-panel-content-card">
+          <div class="gs-app-step-by-step-panel-content-card-title">
+            <div class="gs-app-step-by-step-panel-content-card-title-item" *ngFor="let item of step.items">
+              <div class="gs-app-step-by-step-panel-content-card-title-item-content">
+                <a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)">
+                  <div class="gs-app-step-by-step-panel-content-card-title-item-content-icon">
+                    <img
+                      class="gs-app-step-by-step-panel-content-card-title-item-content-icon-weapon"
+                      [src]="getXviapiIcon(item.Icon)"
+                    />
+                  </div>
+                </a>
+                <a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)">
+                  <div class="gs-app-step-by-step-panel-content-card-title-content-item-name">
+                    {{ item.Name_ja }}
+                  </div>
+                </a>
               </div>
             </div>
           </div>
-          <div class="gs-app-step-by-step-panel-info-append"></div>
         </div>
-        <div class="gs-app-step-by-step-panel-allow">
-          <i class="pi pi-angle-down" *ngIf="steps.length != i + 1"></i>
-        </div>
-      </div>
+      </p-card>
+      <p-divider *ngIf="steps.length != i + 1"></p-divider>
     </div>
   </div>
 </div>
