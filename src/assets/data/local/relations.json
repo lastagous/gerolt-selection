@@ -6702,7 +6702,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "黄道の輝き",
+          "description": "「古の武器・アニムス」のいずれかを入手する",
+          "id": 925,
+          "patch": 2.2,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -6755,7 +6767,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "黄道の輝き",
+          "description": "「古の武器・アニムス」のいずれかを入手する",
+          "id": 925,
+          "patch": 2.2,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -6808,7 +6832,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "黄道の輝き",
+          "description": "「古の武器・アニムス」のいずれかを入手する",
+          "id": 925,
+          "patch": 2.2,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -6861,7 +6897,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "黄道の輝き",
+          "description": "「古の武器・アニムス」のいずれかを入手する",
+          "id": 925,
+          "patch": 2.2,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -6914,7 +6962,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "黄道の輝き",
+          "description": "「古の武器・アニムス」のいずれかを入手する",
+          "id": 925,
+          "patch": 2.2,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -6967,7 +7027,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "黄道の輝き",
+          "description": "「古の武器・アニムス」のいずれかを入手する",
+          "id": 925,
+          "patch": 2.2,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -7020,7 +7092,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "黄道の輝き",
+          "description": "「古の武器・アニムス」のいずれかを入手する",
+          "id": 925,
+          "patch": 2.2,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -7073,7 +7157,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "黄道の輝き",
+          "description": "「古の武器・アニムス」のいずれかを入手する",
+          "id": 925,
+          "patch": 2.2,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -7126,7 +7222,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "星々の輝き",
+          "description": "「古の武器・ノウス」のいずれかを入手する",
+          "id": 926,
+          "patch": 2.28,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -7179,7 +7287,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "星々の輝き",
+          "description": "「古の武器・ノウス」のいずれかを入手する",
+          "id": 926,
+          "patch": 2.28,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -7232,7 +7352,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "星々の輝き",
+          "description": "「古の武器・ノウス」のいずれかを入手する",
+          "id": 926,
+          "patch": 2.28,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -7285,7 +7417,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "星々の輝き",
+          "description": "「古の武器・ノウス」のいずれかを入手する",
+          "id": 926,
+          "patch": 2.28,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -7338,7 +7482,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "星々の輝き",
+          "description": "「古の武器・ノウス」のいずれかを入手する",
+          "id": 926,
+          "patch": 2.28,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -7391,7 +7547,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "星々の輝き",
+          "description": "「古の武器・ノウス」のいずれかを入手する",
+          "id": 926,
+          "patch": 2.28,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -7444,7 +7612,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "星々の輝き",
+          "description": "「古の武器・ノウス」のいずれかを入手する",
+          "id": 926,
+          "patch": 2.28,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -7497,7 +7677,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "星々の輝き",
+          "description": "「古の武器・ノウス」のいずれかを入手する",
+          "id": 926,
+          "patch": 2.28,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8286,7 +8478,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ネクサスの輝き",
+          "description": "「古の武器・ネクサス」のいずれかを入手する",
+          "id": 1028,
+          "patch": 2.38,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8339,7 +8543,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ネクサスの輝き",
+          "description": "「古の武器・ネクサス」のいずれかを入手する",
+          "id": 1028,
+          "patch": 2.38,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8392,7 +8608,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ネクサスの輝き",
+          "description": "「古の武器・ネクサス」のいずれかを入手する",
+          "id": 1028,
+          "patch": 2.38,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8445,7 +8673,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ネクサスの輝き",
+          "description": "「古の武器・ネクサス」のいずれかを入手する",
+          "id": 1028,
+          "patch": 2.38,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8498,7 +8738,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ネクサスの輝き",
+          "description": "「古の武器・ネクサス」のいずれかを入手する",
+          "id": 1028,
+          "patch": 2.38,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8551,7 +8803,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ネクサスの輝き",
+          "description": "「古の武器・ネクサス」のいずれかを入手する",
+          "id": 1028,
+          "patch": 2.38,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8604,7 +8868,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ネクサスの輝き",
+          "description": "「古の武器・ネクサス」のいずれかを入手する",
+          "id": 1028,
+          "patch": 2.38,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8657,7 +8933,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ネクサスの輝き",
+          "description": "「古の武器・ネクサス」のいずれかを入手する",
+          "id": 1028,
+          "patch": 2.38,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8816,7 +9104,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "黄道の輝き",
+          "description": "「古の武器・アニムス」のいずれかを入手する",
+          "id": 925,
+          "patch": 2.2,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8869,7 +9169,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "星々の輝き",
+          "description": "「古の武器・ノウス」のいずれかを入手する",
+          "id": 926,
+          "patch": 2.28,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8922,7 +9234,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ネクサスの輝き",
+          "description": "「古の武器・ネクサス」のいずれかを入手する",
+          "id": 1028,
+          "patch": 2.38,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -8975,7 +9299,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポンオーナー",
+          "description": "「ゾディアックウェポン」のいずれかを入手する",
+          "id": 1054,
+          "patch": 2.45,
+          "points": 10,
+          "category": 63,
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9028,7 +9364,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポンオーナー",
+          "description": "「ゾディアックウェポン」のいずれかを入手する",
+          "id": 1054,
+          "patch": 2.45,
+          "points": 10,
+          "category": 63,
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9081,7 +9429,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポンオーナー",
+          "description": "「ゾディアックウェポン」のいずれかを入手する",
+          "id": 1054,
+          "patch": 2.45,
+          "points": 10,
+          "category": 63,
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9134,7 +9494,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポンオーナー",
+          "description": "「ゾディアックウェポン」のいずれかを入手する",
+          "id": 1054,
+          "patch": 2.45,
+          "points": 10,
+          "category": 63,
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9187,7 +9559,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポンオーナー",
+          "description": "「ゾディアックウェポン」のいずれかを入手する",
+          "id": 1054,
+          "patch": 2.45,
+          "points": 10,
+          "category": 63,
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9240,7 +9624,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポンオーナー",
+          "description": "「ゾディアックウェポン」のいずれかを入手する",
+          "id": 1054,
+          "patch": 2.45,
+          "points": 10,
+          "category": 63,
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9293,7 +9689,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポンオーナー",
+          "description": "「ゾディアックウェポン」のいずれかを入手する",
+          "id": 1054,
+          "patch": 2.45,
+          "points": 10,
+          "category": 63,
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9346,7 +9754,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポンオーナー",
+          "description": "「ゾディアックウェポン」のいずれかを入手する",
+          "id": 1054,
+          "patch": 2.45,
+          "points": 10,
+          "category": 63,
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9399,7 +9819,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポンオーナー",
+          "description": "「ゾディアックウェポン」のいずれかを入手する",
+          "id": 1054,
+          "patch": 2.45,
+          "points": 10,
+          "category": 63,
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9452,7 +9884,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポン・ゼータ",
+          "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+          "id": 1081,
+          "patch": 2.51,
+          "points": 20,
+          "category": 63,
+          "title": "Z",
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9505,7 +9950,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポン・ゼータ",
+          "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+          "id": 1081,
+          "patch": 2.51,
+          "points": 20,
+          "category": 63,
+          "title": "Z",
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9558,7 +10016,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポン・ゼータ",
+          "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+          "id": 1081,
+          "patch": 2.51,
+          "points": 20,
+          "category": 63,
+          "title": "Z",
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9611,7 +10082,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポン・ゼータ",
+          "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+          "id": 1081,
+          "patch": 2.51,
+          "points": 20,
+          "category": 63,
+          "title": "Z",
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9664,7 +10148,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポン・ゼータ",
+          "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+          "id": 1081,
+          "patch": 2.51,
+          "points": 20,
+          "category": 63,
+          "title": "Z",
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9717,7 +10214,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポン・ゼータ",
+          "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+          "id": 1081,
+          "patch": 2.51,
+          "points": 20,
+          "category": 63,
+          "title": "Z",
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9770,7 +10280,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポン・ゼータ",
+          "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+          "id": 1081,
+          "patch": 2.51,
+          "points": 20,
+          "category": 63,
+          "title": "Z",
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9823,7 +10346,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポン・ゼータ",
+          "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+          "id": 1081,
+          "patch": 2.51,
+          "points": 20,
+          "category": 63,
+          "title": "Z",
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -9876,7 +10412,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポン・ゼータ",
+          "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+          "id": 1081,
+          "patch": 2.51,
+          "points": 20,
+          "category": 63,
+          "title": "Z",
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -99247,7 +99796,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "黄道の輝き",
+          "description": "「古の武器・アニムス」のいずれかを入手する",
+          "id": 925,
+          "patch": 2.2,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -99340,7 +99901,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "星々の輝き",
+          "description": "「古の武器・ノウス」のいずれかを入手する",
+          "id": 926,
+          "patch": 2.28,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -99433,7 +100006,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ネクサスの輝き",
+          "description": "「古の武器・ネクサス」のいずれかを入手する",
+          "id": 1028,
+          "patch": 2.38,
+          "points": 10,
+          "category": 62,
+          "icon": 501
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -99526,7 +100111,19 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポンオーナー",
+          "description": "「ゾディアックウェポン」のいずれかを入手する",
+          "id": 1054,
+          "patch": 2.45,
+          "points": 10,
+          "category": 63,
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {
@@ -99619,7 +100216,20 @@
         "UrlType": "Item"
       }
     ],
-    "achievements": []
+    "achievements": [
+      {
+        "achievement": {
+          "name": "ゾディアックウェポン・ゼータ",
+          "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+          "id": 1081,
+          "patch": 2.51,
+          "points": 20,
+          "category": 63,
+          "title": "Z",
+          "icon": 3226
+        }
+      }
+    ]
   },
   {
     "classJobCategory": {

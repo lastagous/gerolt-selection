@@ -182,26 +182,49 @@ const relations = () => {
     if (!item.ClassJobCategory.Name) return;
     if (!item.EquipSlotCategory.MainHand && !item.EquipSlotCategory.OffHand) return;
 
+    const result = {
+      classJobCategory: item.ClassJobCategory,
+      quests: quests.filter((quest) => quest.quest.reward?.items?.some((i: { id: number }) => i.id == item.ID)),
+      items: [item],
+      achievements: achievements.filter((achievement) => {
+        const regex = new RegExp(`.*：.*${item.Name_ja}{1}$|.*：${item.Name_ja}{1}＆.*`);
+        return regex.test(achievement.achievement.name);
+      }),
+    };
+
+    if (item.LevelEquip == 50) {
+      if (item.Description_ja == '[古の武器・アニムス]') {
+        const achievement = achievements.find((achievemnt) => achievemnt.achievement.id == 925);
+        if (achievement) {
+          result.achievements.push(achievement);
+        }
+      } else if (item.Description_ja == '[古の武器・ノウス]') {
+        const achievement = achievements.find((achievemnt) => achievemnt.achievement.id == 926);
+        if (achievement) {
+          result.achievements.push(achievement);
+        }
+      } else if (item.Description_ja == '[古の武器・ネクサス]') {
+        const achievement = achievements.find((achievemnt) => achievemnt.achievement.id == 1028);
+        if (achievement) {
+          result.achievements.push(achievement);
+        }
+      } else if (item.Description_ja == '[ゾディアックウェポン]') {
+        const achievement = achievements.find((achievemnt) => achievemnt.achievement.id == 1054);
+        if (achievement) {
+          result.achievements.push(achievement);
+        }
+      } else if (item.Description_ja == '[ゾディアックウェポン・ゼータ]') {
+        const achievement = achievements.find((achievemnt) => achievemnt.achievement.id == 1081);
+        if (achievement) {
+          result.achievements.push(achievement);
+        }
+      }
+    }
+
     if (item.ClassJobCategory.Name == 'PLD') {
-      resultPaladins.push({
-        classJobCategory: item.ClassJobCategory,
-        quests: quests.filter((quest) => quest.quest.reward?.items?.some((i: { id: number }) => i.id == item.ID)),
-        items: [item],
-        achievements: achievements.filter((achievement) => {
-          const regex = new RegExp(`.*：.*${item.Name_ja}{1}$|.*：${item.Name_ja}{1}＆.*`);
-          return regex.test(achievement.achievement.name);
-        }),
-      });
+      resultPaladins.push(result);
     } else {
-      resultRelations.push({
-        classJobCategory: item.ClassJobCategory,
-        quests: quests.filter((quest) => quest.quest.reward?.items?.some((i: { id: number }) => i.id == item.ID)),
-        items: [item],
-        achievements: achievements.filter((achievement) => {
-          const regex = new RegExp(`.*：.*${item.Name_ja}{1}$|.*：${item.Name_ja}{1}＆.*`);
-          return regex.test(achievement.achievement.name);
-        }),
-      });
+      resultRelations.push(result);
     }
   });
 
