@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { StepByStepStore } from './step-by-step.store';
 import { Relation } from 'src/types/json-index';
+import { ProgressStore } from 'src/app/store/progress.store';
 
 @Component({
   selector: 'app-step-by-step',
@@ -8,7 +9,7 @@ import { Relation } from 'src/types/json-index';
   styleUrls: ['./step-by-step.component.less'],
 })
 export class StepByStepComponent {
-  constructor(private _stepByStepStore: StepByStepStore) {}
+  constructor(private _stepByStepStore: StepByStepStore, private _progressStore: ProgressStore) {}
 
   public get weapons(): string[] {
     return this._stepByStepStore.weapons;
@@ -20,6 +21,10 @@ export class StepByStepComponent {
 
   public get steps(): Relation[] {
     return this._stepByStepStore.steps;
+  }
+
+  public get progressStore(): ProgressStore {
+    return this._progressStore;
   }
 
   public get itemUrlType(): string {
@@ -66,5 +71,15 @@ export class StepByStepComponent {
 
   public isAchievementCompleted(id: number) {
     return this._stepByStepStore.isAchievementCompleted(id);
+  }
+
+  public getWeaponRateCssText(weapon: string): string {
+    return this._progressStore.getChartCssText(this._progressStore.getWeaponRate(weapon));
+  }
+
+  public getJobRateCssText(job: string): string {
+    return this._progressStore.getChartCssText(
+      this._progressStore.getJobRate(this._stepByStepStore.selectedWeapon, job)
+    );
   }
 }

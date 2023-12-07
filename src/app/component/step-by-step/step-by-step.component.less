@@ -11,18 +11,28 @@
     }
 
     .gs-app-step-by-step-job-list {
+      width: 600px;
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
 
       .gs-app-step-by-step-job-list-content {
         width: 40px;
         height: 40px;
+        margin: 8px 4px;
         display: flex;
         justify-content: center;
         align-items: center;
+        background: conic-gradient(var(--surface-700) 0deg 360deg);
+        border-radius: 50%;
 
         .gs-app-step-by-step-job-list-content-job-icon {
           height: 32px;
           width: 32px;
+        }
+
+        :hover {
+          cursor: pointer;
         }
       }
     }

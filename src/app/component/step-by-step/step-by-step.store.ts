@@ -4,6 +4,7 @@ import { Relation, Tooltip } from 'src/types/json-index';
 import tooltipsJson from '../../../assets/data/local/tooltips.json';
 import relationsJson from '../../../assets/data/local/relations.json';
 import { LocalstorageStore } from 'src/app/store/local-storage.store';
+import { Util } from 'src/app/util/util';
 
 @Injectable()
 export class StepByStepStore {
@@ -17,80 +18,8 @@ export class StepByStepStore {
 
   constructor(private _localStorageStore: LocalstorageStore) {
     this.selectedWeapon$.subscribe((selectedWeapon) => {
-      switch (selectedWeapon) {
-        case 'ZW':
-          this.jobs = ['PLD', 'WAR', 'WHM', 'SCH', 'MNK', 'DRG', 'NIN', 'BRD', 'BLM', 'SMN'];
-          break;
-        case 'AW':
-          this.jobs = ['PLD', 'WAR', 'DRK', 'WHM', 'SCH', 'AST', 'MNK', 'DRG', 'NIN', 'BRD', 'MCH', 'BLM', 'SMN'];
-          break;
-        case 'EW':
-          this.jobs = [
-            'PLD',
-            'WAR',
-            'DRK',
-            'WHM',
-            'SCH',
-            'AST',
-            'MNK',
-            'DRG',
-            'NIN',
-            'SAM',
-            'BRD',
-            'MCH',
-            'BLM',
-            'SMN',
-            'RDM',
-          ];
-          break;
-        case 'RW':
-          this.jobs = [
-            'PLD',
-            'WAR',
-            'DRK',
-            'GNB',
-            'WHM',
-            'SCH',
-            'AST',
-            'MNK',
-            'DRG',
-            'NIN',
-            'SAM',
-            'BRD',
-            'MCH',
-            'DNC',
-            'BLM',
-            'SMN',
-            'RDM',
-          ];
-          break;
-        case 'MW':
-          this.jobs = [
-            'PLD',
-            'WAR',
-            'DRK',
-            'GNB',
-            'WHM',
-            'SCH',
-            'AST',
-            'SGE',
-            'MNK',
-            'DRG',
-            'NIN',
-            'SAM',
-            'RPR',
-            'BRD',
-            'MCH',
-            'DNC',
-            'BLM',
-            'SMN',
-            'RDM',
-          ];
-          break;
-        default:
-          break;
-      }
-      const level = this.level;
+      this.jobs = Util.getJobs(selectedWeapon);
+      const level = Util.getLevel(selectedWeapon);
       this.steps = this._relations
         .filter(
           (relation) => relation.classJobCategory.Name == this.selectedJob && relation.items[0]?.LevelEquip == level
@@ -98,7 +27,7 @@ export class StepByStepStore {
         .sort((a: Relation, b: Relation) => (a.items[0].LevelItem >= b.items[0].LevelItem ? 1 : -1));
     });
     this.selectedJob$.subscribe((job) => {
-      const level = this.level;
+      const level = Util.getLevel(this.selectedWeapon);
       this.steps = this._relations
         .filter((relation) => relation.classJobCategory.Name == job && relation.items[0]?.LevelEquip == level)
         .sort((a: Relation, b: Relation) => (a.items[0].LevelItem >= b.items[0].LevelItem ? 1 : -1));
@@ -165,6 +94,10 @@ export class StepByStepStore {
     this._steps.next(value);
   }
 
+  public get relations(): Relation[] {
+    return this._relations;
+  }
+
   public get tooltips(): Tooltip[] {
     return this._tooltips;
   }
@@ -173,22 +106,5 @@ export class StepByStepStore {
     return Boolean(
       this._localStorageStore.selectedCharacter?.data?.Achievements?.List.find((achievement) => achievement.ID === id)
     );
-  }
-
-  private get level(): number {
-    switch (this.selectedWeapon) {
-      case 'ZW':
-        return 50;
-      case 'AW':
-        return 60;
-      case 'EW':
-        return 70;
-      case 'RW':
-        return 80;
-      case 'MW':
-        return 90;
-      default:
-        return 0;
-    }
   }
 }

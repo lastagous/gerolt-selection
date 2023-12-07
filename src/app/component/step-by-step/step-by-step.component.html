@@ -12,7 +12,12 @@
   </div>
   <div class="gs-app-step-by-step-job-panel">
     <div class="gs-app-step-by-step-job-list">
-      <div class="gs-app-step-by-step-job-list-content" *ngFor="let job of jobs" (click)="onJobClick(job)">
+      <div
+        class="gs-app-step-by-step-job-list-content"
+        [style.background]="getJobRateCssText(job)"
+        *ngFor="let job of jobs"
+        (click)="onJobClick(job)"
+      >
         <img class="gs-app-step-by-step-job-list-content-job-icon" [src]="getJobIcon(job)" />
       </div>
     </div>

@@ -27,6 +27,7 @@ import { LocalStorageService } from './service/local-storage.service';
 import { LocalstorageStore } from './store/local-storage.store';
 import { StepByStepComponent } from './component/step-by-step/step-by-step.component';
 import { StepByStepStore } from './component/step-by-step/step-by-step.store';
+import { ProgressStore } from './store/progress.store';
 
 @NgModule({
   declarations: [AppComponent, SearchLodestoneComponent, CharacterListComponent, StepByStepComponent],
@@ -49,7 +50,15 @@ import { StepByStepStore } from './component/step-by-step/step-by-step.store';
     DividerModule,
     SkeletonModule,
   ],
-  providers: [LocalStorageService, LocalstorageStore, LogoStore, MessageService, XivapiStore, StepByStepStore],
+  providers: [
+    LocalStorageService,
+    LocalstorageStore,
+    LogoStore,
+    MessageService,
+    XivapiStore,
+    StepByStepStore,
+    ProgressStore,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
