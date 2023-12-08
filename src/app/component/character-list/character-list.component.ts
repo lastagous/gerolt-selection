@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { StorageCharacterModel } from 'src/app/model/localstorage.model';
 import { FFxivCollectStore } from 'src/app/store/ffxivcollect.store';
 import { LocalstorageStore } from 'src/app/store/local-storage.store';
+import { ProgressStore } from 'src/app/store/progress.store';
 import { XivapiStore } from 'src/app/store/xivapi.store';
 
 @Component({
@@ -13,7 +14,8 @@ export class CharacterListComponent {
   constructor(
     private _localStorageStore: LocalstorageStore,
     private _xivapiStore: XivapiStore,
-    private _ffxivCollectStore: FFxivCollectStore
+    private _ffxivCollectStore: FFxivCollectStore,
+    private _progressStore: ProgressStore
   ) {}
 
   public get characters(): StorageCharacterModel[] {
@@ -84,28 +86,10 @@ export class CharacterListComponent {
   }
 
   public onShareClick(character: StorageCharacterModel): void {
-    // const share = 'https://lastagous.github.io/gerolt-selection/';
-    // let completeRate = '';
-    // let totalRaito = 0;
-    // this._progressPanelStore.menuItems.forEach((menuItem) => {
-    //   const raito = this._progressPanelStore.getCompleteRate(
-    //     menuItem.label ? menuItem.label : '',
-    //     character
-    //   );
-    //   totalRaito += raito;
-    //   const totalBlocks = 8;
-    //   const blockNum = Math.floor(raito / (1 / totalBlocks));
-    //   const block = '■';
-    //   const none = '・';
-    //   completeRate += `${menuItem.label} [${block.repeat(
-    //     blockNum
-    //   )}${none.repeat(totalBlocks - blockNum)}] ${Math.floor(raito * 100)}%\n`;
-    // });
-    // const tweet = `${character.Character.Name} の武器生成の達成度 ${Math.floor(
-    //   (totalRaito * 100) / this._progressPanelStore.menuItems.length
-    // )}%\n\n`;
-    // const hashtags = 'FF14,ゲロルトの工匠記録';
-    // const url = `https://twitter.com/intent/tweet?url=${share}&text=${tweet}${completeRate}&hashtags=${hashtags}`;
-    // window.open(encodeURI(url), '_blank');
+    const share = 'https://lastagous.github.io/gerolt-selection/';
+    const hashtags = 'FF14,ゲロルトの工匠記録';
+    const post = this._progressStore.getShareText(character);
+    const url = `https://twitter.com/intent/tweet?url=${share}&text=${post}&hashtags=${hashtags}`;
+    window.open(encodeURI(url), '_blank');
   }
 }

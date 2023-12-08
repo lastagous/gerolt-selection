@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { StepByStepStore } from './step-by-step.store';
 import { Relation } from 'src/types/json-index';
 import { ProgressStore } from 'src/app/store/progress.store';
+import { LocalstorageStore } from 'src/app/store/local-storage.store';
 
 @Component({
   selector: 'app-step-by-step',
@@ -9,7 +10,11 @@ import { ProgressStore } from 'src/app/store/progress.store';
   styleUrls: ['./step-by-step.component.less'],
 })
 export class StepByStepComponent {
-  constructor(private _stepByStepStore: StepByStepStore, private _progressStore: ProgressStore) {}
+  constructor(
+    private _stepByStepStore: StepByStepStore,
+    private _progressStore: ProgressStore,
+    private _localStorageStore: LocalstorageStore
+  ) {}
 
   public get weapons(): string[] {
     return this._stepByStepStore.weapons;
@@ -74,12 +79,18 @@ export class StepByStepComponent {
   }
 
   public getWeaponRateCssText(weapon: string): string {
-    return this._progressStore.getChartCssText(this._progressStore.getWeaponRate(weapon));
+    return this._progressStore.getChartCssText(
+      this._progressStore.getWeaponRate(weapon, this._localStorageStore.selectedCharacter)
+    );
   }
 
   public getJobRateCssText(job: string): string {
     return this._progressStore.getChartCssText(
-      this._progressStore.getJobRate(this._stepByStepStore.selectedWeapon, job)
+      this._progressStore.getJobRate(
+        this._stepByStepStore.selectedWeapon,
+        job,
+        this._localStorageStore.selectedCharacter
+      )
     );
   }
 }
