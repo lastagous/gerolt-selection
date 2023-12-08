@@ -28,6 +28,8 @@ import { LocalstorageStore } from './store/local-storage.store';
 import { StepByStepComponent } from './component/step-by-step/step-by-step.component';
 import { StepByStepStore } from './component/step-by-step/step-by-step.store';
 import { ProgressStore } from './store/progress.store';
+import { FFxivCollectService } from './service/ffxivcollect.service';
+import { FFxivCollectStore } from './store/ffxivcollect.store';
 
 @NgModule({
   declarations: [AppComponent, SearchLodestoneComponent, CharacterListComponent, StepByStepComponent],
@@ -58,6 +60,8 @@ import { ProgressStore } from './store/progress.store';
     XivapiStore,
     StepByStepStore,
     ProgressStore,
+    FFxivCollectService,
+    FFxivCollectStore,
   ],
   bootstrap: [AppComponent],
 })

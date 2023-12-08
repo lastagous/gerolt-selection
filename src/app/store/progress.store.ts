@@ -8,22 +8,26 @@ export class ProgressStore {
   constructor(private _localStorageStore: LocalstorageStore, private _stepByStepStore: StepByStepStore) {}
 
   public getJobRate(weapon: string, job: string): number {
-    if (!this._localStorageStore.selectedCharacter.data?.Achievements) return 0;
-
     const level = Util.getLevel(weapon);
     const achievements = this._stepByStepStore.relations
       .filter((relation) => relation.classJobCategory.Name == job && relation.items[0]?.LevelEquip == level)
       .flatMap((relation) => relation.achievements.map((achievement) => achievement.achievement.id));
-
-    const completeAchievements = this._localStorageStore.selectedCharacter.data.Achievements.List.filter(
-      (achievement) => achievements.includes(achievement.ID)
-    ).map((achievement) => achievement.ID);
-
-    return completeAchievements.length / achievements.length;
+    if (this._localStorageStore.selectedCharacter.collect) {
+      const completeAchievements = this._localStorageStore.selectedCharacter.collect.achievements
+        .filter((achievement) => achievements.includes(achievement.id))
+        .map((achievement) => achievement.id);
+      return completeAchievements.length / achievements.length;
+    } else if (this._localStorageStore.selectedCharacter.data?.Achievements) {
+      const completeAchievements = this._localStorageStore.selectedCharacter.data.Achievements.List.filter(
+        (achievement) => achievements.includes(achievement.ID)
+      ).map((achievement) => achievement.ID);
+      return completeAchievements.length / achievements.length;
+    } else {
+      return 0;
+    }
   }
 
   public getWeaponRate(weapon: string): number {
-    if (!this._localStorageStore.selectedCharacter.data?.Achievements) return 0;
     return (
       Util.getJobs(weapon).reduce((total, job) => this.getJobRate(weapon, job) + total, 0) / Util.getJobs(weapon).length
     );

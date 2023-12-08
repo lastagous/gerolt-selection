@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FFxivCollectStore } from 'src/app/store/ffxivcollect.store';
 import { XivapiStore } from 'src/app/store/xivapi.store';
 
 @Component({
@@ -10,7 +11,7 @@ export class SearchLodestoneComponent {
   private _searchString: string;
   private _isSearchBoxError: boolean;
 
-  constructor(private _xivapiStore: XivapiStore) {}
+  constructor(private _xivapiStore: XivapiStore, private _ffxivCollectStore: FFxivCollectStore) {}
 
   public get searchString(): string {
     return this._searchString;
@@ -25,7 +26,7 @@ export class SearchLodestoneComponent {
   }
 
   public get isCharacterFetcing(): boolean {
-    return this._xivapiStore.isCharacterFetcing;
+    return this._xivapiStore.isCharacterFetcing || this._ffxivCollectStore.isCharacterFetcing;
   }
 
   public getSearchButtonIcon(): string {
@@ -33,13 +34,12 @@ export class SearchLodestoneComponent {
   }
 
   public onKeyDownEnter(event: any): void {
-    const id = this._searchString?.match(
-      new RegExp('finalfantasyxiv.com/lodestone/character/([^/]+)/?')
-    )?.[1];
+    const id = this._searchString?.match(new RegExp('finalfantasyxiv.com/lodestone/character/([^/]+)/?'))?.[1];
     if (id) {
       this._searchString = '';
       this._isSearchBoxError = false;
-      this._xivapiStore.getCharacter(id);
+      // this._xivapiStore.getCharacter(id);
+      this._ffxivCollectStore.getCharacter(id);
     } else {
       this._isSearchBoxError = true;
     }

@@ -103,8 +103,10 @@ export class StepByStepStore {
   }
 
   public isAchievementCompleted(id: number): boolean {
+    const selectedCharacter = this._localStorageStore.selectedCharacter;
     return Boolean(
-      this._localStorageStore.selectedCharacter?.data?.Achievements?.List.find((achievement) => achievement.ID === id)
+      selectedCharacter?.data?.Achievements?.List.find((achievement) => achievement.ID === id) ||
+        selectedCharacter?.collect?.achievements.find((achievement) => achievement.id === id)
     );
   }
 }

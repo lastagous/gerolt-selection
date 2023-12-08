@@ -14,28 +14,14 @@
       (click)="onCharacterSelected(character)"
     >
       <div class="gs-app-character-list-card-icon">
-        <img
-          class="gs-app-character-list-card-icon-image"
-          [src]="character.data.Character.Avatar"
-        />
+        <img class="gs-app-character-list-card-icon-image" [src]="getCharacterAvaterSrc(character)" />
       </div>
       <div class="gs-app-character-list-card-description">
         <div class="gs-app-character-list-card-description-name">
-          <i
-            *ngIf="isUndisclosedAchievements(character.data)"
-            class="pi pi-eye-slash"
-          ></i>
-          <span
-            [pTooltip]="character.data.Character.Name"
-            tooltipPosition="top"
-            >{{ character.data.Character.Name }}</span
-          >
+          <i *ngIf="isUndisclosedAchievements(character)" class="pi pi-eye-slash"></i>
+          <span [pTooltip]="getCharacterName(character)" tooltipPosition="top">{{ getCharacterName(character) }}</span>
         </div>
-        <div
-          class="gs-app-character-list-card-description-timestamp"
-          pTooltip="最終更新"
-          tooltipPosition="bottom"
-        >
+        <div class="gs-app-character-list-card-description-timestamp" pTooltip="最終更新" tooltipPosition="bottom">
           <i class="pi pi-history"></i>
           <span>{{ getUpdateTime(character.updateTimestamp) }}日前</span>
         </div>
@@ -47,27 +33,24 @@
             styleClass="p-button-rounded p-button-outlined"
             pTooltip="更新"
             tooltipPosition="top"
-            (click)="onSearchButtonClick(character.data.Character.ID)"
+            (click)="onSearchButtonClick(character)"
           ></p-button>
           <p-button
             icon="pi pi-trash"
             styleClass="p-button-rounded p-button-outlined p-button-danger"
             pTooltip="削除"
             tooltipPosition="top"
-            (click)="onSearchRemoveClick(character.data.Character.ID)"
+            (click)="onSearchRemoveClick(character)"
           ></p-button>
         </div>
-        <div
-          *ngIf="!isUndisclosedAchievements(character.data)"
-          class="gs-app-character-list-card-button-bottom"
-        >
+        <div *ngIf="!isUndisclosedAchievements(character)" class="gs-app-character-list-card-button-bottom">
           <p-button
             icon="pi pi-twitter"
             label="Share"
             styleClass="p-button-rounded p-button-outlined p-button-sm"
             pTooltip="ツイートする！"
             tooltipPosition="bottom"
-            (click)="onShareClick(character.data)"
+            (click)="onShareClick(character)"
           ></p-button>
         </div>
       </div>
