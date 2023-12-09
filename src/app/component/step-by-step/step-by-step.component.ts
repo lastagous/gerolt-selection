@@ -56,6 +56,10 @@ export class StepByStepComponent {
     this._stepByStepStore.selectedJob = job;
   }
 
+  public getWeaponIcon(weaponName: string): string {
+    return `assets/icon/weapon/${weaponName}.png`;
+  }
+
   public getJobIcon(jobName: string): string {
     return `assets/icon/job/${jobName}.png`;
   }

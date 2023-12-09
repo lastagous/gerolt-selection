@@ -3,10 +3,11 @@
     <div class="gs-app-step-by-step-weapon-list">
       <div
         class="gs-app-step-by-step-weapon-list-content"
+        [style.background]="getWeaponRateCssText(weapon)"
         *ngFor="let weapon of weapons"
         (click)="onWeaponClick(weapon)"
       >
-        {{ weapon }}
+        <img class="gs-app-step-by-step-weapon-list-content-weapon-icon" [src]="getWeaponIcon(weapon)" />
       </div>
     </div>
   </div>

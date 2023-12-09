@@ -22,14 +22,22 @@ export class StepByStepStore {
       const level = Util.getLevel(selectedWeapon);
       this.steps = this._relations
         .filter(
-          (relation) => relation.classJobCategory.Name == this.selectedJob && relation.items[0]?.LevelEquip == level
+          (relation) =>
+            relation.classJobCategory.Name == this.selectedJob &&
+            relation.items[0]?.LevelEquip == level &&
+            relation.items[0]?.LevelItem >= 60
         )
         .sort((a: Relation, b: Relation) => (a.items[0].LevelItem >= b.items[0].LevelItem ? 1 : -1));
     });
     this.selectedJob$.subscribe((job) => {
       const level = Util.getLevel(this.selectedWeapon);
       this.steps = this._relations
-        .filter((relation) => relation.classJobCategory.Name == job && relation.items[0]?.LevelEquip == level)
+        .filter(
+          (relation) =>
+            relation.classJobCategory.Name == job &&
+            relation.items[0]?.LevelEquip == level &&
+            relation.items[0]?.LevelItem >= 60
+        )
         .sort((a: Relation, b: Relation) => (a.items[0].LevelItem >= b.items[0].LevelItem ? 1 : -1));
     });
   }
