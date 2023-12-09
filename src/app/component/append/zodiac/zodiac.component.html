@@ -1,0 +1,340 @@
+<div class="gs-app-append-zodiac">
+  <div class="gs-app-append-zodiac-details">
+    <p-accordion>
+      <p-accordionTab header="作成手順">
+        <div *ngIf="index == 0">
+          <p>
+            ゲロルトから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>朽ち果てた武器を入手し、ゲロルトに渡す。</p>
+          <p-divider></p-divider>
+          <p>
+            <a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[0], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[0], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >
+            に{{ getMateria(step.classJobCategory.Name) }}を 2 つ装着する。
+          </p>
+          <p-divider></p-divider>
+          <p>ドルムキマイラ討伐戦をクリアする。</p>
+          <p>アルミナ研粒をゲロルトに渡す。</p>
+          <p>レヴナンツトールでロウェナと会話する。</p>
+          <p-divider></p-divider>
+          <p>邪教排撃 古城アムダプールをクリアする。</p>
+          <p>アムダプールの石版をロウェナに渡す。</p>
+          <p>写本：トリストラムの本をゲロルトに渡す。</p>
+          <p>
+            <a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[1], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[1], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >を入手する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            <a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[1], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[1], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >を装備して指定のモンスター 24 体(8 体 + 8 体 + 8 体)を討伐する。
+          </p>
+          <p>ゲロルトに報告する。</p>
+          <p-divider></p-divider>
+          <p>
+            <a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[1], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[1], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >を装備してハイドラ討伐戦をクリアする。
+          </p>
+          <p>
+            ゲロルトに<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[1], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[1], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >を渡す。
+          </p>
+          <p-divider></p-divider>
+          <p>{{ step.classJobCategory.Name_ja }}で真イフリート討滅戦をクリアする。</p>
+          <p>{{ step.classJobCategory.Name_ja }}で真ガルーダ討滅戦をクリアする。</p>
+          <p>{{ step.classJobCategory.Name_ja }}で真タイタン討滅戦をクリアする。</p>
+          <p>ゲロルトにイフリートの炎、ガルーダの風、タイタンの黄土を渡す。</p>
+          <p-divider></p-divider>
+          <p>ラザハン焼入油を 1 つゲロルトに渡す。</p>
+        </div>
+        <div *ngIf="index == 1">
+          <p>ゲロルトの横にある武具職人の鍛冶炉に下記を入れる。</p>
+          <ul>
+            <li *ngFor="let item of steps[index - 1].items">
+              <a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{ item.Name_ja }}</a>
+            </li>
+            <li>サベネアの霊薬を 3 つ</li>
+          </ul>
+        </div>
+        <div *ngIf="index == 2">
+          <p>
+            1 本目作成時のみ、ゲロルトから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(66971, questUrlType)"
+              target="_blank"
+              >英雄の武器を求めて</a
+            >を受注する。
+          </p>
+          <p>
+            ジャルザーンに話しかけて<a class="eorzeadb_link" [href]="getTooltip(66971, questUrlType)" target="_blank"
+              >英雄の武器を求めて</a
+            >をクリアする。
+          </p>
+          <p>※2 本目以降は直接アートマ集めをする。</p>
+          <p-divider></p-divider>
+          <p>
+            <a class="eorzeadb_link" [href]="getTooltip(steps[index - 1].items[0].ID, itemUrlType)" target="_blank">{{
+              steps[index - 1].items[0].Name_ja
+            }}</a
+            >を装備して各地の FATE をクリアし、アートマを入手する。
+          </p>
+          <p>12 種類のアートマをジャルザーンに渡す。</p>
+          <p-divider></p-divider>
+          <p-table [value]="atmas"
+            ><ng-template pTemplate="header">
+              <tr>
+                <th>アートマ</th>
+                <th>場所</th>
+              </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-atma>
+              <tr>
+                <td>{{ atma.name }}</td>
+                <td>{{ atma.map }}</td>
+              </tr>
+            </ng-template></p-table
+          >
+        </div>
+        <div *ngIf="index == 3">
+          <p>
+            1 本目作成時のみ、ジャルザーンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(66972, questUrlType)"
+              target="_blank"
+              >黄道十二文書</a
+            >を受注する。
+          </p>
+          <p>レヴナンツトールのグ・ジュサナに話しかけて黄道十二文書を交換する。</p>
+          <p>※2 本目以降は直接グ・ジュサナから黄道十二文書を交換する。</p>
+          <p-divider></p-divider>
+          <p>グ・ジュサナから黄道十二文書を交換し、計 9 冊クリアする。</p>
+          <p-divider></p-divider>
+          <p>ジャルザーンに話しかけ、アートマの強化を選択する。</p>
+        </div>
+        <div *ngIf="index == 4">
+          <p>
+            1 本目作成時のみ、ジャルザーンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(66998, questUrlType)"
+              target="_blank"
+              >スフィアの輝き</a
+            >を受注する。
+          </p>
+          <p>中央ザナラーンの狼煙の丘にいるウベールタンに話しかけてハイエンチャントインクを 3 つ見せる。</p>
+          <p>
+            ウベールタンから<a class="eorzeadb_link" [href]="getTooltip(67000, questUrlType)" target="_blank"
+              >輝きは新星の如く</a
+            >を受注する。
+          </p>
+          <p>ウベールタンに話しかけてハイエンチャントインクを 3 つ渡し、スフィアスクロールを入手する。</p>
+          <p>
+            ※2 本目以降は直接ウベールタンに話しかけてハイエンチャントインクを 3 つ渡し、スフィアスクロールを入手する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            所持品からスフィアスクロールを使用して、特定のマテリア 1 個とアレキサンドライト 1 個を使用して 75
+            回転写をする。
+          </p>
+          <p-divider></p-divider>
+          <p>ジャルザーンに話しかけ、アニムスの強化を選択する。</p>
+        </div>
+        <div *ngIf="index == 5">
+          <p>
+            1 本目作成時のみ、ジャルザーンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(65742, questUrlType)"
+              target="_blank"
+              >器に込められた魂</a
+            >を受注し、ゾディアックグラスを入手する。
+          </p>
+          <p>※ゾディアックグラスがない場合は、ゲロルトの隣のドレイクから入手する。</p>
+          <p-divider></p-divider>
+          <p>
+            ジャルザーンに話しかけて<a
+              class="eorzeadb_link"
+              [href]="getTooltip(steps[index - 1].items[0].ID, itemUrlType)"
+              target="_blank"
+              >{{ steps[index - 1].items[0].Name_ja }}</a
+            >を絶霊化してもらう。
+          </p>
+          <p>
+            ※2 本目以降は直接ジャルザーンに話しかけて<a
+              class="eorzeadb_link"
+              [href]="getTooltip(steps[index - 1].items[0].ID, itemUrlType)"
+              target="_blank"
+              >{{ steps[index - 1].items[0].Name_ja }}</a
+            >を絶霊化してもらう。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            <a class="eorzeadb_link" [href]="getTooltip(steps[index - 1].items[0].ID, itemUrlType)" target="_blank">{{
+              steps[index - 1].items[0].Name_ja
+            }}</a
+            >を装備して新生 ID や、討滅戦を周回する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            所持品からゾディアックグラスを使用し、「魂が完全に定着したようだ。」と表示されたらジャルザーンに話しかけ、ノウスの強化を選択する。
+          </p>
+        </div>
+        <div *ngIf="index == 6">
+          <p>
+            1 本目作成時のみ、ジャルザーンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(65892, questUrlType)"
+              target="_blank"
+              >ゾディアックウェポン</a
+            >を受注する。
+          </p>
+          <p>
+            ※2 本目以降はジャルザーンからゾディアックウェポンの再創造を選択して、4 つのアイテムをジャルザーンに渡す。
+          </p>
+          <p-divider></p-divider>
+          <p>下記のクエストをクリアして入手できる 4 つのアイテムをゲロルトに渡す。</p>
+          <ul>
+            <li>
+              <a class="eorzeadb_link" [href]="getTooltip(65893, questUrlType)" target="_blank">パパナ借金道</a>
+            </li>
+            <li>
+              <a class="eorzeadb_link" [href]="getTooltip(65894, questUrlType)" target="_blank">真摯なる職人の挑戦</a>
+            </li>
+            <li>
+              <a class="eorzeadb_link" [href]="getTooltip(65895, questUrlType)" target="_blank">情熱と夢を込めて</a>
+            </li>
+            <li>
+              <a class="eorzeadb_link" [href]="getTooltip(65896, questUrlType)" target="_blank">母の想い、息子の願い</a>
+            </li>
+          </ul>
+          <p-divider></p-divider>
+          <h4><a class="eorzeadb_link" [href]="getTooltip(65893, questUrlType)" target="_blank">パパナ借金道</a></h4>
+          <ol>
+            <li>トレードアイテム</li>
+            <p>ブロンズクリスタル、霊峰の泉水、大炎獣の心核を渡す。</p>
+            <li>ID 攻略</li>
+            <p>
+              掃討作戦 ゼーメル要塞をクリアして入手できるバトラールの角、盟友支援 ブレイフロクスの野営地 (Hard)
+              をクリアして入手できるVI号ゴブリ鋼板を渡す。
+            </p>
+            <li>ID 攻略</li>
+            <p>
+              剣闘領域 ハラタリ修練所 (Hard)をクリアして入手できるナラシンハの皮膜、氷結潜窟
+              スノークローク大氷壁をクリアして入手できるフェンリルの牙を渡す。
+            </p>
+            <li>クラフター制作、マケボ</li>
+            <p>炎の指輪(HQ)、上質な薪(HQ)を渡す。</p>
+          </ol>
+          <p-divider></p-divider>
+          <h4>
+            <a class="eorzeadb_link" [href]="getTooltip(65894, questUrlType)" target="_blank">真摯なる職人の挑戦</a>
+          </h4>
+          <ol>
+            <li>トレードアイテム</li>
+            <p>アラグの樹脂を渡す。</p>
+            <li>ID 攻略</li>
+            <p>
+              霧中行軍 オーラムヴェイルをクリアして入手できる黄輝石、妖異屋敷 ハウケタ御用邸 (Hard)
+              をクリアして入手できる妖異の魔布を渡す。
+            </p>
+            <li>ID 攻略</li>
+            <p>
+              腐敗遺跡 古アムダプール市街をクリアして入手できるアムダプールの紙片、逆襲要害 サスタシャ浸食洞
+              (Hard)をクリアして入手できる蒼茫玉を渡す。
+            </p>
+            <li>クラフター制作、マケボ</li>
+            <p>上質な乳鉢(HQ)、上質な乳棒(HQ)を渡す。</p>
+            <li>トレードアイテム</li>
+            <p>霊峰の泉水、大炎獣の心核を渡す。</p>
+          </ol>
+          <p-divider></p-divider>
+          <h4>
+            <a class="eorzeadb_link" [href]="getTooltip(65895, questUrlType)" target="_blank">情熱と夢を込めて</a>
+          </h4>
+          <ol>
+            <li>ID 攻略</li>
+            <p>旅神聖域 ワンダラーパレスをクリアして入手できるトンベリ王の血を渡す。</p>
+            <li>ID 攻略</li>
+            <p>騒乱坑道 カッパーベル銅山 (Hard)をクリアして入手できる巌窟王の血玉を渡す。</p>
+            <li>ID 攻略</li>
+            <p>財宝伝説 ハルブレーカー・アイルをクリアして入手できる大王烏賊の血を渡す。</p>
+            <li>ID 攻略</li>
+            <p>遺跡救援 カルン埋没寺院 (Hard)をクリアして入手できる古代王の血を渡す。</p>
+            <li>クラフター制作、マケボ</li>
+            <p>上質な羊皮紙(HQ)、上質な定着剤(HQ)を渡す。</p>
+            <li>トレードアイテム</li>
+            <p>霊峰の泉水、大炎獣の心核、戦神砂を渡す。</p>
+          </ol>
+          <p-divider></p-divider>
+          <h4>
+            <a class="eorzeadb_link" [href]="getTooltip(65895, questUrlType)" target="_blank">情熱と夢を込めて</a>
+          </h4>
+          <ol>
+            <li>トレードアイテム</li>
+            <p>霊峰の泉水、大炎獣の心核、ブラスケトルを渡す。</p>
+            <li>ID 攻略</li>
+            <p>
+              邪教排撃 古城アムダプールをクリアして入手できる古城のお宝、怪鳥巨塔
+              シリウス大灯台をクリアして入手できる大灯台のお宝、惨劇霊殿 タムタラの墓所
+              (Hard)をクリアして入手できる地下墓所のお宝を渡す。
+            </p>
+            <li>ID 攻略</li>
+            <p>城塞奪回 ストーンヴィジル (Hard)をクリアして入手できる対竜要塞のお宝を渡す。</p>
+            <li>クラフター制作、マケボ</li>
+            <p>上質な古布(HQ)、秘製イールパイ(HQ)を渡す。</p>
+          </ol>
+        </div>
+        <div *ngIf="index == 7">
+          <p>
+            1 本目作成時のみ、ジャルザーンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(66096, questUrlType)"
+              target="_blank"
+              >目覚めし力</a
+            >を受注し、スウィフトパーチ入植地へ移動する。
+          </p>
+          <p>※2 本目以降は直接スウィフトパーチ入植地へ移動する。</p>
+          <p-divider></p-divider>
+          <p>レモンからマハトマを入手する。</p>
+          <p-divider></p-divider>
+          <p>
+            <a class="eorzeadb_link" [href]="getTooltip(steps[index - 1].items[0].ID, itemUrlType)" target="_blank">{{
+              steps[index - 1].items[0].Name_ja
+            }}</a
+            >を装備して新生 ID や、討滅戦を周回する。
+          </p>
+          <p-divider></p-divider>
+          <p>マハトマ 12 個分輝きを溜める。</p>
+          <p-divider></p-divider>
+          <p>ジャルザーンに話しかけ、「ゾディアックウェポン」の再創造を選択する。</p>
+        </div>
+      </p-accordionTab>
+    </p-accordion>
+  </div>
+</div>

@@ -69,6 +69,14 @@
                 </a>
               </div>
             </div>
+            <div class="gs-app-step-by-step-panel-content-card-title-item-append">
+              <app-zodiac
+                *ngIf="step.items[0]?.LevelEquip == 50"
+                [index]="i"
+                [step]="step"
+                [steps]="steps"
+              ></app-zodiac>
+            </div>
           </div>
         </div>
       </p-card>

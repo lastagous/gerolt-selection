@@ -17,6 +17,7 @@ import { MessageService } from 'primeng/api';
 import { CardModule } from 'primeng/card';
 import { DividerModule } from 'primeng/divider';
 import { SkeletonModule } from 'primeng/skeleton';
+import { AccordionModule } from 'primeng/accordion';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
@@ -30,9 +31,10 @@ import { StepByStepStore } from './component/step-by-step/step-by-step.store';
 import { ProgressStore } from './store/progress.store';
 import { FFxivCollectService } from './service/ffxivcollect.service';
 import { FFxivCollectStore } from './store/ffxivcollect.store';
+import { ZodiacComponent } from './component/append/zodiac/zodiac.component';
 
 @NgModule({
-  declarations: [AppComponent, SearchLodestoneComponent, CharacterListComponent, StepByStepComponent],
+  declarations: [AppComponent, SearchLodestoneComponent, CharacterListComponent, StepByStepComponent, ZodiacComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -51,6 +53,7 @@ import { FFxivCollectStore } from './store/ffxivcollect.store';
     CardModule,
     DividerModule,
     SkeletonModule,
+    AccordionModule,
   ],
   providers: [
     LocalStorageService,
