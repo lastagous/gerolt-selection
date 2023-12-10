@@ -1,0 +1,272 @@
+<div class="gs-app-append-zodiac">
+  <div class="gs-app-append-zodiac-details">
+    <p-accordion
+      ><p-accordionTab header="作成手順"
+        ><div *ngIf="index == 0">
+          <p>
+            {{ step.classJobCategory.Name_ja }}でアジス・ラーのアルダシールから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            レヴナンツトールのシンドニーから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[0], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[0], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >と<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[1], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[1], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >を入手する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            アルダシールに<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[0], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[0], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >と<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[1], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[1], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >を渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 1">
+          <p>
+            {{ step.classJobCategory.Name_ja }}でアルダシールから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="step.items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >を装備して、下記 ID を順番にクリアする。
+          </p>
+          <ol>
+            <li>氷結潜窟 スノークローク大氷壁</li>
+            <li>逆襲要害 サスタシャ浸食洞 (Hard)</li>
+            <li>遺跡救援 カルン埋没寺院 (Hard)</li>
+          </ol>
+          <p>ID クリア後にアルダシールと話す。</p>
+          <p-divider></p-divider>
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="step.items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >を装備して、下記 ID を順番にクリアする。
+          </p>
+          <ol>
+            <li>幻龍残骸 黙約の塔</li>
+            <li>武装聖域 ワンダラーパレス (Hard)</li>
+            <li>邪念排撃 古城アムダプール (Hard)</li>
+          </ol>
+          <p>ID クリア後にアルダシールと話す。</p>
+          <p-divider></p-divider>
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="step.items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >を装備して、下記 ID を順番にクリアする。
+          </p>
+          <ol>
+            <li>廃砦捜索 ダスクヴィジル</li>
+            <li>霊峰踏破 ソーム・アル</li>
+            <li>邪竜血戦 ドラゴンズエアリー</li>
+            <li>強硬突入 イシュガルド教皇庁</li>
+          </ol>
+          <p>ID クリア後にアルダシールと話す。</p>
+        </div>
+        <div *ngIf="index == 2">
+          <p>
+            {{ step.classJobCategory.Name_ja }}でアルダシールから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>レヴナンツトールのクリスティアナから下記アイテムを 1 つずつ入手する。</p>
+          <ul>
+            <li *ngFor="let item of step.quests[0].quest.usedItems">
+              <a class="eorzeadb_link" [href]="getTooltip(item, itemUrlType)" target="_blank">{{
+                getPartial(item, itemUrlType, step.quests[0].partials).obj.n
+              }}</a>
+            </li>
+          </ul>
+          <p-divider></p-divider>
+          <p>入手したアイテムをアジス・ラーのゲロルトに渡す。</p>
+        </div>
+        <div *ngIf="index == 3">
+          <p>
+            {{ step.classJobCategory.Name_ja }}でアルダシールから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            <a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[0], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[0], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >を 5 つゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 4">
+          <p>
+            {{ step.classJobCategory.Name_ja }}でアルダシールから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            クリスタルサンド 1 つと、硬霊性岩 1 つをイディルシャイアのウランに渡し、調整クリスタルサンド 3 つ入手する。
+          </p>
+          <p-divider></p-divider>
+          <p>調整クリスタルサンド 180 個使用してサブステータスを振り分ける。</p>
+        </div>
+        <div *ngIf="index == 5">
+          <p>
+            {{ step.classJobCategory.Name_ja }}でアルダシールから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>イディルシャイアのブランプレに活性化クラスターを 50 個渡す。</p>
+          <p>アルダシールに話しかける。</p>
+        </div>
+        <div *ngIf="index == 6">
+          <p>
+            {{ step.classJobCategory.Name_ja }}でアルダシールから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>下記 ID を順番にクリアする。</p>
+          <ol>
+            <li>古アムダプール市街 (hard)</li>
+            <li>グブラ幻想図書館 (hard)</li>
+            <li>ソーム・アル (hard)</li>
+          </ol>
+          <p-divider></p-divider>
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="step.items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >を装備して、魂の凝縮度を高める。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            {{ step.classJobCategory.Name_ja }}でアジス・ラーの加工システムから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(67933, questUrlType)"
+              target="_blank"
+            >
+              新生ソウルストーンの創造</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>謎めいた結晶を 15 個集め、加工システムに渡し、新生ソウルストーンを入手する。</p>
+          <p-divider></p-divider>
+          <p>アルダシールに新生ソウルストーンを渡す。</p>
+        </div>
+        <div *ngIf="index == 7">
+          <p>
+            1 本目作成時のみ、{{ step.classJobCategory.Name_ja }}でアルダシールから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(67939, questUrlType)"
+              target="_blank"
+            >
+              新たな報せ</a
+            >を受注してクリアする。
+          </p>
+          <p>
+            {{ step.classJobCategory.Name_ja }}でアルダシールから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p>
+            ※2 本目以降は直接<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="step.items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >を装備して、下記討伐・討滅戦を順番にクリアする。
+          </p>
+          <ol>
+            <li>真イフリート討滅戦</li>
+            <li>真ガルーダ討滅戦</li>
+            <li>真タイタン討滅戦</li>
+            <li>善王モグル・モグⅫ世討滅戦</li>
+            <li>真リヴァイアサン討滅戦</li>
+            <li>真ラムウ討滅戦</li>
+            <li>真シヴァ討滅戦</li>
+            <li>真ラーヴァナ討滅戦</li>
+            <li>真ビスマルク討滅戦</li>
+            <li>魔神セフィロト討滅戦</li>
+            <li>女神ソフィア討滅戦</li>
+            <li>鬼神ズルワーン討滅戦</li>
+          </ol>
+          <p-divider></p-divider>
+          <p>古式エンチャントインク 1 つをアルダシールに渡す。</p>
+        </div>
+      </p-accordionTab></p-accordion
+    >
+  </div>
+</div>

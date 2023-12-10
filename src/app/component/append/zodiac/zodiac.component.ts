@@ -2,43 +2,14 @@ import { Component, Input } from '@angular/core';
 import { index } from 'cheerio/lib/api/traversing';
 import { QuestPartial, Relation } from 'src/types/json-index';
 import { StepByStepStore } from '../../step-by-step/step-by-step.store';
+import { AppendBaseComponent } from '../append-base/append-base.component';
 
 @Component({
   selector: 'app-zodiac',
   templateUrl: './zodiac.component.html',
-  styleUrls: ['./zodiac.component.less'],
+  styleUrls: ['../append-base/append-base.component.less'],
 })
-export class ZodiacComponent {
-  @Input()
-  public index = 0;
-
-  @Input()
-  public step = {} as Relation;
-
-  @Input()
-  public steps = {} as Relation[];
-
-  constructor(private _stepByStepStore: StepByStepStore) {}
-
-  public get itemUrlType(): string {
-    return 'item';
-  }
-
-  public get questUrlType(): string {
-    return 'quest';
-  }
-
-  public getTooltip(id: number, urlType: string): string {
-    const baseUrl = `https://jp.finalfantasyxiv.com/lodestone/playguide/db/${urlType}/`;
-    const tooltipId = this._stepByStepStore.tooltips.find((tooltip) => tooltip.id == id)?.tooltipId;
-    return `${baseUrl}${tooltipId ? tooltipId : ''}${tooltipId ? '/' : ''}`;
-  }
-
-  public getPartial(id: number, urlType: string, partials: QuestPartial[]): QuestPartial {
-    const result = partials.find((partial) => partial.id == String(id) && partial.type == urlType);
-    return result ? result : ({} as QuestPartial);
-  }
-
+export class ZodiacComponent extends AppendBaseComponent {
   public getMateria(job: string) {
     switch (job) {
       case 'PLD':

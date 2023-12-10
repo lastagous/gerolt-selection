@@ -32,9 +32,19 @@ import { ProgressStore } from './store/progress.store';
 import { FFxivCollectService } from './service/ffxivcollect.service';
 import { FFxivCollectStore } from './store/ffxivcollect.store';
 import { ZodiacComponent } from './component/append/zodiac/zodiac.component';
+import { AnimaComponent } from './component/append/anima/anima.component';
+import { AppendBaseComponent } from './component/append/append-base/append-base.component';
 
 @NgModule({
-  declarations: [AppComponent, SearchLodestoneComponent, CharacterListComponent, StepByStepComponent, ZodiacComponent],
+  declarations: [
+    AppComponent,
+    SearchLodestoneComponent,
+    CharacterListComponent,
+    StepByStepComponent,
+    ZodiacComponent,
+    AnimaComponent,
+    AppendBaseComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
