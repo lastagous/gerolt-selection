@@ -54,7 +54,7 @@
           <p-divider></p-divider>
           <p>
             <ng-container *ngFor="let item of steps[index - 1].items"
-              ><ng-container *ngIf="step.items.indexOf(item) != 0">と</ng-container
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
@@ -69,7 +69,7 @@
           <p-divider></p-divider>
           <p>
             <ng-container *ngFor="let item of steps[index - 1].items"
-              ><ng-container *ngIf="step.items.indexOf(item) != 0">と</ng-container
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
@@ -84,7 +84,7 @@
           <p-divider></p-divider>
           <p>
             <ng-container *ngFor="let item of steps[index - 1].items"
-              ><ng-container *ngIf="step.items.indexOf(item) != 0">と</ng-container
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
@@ -191,7 +191,7 @@
           <p-divider></p-divider>
           <p>
             <ng-container *ngFor="let item of steps[index - 1].items"
-              ><ng-container *ngIf="step.items.indexOf(item) != 0">と</ng-container
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
@@ -243,7 +243,7 @@
           <p-divider></p-divider>
           <p>
             <ng-container *ngFor="let item of steps[index - 1].items"
-              ><ng-container *ngIf="step.items.indexOf(item) != 0">と</ng-container
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
