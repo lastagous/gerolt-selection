@@ -1,0 +1,213 @@
+<div class="gs-app-append-resistance">
+  <div class="gs-app-append-resistance-details">
+    <p-accordion
+      ><p-accordionTab header="作成手順"
+        ><div *ngIf="index == 0">
+          <p>
+            1 本目作成時のみ、クガネのケイテンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(69370, questUrlType)"
+              target="_blank"
+              >失われた聖遺物</a
+            >を受注し、セイブ・ザ・クイーンのストーリーを進める。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            1 本目作成時のみ、{{ step.classJobCategory.Name_ja }}でガンゴッシュのゲロルトから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p>
+            ※2 本目以降は代わりに、{{ step.classJobCategory.Name_ja }}でガンゴッシュのズラタンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[1].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[1].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            1 本目作成時のみ、<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を進めることで<ng-container *ngFor="let item of steps[index].items"
+              ><ng-container *ngIf="steps[index].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >を入手できます。
+          </p>
+          <p>
+            ※2 本目以降は、<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[1].quest.usedItems[0], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[1].quest.usedItems[0], itemUrlType, step.quests[1].partials).obj.n }}</a
+            >を 4 つズラタンに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 1">
+          <p>
+            {{ step.classJobCategory.Name_ja }}でズラタンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>下記アイテムをズラタンに渡す。</p>
+          <ol>
+            <li *ngFor="let item of step.quests[0].quest.usedItems">
+              <a class="eorzeadb_link" [href]="getTooltip(item, itemUrlType)" target="_blank">{{
+                getPartial(item, itemUrlType, step.quests[0].partials).obj.n
+              }}</a>
+              を 20 個
+            </li>
+          </ol>
+        </div>
+        <div *ngIf="index == 2">
+          <p>
+            {{ step.classJobCategory.Name_ja }}でズラタンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>下記アイテムをズラタンに渡す。</p>
+          <ol>
+            <li *ngFor="let item of step.quests[0].quest.usedItems">
+              <a class="eorzeadb_link" [href]="getTooltip(item, itemUrlType)" target="_blank">{{
+                getPartial(item, itemUrlType, step.quests[0].partials).obj.n
+              }}</a>
+              を 6 個
+            </li>
+          </ol>
+        </div>
+        <div *ngIf="index == 3">
+          <p>カストルム・ラクスリトレ攻城戦とグンヒルド・ディルーブラムをクリアする。</p>
+          <p-divider></p-divider>
+          <p>
+            {{ step.classJobCategory.Name_ja }}でズラタンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>下記アイテムをズラタンに渡す。</p>
+          <ol>
+            <li *ngFor="let item of step.quests[0].quest.usedItems">
+              <a class="eorzeadb_link" [href]="getTooltip(item, itemUrlType)" target="_blank">{{
+                getPartial(item, itemUrlType, step.quests[0].partials).obj.n
+              }}</a>
+              を 15 個
+            </li>
+          </ol>
+        </div>
+        <div *ngIf="index == 4">
+          <p>
+            1 本目作成時のみ、<a class="eorzeadb_link" [href]="getTooltip(69575, questUrlType)" target="_blank">
+              窮状を救いし、球状の物体</a
+            >をゲロルトから受注する。
+          </p>
+          <p>
+            ※2 本目以降は、{{ step.classJobCategory.Name_ja }}でズラタンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            <a class="eorzeadb_link" [href]="getTooltip(32957, itemUrlType)" target="_blank">禍々しき記憶の一塊</a> 18
+            個と<a class="eorzeadb_link" [href]="getTooltip(32958, itemUrlType)" target="_blank">忌々しき記憶の一塊</a
+            >を追憶システムに渡す。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            {{ step.classJobCategory.Name_ja }}でズラタンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>下記アイテムを追憶システムに渡す。</p>
+          <ol>
+            <li *ngFor="let item of step.quests[0].quest.usedItems">
+              <a class="eorzeadb_link" [href]="getTooltip(item, itemUrlType)" target="_blank">{{
+                getPartial(item, itemUrlType, step.quests[0].partials).obj.n
+              }}</a>
+              を 15 個
+            </li>
+          </ol>
+        </div>
+        <div *ngIf="index == 5">
+          <p>
+            1 本目作成時のみ、ザトゥノル高原のクエストを進め、<a
+              class="eorzeadb_link"
+              [href]="getTooltip(69632, questUrlType)"
+              target="_blank"
+            >
+              古代ボズヤが思い描きし姿</a
+            >まで完了させておく。
+          </p>
+          <p-divider></p-divider>
+          <p>1 本目作成時のみ、下記クエストをズラタンから受注する。</p>
+          <ul>
+            <li>
+              <a class="eorzeadb_link" [href]="getTooltip(69633, questUrlType)" target="_blank">「霊薬」の特別取引</a>
+            </li>
+            <li>
+              <a class="eorzeadb_link" [href]="getTooltip(69634, questUrlType)" target="_blank"
+                >「特殊合金」の特別取引</a
+              >
+            </li>
+            <li>
+              <a class="eorzeadb_link" [href]="getTooltip(69635, questUrlType)" target="_blank">「術式」の特別取引</a>
+            </li>
+          </ul>
+          <p-divider></p-divider>
+          <p>
+            {{ step.classJobCategory.Name_ja }}でズラタンから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>下記アイテムをズラタンに渡す。</p>
+          <ol>
+            <li *ngFor="let item of step.quests[0].quest.usedItems">
+              <a class="eorzeadb_link" [href]="getTooltip(item, itemUrlType)" target="_blank">{{
+                getPartial(item, itemUrlType, step.quests[0].partials).obj.n
+              }}</a>
+              を 15 個
+            </li>
+          </ol>
+        </div>
+      </p-accordionTab></p-accordion
+    >
+  </div>
+</div>

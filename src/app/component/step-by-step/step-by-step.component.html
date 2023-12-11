@@ -83,6 +83,12 @@
                 [step]="step"
                 [steps]="steps"
               ></app-euleka>
+              <app-resistance
+                *ngIf="step.items[0]?.LevelEquip == 80"
+                [index]="i"
+                [step]="step"
+                [steps]="steps"
+              ></app-resistance>
             </div>
           </div>
         </div>

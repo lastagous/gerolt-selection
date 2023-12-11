@@ -35,6 +35,7 @@ import { ZodiacComponent } from './component/append/zodiac/zodiac.component';
 import { AnimaComponent } from './component/append/anima/anima.component';
 import { AppendBaseComponent } from './component/append/append-base/append-base.component';
 import { EulekaComponent } from './component/append/euleka/euleka.component';
+import { ResistanceComponent } from './component/append/resistance/resistance.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { EulekaComponent } from './component/append/euleka/euleka.component';
     AnimaComponent,
     AppendBaseComponent,
     EulekaComponent,
+    ResistanceComponent,
   ],
   imports: [
     BrowserModule,
