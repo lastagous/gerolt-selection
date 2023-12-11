@@ -17,7 +17,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background: conic-gradient(var(--surface-700) 0deg 360deg);
+      background: conic-gradient(var(--surface-400) 0deg 360deg);
       border-radius: 50%;
 
       .gs-app-step-by-step-weapon-list-content-weapon-icon {
@@ -25,8 +25,15 @@
         width: 56px;
       }
 
+      &.selected {
+        border: 2px solid var(--primary-color);
+        transition: 0.2s all;
+      }
+
       :hover {
         cursor: pointer;
+        transform: scale(1.1, 1.1);
+        transition: 0.2s all;
       }
     }
 
@@ -43,7 +50,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: conic-gradient(var(--surface-700) 0deg 360deg);
+        background: conic-gradient(var(--surface-400) 0deg 360deg);
         border-radius: 50%;
 
         .gs-app-step-by-step-job-list-content-job-icon {
@@ -51,8 +58,15 @@
           width: 32px;
         }
 
+        &.selected {
+          border: 2px solid var(--primary-color);
+          transition: 0.2s all;
+        }
+
         :hover {
           cursor: pointer;
+          transform: scale(1.1, 1.1);
+          transition: 0.2s all;
         }
       }
     }

@@ -78,8 +78,16 @@ export class StepByStepComponent {
     return `${baseUrl}${tooltipId ? tooltipId : ''}${tooltipId ? '/' : ''}`;
   }
 
-  public isAchievementCompleted(id: number) {
+  public isAchievementCompleted(id: number): boolean {
     return this._stepByStepStore.isAchievementCompleted(id);
+  }
+
+  public isWeaponSelected(weapon: string): boolean {
+    return this._stepByStepStore.selectedWeapon === weapon;
+  }
+
+  public isJobSelected(job: string): boolean {
+    return this._stepByStepStore.selectedJob === job;
   }
 
   public getWeaponRateCssText(weapon: string): string {

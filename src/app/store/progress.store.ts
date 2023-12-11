@@ -37,8 +37,8 @@ export class ProgressStore {
   public getChartCssText(per: number): string {
     const angle = Math.trunc(360 * per);
     return angle == 0
-      ? 'conic-gradient(var(--surface-700) 0deg 360deg)'
-      : `conic-gradient(var(--orange-400) 0deg ${angle}deg, var(--surface-700) ${angle}deg 360deg)`;
+      ? 'conic-gradient(var(--surface-400) 0deg 360deg)'
+      : `conic-gradient(var(--orange-400) 0deg ${angle}deg, var(--surface-400) ${angle}deg 360deg)`;
   }
 
   public getShareText(character: StorageCharacterModel): string {

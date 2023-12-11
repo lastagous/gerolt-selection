@@ -3,6 +3,7 @@
     <div class="gs-app-step-by-step-weapon-list">
       <div
         class="gs-app-step-by-step-weapon-list-content"
+        [class.selected]="isWeaponSelected(weapon)"
         [style.background]="getWeaponRateCssText(weapon)"
         *ngFor="let weapon of weapons"
         (click)="onWeaponClick(weapon)"
@@ -15,6 +16,7 @@
     <div class="gs-app-step-by-step-job-list">
       <div
         class="gs-app-step-by-step-job-list-content"
+        [class.selected]="isJobSelected(job)"
         [style.background]="getJobRateCssText(job)"
         *ngFor="let job of jobs"
         (click)="onJobClick(job)"
