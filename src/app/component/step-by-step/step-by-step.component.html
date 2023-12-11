@@ -89,6 +89,12 @@
                 [step]="step"
                 [steps]="steps"
               ></app-resistance>
+              <app-manderville
+                *ngIf="step.items[0]?.LevelEquip == 90"
+                [index]="i"
+                [step]="step"
+                [steps]="steps"
+              ></app-manderville>
             </div>
           </div>
         </div>

@@ -36,6 +36,7 @@ import { AnimaComponent } from './component/append/anima/anima.component';
 import { AppendBaseComponent } from './component/append/append-base/append-base.component';
 import { EulekaComponent } from './component/append/euleka/euleka.component';
 import { ResistanceComponent } from './component/append/resistance/resistance.component';
+import { MandervilleComponent } from './component/append/manderville/manderville.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { ResistanceComponent } from './component/append/resistance/resistance.co
     AppendBaseComponent,
     EulekaComponent,
     ResistanceComponent,
+    MandervilleComponent,
   ],
   imports: [
     BrowserModule,

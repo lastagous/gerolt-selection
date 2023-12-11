@@ -1,0 +1,80 @@
+<div class="gs-app-append-manderville">
+  <div class="gs-app-append-manderville-details">
+    <p-accordion
+      ><p-accordionTab header="作成手順"
+        ><div *ngIf="index == 0">
+          <p>ヒルディブランド関連のクエストを進め、帰ってきたヒルディブランドまでクリアする。</p>
+          <p-divider></p-divider>
+          <p>
+            {{ step.classJobCategory.Name_ja }}でラザハンのマンダヴィル家の使用人から<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p>
+            ※2 本目以降は、{{ step.classJobCategory.Name_ja }}でマンダヴィル家の職人から<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[1].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[1].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>希少メテオライト 3 つをラザハンにいるゲロルトに渡す。</p>
+        </div>
+        <div *ngIf="index == 1">
+          <p>ヒルディブランド関連のクエストを進め、はつらつとした親子までクリアする。</p>
+          <p-divider></p-divider>
+          <p>
+            {{ step.classJobCategory.Name_ja }}でゲロルトから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p>
+            ※2 本目以降は、{{ step.classJobCategory.Name_ja }}でマンダヴィル家の職人から<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[1].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[1].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>希少コンドライト 3 つをラザハンにいるゲロルトに渡す。</p>
+        </div>
+        <div *ngIf="index == 2">
+          <p>ヒルディブランド関連のクエストを進め、のうてんきな一家までクリアする。</p>
+          <p-divider></p-divider>
+          <p>
+            {{ step.classJobCategory.Name_ja }}でゲロルトから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p>
+            ※2 本目以降は、{{ step.classJobCategory.Name_ja }}でマンダヴィル家の職人から<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[1].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[1].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>希少エイコンドライト 3 つをラザハンにいるゲロルトに渡す。</p>
+        </div>
+      </p-accordionTab></p-accordion
+    >
+  </div>
+</div>
