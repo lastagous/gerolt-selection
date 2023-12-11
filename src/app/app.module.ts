@@ -18,6 +18,7 @@ import { CardModule } from 'primeng/card';
 import { DividerModule } from 'primeng/divider';
 import { SkeletonModule } from 'primeng/skeleton';
 import { AccordionModule } from 'primeng/accordion';
+import { SidebarModule } from 'primeng/sidebar';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
@@ -70,6 +71,7 @@ import { MandervilleComponent } from './component/append/manderville/manderville
     DividerModule,
     SkeletonModule,
     AccordionModule,
+    SidebarModule,
   ],
   providers: [
     LocalStorageService,

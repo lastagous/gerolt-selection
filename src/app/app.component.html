@@ -1,26 +1,13 @@
 <div class="gs-app">
   <div class="gs-app-main">
     <div class="gs-app-main-header">
-      <div class="gs-app-main-header-left">
-        <img
-          class="gs-app-main-header-left-logo"
-          [src]="logoPath"
-          alt="ゲロルトの工匠記録"
-        />
-        <span *ngIf="logoLink" class="gs-app-main-header-right-creator-name">
-          Logo by
-          <a
-            href="https://github.com/lastagous/gerolt-selection"
-            target="_blank"
-          >
-            {{ logoCreator }}
-          </a>
-        </span>
-        <span *ngIf="!logoLink" class="gs-app-main-header-right-creator-name">
-          Logo by {{ logoCreator }}
-        </span>
-      </div>
-      <div class="gs-app-main-header-right"></div>
+      <p-button
+        icon="pi pi-bars"
+        class="gs-app-main-header-bar"
+        styleClass="p-button-outlined p-button-text"
+        (click)="sidebarVisible = true"
+      ></p-button>
+      <img class="gs-app-main-header-logo" [src]="logoPath" alt="ゲロルトの工匠記録" />
     </div>
     <div class="gs-app-main-content">
       <div class="gs-app-main-content-top">
@@ -31,43 +18,47 @@
         <app-step-by-step></app-step-by-step>
       </div>
     </div>
-    <div class="gs-app-main-footer">
-      <div class="gs-app-main-footer-left">
-        <span
-          >Created by
-          <a href="https://twitter.com/lastagous" target="_blank"
-            >@lastagous</a
-          ></span
-        >
-      </div>
-      <div class="gs-app-main-footer-center">
-        <div class="icon-area">
-          <img class="icon" src="assets/link/twitter.png" />
-          <a
-            class="footer-link"
-            href="https://twitter.com/lastagous"
-            target="_blank"
-          ></a>
+  </div>
+</div>
+<p-sidebar class="gs-app-side" [(visible)]="sidebarVisible" position="right">
+  <ng-template pTemplate="header"
+    ><img class="gs-app-side-header-logo" [src]="logoPath" alt="ゲロルトの工匠記録"
+  /></ng-template>
+  <ng-template pTemplate="content"
+    ><p>Website: <a href="https://twitter.com/lastagous" target="_blank">らすと</a></p>
+    <p>Illust: <a href="https://twitter.com/toto_lucas_ff14" target="_blank">ろにゃ</a></p>
+    <p>
+      Logo:
+      <ng-container *ngIf="logoLink">
+        <a href="https://github.com/lastagous/gerolt-selection" target="_blank">
+          {{ logoCreator }}
+        </a></ng-container
+      >
+      <ng-container *ngIf="!logoLink"> {{ logoCreator }}</ng-container>
+    </p></ng-template
+  >
+  <ng-template pTemplate="footer">
+    <div class="gs-app-side-footer-content">
+      <div class="gs-app-side-footer-content-top">
+        <div class="gs-app-side-footer-content-top-icon-area">
+          <img class="gs-app-side-footer-content-top-icon" src="assets/link/x.png" />
+          <a class="gs-app-side-footer-content-top-icon-link" href="https://twitter.com/lastagous" target="_blank"></a>
         </div>
-        <div class="icon-area">
-          <img class="icon" src="assets/link/note.png" />
-          <a
-            class="footer-link"
-            href="https://note.com/lastagous"
-            target="_blank"
-          ></a>
+        <div class="gs-app-side-footer-content-top-icon-area">
+          <img class="gs-app-side-footer-content-top-icon" src="assets/link/note.png" />
+          <a class="gs-app-side-footer-content-top-icon-link" href="https://note.com/lastagous" target="_blank"></a>
         </div>
-        <div class="icon-area">
-          <img class="icon" src="assets/link/github.png" />
+        <div class="gs-app-side-footer-content-top-icon-area">
+          <img class="gs-app-side-footer-content-top-icon" src="assets/link/github.png" />
           <a
-            class="footer-link"
+            class="gs-app-side-footer-content-top-icon-link"
             href="https://github.com/lastagous/gerolt-selection"
             target="_blank"
           ></a>
         </div>
       </div>
-      <div class="gs-app-main-footer-right">© SQUARE ENIX</div>
+      <div class="gs-app-side-footer-content-bottom">© SQUARE ENIX</div>
     </div>
-  </div>
-</div>
+  </ng-template>
+</p-sidebar>
 <p-toast></p-toast>

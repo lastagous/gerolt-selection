@@ -13,27 +13,15 @@
       .gs-app-main-header {
         .gs-app-full-size-content();
         height: 48px;
+        align-items: center;
+        padding-left: 48px;
 
-        .gs-app-main-header-left,
-        .gs-app-main-header-right {
-          .gs-app-full-size-content();
+        .gs-app-main-header-bar {
+          padding-right: 8px;
         }
 
-        .gs-app-main-header-left {
-          align-items: center;
-          padding-left: 64px;
-
-          .gs-app-main-header-left-logo {
-            height: 100%;
-          }
-
-          .gs-app-main-header-right-creator-name {
-            padding-left: 16px;
-            width: 400px;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-          }
+        .gs-app-main-header-logo {
+          height: 100%;
         }
 
         @media @tablet {
@@ -74,55 +62,45 @@
           width: 100%;
         }
       }
+    }
+  }
 
-      .gs-app-main-footer {
-        .gs-app-full-size-content();
-        height: 48px;
+  .gs-app-side {
+    .gs-app-side-header-logo {
+      height: 48px;
+    }
 
-        .gs-app-main-footer-left,
-        .gs-app-main-footer-center,
-        .gs-app-main-footer-right {
-          .gs-app-full-size-content();
+    .gs-app-side-footer-content {
+      .gs-app-side-footer-content-top {
+        display: flex;
+        justify-content: center;
+
+        .gs-app-side-footer-content-top-icon-area {
+          position: relative;
+          display: flex;
           align-items: center;
-        }
+          font-size: 13px;
+          padding: 8px;
 
-        .gs-app-main-footer-left {
-          padding-left: 16px;
-        }
+          .gs-app-side-footer-content-top-icon {
+            height: 24px;
+          }
 
-        .gs-app-main-footer-center {
-          justify-content: center;
-
-          .icon-area {
-            position: relative;
-            display: flex;
-            align-items: center;
-            font-size: 13px;
-            padding: 8px;
-
-            .icon {
-              height: 24px;
-            }
-
-            .footer-link {
-              display: block;
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-            }
+          .gs-app-side-footer-content-top-icon-link {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
           }
         }
+      }
 
-        .gs-app-main-footer-right {
-          padding-right: 16px;
-          justify-content: flex-end;
-        }
-
-        @media @tablet {
-          flex-direction: column;
-        }
+      .gs-app-side-footer-content-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
       }
     }
   }
