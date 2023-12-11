@@ -37,7 +37,7 @@ export class LocalstorageStore {
   public setCharacter(value: StorageCharacterModel): void {
     const id = value.collect ? value.collect.character.id : value.data ? value.data.Character.ID : 0;
     const characters = this.characters.filter(
-      (character) => character.data?.Character.ID !== id || character.collect?.character.id !== id
+      (character) => !(character.data?.Character.ID === id || character.collect?.character.id === id)
     );
     this.characters = [value].concat(characters);
     this.selectedCharacter = value;
@@ -45,7 +45,7 @@ export class LocalstorageStore {
 
   public removeCharacter(id: number): void {
     const characters = this.characters.filter(
-      (character) => character.data?.Character.ID !== id || character.collect?.character.id !== id
+      (character) => !(character.data?.Character.ID === id || character.collect?.character.id === id)
     );
     this.characters = characters;
     if (this.selectedCharacter.data?.Character.ID === id) {
