@@ -34,6 +34,7 @@ import { FFxivCollectStore } from './store/ffxivcollect.store';
 import { ZodiacComponent } from './component/append/zodiac/zodiac.component';
 import { AnimaComponent } from './component/append/anima/anima.component';
 import { AppendBaseComponent } from './component/append/append-base/append-base.component';
+import { EulekaComponent } from './component/append/euleka/euleka.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { AppendBaseComponent } from './component/append/append-base/append-base.
     ZodiacComponent,
     AnimaComponent,
     AppendBaseComponent,
+    EulekaComponent,
   ],
   imports: [
     BrowserModule,

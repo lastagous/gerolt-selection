@@ -77,6 +77,12 @@
                 [steps]="steps"
               ></app-zodiac>
               <app-anima *ngIf="step.items[0]?.LevelEquip == 60" [index]="i" [step]="step" [steps]="steps"></app-anima>
+              <app-euleka
+                *ngIf="step.items[0]?.LevelEquip == 70"
+                [index]="i"
+                [step]="step"
+                [steps]="steps"
+              ></app-euleka>
             </div>
           </div>
         </div>

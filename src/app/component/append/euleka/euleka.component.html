@@ -1,0 +1,159 @@
+<div class="gs-app-append-euleka">
+  <div class="gs-app-append-euleka-details">
+    <p-accordion
+      ><p-accordionTab header="作成手順"
+        ><div *ngIf="index == 0">
+          <p>ジョブクエストの報酬装備と乱属性クリスタル 100 個をアネモス編のゲロルトに渡す。</p>
+        </div>
+        <div *ngIf="index == 1">
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >と乱属性クリスタル 400 個をアネモス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 2">
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >と乱属性クリスタル 800 個をアネモス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 3">
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >とパズズの羽根 3 個をアネモス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 4">
+          <p>EL (エレメンタルレベル) を25に上げ、クルルからのクエストを受注する。</p>
+          <p-divider></p-divider>
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >と乱属性クリスタル【氷】5 個をパゴス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 5">
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >と乱属性クリスタル【氷】10 個とパゴスクリスタル 500 個をパゴス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 6">
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >と乱属性クリスタル【氷】16 個とロウヒの氷片 5 個をパゴス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 7">
+          <p>ロゴスアクションを 10 種類開放する。</p>
+          <p-divider></p-divider>
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >とピューロスクリスタル 150 個をピューロス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 8">
+          <p>ロゴスアクションを 20 種類開放する。</p>
+          <p-divider></p-divider>
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >とピューロスクリスタル 200 個をピューロス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 9">
+          <p>ロゴスアクションを 30 種類開放する。</p>
+          <p-divider></p-divider>
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >とピューロスクリスタル 300 個とペンテシレイアの種火 5 個をピューロス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 10">
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >とヒュダトスクリスタル 50 個をヒュダトス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 11">
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >とヒュダトスクリスタル 100 個をヒュダトス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 12">
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >とヒュダトスクリスタル 100 個をヒュダトス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 13">
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >とヒュダトスクリスタル 100 個と水晶龍の鱗 5 個をヒュダトス編のゲロルトに渡す。
+          </p>
+        </div>
+        <div *ngIf="index == 14">
+          <p>
+            <ng-container *ngFor="let item of steps[index - 1].items"
+              ><ng-container *ngIf="steps[index - 1].items.indexOf(item) != 0">と</ng-container
+              ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
+                item.Name_ja
+              }}</a></ng-container
+            >とエウレカの断片 100 個をヒュダトス編のゲロルトに渡す。
+          </p>
+        </div>
+      </p-accordionTab></p-accordion
+    >
+  </div>
+</div>
