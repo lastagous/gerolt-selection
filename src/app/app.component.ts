@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PrimeNGConfig } from 'primeng/api';
 import { LogoStore } from './store/logo.store';
 import { LogoModel } from './model/logo.model';
+import { StepByStepStore } from './component/step-by-step/step-by-step.store';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,11 @@ import { LogoModel } from './model/logo.model';
 export class AppComponent implements OnInit {
   private _sidebarVisible = false;
 
-  constructor(private primengConfig: PrimeNGConfig, private _logoStore: LogoStore) {}
+  constructor(
+    private primengConfig: PrimeNGConfig,
+    private _logoStore: LogoStore,
+    private _stepByStepStore: StepByStepStore
+  ) {}
 
   ngOnInit(): void {
     this.primengConfig.ripple = true;
@@ -39,6 +44,14 @@ export class AppComponent implements OnInit {
 
   public get logoLink(): string {
     return this._logoStore.logo.link;
+  }
+
+  public get images(): string[] {
+    return this._stepByStepStore.images;
+  }
+
+  public getImageSrc(image: string): string {
+    return `../assets/img/${image}.png`;
   }
 
   title = 'ゲロルトの工匠記録';

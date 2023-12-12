@@ -104,4 +104,11 @@
       <p-divider *ngIf="steps.length != i + 1"></p-divider>
     </div>
   </div>
+  <div
+    class="gs-app-step-by-step-empty"
+    *ngIf="!(steps.length > 0)"
+    [style.background-image]="'url(../../../assets/img/fukidashi01.png), url(' + imageSrc + ')'"
+  >
+    <!-- <img class="gs-app-step-by-step-empty-image" [src]="imageSrc" /> -->
+  </div>
 </div>

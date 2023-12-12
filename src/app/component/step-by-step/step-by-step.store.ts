@@ -15,6 +15,8 @@ export class StepByStepStore {
   private _steps: BehaviorSubject<Relation[]> = new BehaviorSubject<Relation[]>([]);
   private _relations = relationsJson as Relation[];
   private _tooltips = tooltipsJson as Tooltip[];
+  private _images = ['war', 'sch', 'mnk', 'blm'];
+  private _image = this._images[Math.floor(Math.random() * this._images.length)];
 
   constructor(private _localStorageStore: LocalstorageStore) {
     this.selectedWeapon$.subscribe((selectedWeapon) => {
@@ -108,6 +110,14 @@ export class StepByStepStore {
 
   public get tooltips(): Tooltip[] {
     return this._tooltips;
+  }
+
+  public get images(): string[] {
+    return this._images;
+  }
+
+  public get image(): string {
+    return this._image;
   }
 
   public isAchievementCompleted(id: number): boolean {

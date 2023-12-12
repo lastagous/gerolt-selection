@@ -48,6 +48,10 @@ export class StepByStepComponent {
     return 'achievement';
   }
 
+  public get imageSrc(): string {
+    return `../../../assets/img/${this._stepByStepStore.image}.png`;
+  }
+
   public onWeaponClick(weapon: string): void {
     this._stepByStepStore.selectedWeapon = weapon;
   }

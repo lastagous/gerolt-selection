@@ -50,6 +50,9 @@
   </ng-template>
   <ng-template pTemplate="footer">
     <div class="gs-app-side-footer-content">
+      <div class="gs-app-side-footer-content-illust">
+        <img class="gs-app-side-footer-content-illust-image" *ngFor="let image of images" [src]="getImageSrc(image)" />
+      </div>
       <div class="gs-app-side-footer-content-top">
         <div class="gs-app-side-footer-content-top-icon-area">
           <img class="gs-app-side-footer-content-top-icon" src="assets/link/x.png" />
