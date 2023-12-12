@@ -10,6 +10,8 @@
     "deploy": "ng deploy --base-href=/gerolt-selection/",
     "jsondata:achievements": "npx ts-node src/cmd/create-json.ts achievements",
     "jsondata:quests": "npx ts-node src/cmd/create-json.ts quests",
+    "jsondata:npcs": "npx ts-node src/cmd/create-json.ts npcs",
+    "jsondata:instances": "npx ts-node src/cmd/create-json.ts instances",
     "jsondata:items": "npx ts-node src/cmd/create-json.ts items",
     "jsondata:tooltips": "npx ts-node src/cmd/create-json.ts tooltips",
     "jsondata:relations": "npx ts-node src/cmd/create-json.ts relations",

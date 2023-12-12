@@ -1,9 +1,12 @@
 import {
   Achievement,
+  Instance,
   Item,
+  Npc,
   Quest,
   Relation,
   SummaryAchievement,
+  SummaryInstance,
   SummaryQuest,
   Tooltip,
   // UrlType,
@@ -83,6 +86,53 @@ const quests = async () => {
   const jsonString = JSON.stringify(quests, null, 2);
   // [info] fs relative path 'root' is execute command in folder
   fs.writeFileSync('src/assets/data/garlandtools/quests.json', jsonString);
+};
+
+const npcs = async () => {
+  // [info] require relative path 'root' is this file in folder
+  const quests = require('../assets/data/garlandtools/quests.json') as Quest[];
+  const npcs: Npc[] = [];
+  for (let quest of quests) {
+    if (!npcs.find((npc) => npc.npc.id === quest.quest.issuer) && quest.quest.issuer) {
+      const issuer = await garlandtools.npc(quest.quest.issuer);
+      npcs.push(issuer);
+    }
+    if (!npcs.find((npc) => npc.npc.id === quest.quest.target) && quest.quest.target) {
+      const target = await garlandtools.npc(quest.quest.target);
+      npcs.push(target);
+    }
+  }
+  const jsonString = JSON.stringify(npcs, null, 2);
+  // [info] fs relative path 'root' is execute command in folder
+  fs.writeFileSync('src/assets/data/garlandtools/npcs.json', jsonString);
+};
+
+const summaryInstances = async () => {
+  const fetchInstances = ((await garlandtools.instances()) as SummaryInstance[]).filter(
+    (a) => a.t == 'ダンジョン' || a.t == '討伐・討滅戦'
+  );
+
+  // [info] require relative path 'root' is this file in folder
+  const localInstances = require('../assets/data/garlandtools/summary-instances.json') as SummaryInstance[];
+
+  if (fetchInstances != localInstances) {
+    const jsonString = JSON.stringify(fetchInstances, null, 2);
+    // [info] fs relative path 'root' is execute command in folder
+    fs.writeFileSync('src/assets/data/garlandtools/summary-instances.json', jsonString);
+  }
+};
+
+const instances = async () => {
+  // [info] require relative path 'root' is this file in folder
+  const summaryinstances = require('../assets/data/garlandtools/summary-instances.json') as SummaryInstance[];
+  const instances: Instance[] = [];
+  for (let summaryinstance of summaryinstances) {
+    const result = await garlandtools.instance(summaryinstance.i);
+    instances.push(result);
+  }
+  const jsonString = JSON.stringify(instances, null, 2);
+  // [info] fs relative path 'root' is execute command in folder
+  fs.writeFileSync('src/assets/data/garlandtools/instances.json', jsonString);
 };
 
 const items = async () => {
@@ -261,6 +311,8 @@ const tooltips = async () => {
   const items = require('../assets/data/xivapi/items.json') as Item[];
   const quests = require('../assets/data/garlandtools/quests.json') as Quest[];
   const achievements = require('../assets/data/garlandtools/achievements.json') as Achievement[];
+  const instances = require('../assets/data/garlandtools/instances.json') as Instance[];
+  const npcs = require('../assets/data/garlandtools/npcs.json') as Npc[];
   // The information registered in tooltips is not queried, so if new information is required, set tooltips to just an empty array.
   const tooltips = require('../assets/data/local/tooltips.json') as Tooltip[];
   const urlBase = 'https://jp.finalfantasyxiv.com/lodestone/playguide/db/';
@@ -360,6 +412,35 @@ const tooltips = async () => {
     // [info] fs relative path 'root' is execute command in folder
     fs.writeFileSync('src/assets/data/local/tooltips.json', jsonString);
   }
+
+  for (let instance of instances) {
+    if (tooltips.find((tooltip) => tooltip.id == instance.instance.id && tooltip.urlType == 'duty')) continue;
+    const url = `${urlBase}duty/?&${['db_search_category=duty', `q=${encodeURIComponent(instance.instance.name)}`].join(
+      '&'
+    )}`;
+    let page;
+    try {
+      page = await superagent.get(url);
+    } catch (e) {
+      console.log(`superagent.get(): failed. Wait 10 seconds and try again.`);
+      await new Promise((resolve) => setTimeout(resolve, 10000));
+      page = await superagent.get(url);
+    }
+    const $ = cheerio.load(page.text);
+    const tooltipId = $('.db-table__txt--detail_link').attr('href')?.split('/')[5];
+    console.log(`${instance.instance.name} -> ${tooltipId}`);
+
+    if (!tooltipId) continue;
+    tooltips.push({
+      urlType: 'duty',
+      id: instance.instance.id,
+      tooltipId: tooltipId,
+    } as Tooltip);
+
+    const jsonString = JSON.stringify(tooltips, null, 2);
+    // [info] fs relative path 'root' is execute command in folder
+    fs.writeFileSync('src/assets/data/local/tooltips.json', jsonString);
+  }
 };
 
 const main = async () => {
@@ -371,6 +452,13 @@ const main = async () => {
     case 'quests':
       await summaryQuests();
       await quests();
+      break;
+    case 'npcs':
+      await npcs();
+      break;
+    case 'instances':
+      await summaryInstances();
+      await instances();
       break;
     case 'items':
       await items();

@@ -7648,5 +7648,890 @@
     "urlType": "achievement",
     "id": 2226,
     "tooltipId": "b879400bde1"
+  },
+  {
+    "urlType": "duty",
+    "id": 1,
+    "tooltipId": "cf7612fa294"
+  },
+  {
+    "urlType": "duty",
+    "id": 2,
+    "tooltipId": "29e71c3b0a0"
+  },
+  {
+    "urlType": "duty",
+    "id": 3,
+    "tooltipId": "619923ac984"
+  },
+  {
+    "urlType": "duty",
+    "id": 4,
+    "tooltipId": "b229b89b3a8"
+  },
+  {
+    "urlType": "duty",
+    "id": 5,
+    "tooltipId": "f507633618c"
+  },
+  {
+    "urlType": "duty",
+    "id": 6,
+    "tooltipId": "e9740dde26c"
+  },
+  {
+    "urlType": "duty",
+    "id": 7,
+    "tooltipId": "98319325b98"
+  },
+  {
+    "urlType": "duty",
+    "id": 8,
+    "tooltipId": "e371c7ab919"
+  },
+  {
+    "urlType": "duty",
+    "id": 9,
+    "tooltipId": "b7a48152df9"
+  },
+  {
+    "urlType": "duty",
+    "id": 10,
+    "tooltipId": "3fd66be47b2"
+  },
+  {
+    "urlType": "duty",
+    "id": 11,
+    "tooltipId": "b6491e1b508"
+  },
+  {
+    "urlType": "duty",
+    "id": 12,
+    "tooltipId": "d601f85dc1e"
+  },
+  {
+    "urlType": "duty",
+    "id": 13,
+    "tooltipId": "4a36cbca533"
+  },
+  {
+    "urlType": "duty",
+    "id": 14,
+    "tooltipId": "ae8a92122ec"
+  },
+  {
+    "urlType": "duty",
+    "id": 15,
+    "tooltipId": "59c2b3b84fa"
+  },
+  {
+    "urlType": "duty",
+    "id": 17,
+    "tooltipId": "a8dd3748467"
+  },
+  {
+    "urlType": "duty",
+    "id": 18,
+    "tooltipId": "619923ac984"
+  },
+  {
+    "urlType": "duty",
+    "id": 19,
+    "tooltipId": "e9740dde26c"
+  },
+  {
+    "urlType": "duty",
+    "id": 20,
+    "tooltipId": "e371c7ab919"
+  },
+  {
+    "urlType": "duty",
+    "id": 21,
+    "tooltipId": "98319325b98"
+  },
+  {
+    "urlType": "duty",
+    "id": 22,
+    "tooltipId": "87d3b951d3d"
+  },
+  {
+    "urlType": "duty",
+    "id": 23,
+    "tooltipId": "18aeffad7c5"
+  },
+  {
+    "urlType": "duty",
+    "id": 24,
+    "tooltipId": "29e71c3b0a0"
+  },
+  {
+    "urlType": "duty",
+    "id": 25,
+    "tooltipId": "b6491e1b508"
+  },
+  {
+    "urlType": "duty",
+    "id": 26,
+    "tooltipId": "b7a48152df9"
+  },
+  {
+    "urlType": "duty",
+    "id": 27,
+    "tooltipId": "6f1778eb631"
+  },
+  {
+    "urlType": "duty",
+    "id": 28,
+    "tooltipId": "b229b89b3a8"
+  },
+  {
+    "urlType": "duty",
+    "id": 29,
+    "tooltipId": "ae8a92122ec"
+  },
+  {
+    "urlType": "duty",
+    "id": 30,
+    "tooltipId": "3fd66be47b2"
+  },
+  {
+    "urlType": "duty",
+    "id": 31,
+    "tooltipId": "f368b40c648"
+  },
+  {
+    "urlType": "duty",
+    "id": 32,
+    "tooltipId": "5e75d2059af"
+  },
+  {
+    "urlType": "duty",
+    "id": 33,
+    "tooltipId": "618168354ea"
+  },
+  {
+    "urlType": "duty",
+    "id": 34,
+    "tooltipId": "a62f7ee3718"
+  },
+  {
+    "urlType": "duty",
+    "id": 35,
+    "tooltipId": "c39cf50a6a5"
+  },
+  {
+    "urlType": "duty",
+    "id": 36,
+    "tooltipId": "df5ab8bfd61"
+  },
+  {
+    "urlType": "duty",
+    "id": 37,
+    "tooltipId": "eed0add7a62"
+  },
+  {
+    "urlType": "duty",
+    "id": 38,
+    "tooltipId": "923e0a1d1d0"
+  },
+  {
+    "urlType": "duty",
+    "id": 39,
+    "tooltipId": "339c4923556"
+  },
+  {
+    "urlType": "duty",
+    "id": 40,
+    "tooltipId": "a8dd3748467"
+  },
+  {
+    "urlType": "duty",
+    "id": 41,
+    "tooltipId": "cdad1cb65e8"
+  },
+  {
+    "urlType": "duty",
+    "id": 42,
+    "tooltipId": "a780ca9b970"
+  },
+  {
+    "urlType": "duty",
+    "id": 43,
+    "tooltipId": "36e172ff46c"
+  },
+  {
+    "urlType": "duty",
+    "id": 44,
+    "tooltipId": "a8c7c5c13bd"
+  },
+  {
+    "urlType": "duty",
+    "id": 45,
+    "tooltipId": "a780ca9b970"
+  },
+  {
+    "urlType": "duty",
+    "id": 46,
+    "tooltipId": "1d95a773990"
+  },
+  {
+    "urlType": "duty",
+    "id": 47,
+    "tooltipId": "a780ca9b970"
+  },
+  {
+    "urlType": "duty",
+    "id": 48,
+    "tooltipId": "bc72ef27ade"
+  },
+  {
+    "urlType": "duty",
+    "id": 49,
+    "tooltipId": "a780ca9b970"
+  },
+  {
+    "urlType": "duty",
+    "id": 50,
+    "tooltipId": "39ba54ada1c"
+  },
+  {
+    "urlType": "duty",
+    "id": 51,
+    "tooltipId": "23edcb0d626"
+  },
+  {
+    "urlType": "duty",
+    "id": 52,
+    "tooltipId": "471227e1ee7"
+  },
+  {
+    "urlType": "duty",
+    "id": 53,
+    "tooltipId": "53d7100d839"
+  },
+  {
+    "urlType": "duty",
+    "id": 54,
+    "tooltipId": "cd924bd8eac"
+  },
+  {
+    "urlType": "duty",
+    "id": 55,
+    "tooltipId": "e635797754f"
+  },
+  {
+    "urlType": "duty",
+    "id": 56,
+    "tooltipId": "c71bb06e67b"
+  },
+  {
+    "urlType": "duty",
+    "id": 57,
+    "tooltipId": "37d0e83919d"
+  },
+  {
+    "urlType": "duty",
+    "id": 58,
+    "tooltipId": "47ef709fb04"
+  },
+  {
+    "urlType": "duty",
+    "id": 59,
+    "tooltipId": "f9ab5899e9d"
+  },
+  {
+    "urlType": "duty",
+    "id": 60,
+    "tooltipId": "a780ca9b970"
+  },
+  {
+    "urlType": "duty",
+    "id": 61,
+    "tooltipId": "35ed52cf463"
+  },
+  {
+    "urlType": "duty",
+    "id": 62,
+    "tooltipId": "a780ca9b970"
+  },
+  {
+    "urlType": "duty",
+    "id": 63,
+    "tooltipId": "c8608c977a6"
+  },
+  {
+    "urlType": "duty",
+    "id": 64,
+    "tooltipId": "33a05f144e4"
+  },
+  {
+    "urlType": "duty",
+    "id": 65,
+    "tooltipId": "5f9f024b774"
+  },
+  {
+    "urlType": "duty",
+    "id": 66,
+    "tooltipId": "3aff2d6760c"
+  },
+  {
+    "urlType": "duty",
+    "id": 67,
+    "tooltipId": "c5de427bfef"
+  },
+  {
+    "urlType": "duty",
+    "id": 68,
+    "tooltipId": "be6a14f45a6"
+  },
+  {
+    "urlType": "duty",
+    "id": 69,
+    "tooltipId": "f8fff809d77"
+  },
+  {
+    "urlType": "duty",
+    "id": 70,
+    "tooltipId": "72f2e86daba"
+  },
+  {
+    "urlType": "duty",
+    "id": 71,
+    "tooltipId": "d2b053e4e31"
+  },
+  {
+    "urlType": "duty",
+    "id": 72,
+    "tooltipId": "a6165958a5c"
+  },
+  {
+    "urlType": "duty",
+    "id": 73,
+    "tooltipId": "1f246825352"
+  },
+  {
+    "urlType": "duty",
+    "id": 74,
+    "tooltipId": "969e6501eb7"
+  },
+  {
+    "urlType": "duty",
+    "id": 75,
+    "tooltipId": "44073b7449c"
+  },
+  {
+    "urlType": "duty",
+    "id": 76,
+    "tooltipId": "5a30eb6b20d"
+  },
+  {
+    "urlType": "duty",
+    "id": 77,
+    "tooltipId": "81f08141768"
+  },
+  {
+    "urlType": "duty",
+    "id": 78,
+    "tooltipId": "9c317b74e3a"
+  },
+  {
+    "urlType": "duty",
+    "id": 79,
+    "tooltipId": "25f8ec27427"
+  },
+  {
+    "urlType": "duty",
+    "id": 80,
+    "tooltipId": "3297718033f"
+  },
+  {
+    "urlType": "duty",
+    "id": 81,
+    "tooltipId": "fd65b266f55"
+  },
+  {
+    "urlType": "duty",
+    "id": 82,
+    "tooltipId": "8514a64c969"
+  },
+  {
+    "urlType": "duty",
+    "id": 83,
+    "tooltipId": "dadcd891cc1"
+  },
+  {
+    "urlType": "duty",
+    "id": 84,
+    "tooltipId": "ba59c193b71"
+  },
+  {
+    "urlType": "duty",
+    "id": 85,
+    "tooltipId": "175e6a7245d"
+  },
+  {
+    "urlType": "duty",
+    "id": 86,
+    "tooltipId": "f6de0165484"
+  },
+  {
+    "urlType": "duty",
+    "id": 87,
+    "tooltipId": "d56ff366a07"
+  },
+  {
+    "urlType": "duty",
+    "id": 88,
+    "tooltipId": "d75f0e7733b"
+  },
+  {
+    "urlType": "duty",
+    "id": 89,
+    "tooltipId": "ce91893321f"
+  },
+  {
+    "urlType": "duty",
+    "id": 90,
+    "tooltipId": "ee802d0c0ef"
+  },
+  {
+    "urlType": "duty",
+    "id": 91,
+    "tooltipId": "f3d52caf5b5"
+  },
+  {
+    "urlType": "duty",
+    "id": 20001,
+    "tooltipId": "c3e6020e9e6"
+  },
+  {
+    "urlType": "duty",
+    "id": 20002,
+    "tooltipId": "859d01176cd"
+  },
+  {
+    "urlType": "duty",
+    "id": 20003,
+    "tooltipId": "9c8db3d95b6"
+  },
+  {
+    "urlType": "duty",
+    "id": 20004,
+    "tooltipId": "2640986aff3"
+  },
+  {
+    "urlType": "duty",
+    "id": 20005,
+    "tooltipId": "349d6ca4465"
+  },
+  {
+    "urlType": "duty",
+    "id": 20006,
+    "tooltipId": "b74b4328a17"
+  },
+  {
+    "urlType": "duty",
+    "id": 20008,
+    "tooltipId": "6af1a94ccca"
+  },
+  {
+    "urlType": "duty",
+    "id": 20009,
+    "tooltipId": "589c727302e"
+  },
+  {
+    "urlType": "duty",
+    "id": 20010,
+    "tooltipId": "7c17ae70cc6"
+  },
+  {
+    "urlType": "duty",
+    "id": 20011,
+    "tooltipId": "6a88aecaec1"
+  },
+  {
+    "urlType": "duty",
+    "id": 20012,
+    "tooltipId": "b7c47c44490"
+  },
+  {
+    "urlType": "duty",
+    "id": 20013,
+    "tooltipId": "f369418dbf8"
+  },
+  {
+    "urlType": "duty",
+    "id": 20017,
+    "tooltipId": "a9147177b7a"
+  },
+  {
+    "urlType": "duty",
+    "id": 20018,
+    "tooltipId": "0850a8627aa"
+  },
+  {
+    "urlType": "duty",
+    "id": 20019,
+    "tooltipId": "decf353d4e7"
+  },
+  {
+    "urlType": "duty",
+    "id": 20020,
+    "tooltipId": "c87fbc421a0"
+  },
+  {
+    "urlType": "duty",
+    "id": 20021,
+    "tooltipId": "c370021f429"
+  },
+  {
+    "urlType": "duty",
+    "id": 20022,
+    "tooltipId": "520ffafb60d"
+  },
+  {
+    "urlType": "duty",
+    "id": 20023,
+    "tooltipId": "4d8cae741db"
+  },
+  {
+    "urlType": "duty",
+    "id": 20024,
+    "tooltipId": "c38bedcfa46"
+  },
+  {
+    "urlType": "duty",
+    "id": 20025,
+    "tooltipId": "5f786d57228"
+  },
+  {
+    "urlType": "duty",
+    "id": 20026,
+    "tooltipId": "a74020d08e8"
+  },
+  {
+    "urlType": "duty",
+    "id": 20027,
+    "tooltipId": "21d8c5bd54b"
+  },
+  {
+    "urlType": "duty",
+    "id": 20029,
+    "tooltipId": "2fac3746c16"
+  },
+  {
+    "urlType": "duty",
+    "id": 20030,
+    "tooltipId": "cb876745bce"
+  },
+  {
+    "urlType": "duty",
+    "id": 20031,
+    "tooltipId": "f55bdb9e34e"
+  },
+  {
+    "urlType": "duty",
+    "id": 20032,
+    "tooltipId": "83f028575c8"
+  },
+  {
+    "urlType": "duty",
+    "id": 20033,
+    "tooltipId": "26fe48f4631"
+  },
+  {
+    "urlType": "duty",
+    "id": 20034,
+    "tooltipId": "e9bb63551a4"
+  },
+  {
+    "urlType": "duty",
+    "id": 20035,
+    "tooltipId": "12c172943bc"
+  },
+  {
+    "urlType": "duty",
+    "id": 20036,
+    "tooltipId": "12c172943bc"
+  },
+  {
+    "urlType": "duty",
+    "id": 20037,
+    "tooltipId": "08c9d224d28"
+  },
+  {
+    "urlType": "duty",
+    "id": 20038,
+    "tooltipId": "e05c982993d"
+  },
+  {
+    "urlType": "duty",
+    "id": 20039,
+    "tooltipId": "2caf2e26f12"
+  },
+  {
+    "urlType": "duty",
+    "id": 20040,
+    "tooltipId": "0e880006330"
+  },
+  {
+    "urlType": "duty",
+    "id": 20041,
+    "tooltipId": "83e0064270d"
+  },
+  {
+    "urlType": "duty",
+    "id": 20042,
+    "tooltipId": "212ceb19a34"
+  },
+  {
+    "urlType": "duty",
+    "id": 20043,
+    "tooltipId": "8ff3c52798c"
+  },
+  {
+    "urlType": "duty",
+    "id": 20044,
+    "tooltipId": "26a86785be9"
+  },
+  {
+    "urlType": "duty",
+    "id": 20045,
+    "tooltipId": "13be0500007"
+  },
+  {
+    "urlType": "duty",
+    "id": 20046,
+    "tooltipId": "5806cb2d995"
+  },
+  {
+    "urlType": "duty",
+    "id": 20047,
+    "tooltipId": "b28f61e6212"
+  },
+  {
+    "urlType": "duty",
+    "id": 20048,
+    "tooltipId": "7992a4eab66"
+  },
+  {
+    "urlType": "duty",
+    "id": 20049,
+    "tooltipId": "7de6a27d145"
+  },
+  {
+    "urlType": "duty",
+    "id": 20050,
+    "tooltipId": "8c829b8dd8c"
+  },
+  {
+    "urlType": "duty",
+    "id": 20051,
+    "tooltipId": "f1fc9fb6093"
+  },
+  {
+    "urlType": "duty",
+    "id": 20052,
+    "tooltipId": "44fc4abc0eb"
+  },
+  {
+    "urlType": "duty",
+    "id": 20053,
+    "tooltipId": "a8b065d443b"
+  },
+  {
+    "urlType": "duty",
+    "id": 20054,
+    "tooltipId": "52328939737"
+  },
+  {
+    "urlType": "duty",
+    "id": 20055,
+    "tooltipId": "10fe97ad942"
+  },
+  {
+    "urlType": "duty",
+    "id": 20056,
+    "tooltipId": "0919d2674e0"
+  },
+  {
+    "urlType": "duty",
+    "id": 20057,
+    "tooltipId": "ea0f6440546"
+  },
+  {
+    "urlType": "duty",
+    "id": 20058,
+    "tooltipId": "628e9a05d34"
+  },
+  {
+    "urlType": "duty",
+    "id": 20059,
+    "tooltipId": "bad56c435a5"
+  },
+  {
+    "urlType": "duty",
+    "id": 20060,
+    "tooltipId": "c19b83441e4"
+  },
+  {
+    "urlType": "duty",
+    "id": 20061,
+    "tooltipId": "c79d50c803d"
+  },
+  {
+    "urlType": "duty",
+    "id": 20062,
+    "tooltipId": "dbf2007968d"
+  },
+  {
+    "urlType": "duty",
+    "id": 20063,
+    "tooltipId": "bad53f19540"
+  },
+  {
+    "urlType": "duty",
+    "id": 20064,
+    "tooltipId": "0b1d4434e26"
+  },
+  {
+    "urlType": "duty",
+    "id": 20065,
+    "tooltipId": "55504d0495f"
+  },
+  {
+    "urlType": "duty",
+    "id": 20066,
+    "tooltipId": "6b31d339381"
+  },
+  {
+    "urlType": "duty",
+    "id": 20067,
+    "tooltipId": "b2e08d16bce"
+  },
+  {
+    "urlType": "duty",
+    "id": 20068,
+    "tooltipId": "793ed012f43"
+  },
+  {
+    "urlType": "duty",
+    "id": 20069,
+    "tooltipId": "b388be5eb05"
+  },
+  {
+    "urlType": "duty",
+    "id": 20070,
+    "tooltipId": "841d3f69efd"
+  },
+  {
+    "urlType": "duty",
+    "id": 20071,
+    "tooltipId": "16b75e706b3"
+  },
+  {
+    "urlType": "duty",
+    "id": 20072,
+    "tooltipId": "1543e03ff37"
+  },
+  {
+    "urlType": "duty",
+    "id": 20073,
+    "tooltipId": "cd08ecb15cc"
+  },
+  {
+    "urlType": "duty",
+    "id": 20074,
+    "tooltipId": "16e9780d10e"
+  },
+  {
+    "urlType": "duty",
+    "id": 20075,
+    "tooltipId": "138006e2d76"
+  },
+  {
+    "urlType": "duty",
+    "id": 20076,
+    "tooltipId": "c4a2acf0912"
+  },
+  {
+    "urlType": "duty",
+    "id": 20077,
+    "tooltipId": "044b34a37ca"
+  },
+  {
+    "urlType": "duty",
+    "id": 20078,
+    "tooltipId": "0dbba05fd0f"
+  },
+  {
+    "urlType": "duty",
+    "id": 20079,
+    "tooltipId": "7b4070f67f6"
+  },
+  {
+    "urlType": "duty",
+    "id": 20080,
+    "tooltipId": "6eed2137942"
+  },
+  {
+    "urlType": "duty",
+    "id": 20081,
+    "tooltipId": "f40a8f14d6d"
+  },
+  {
+    "urlType": "duty",
+    "id": 20082,
+    "tooltipId": "f369418dbf8"
+  },
+  {
+    "urlType": "duty",
+    "id": 20083,
+    "tooltipId": "0c90d0fd67b"
+  },
+  {
+    "urlType": "duty",
+    "id": 20084,
+    "tooltipId": "7db24777c99"
+  },
+  {
+    "urlType": "duty",
+    "id": 20085,
+    "tooltipId": "7aa78623503"
+  },
+  {
+    "urlType": "duty",
+    "id": 20086,
+    "tooltipId": "524d9878b6b"
+  },
+  {
+    "urlType": "duty",
+    "id": 20087,
+    "tooltipId": "0eb5dd38d5a"
+  },
+  {
+    "urlType": "duty",
+    "id": 20089,
+    "tooltipId": "f1f90009296"
+  },
+  {
+    "urlType": "duty",
+    "id": 20090,
+    "tooltipId": "ea1daa24090"
+  },
+  {
+    "urlType": "duty",
+    "id": 20091,
+    "tooltipId": "dd8721dfa4b"
+  },
+  {
+    "urlType": "duty",
+    "id": 20092,
+    "tooltipId": "04dba833267"
+  },
+  {
+    "urlType": "duty",
+    "id": 64008,
+    "tooltipId": "6c96f8da252"
   }
 ]
