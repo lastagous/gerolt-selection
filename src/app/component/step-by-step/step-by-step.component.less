@@ -1,5 +1,6 @@
 :host ::ng-deep {
   width: 100%;
+  padding: 8px;
 
   .gs-app-step-by-step {
     display: flex;
@@ -7,7 +8,11 @@
     align-items: center;
 
     .gs-app-step-by-step-weapon-list {
+      width: 100%;
+      max-width: 800px;
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .gs-app-step-by-step-weapon-list-content {
@@ -38,7 +43,8 @@
     }
 
     .gs-app-step-by-step-job-list {
-      width: 600px;
+      width: 100%;
+      max-width: 800px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -72,7 +78,8 @@
     }
 
     .gs-app-step-by-step-panel {
-      width: 600px;
+      width: 100%;
+      max-width: 800px;
 
       .gs-app-step-by-step-panel-content-card-header {
         display: flex;
