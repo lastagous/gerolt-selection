@@ -13,4 +13,8 @@ export class LogoStore {
   public get logo(): LogoModel {
     return this._logo;
   }
+
+  public get logos(): LogoModel[] {
+    return _logosJson;
+  }
 }

@@ -22,21 +22,32 @@
 </div>
 <p-sidebar class="gs-app-side" [(visible)]="sidebarVisible" position="right">
   <ng-template pTemplate="header"
-    ><img class="gs-app-side-header-logo" [src]="logoPath" alt="ゲロルトの工匠記録"
-  /></ng-template>
+    ><div class="gs-app-side-header-logo-area">
+      <img class="gs-app-side-header-logo" [src]="logoPath" alt="ゲロルトの工匠記録" />
+    </div>
+    <div class="gs-app-side-header-creater-area">
+      <p>by:</p>
+      <p>
+        <a *ngIf="logoLink" [href]="logoLink" target="_blank">
+          {{ logoCreator }}
+        </a>
+        <ng-container *ngIf="!logoLink">{{ logoCreator }}</ng-container>
+      </p>
+    </div></ng-template
+  >
   <ng-template pTemplate="content"
     ><p>Website: <a href="https://twitter.com/lastagous" target="_blank">らすと</a></p>
     <p>Illust: <a href="https://twitter.com/toto_lucas_ff14" target="_blank">ろにゃ</a></p>
-    <p>
-      Logo:
-      <ng-container *ngIf="logoLink">
-        <a href="https://github.com/lastagous/gerolt-selection" target="_blank">
-          {{ logoCreator }}
-        </a></ng-container
-      >
-      <ng-container *ngIf="!logoLink"> {{ logoCreator }}</ng-container>
-    </p></ng-template
-  >
+    <p>Logos:</p>
+    <ng-container *ngFor="let logo of logos">
+      <p *ngIf="logo.creatorName" class="gs-app-side-content-logos-name">
+        <a *ngIf="logo.link" [href]="logo.link" target="_blank">
+          {{ logo.creatorName }}
+        </a>
+        <ng-container *ngIf="!logo.link">{{ logo.creatorName }}</ng-container>
+      </p></ng-container
+    >
+  </ng-template>
   <ng-template pTemplate="footer">
     <div class="gs-app-side-footer-content">
       <div class="gs-app-side-footer-content-top">

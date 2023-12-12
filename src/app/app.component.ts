@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PrimeNGConfig } from 'primeng/api';
 import { LogoStore } from './store/logo.store';
+import { LogoModel } from './model/logo.model';
 
 @Component({
   selector: 'app-root',
@@ -22,6 +23,10 @@ export class AppComponent implements OnInit {
 
   public set sidebarVisible(value: boolean) {
     this._sidebarVisible = value;
+  }
+
+  public get logos(): LogoModel[] {
+    return this._logoStore.logos;
   }
 
   public get logoPath(): string {
