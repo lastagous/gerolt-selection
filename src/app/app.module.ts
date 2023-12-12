@@ -7,9 +7,7 @@ import { RippleModule } from 'primeng/ripple';
 import { TableModule } from 'primeng/table';
 import { HttpClientModule } from '@angular/common/http';
 import { ScrollPanelModule } from 'primeng/scrollpanel';
-import { TabMenuModule } from 'primeng/tabmenu';
 import { TooltipModule } from 'primeng/tooltip';
-import { ChipModule } from 'primeng/chip';
 import { ButtonModule } from 'primeng/button';
 import { RouterModule } from '@angular/router';
 import { ToastModule } from 'primeng/toast';
@@ -41,48 +39,46 @@ import { MandervilleComponent } from './component/append/manderville/manderville
 
 @NgModule({
   declarations: [
+    AnimaComponent,
     AppComponent,
-    SearchLodestoneComponent,
+    AppendBaseComponent,
     CharacterListComponent,
+    EulekaComponent,
+    MandervilleComponent,
+    ResistanceComponent,
+    SearchLodestoneComponent,
     StepByStepComponent,
     ZodiacComponent,
-    AnimaComponent,
-    AppendBaseComponent,
-    EulekaComponent,
-    ResistanceComponent,
-    MandervilleComponent,
   ],
   imports: [
+    AccordionModule,
     BrowserModule,
     BrowserAnimationsModule,
     ButtonModule,
-    ChipModule,
+    CardModule,
+    DividerModule,
     FormsModule,
     HttpClientModule,
     InputTextModule,
     RippleModule,
     RouterModule.forRoot([{ path: '', component: AppComponent }]),
     ScrollPanelModule,
+    SidebarModule,
+    SkeletonModule,
     TableModule,
-    TabMenuModule,
     ToastModule,
     TooltipModule,
-    CardModule,
-    DividerModule,
-    SkeletonModule,
-    AccordionModule,
-    SidebarModule,
   ],
   providers: [
+    FFxivCollectService,
+    FFxivCollectStore,
     LocalStorageService,
     LocalstorageStore,
     LogoStore,
     MessageService,
-    XivapiStore,
-    StepByStepStore,
     ProgressStore,
-    FFxivCollectService,
-    FFxivCollectStore,
+    StepByStepStore,
+    XivapiStore,
   ],
   bootstrap: [AppComponent],
 })
