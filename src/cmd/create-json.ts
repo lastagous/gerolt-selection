@@ -208,7 +208,7 @@ const items = async () => {
     '宝瓶のアートマ',
     '獅子のアートマ',
     '巨蟹のアートマ',
-    'スフィアスクロール',
+    'アレキサンドライト',
   ].forEach((queryName) => {
     query.body.query.bool.should.push({
       match: {
@@ -443,9 +443,12 @@ const tooltips = async () => {
 
   for (let instance of instances) {
     if (tooltips.find((tooltip) => tooltip.id == instance.instance.id && tooltip.urlType == 'duty')) continue;
-    const url = `${urlBase}duty/?&${['db_search_category=duty', `q=${encodeURIComponent(instance.instance.name)}`].join(
-      '&'
-    )}`;
+    const url = `${urlBase}duty/?&${[
+      'db_search_category=duty',
+      `min_lv=${instance.instance.min_lvl}`,
+      `max_lv=${instance.instance.max_lvl}`,
+      `q=${encodeURIComponent(instance.instance.name.replace(/\(.+?\)/, ''))}`,
+    ].join('&')}`;
     let page;
     try {
       page = await superagent.get(url);

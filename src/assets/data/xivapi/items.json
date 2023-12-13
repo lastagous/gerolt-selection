@@ -439,6 +439,30 @@
       "Name_fr": null,
       "Name_ja": null
     },
+    "Description_ja": "光を変容させる性質があるダークマターの一種",
+    "EquipSlotCategory": null,
+    "ID": 7883,
+    "Icon": "/i/021000/021290.png",
+    "IconID": 21290,
+    "LevelEquip": 1,
+    "LevelItem": 1,
+    "Name": "Alexandrite",
+    "Name_de": "Alexandrit",
+    "Name_en": "Alexandrite",
+    "Name_fr": "Alexandrite",
+    "Name_ja": "アレキサンドライト",
+    "Patch": 10,
+    "Url": "/Item/7883",
+    "UrlType": "Item"
+  },
+  {
+    "ClassJobCategory": {
+      "Name": null,
+      "Name_de": null,
+      "Name_en": null,
+      "Name_fr": null,
+      "Name_ja": null
+    },
     "Description_ja": "近東の都市「ラザハン」で作られた焼入油",
     "EquipSlotCategory": null,
     "ID": 6267,
