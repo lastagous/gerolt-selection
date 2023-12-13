@@ -24,7 +24,15 @@
             >を受注する。
           </p>
           <p-divider></p-divider>
-          <p>希少メテオライト 3 つをラザハンにいるゲロルトに渡す。</p>
+          <p>
+            <a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[0], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[0], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >
+            3 つをラザハンにいるゲロルトに渡す。
+          </p>
         </div>
         <div *ngIf="index == 1">
           <p>ヒルディブランド関連のクエストを進め、はつらつとした親子までクリアする。</p>
@@ -48,7 +56,15 @@
             >を受注する。
           </p>
           <p-divider></p-divider>
-          <p>希少コンドライト 3 つをラザハンにいるゲロルトに渡す。</p>
+          <p>
+            <a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[0], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[0], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >
+            3 つをラザハンにいるゲロルトに渡す。
+          </p>
         </div>
         <div *ngIf="index == 2">
           <p>ヒルディブランド関連のクエストを進め、のうてんきな一家までクリアする。</p>
@@ -72,7 +88,15 @@
             >を受注する。
           </p>
           <p-divider></p-divider>
-          <p>希少エイコンドライト 3 つをラザハンにいるゲロルトに渡す。</p>
+          <p>
+            <a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[0], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[0], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >
+            3 つをラザハンにいるゲロルトに渡す。
+          </p>
         </div>
       </p-accordionTab></p-accordion
     >
