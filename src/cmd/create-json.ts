@@ -211,6 +211,16 @@ const items = async () => {
     'アレキサンドライト',
     'クリスタルサンド',
     '硬霊性岩',
+    '乱属性クリスタル',
+    'パズズの羽根',
+    '乱属性クリスタル【氷】',
+    'パゴスクリスタル',
+    'ロウヒの氷片',
+    'ピューロスクリスタル',
+    'ペンテシレイアの種火',
+    'ヒュダトスクリスタル',
+    '水晶龍の鱗',
+    'エウレカの断片',
   ].forEach((queryName) => {
     query.body.query.bool.should.push({
       match: {
@@ -349,26 +359,34 @@ const tooltips = async () => {
 
   for (let item of items) {
     if (tooltips.find((tooltip) => tooltip.id == item.ID && tooltip.urlType == 'item')) continue;
-    const url = `${urlBase}item/?&${[
-      'db_search_category=item',
-      `category2=${item.EquipSlotCategory ? (item.EquipSlotCategory.MainHand == 1 ? 1 : 3) : ''}`,
-      `min_item_lv=${item.EquipSlotCategory ? item.LevelItem : ''}`,
-      `max_item_lv=${item.EquipSlotCategory ? item.LevelItem : ''}`,
-      `min_gear_lv=${item.EquipSlotCategory ? item.LevelEquip : ''}`,
-      `max_gear_lv=${item.EquipSlotCategory ? item.LevelEquip : ''}`,
-      `q=${encodeURIComponent(item.Name_ja)}`,
-    ].join('&')}`;
-    let page;
-    try {
-      page = await superagent.get(url);
-    } catch (e) {
-      console.log(`superagent.get(): failed. Wait 10 seconds and try again.`);
-      await new Promise((resolve) => setTimeout(resolve, 10000));
-      page = await superagent.get(url);
+    let tooltipId;
+    if (item.ID === 21801) tooltipId = '1ddb5737b30';
+    else if (item.ID === 24124) tooltipId = '86667932f8f';
+    else if (item.ID === 24807) tooltipId = 'b368a0d7052';
+    else if (item.ID === 24808) tooltipId = 'ad7f17e57e6';
+    else {
+      const url = `${urlBase}item/?&${[
+        'db_search_category=item',
+        `category2=${item.EquipSlotCategory ? (item.EquipSlotCategory.MainHand == 1 ? 1 : 3) : ''}`,
+        `min_item_lv=${item.EquipSlotCategory ? item.LevelItem : ''}`,
+        `max_item_lv=${item.EquipSlotCategory ? item.LevelItem : ''}`,
+        `min_gear_lv=${item.EquipSlotCategory ? item.LevelEquip : ''}`,
+        `max_gear_lv=${item.EquipSlotCategory ? item.LevelEquip : ''}`,
+        `q=${encodeURIComponent(item.Name_ja)}`,
+      ].join('&')}`;
+      let page;
+      try {
+        page = await superagent.get(url);
+      } catch (e) {
+        console.log(`superagent.get(): failed. Wait 10 seconds and try again.`);
+        await new Promise((resolve) => setTimeout(resolve, 10000));
+        page = await superagent.get(url);
+      }
+
+      const $ = cheerio.load(page.text);
+      tooltipId = $('.db-table__txt--detail_link').attr('href')?.split('/')[5];
     }
 
-    const $ = cheerio.load(page.text);
-    const tooltipId = $('.db-table__txt--detail_link').attr('href')?.split('/')[5];
     console.log(`${item.Name_ja} -> ${tooltipId}`);
 
     if (!tooltipId) continue;

@@ -3,7 +3,15 @@
     <p-accordion
       ><p-accordionTab header="作成手順"
         ><div *ngIf="index == 0">
-          <p>ジョブクエストの報酬装備と乱属性クリスタル 100 個をアネモス編のゲロルトに渡す。</p>
+          <p>
+            ジョブクエストの報酬装備と<a
+              class="eorzeadb_link"
+              [href]="getTooltip(21801, itemUrlType)"
+              target="_blank"
+              >{{ getItemName(21801) }}</a
+            >
+            100 個をアネモス編のゲロルトに渡す。
+          </p>
         </div>
         <div *ngIf="index == 1">
           <p>
@@ -12,7 +20,10 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >と乱属性クリスタル 400 個をアネモス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(21801, itemUrlType)" target="_blank">{{
+              getItemName(21801)
+            }}</a>
+            400 個をアネモス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 2">
@@ -22,7 +33,10 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >と乱属性クリスタル 800 個をアネモス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(21801, itemUrlType)" target="_blank">{{
+              getItemName(21801)
+            }}</a>
+            800 個をアネモス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 3">
@@ -32,7 +46,10 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >とパズズの羽根 3 個をアネモス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(21802, itemUrlType)" target="_blank">{{
+              getItemName(21802)
+            }}</a>
+            3 個をアネモス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 4">
@@ -44,7 +61,10 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >と乱属性クリスタル【氷】5 個をパゴス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(23309, itemUrlType)" target="_blank">{{
+              getItemName(23309)
+            }}</a>
+            5 個をパゴス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 5">
@@ -54,7 +74,13 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >と乱属性クリスタル【氷】10 個とパゴスクリスタル 500 個をパゴス編のゲロルトに渡す。
+            ><a class="eorzeadb_link" [href]="getTooltip(23309, itemUrlType)" target="_blank">{{
+              getItemName(23309)
+            }}</a>
+            10 個と<a class="eorzeadb_link" [href]="getTooltip(22976, itemUrlType)" target="_blank">{{
+              getItemName(22976)
+            }}</a>
+            500 個をパゴス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 6">
@@ -64,7 +90,13 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >と乱属性クリスタル【氷】16 個とロウヒの氷片 5 個をパゴス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(23309, itemUrlType)" target="_blank">{{
+              getItemName(23309)
+            }}</a>
+            16 個と<a class="eorzeadb_link" [href]="getTooltip(22975, itemUrlType)" target="_blank">{{
+              getItemName(22975)
+            }}</a>
+            5 個をパゴス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 7">
@@ -76,7 +108,10 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >とピューロスクリスタル 150 個をピューロス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(24124, itemUrlType)" target="_blank">{{
+              getItemName(24124)
+            }}</a>
+            150 個をピューロス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 8">
@@ -88,7 +123,10 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >とピューロスクリスタル 200 個をピューロス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(24124, itemUrlType)" target="_blank">{{
+              getItemName(24124)
+            }}</a>
+            200 個をピューロス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 9">
@@ -100,7 +138,13 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >とピューロスクリスタル 300 個とペンテシレイアの種火 5 個をピューロス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(24124, itemUrlType)" target="_blank">{{
+              getItemName(24124)
+            }}</a>
+            300 個と<a class="eorzeadb_link" [href]="getTooltip(24123, itemUrlType)" target="_blank">{{
+              getItemName(24123)
+            }}</a>
+            5 個をピューロス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 10">
@@ -110,7 +154,10 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >とヒュダトスクリスタル 50 個をヒュダトス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(24807, itemUrlType)" target="_blank">{{
+              getItemName(24807)
+            }}</a>
+            50 個をヒュダトス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 11">
@@ -120,7 +167,10 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >とヒュダトスクリスタル 100 個をヒュダトス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(24807, itemUrlType)" target="_blank">{{
+              getItemName(24807)
+            }}</a>
+            100 個をヒュダトス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 12">
@@ -130,7 +180,10 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >とヒュダトスクリスタル 100 個をヒュダトス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(24807, itemUrlType)" target="_blank">{{
+              getItemName(24807)
+            }}</a>
+            100 個をヒュダトス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 13">
@@ -140,7 +193,13 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >とヒュダトスクリスタル 100 個と水晶龍の鱗 5 個をヒュダトス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(24807, itemUrlType)" target="_blank">{{
+              getItemName(24807)
+            }}</a>
+            100 個と<a class="eorzeadb_link" [href]="getTooltip(24806, itemUrlType)" target="_blank">{{
+              getItemName(24806)
+            }}</a>
+            5 個をヒュダトス編のゲロルトに渡す。
           </p>
         </div>
         <div *ngIf="index == 14">
@@ -150,7 +209,10 @@
               ><a class="eorzeadb_link" [href]="getTooltip(item.ID, itemUrlType)" target="_blank">{{
                 item.Name_ja
               }}</a></ng-container
-            >とエウレカの断片 100 個をヒュダトス編のゲロルトに渡す。
+            >と<a class="eorzeadb_link" [href]="getTooltip(24808, itemUrlType)" target="_blank">{{
+              getItemName(24808)
+            }}</a>
+            100 個をヒュダトス編のゲロルトに渡す。
           </p>
         </div>
       </p-accordionTab></p-accordion
