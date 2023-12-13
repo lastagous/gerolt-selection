@@ -6,8 +6,4 @@ import { AppendBaseComponent } from '../append-base/append-base.component';
   templateUrl: './manderville.component.html',
   styleUrls: ['../append-base/append-base.component.less'],
 })
-export class MandervilleComponent extends AppendBaseComponent {
-  public log(e: any) {
-    console.log(e);
-  }
-}
+export class MandervilleComponent extends AppendBaseComponent {}

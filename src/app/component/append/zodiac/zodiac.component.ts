@@ -89,8 +89,4 @@ export class ZodiacComponent extends AppendBaseComponent {
       },
     ];
   }
-
-  public log(d: any) {
-    console.log(d);
-  }
 }

@@ -1,10 +1,12 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { Relation, Tooltip } from 'src/types/json-index';
+import { Instance, Item, Relation, Tooltip } from 'src/types/json-index';
 import tooltipsJson from '../../../assets/data/local/tooltips.json';
 import relationsJson from '../../../assets/data/local/relations.json';
 import { LocalstorageStore } from 'src/app/store/local-storage.store';
 import { Util } from 'src/app/util/util';
+import instancesJson from '../../../assets/data/garlandtools/instances.json';
+import itemsJson from '../../../assets/data/xivapi/items.json';
 
 @Injectable()
 export class StepByStepStore {
@@ -118,6 +120,14 @@ export class StepByStepStore {
 
   public get image(): string {
     return this._image;
+  }
+
+  public get instances(): Instance[] {
+    return instancesJson as Instance[];
+  }
+
+  public get items(): Item[] {
+    return itemsJson as Item[];
   }
 
   public isAchievementCompleted(id: number): boolean {
