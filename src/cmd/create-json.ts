@@ -209,6 +209,8 @@ const items = async () => {
     '獅子のアートマ',
     '巨蟹のアートマ',
     'アレキサンドライト',
+    'クリスタルサンド',
+    '硬霊性岩',
   ].forEach((queryName) => {
     query.body.query.bool.should.push({
       match: {

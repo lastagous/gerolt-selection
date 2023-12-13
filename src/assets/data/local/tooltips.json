@@ -8628,5 +8628,15 @@
     "urlType": "duty",
     "id": 64008,
     "tooltipId": "6c96f8da252"
+  },
+  {
+    "urlType": "item",
+    "id": 15840,
+    "tooltipId": "bec42552515"
+  },
+  {
+    "urlType": "item",
+    "id": 15841,
+    "tooltipId": "f2189aabe98"
   }
 ]
