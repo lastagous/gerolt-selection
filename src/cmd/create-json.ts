@@ -229,7 +229,7 @@ const items = async () => {
     });
   });
 
-  const item = await xivapi.search(query, {
+  const items = await xivapi.search(query, {
     indexes: 'item',
     columns: [
       'ClassJobCategory.Name',
@@ -254,9 +254,18 @@ const items = async () => {
       'UrlType',
     ].join(','),
   });
-  const jsonString = JSON.stringify(item.Results, null, 2);
+  const jsonString = JSON.stringify(items.Results, null, 2);
   // [info] fs relative path 'root' is execute command in folder
   fs.writeFileSync('src/assets/data/xivapi/items.json', jsonString);
+
+  const gItems: any[] = [];
+  for (let item of items.Results as Item[]) {
+    const result = await garlandtools.item(item.ID);
+    gItems.push(result);
+  }
+  const gJsonString = JSON.stringify(gItems, null, 2);
+  // [info] fs relative path 'root' is execute command in folder
+  fs.writeFileSync('src/assets/data/garlandtools/items.json', gJsonString);
 };
 
 const relations = () => {
@@ -374,17 +383,7 @@ const tooltips = async () => {
         `max_gear_lv=${item.EquipSlotCategory ? item.LevelEquip : ''}`,
         `q=${encodeURIComponent(item.Name_ja)}`,
       ].join('&')}`;
-      let page;
-      try {
-        page = await superagent.get(url);
-      } catch (e) {
-        console.log(`superagent.get(): failed. Wait 10 seconds and try again.`);
-        await new Promise((resolve) => setTimeout(resolve, 10000));
-        page = await superagent.get(url);
-      }
-
-      const $ = cheerio.load(page.text);
-      tooltipId = $('.db-table__txt--detail_link').attr('href')?.split('/')[5];
+      tooltipId = await getTooltip(url);
     }
 
     console.log(`${item.Name_ja} -> ${tooltipId}`);
@@ -406,16 +405,7 @@ const tooltips = async () => {
     const url = `${urlBase}quest/?&${['db_search_category=quest', `q=${encodeURIComponent(quest.quest.name)}`].join(
       '&'
     )}`;
-    let page;
-    try {
-      page = await superagent.get(url);
-    } catch (e) {
-      console.log(`superagent.get(): failed. Wait 10 seconds and try again.`);
-      await new Promise((resolve) => setTimeout(resolve, 10000));
-      page = await superagent.get(url);
-    }
-    const $ = cheerio.load(page.text);
-    const tooltipId = $('.db-table__txt--detail_link').attr('href')?.split('/')[5];
+    const tooltipId = await getTooltip(url);
     console.log(`${quest.quest.name} -> ${tooltipId}`);
 
     if (!tooltipId) continue;
@@ -437,16 +427,7 @@ const tooltips = async () => {
       'db_search_category=achievement',
       `q=${encodeURIComponent(achievement.achievement.name)}`,
     ].join('&')}`;
-    let page;
-    try {
-      page = await superagent.get(url);
-    } catch (e) {
-      console.log(`superagent.get(): failed. Wait 10 seconds and try again.`);
-      await new Promise((resolve) => setTimeout(resolve, 10000));
-      page = await superagent.get(url);
-    }
-    const $ = cheerio.load(page.text);
-    const tooltipId = $('.db-table__txt--detail_link').attr('href')?.split('/')[5];
+    const tooltipId = await getTooltip(url);
     console.log(`${achievement.achievement.name} -> ${tooltipId}`);
 
     if (!tooltipId) continue;
@@ -469,16 +450,7 @@ const tooltips = async () => {
       `max_lv=${instance.instance.max_lvl}`,
       `q=${encodeURIComponent(instance.instance.name.replace(/\(.+?\)/, ''))}`,
     ].join('&')}`;
-    let page;
-    try {
-      page = await superagent.get(url);
-    } catch (e) {
-      console.log(`superagent.get(): failed. Wait 10 seconds and try again.`);
-      await new Promise((resolve) => setTimeout(resolve, 10000));
-      page = await superagent.get(url);
-    }
-    const $ = cheerio.load(page.text);
-    const tooltipId = $('.db-table__txt--detail_link').attr('href')?.split('/')[5];
+    const tooltipId = await getTooltip(url);
     console.log(`${instance.instance.name} -> ${tooltipId}`);
 
     if (!tooltipId) continue;
@@ -492,6 +464,19 @@ const tooltips = async () => {
     // [info] fs relative path 'root' is execute command in folder
     fs.writeFileSync('src/assets/data/local/tooltips.json', jsonString);
   }
+};
+
+const getTooltip = async (url: string): Promise<string | undefined> => {
+  let page;
+  try {
+    page = await superagent.get(url);
+  } catch (e) {
+    console.log(`superagent.get(): failed. Wait 10 seconds and try again.`);
+    await new Promise((resolve) => setTimeout(resolve, 10000));
+    page = await superagent.get(url);
+  }
+  const $ = cheerio.load(page.text);
+  return $('.db-table__txt--detail_link').attr('href')?.split('/')[5];
 };
 
 const main = async () => {
@@ -525,9 +510,12 @@ const main = async () => {
       await achievements();
       await summaryQuests();
       await quests();
+      await npcs();
+      await summaryInstances();
+      await instances();
       await items();
-      await tooltips();
       await relations();
+      await tooltips();
       break;
   }
 };
