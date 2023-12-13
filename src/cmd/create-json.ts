@@ -189,6 +189,34 @@ const items = async () => {
     });
   });
 
+  [
+    '剛柔のマテリダ',
+    '詠唱のマテリダ',
+    '武略のマテリダ',
+    '天眼のマテリダ',
+    '雄略のマテリダ',
+    'サベネアの霊薬',
+    '処女のアートマ',
+    '人馬のアートマ',
+    '磨羯のアートマ',
+    '天蠍のアートマ',
+    '金牛のアートマ',
+    '天秤のアートマ',
+    '双子のアートマ',
+    '双魚のアートマ',
+    '白羊のアートマ',
+    '宝瓶のアートマ',
+    '獅子のアートマ',
+    '巨蟹のアートマ',
+    'スフィアスクロール',
+  ].forEach((queryName) => {
+    query.body.query.bool.should.push({
+      match: {
+        Name_ja: queryName,
+      },
+    });
+  });
+
   const item = await xivapi.search(query, {
     indexes: 'item',
     columns: [
