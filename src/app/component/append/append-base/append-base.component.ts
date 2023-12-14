@@ -1,7 +1,8 @@
 import { Component, Input } from '@angular/core';
-import { Instance, QuestPartial, Relation } from 'src/types/json-index';
+import { QuestPartial } from 'src/types/garlandtools';
 import { StepByStepStore } from '../../step-by-step/step-by-step.store';
-import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { TreeNode } from 'primeng/api';
+import { Relation } from 'src/types/local';
 
 @Component({
   selector: 'app-append-base',
@@ -18,7 +19,14 @@ export class AppendBaseComponent {
   @Input()
   public steps = {} as Relation[];
 
-  constructor(private _stepByStepStore: StepByStepStore, private domSanitizer: DomSanitizer) {}
+  // quest
+  // [questid, [amount]]
+  // item
+  // [itemid, amount]
+  private _useItems = [] as any[];
+  private _treeNodes = [] as TreeNode[];
+
+  constructor(protected _stepByStepStore: StepByStepStore) {}
 
   public get itemUrlType(): string {
     return 'item';

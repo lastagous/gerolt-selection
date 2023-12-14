@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { StepByStepStore } from './step-by-step.store';
-import { Relation } from 'src/types/json-index';
 import { ProgressStore } from 'src/app/store/progress.store';
 import { LocalstorageStore } from 'src/app/store/local-storage.store';
+import { Relation } from 'src/types/local';
 
 @Component({
   selector: 'app-step-by-step',

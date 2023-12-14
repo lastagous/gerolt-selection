@@ -1,19 +1,18 @@
 import {
   Achievement,
   Instance,
-  Item,
   Npc,
   Quest,
-  Relation,
   SummaryAchievement,
   SummaryInstance,
   SummaryQuest,
-  Tooltip,
   // UrlType,
-} from 'src/types/json-index';
+} from 'src/types/garlandtools';
 import * as fs from 'fs';
 import superagent from 'superagent';
 import cheerio from 'cheerio';
+import { Item } from 'src/types/xivapi';
+import { Relation, Tooltip } from 'src/types/local';
 // https://github.com/karashiiro/garlandtools-api
 const garlandtools = require('garlandtools-api');
 garlandtools.setLang('ja');

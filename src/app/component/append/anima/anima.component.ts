@@ -1,6 +1,4 @@
-import { Component, Input } from '@angular/core';
-import { QuestPartial, Relation } from 'src/types/json-index';
-import { StepByStepStore } from '../../step-by-step/step-by-step.store';
+import { Component } from '@angular/core';
 import { AppendBaseComponent } from '../append-base/append-base.component';
 
 @Component({
