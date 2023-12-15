@@ -1,5 +1,6 @@
 import {
   Achievement,
+  GItem,
   Instance,
   Npc,
   Quest,
@@ -257,10 +258,25 @@ const items = async () => {
   // [info] fs relative path 'root' is execute command in folder
   fs.writeFileSync('src/assets/data/xivapi/items.json', jsonString);
 
-  const gItems: any[] = [];
+  const gItems: GItem[] = [];
   for (let item of items.Results as Item[]) {
     const result = await garlandtools.item(item.ID);
     gItems.push(result);
+  }
+
+  const currencyIds = new Set(
+    gItems.flatMap((item) =>
+      item.item.tradeShops?.flatMap((trade) =>
+        trade.listings.flatMap((list) => list.currency.flatMap((currency) => Number(currency.id)))
+      )
+    )
+  );
+
+  for (let currencyId of currencyIds) {
+    if (currencyId && gItems.find((item) => item.item.id !== currencyId)) {
+      const result = await garlandtools.item(currencyId);
+      gItems.push(result);
+    }
   }
   const gJsonString = JSON.stringify(gItems, null, 2);
   // [info] fs relative path 'root' is execute command in folder

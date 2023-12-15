@@ -256,15 +256,13 @@ export interface NpcObj {
   a?: number;
 }
 
-export type Root = Root2[];
-
-export interface Root2 {
-  item: Item;
+export interface GItem {
+  item: ItemDetail;
   partials?: Partial[];
   ingredients?: Ingredient2[];
 }
 
-export interface Item {
+export interface ItemDetail {
   name: string;
   id: number;
   patch: number;
