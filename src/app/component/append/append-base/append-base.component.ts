@@ -166,6 +166,10 @@ export class AppendBaseComponent {
           children.push(node);
         }
       });
+
+      if (itemData.item.item.price && itemData.item.item.vendors) {
+        children.push(this.createTreeNodeToGill(itemData.item.item.price, itemData.item.item.vendors));
+      }
     });
 
     const parent = this.getItem(Number(listing[0]?.item[0]?.id));
@@ -182,6 +186,29 @@ export class AppendBaseComponent {
       },
       expanded: true,
       children: children,
+    } as TreeNode;
+  }
+
+  private createTreeNodeToGill(price: number, vendors: number[]): TreeNode {
+    return {
+      data: {
+        datas: [
+          {
+            name: 'ギル',
+            urlType: this.itemUrlType,
+            iconUrl: 'https://www.garlandtools.org/files/icons/item/65002.png',
+            tooltipUrl: null,
+            amount: price,
+          },
+        ],
+        urlType: this.itemUrlType,
+        parent: null,
+        parentName: null,
+        parentIconUrl: null,
+        parentTooltipUrl: null,
+        parentAmount: null,
+      },
+      expanded: true,
     } as TreeNode;
   }
 
