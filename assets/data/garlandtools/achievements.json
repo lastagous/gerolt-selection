@@ -1,0 +1,3083 @@
+[
+  {
+    "achievement": {
+      "name": "古の武器：コルタナ＆ホーリーシールド",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、コルタナとホーリーシールドを入手する",
+      "id": 129,
+      "patch": 2,
+      "points": 10,
+      "category": 62,
+      "title": "The True",
+      "icon": 30446
+    }
+  },
+  {
+    "achievement": {
+      "name": "古の武器：スファライ",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、スファライを入手する",
+      "id": 130,
+      "patch": 2,
+      "points": 10,
+      "category": 62,
+      "title": "Coeurlfist",
+      "icon": 31034
+    }
+  },
+  {
+    "achievement": {
+      "name": "古の武器：ブラビューラ",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、ブラビューラを入手する",
+      "id": 131,
+      "patch": 2,
+      "points": 10,
+      "category": 62,
+      "title": "Ironeater",
+      "icon": 31440
+    }
+  },
+  {
+    "achievement": {
+      "name": "古の武器：ゲイボルグ",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、ゲイボルグを入手する",
+      "id": 132,
+      "patch": 2,
+      "points": 10,
+      "category": 62,
+      "title": "Of the Vengeful Lance",
+      "icon": 31842
+    }
+  },
+  {
+    "achievement": {
+      "name": "古の武器：アルテミスの弓",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、アルテミスの弓を入手する",
+      "id": 133,
+      "patch": 2,
+      "points": 10,
+      "category": 62,
+      "title": "The Godsbow",
+      "icon": 32238
+    }
+  },
+  {
+    "achievement": {
+      "name": "古の武器：タイラス",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、タイラスを入手する",
+      "id": 134,
+      "patch": 2,
+      "points": 10,
+      "category": 62,
+      "title": "The White",
+      "icon": 32626
+    }
+  },
+  {
+    "achievement": {
+      "name": "古の武器：星屑のロッド",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、星屑のロッドを入手する",
+      "id": 135,
+      "patch": 2,
+      "points": 10,
+      "category": 62,
+      "title": "Starcaller",
+      "icon": 33012
+    }
+  },
+  {
+    "achievement": {
+      "name": "蘇りし古の武器",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、コルタナ、ホーリーシールド、スファライ、ブラビューラ、ゲイボルグ、アルテミスの弓、タイラス、星屑のロッド、ウイユヴェール、マダレムジエンを入手する",
+      "id": 136,
+      "patch": 2,
+      "points": 30,
+      "category": 62,
+      "title": "The Insatiable",
+      "icon": 2502
+    }
+  },
+  {
+    "achievement": {
+      "name": "古の武器：ウイユヴェール",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、ウイユヴェールを入手する",
+      "id": 597,
+      "patch": 2,
+      "points": 10,
+      "category": 62,
+      "title": "Green Eyes",
+      "icon": 33457
+    }
+  },
+  {
+    "achievement": {
+      "name": "古の武器：マダレムジエン",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、マダレムジエンを入手する",
+      "id": 598,
+      "patch": 2,
+      "points": 10,
+      "category": 62,
+      "title": "The Strategist",
+      "icon": 33458
+    }
+  },
+  {
+    "achievement": {
+      "name": "黄道の輝き",
+      "description": "「古の武器・アニムス」のいずれかを入手する",
+      "id": 925,
+      "patch": 2.2,
+      "points": 10,
+      "category": 62,
+      "icon": 501
+    }
+  },
+  {
+    "achievement": {
+      "name": "星々の輝き",
+      "description": "「古の武器・ノウス」のいずれかを入手する",
+      "id": 926,
+      "patch": 2.28,
+      "points": 10,
+      "category": 62,
+      "icon": 501
+    }
+  },
+  {
+    "achievement": {
+      "name": "ネクサスの輝き",
+      "description": "「古の武器・ネクサス」のいずれかを入手する",
+      "id": 1028,
+      "patch": 2.38,
+      "points": 10,
+      "category": 62,
+      "icon": 501
+    }
+  },
+  {
+    "achievement": {
+      "name": "古の武器：吉光",
+      "description": "クエスト「蘇る古の武器」をコンプリートし、吉光を入手する",
+      "id": 1053,
+      "patch": 2.4,
+      "points": 10,
+      "category": 62,
+      "title": "The Shadow",
+      "icon": 33855
+    }
+  },
+  {
+    "achievement": {
+      "name": "ゾディアックウェポンオーナー",
+      "description": "「ゾディアックウェポン」のいずれかを入手する",
+      "id": 1054,
+      "patch": 2.45,
+      "points": 10,
+      "category": 63,
+      "icon": 3226
+    }
+  },
+  {
+    "achievement": {
+      "name": "ゾディアックウェポン・ゼータ",
+      "description": "いずれかのゾディアックウェポン・ゼータを入手する",
+      "id": 1081,
+      "patch": 2.51,
+      "points": 20,
+      "category": 63,
+      "title": "Z",
+      "icon": 3226
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：アルマス＆アンキレー",
+      "description": "アルマスとアンキレーを入手する",
+      "id": 1406,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 30537
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ウルスラグナ",
+      "description": "ウルスラグナを入手する",
+      "id": 1407,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 31103
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ウコンバサラ",
+      "description": "ウコンバサラを入手する",
+      "id": 1408,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 31508
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ロンゴミアント",
+      "description": "ロンゴミアントを入手する",
+      "id": 1409,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 31908
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ガーンデーヴァ",
+      "description": "ガーンデーヴァを入手する",
+      "id": 1410,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 32304
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：マジェスタス",
+      "description": "マジェスタスを入手する",
+      "id": 1411,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 32684
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：フヴェルゲルミル",
+      "description": "フヴェルゲルミルを入手する",
+      "id": 1412,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 33052
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ドラコノミコン",
+      "description": "ドラコノミコンを入手する",
+      "id": 1413,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 33538
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：テトラビブロス",
+      "description": "テトラビブロスを入手する",
+      "id": 1414,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 33539
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：神無",
+      "description": "神無を入手する",
+      "id": 1415,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 33891
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：アルマゲドン",
+      "description": "アルマゲドンを入手する",
+      "id": 1416,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 34664
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ノートゥング",
+      "description": "ノートゥングを入手する",
+      "id": 1417,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 34264
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：デネブ",
+      "description": "デネブを入手する",
+      "id": 1418,
+      "patch": 3.15,
+      "points": 20,
+      "category": 64,
+      "icon": 34864
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：アルマス・コンダクト＆アンキレー・コンダクト",
+      "description": "アルマス・コンダクトとアンキレー・コンダクトを入手する",
+      "id": 1499,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 30537
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ウルスラグナ・コンダクト",
+      "description": "ウルスラグナ・コンダクトを入手する",
+      "id": 1500,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 31103
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ウコンバサラ・コンダクト",
+      "description": "ウコンバサラ・コンダクトを入手する",
+      "id": 1501,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 31508
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ロンゴミアント・コンダクト",
+      "description": "ロンゴミアント・コンダクトを入手する",
+      "id": 1502,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 31908
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ガーンデーヴァ・コンダクト",
+      "description": "ガーンデーヴァ・コンダクトを入手する",
+      "id": 1503,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 32304
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：マジェスタス・コンダクト",
+      "description": "マジェスタス・コンダクトを入手する",
+      "id": 1504,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 32684
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：フヴェルゲルミル・コンダクト",
+      "description": "フヴェルゲルミル・コンダクトを入手する",
+      "id": 1505,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 33052
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ドラコノミコン・コンダクト",
+      "description": "ドラコノミコン・コンダクトを入手する",
+      "id": 1506,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 33538
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：テトラビブロス・コンダクト",
+      "description": "テトラビブロス・コンダクトを入手する",
+      "id": 1507,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 33539
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：神無【伝】",
+      "description": "神無【伝】を入手する",
+      "id": 1508,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 33891
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：アルマゲドン・コンダクト",
+      "description": "アルマゲドン・コンダクトを入手する",
+      "id": 1509,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 34664
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ノートゥング・コンダクト",
+      "description": "ノートゥング・コンダクトを入手する",
+      "id": 1510,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 34264
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：デネブ・コンダクト",
+      "description": "デネブ・コンダクトを入手する",
+      "id": 1511,
+      "patch": 3.25,
+      "points": 20,
+      "category": 64,
+      "icon": 34864
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：セインズソード＆セインズシールド",
+      "description": "セインズソードとセインズシールドを入手する",
+      "id": 1605,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 30545
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：スルタンズフィスト",
+      "description": "スルタンズフィストを入手する",
+      "id": 1606,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 31113
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ブラッドエンペラーアクス",
+      "description": "ブラッドエンペラーアクスを入手する",
+      "id": 1607,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 31517
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：オーバーロードトライデント",
+      "description": "オーバーロードトライデントを入手する",
+      "id": 1608,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 31917
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：オウタークボウ",
+      "description": "オウタークボウを入手する",
+      "id": 1609,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 32312
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ホワイトザールケーン",
+      "description": "ホワイトザールケーンを入手する",
+      "id": 1610,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 32693
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ブラックハーンロッド",
+      "description": "ブラックハーンロッドを入手する",
+      "id": 1611,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 33061
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ブック・オブ・マッドクィーン",
+      "description": "ブック・オブ・マッドクィーンを入手する",
+      "id": 1612,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 33554
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ワード・オブ・マグネート",
+      "description": "ワード・オブ・マグネートを入手する",
+      "id": 1613,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 33555
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ソーンプリンスブレード",
+      "description": "ソーンプリンスブレードを入手する",
+      "id": 1614,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 33899
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ダイナストファイア",
+      "description": "ダイナストファイアを入手する",
+      "id": 1615,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 34673
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：タイラントディバイダー",
+      "description": "タイラントディバイダーを入手する",
+      "id": 1616,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 34272
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ラストエアープラニスフィア",
+      "description": "ラストエアープラニスフィアを入手する",
+      "id": 1617,
+      "patch": 3.3,
+      "points": 20,
+      "category": 64,
+      "icon": 34872
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：セインズソード・シャープ＆セインズシールド・シャープ",
+      "description": "セインズソード・シャープとセインズシールド・シャープを入手する",
+      "id": 1667,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 30545
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：スルタンズフィスト・シャープ",
+      "description": "スルタンズフィスト・シャープを入手する",
+      "id": 1668,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 31113
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ブラッドエンペラーアクス・シャープ",
+      "description": "ブラッドエンペラーアクス・シャープを入手する",
+      "id": 1669,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 31517
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：オーバーロードトライデント・シャープ",
+      "description": "オーバーロードトライデント・シャープを入手する",
+      "id": 1670,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 31917
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：オウタークボウ・シャープ",
+      "description": "オウタークボウ・シャープを入手する",
+      "id": 1671,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 32312
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ホワイトザールケーン・シャープ",
+      "description": "ホワイトザールケーン・シャープを入手する",
+      "id": 1672,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 32693
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ブラックハーンロッド・シャープ",
+      "description": "ブラックハーンロッド・シャープを入手する",
+      "id": 1673,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 33061
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ブック・オブ・マッドクィーン・シャープ",
+      "description": "ブック・オブ・マッドクィーン・シャープを入手する",
+      "id": 1674,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 33554
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ワード・オブ・マグネート・シャープ",
+      "description": "ワード・オブ・マグネート・シャープを入手する",
+      "id": 1675,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 33555
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ソーンプリンスブレード・シャープ",
+      "description": "ソーンプリンスブレード・シャープを入手する",
+      "id": 1676,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 33899
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ダイナストファイア・シャープ",
+      "description": "ダイナストファイア・シャープを入手する",
+      "id": 1677,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 34673
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：タイラントディバイダー・シャープ",
+      "description": "タイラントディバイダー・シャープを入手する",
+      "id": 1678,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 34272
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ラストエアープラニスフィア・シャープ",
+      "description": "ラストエアープラニスフィア・シャープを入手する",
+      "id": 1679,
+      "patch": 3.45,
+      "points": 20,
+      "category": 64,
+      "icon": 34872
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：エーティル＆プリュウェン",
+      "description": "エーティルとプリュウェンを入手する",
+      "id": 1695,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 30551
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ニエーペル",
+      "description": "ニエーペルを入手する",
+      "id": 1696,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 31119
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ミノス",
+      "description": "ミノスを入手する",
+      "id": 1697,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 31523
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：アラドヴァル",
+      "description": "アラドヴァルを入手する",
+      "id": 1698,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 31923
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：テルパンダー",
+      "description": "テルパンダーを入手する",
+      "id": 1699,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 32318
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：シンドリ",
+      "description": "シンドリを入手する",
+      "id": 1700,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 32699
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：カラダンダ",
+      "description": "カラダンダを入手する",
+      "id": 1701,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 33068
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ミメーシス",
+      "description": "ミメーシスを入手する",
+      "id": 1702,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 33566
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：アナバシス",
+      "description": "アナバシスを入手する",
+      "id": 1703,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 33567
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：サンダン",
+      "description": "サンダンを入手する",
+      "id": 1704,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 33905
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：デスロック",
+      "description": "デスロックを入手する",
+      "id": 1705,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 34679
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：クロノス",
+      "description": "クロノスを入手する",
+      "id": 1706,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 34278
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：カノープス",
+      "description": "カノープスを入手する",
+      "id": 1707,
+      "patch": 3.5,
+      "points": 20,
+      "category": 64,
+      "icon": 34878
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：エーティル・ルクス＆プリュウェン・ルクス",
+      "description": "エーティル・ルクスとプリュウェン・ルクスを入手する",
+      "id": 1708,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 30552
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ニエーペル・ルクス",
+      "description": "ニエーペル・ルクスを入手する",
+      "id": 1709,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 31120
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ミノス・ルクス",
+      "description": "ミノス・ルクスを入手する",
+      "id": 1710,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 31524
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：アラドヴァル・ルクス",
+      "description": "アラドヴァル・ルクスを入手する",
+      "id": 1711,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 31924
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：テルパンダー・ルクス",
+      "description": "テルパンダー・ルクスを入手する",
+      "id": 1712,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 32319
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：シンドリ・ルクス",
+      "description": "シンドリ・ルクスを入手する",
+      "id": 1713,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 32700
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：カラダンダ・ルクス",
+      "description": "カラダンダ・ルクスを入手する",
+      "id": 1714,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 33069
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：ミメーシス・ルクス",
+      "description": "ミメーシス・ルクスを入手する",
+      "id": 1715,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 33568
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：アナバシス・ルクス",
+      "description": "アナバシス・ルクスを入手する",
+      "id": 1716,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 33569
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：サンダン・ルクス",
+      "description": "サンダン・ルクスを入手する",
+      "id": 1717,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 33906
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：デスロック・ルクス",
+      "description": "デスロック・ルクスを入手する",
+      "id": 1718,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 34680
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：クロノス・ルクス",
+      "description": "クロノス・ルクスを入手する",
+      "id": 1719,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 34279
+    }
+  },
+  {
+    "achievement": {
+      "name": "アニマウェポン：カノープス・ルクス",
+      "description": "カノープス・ルクスを入手する",
+      "id": 1720,
+      "patch": 3.55,
+      "points": 20,
+      "category": 64,
+      "icon": 34879
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ガラティン・アネモス＆エヴァラック・アネモス",
+      "description": "ガラティン・アネモスとエヴァラック・アネモスを入手する",
+      "id": 2030,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 30575
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ファルシャ・アネモス",
+      "description": "ファルシャ・アネモスを入手する",
+      "id": 2031,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 31541
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：カラドボルグ・アネモス",
+      "description": "カラドボルグ・アネモスを入手する",
+      "id": 2032,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 34299
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：竜の髭【風】",
+      "description": "竜の髭【風】を入手する",
+      "id": 2033,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 31947
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：スダルシャナ・アネモス",
+      "description": "スダルシャナ・アネモスを入手する",
+      "id": 2034,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 31142
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：凪【風】",
+      "description": "凪【風】を入手する",
+      "id": 2035,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 33921
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：菊一文字【風】",
+      "description": "菊一文字【風】を入手する",
+      "id": 2036,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 36412
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：フェイルノート・アネモス",
+      "description": "フェイルノート・アネモスを入手する",
+      "id": 2037,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 32342
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：アウトサイダー・アネモス",
+      "description": "アウトサイダー・アネモスを入手する",
+      "id": 2038,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 34693
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ヴァナルガンド・アネモス",
+      "description": "ヴァナルガンド・アネモスを入手する",
+      "id": 2039,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 33093
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：レメゲトン・アネモス",
+      "description": "レメゲトン・アネモスを入手する",
+      "id": 2040,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 33237
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ミュルグレス・アネモス",
+      "description": "ミュルグレス・アネモスを入手する",
+      "id": 2041,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 36701
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：アイムール・アネモス",
+      "description": "アイムール・アネモスを入手する",
+      "id": 2042,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 32724
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：オルガノン・アネモス",
+      "description": "オルガノン・アネモスを入手する",
+      "id": 2043,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 33240
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：プレアデス・アネモス",
+      "description": "プレアデス・アネモスを入手する",
+      "id": 2044,
+      "patch": 4.25,
+      "points": 10,
+      "category": 66,
+      "icon": 34900
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルソード＆エレメンタルシールド",
+      "description": "エレメンタルソードとエレメンタルシールドを入手する",
+      "id": 2082,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 30586
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルバトルアクス",
+      "description": "エレメンタルバトルアクスを入手する",
+      "id": 2083,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 31560
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルディバイダー",
+      "description": "エレメンタルディバイダーを入手する",
+      "id": 2084,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 34314
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルランス",
+      "description": "エレメンタルランスを入手する",
+      "id": 2085,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 31960
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルナックル",
+      "description": "エレメンタルナックルを入手する",
+      "id": 2086,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 31152
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルナイフ",
+      "description": "エレメンタルナイフを入手する",
+      "id": 2087,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 33938
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルブレード",
+      "description": "エレメンタルブレードを入手する",
+      "id": 2088,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 36468
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルハープボウ",
+      "description": "エレメンタルハープボウを入手する",
+      "id": 2089,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 32351
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルハンドゴンネ",
+      "description": "エレメンタルハンドゴンネを入手する",
+      "id": 2090,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 34437
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルロッド",
+      "description": "エレメンタルロッドを入手する",
+      "id": 2091,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 33103
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルグリモア",
+      "description": "エレメンタルグリモアを入手する",
+      "id": 2092,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 33258
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルタック",
+      "description": "エレメンタルタックを入手する",
+      "id": 2093,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 36769
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルケーン",
+      "description": "エレメンタルケーンを入手する",
+      "id": 2094,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 32735
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルコーデックス",
+      "description": "エレメンタルコーデックスを入手する",
+      "id": 2095,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 33257
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：エレメンタルアストロメーター",
+      "description": "エレメンタルアストロメーターを入手する",
+      "id": 2096,
+      "patch": 4.36,
+      "points": 10,
+      "category": 66,
+      "icon": 34911
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスソード＆ピューロスシールド",
+      "description": "ピューロスソードとピューロスシールドを入手する",
+      "id": 2143,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 30586
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスバトルアクス",
+      "description": "ピューロスバトルアクスを入手する",
+      "id": 2144,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 31560
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスディバイダー",
+      "description": "ピューロスディバイダーを入手する",
+      "id": 2145,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 34314
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスランス",
+      "description": "ピューロスランスを入手する",
+      "id": 2146,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 31960
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスナックル",
+      "description": "ピューロスナックルを入手する",
+      "id": 2147,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 31152
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスナイフ",
+      "description": "ピューロスナイフを入手する",
+      "id": 2148,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 33938
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスブレード",
+      "description": "ピューロスブレードを入手する",
+      "id": 2149,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 36468
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスハープボウ",
+      "description": "ピューロスハープボウを入手する",
+      "id": 2150,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 32351
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスハンドゴンネ",
+      "description": "ピューロスハンドゴンネを入手する",
+      "id": 2151,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 34437
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスロッド",
+      "description": "ピューロスロッドを入手する",
+      "id": 2152,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 33103
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスグリモア",
+      "description": "ピューロスグリモアを入手する",
+      "id": 2153,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 33258
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスタック",
+      "description": "ピューロスタックを入手する",
+      "id": 2154,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 36769
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスケーン",
+      "description": "ピューロスケーンを入手する",
+      "id": 2155,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 32735
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスコーデックス",
+      "description": "ピューロスコーデックスを入手する",
+      "id": 2156,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 33257
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ピューロスアストロメーター",
+      "description": "ピューロスアストロメーターを入手する",
+      "id": 2157,
+      "patch": 4.45,
+      "points": 10,
+      "category": 66,
+      "icon": 34911
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：アンテア・エウレカ＆ベレロフォン・エウレカ",
+      "description": "アンテア・エウレカとベレロフォン・エウレカを入手する",
+      "id": 2212,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 30598
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：シャマシュ・エウレカ",
+      "description": "シャマシュ・エウレカを入手する",
+      "id": 2213,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 31572
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：シフィアス・エウレカ",
+      "description": "シフィアス・エウレカを入手する",
+      "id": 2214,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 34327
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ダボヤ・エウレカ",
+      "description": "ダボヤ・エウレカを入手する",
+      "id": 2215,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 31974
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：デゥムズィ・エウレカ",
+      "description": "デゥムズィ・エウレカを入手する",
+      "id": 2216,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 31164
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：鵲【禁】",
+      "description": "鵲【禁】を入手する",
+      "id": 2217,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 33950
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：鳥頭の太刀【禁】",
+      "description": "鳥頭の太刀【禁】を入手する",
+      "id": 2218,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 36481
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：キルキナエ・エウレカ",
+      "description": "キルキナエ・エウレカを入手する",
+      "id": 2219,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 32363
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：モルフリッス・エウレカ",
+      "description": "モルフリッス・エウレカを入手する",
+      "id": 2220,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 34449
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：パイケア・エウレカ",
+      "description": "パイケア・エウレカを入手する",
+      "id": 2221,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 33116
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：トゥア・エウレカ",
+      "description": "トゥア・エウレカを入手する",
+      "id": 2222,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 33282
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ブルネロ・エウレカ",
+      "description": "ブルネロ・エウレカを入手する",
+      "id": 2223,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 36781
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ローズクーベルト・エウレカ",
+      "description": "ローズクーベルト・エウレカを入手する",
+      "id": 2224,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 32747
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：ジェバト・エウレカ",
+      "description": "ジェバト・エウレカを入手する",
+      "id": 2225,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 33281
+    }
+  },
+  {
+    "achievement": {
+      "name": "エウレカウェポン：アルビレオ・エウレカ",
+      "description": "アルビレオ・エウレカを入手する",
+      "id": 2226,
+      "patch": 4.55,
+      "points": 10,
+      "category": 66,
+      "icon": 34923
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：オナーバウンド＆テナシティ",
+      "description": "オナーバウンドとテナシティを入手する",
+      "id": 2569,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 30620
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：スカルレンダー",
+      "description": "スカルレンダーを入手する",
+      "id": 2570,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 31593
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ウォウボーン",
+      "description": "ウォウボーンを入手する",
+      "id": 2571,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 34352
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：クラウンブレード",
+      "description": "クラウンブレードを入手する",
+      "id": 2572,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 36041
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ドライツァック",
+      "description": "ドライツァックを入手する",
+      "id": 2573,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 31995
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：サンサーラ",
+      "description": "サンサーラを入手する",
+      "id": 2574,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 31186
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：骨不知",
+      "description": "骨不知を入手する",
+      "id": 2575,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 33970
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：星切",
+      "description": "星切を入手する",
+      "id": 2576,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 36502
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブリリアンス",
+      "description": "ブリリアンスを入手する",
+      "id": 2577,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 32386
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ローマン",
+      "description": "ローマンを入手する",
+      "id": 2578,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 34468
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：エンチュフラ",
+      "description": "エンチュフラを入手する",
+      "id": 2579,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 36244
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ソウルスカージ",
+      "description": "ソウルスカージを入手する",
+      "id": 2580,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 33140
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：エスピリトゥス",
+      "description": "エスピリトゥスを入手する",
+      "id": 2581,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 33322
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：テイルキーパー",
+      "description": "テイルキーパーを入手する",
+      "id": 2582,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 36801
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：イングリム",
+      "description": "イングリムを入手する",
+      "id": 2583,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 32769
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：アカデモス",
+      "description": "アカデモスを入手する",
+      "id": 2584,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 33321
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ソールスティス",
+      "description": "ソールスティスを入手する",
+      "id": 2585,
+      "patch": 5.25,
+      "points": 10,
+      "category": 68,
+      "icon": 34945
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：オナーバウンド・リコレクション＆テナシティ・リコレクション",
+      "description": "オナーバウンド・リコレクションとテナシティ・リコレクションを入手する",
+      "id": 2694,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 30620
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：スカルレンダー・リコレクション",
+      "description": "スカルレンダー・リコレクションを入手する",
+      "id": 2695,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 31593
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ウォウボーン・リコレクション",
+      "description": "ウォウボーン・リコレクションを入手する",
+      "id": 2696,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 34352
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：クラウンブレード・リコレクション",
+      "description": "クラウンブレード・リコレクションを入手する",
+      "id": 2697,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 36041
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ドライツァック・リコレクション",
+      "description": "ドライツァック・リコレクションを入手する",
+      "id": 2698,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 31995
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：サンサーラ・リコレクション",
+      "description": "サンサーラ・リコレクションを入手する",
+      "id": 2699,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 31186
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：骨不知【記】",
+      "description": "骨不知【記】を入手する",
+      "id": 2700,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 33970
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：星切【記】",
+      "description": "星切【記】を入手する",
+      "id": 2701,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 36502
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブリリアンス・リコレクション",
+      "description": "ブリリアンス・リコレクションを入手する",
+      "id": 2702,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 32386
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ローマン・リコレクション",
+      "description": "ローマン・リコレクションを入手する",
+      "id": 2703,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 34468
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：エンチュフラ・リコレクション",
+      "description": "エンチュフラ・リコレクションを入手する",
+      "id": 2704,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 36244
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ソウルスカージ・リコレクション",
+      "description": "ソウルスカージ・リコレクションを入手する",
+      "id": 2705,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 33140
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：エスピリトゥス・リコレクション",
+      "description": "エスピリトゥス・リコレクションを入手する",
+      "id": 2706,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 33322
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：テイルキーパー・リコレクション",
+      "description": "テイルキーパー・リコレクションを入手する",
+      "id": 2707,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 36801
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：イングリム・リコレクション",
+      "description": "イングリム・リコレクションを入手する",
+      "id": 2708,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 32769
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：アカデモス・リコレクション",
+      "description": "アカデモス・リコレクションを入手する",
+      "id": 2709,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 33321
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ソールスティス・リコレクション",
+      "description": "ソールスティス・リコレクションを入手する",
+      "id": 2710,
+      "patch": 5.35,
+      "points": 10,
+      "category": 68,
+      "icon": 34945
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・バスタードソードRE＆ジャッジオーダー・カイトシールドRE",
+      "description": "ジャッジオーダー・バスタードソードREとジャッジオーダー・カイトシールドREを入手する",
+      "id": 2768,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 30629
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・ラブリュスRE",
+      "description": "ジャッジオーダー・ラブリュスREを入手する",
+      "id": 2769,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 31204
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・ツヴァイハンダーRE",
+      "description": "ジャッジオーダー・ツヴァイハンダーREを入手する",
+      "id": 2770,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 34358
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・マナトリガーRE",
+      "description": "ジャッジオーダー・マナトリガーREを入手する",
+      "id": 2771,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 36050
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・スピアRE",
+      "description": "ジャッジオーダー・スピアREを入手する",
+      "id": 2772,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 31606
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・ナックルRE",
+      "description": "ジャッジオーダー・ナックルREを入手する",
+      "id": 2773,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 31194
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・ナイフRE",
+      "description": "ジャッジオーダー・ナイフREを入手する",
+      "id": 2774,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 33980
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・サムライブレードRE",
+      "description": "ジャッジオーダー・サムライブレードREを入手する",
+      "id": 2775,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 36509
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・コンポジットボウRE",
+      "description": "ジャッジオーダー・コンポジットボウREを入手する",
+      "id": 2776,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 32393
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・リボルバーRE",
+      "description": "ジャッジオーダー・リボルバーREを入手する",
+      "id": 2777,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 34404
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・チャクラムRE",
+      "description": "ジャッジオーダー・チャクラムREを入手する",
+      "id": 2778,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 36249
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・ロッドRE",
+      "description": "ジャッジオーダー・ロッドREを入手する",
+      "id": 2779,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 33148
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・インデックスRE",
+      "description": "ジャッジオーダー・インデックスREを入手する",
+      "id": 2780,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 33213
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・レイピアRE",
+      "description": "ジャッジオーダー・レイピアREを入手する",
+      "id": 2781,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 36808
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・ケーンRE",
+      "description": "ジャッジオーダー・ケーンREを入手する",
+      "id": 2782,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 32777
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・コーデックスRE",
+      "description": "ジャッジオーダー・コーデックスREを入手する",
+      "id": 2783,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 33214
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ジャッジオーダー・アストロメーターRE",
+      "description": "ジャッジオーダー・アストロメーターREを入手する",
+      "id": 2784,
+      "patch": 5.41,
+      "points": 10,
+      "category": 68,
+      "icon": 34952
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズオナー＆ブレイズフォーティチュード",
+      "description": "ブレイズオナーとブレイズフォーティチュードを入手する",
+      "id": 2857,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 30633
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズヴァラー",
+      "description": "ブレイズヴァラーを入手する",
+      "id": 2858,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 31208
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズジャスティス",
+      "description": "ブレイズジャスティスを入手する",
+      "id": 2859,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 34362
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズリゾルヴ",
+      "description": "ブレイズリゾルヴを入手する",
+      "id": 2860,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 36054
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズグローリー",
+      "description": "ブレイズグローリーを入手する",
+      "id": 2861,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 31610
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズセレネティー",
+      "description": "ブレイズセレネティーを入手する",
+      "id": 2862,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 31198
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズサトゥルティー",
+      "description": "ブレイズサトゥルティーを入手する",
+      "id": 2863,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 33984
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズフィアルティー",
+      "description": "ブレイズフィアルティーを入手する",
+      "id": 2864,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 36513
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズミューズ",
+      "description": "ブレイズミューズを入手する",
+      "id": 2865,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 32397
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズインジェヌイティー",
+      "description": "ブレイズインジェヌイティーを入手する",
+      "id": 2866,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 34408
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズユーフォリア",
+      "description": "ブレイズユーフォリアを入手する",
+      "id": 2867,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 36253
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズフューリー",
+      "description": "ブレイズフューリーを入手する",
+      "id": 2868,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 33152
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズアキュメン",
+      "description": "ブレイズアキュメンを入手する",
+      "id": 2869,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 33222
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズテンペランス",
+      "description": "ブレイズテンペランスを入手する",
+      "id": 2870,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 36812
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズマーシー",
+      "description": "ブレイズマーシーを入手する",
+      "id": 2871,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 32781
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズウィズダム",
+      "description": "ブレイズウィズダムを入手する",
+      "id": 2872,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 33221
+    }
+  },
+  {
+    "achievement": {
+      "name": "レジスタンス・ウェポン：ブレイズプロヴェデンス",
+      "description": "ブレイズプロヴェデンスを入手する",
+      "id": 2873,
+      "patch": 5.55,
+      "points": 10,
+      "category": 68,
+      "icon": 34956
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・ソード＆マンダヴィル・カイトシールド",
+      "description": "マンダヴィル・ソードとマンダヴィル・カイトシールドを入手する",
+      "id": 3128,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 30654
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アクス",
+      "description": "マンダヴィル・アクスを入手する",
+      "id": 3129,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 31228
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・ツヴァイハンダー",
+      "description": "マンダヴィル・ツヴァイハンダーを入手する",
+      "id": 3130,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 34382
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・ガンブレード",
+      "description": "マンダヴィル・ガンブレードを入手する",
+      "id": 3131,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 36075
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・スピア",
+      "description": "マンダヴィル・スピアを入手する",
+      "id": 3132,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 31630
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・ナックル",
+      "description": "マンダヴィル・ナックルを入手する",
+      "id": 3133,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 30819
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・ナイフ",
+      "description": "マンダヴィル・ナイフを入手する",
+      "id": 3134,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 33605
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・サムライブレード",
+      "description": "マンダヴィル・サムライブレードを入手する",
+      "id": 3135,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 36533
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・サイズ",
+      "description": "マンダヴィル・サイズを入手する",
+      "id": 3136,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 37242
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・ハープボウ",
+      "description": "マンダヴィル・ハープボウを入手する",
+      "id": 3137,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 32019
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・リボルバー",
+      "description": "マンダヴィル・リボルバーを入手する",
+      "id": 3138,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 34478
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・チャクラム",
+      "description": "マンダヴィル・チャクラムを入手する",
+      "id": 3139,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 36274
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・ロッド",
+      "description": "マンダヴィル・ロッドを入手する",
+      "id": 3140,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 32863
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・インデックス",
+      "description": "マンダヴィル・インデックスを入手する",
+      "id": 3141,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 33362
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・レイピア",
+      "description": "マンダヴィル・レイピアを入手する",
+      "id": 3142,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 36832
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・ケーン",
+      "description": "マンダヴィル・ケーンを入手する",
+      "id": 3143,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 32448
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・コーデックス",
+      "description": "マンダヴィル・コーデックスを入手する",
+      "id": 3144,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 33361
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・トルクエタム",
+      "description": "マンダヴィル・トルクエタムを入手する",
+      "id": 3145,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 34976
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・ミルプレーヴェ",
+      "description": "マンダヴィル・ミルプレーヴェを入手する",
+      "id": 3146,
+      "patch": 6.25,
+      "points": 10,
+      "category": 75,
+      "icon": 37040
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・ソード＆マンダヴィル・アメイジング・カイトシールド",
+      "description": "マンダヴィル・アメイジング・ソードとマンダヴィル・アメイジング・カイトシールドを入手する",
+      "id": 3224,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 30660
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・アクス",
+      "description": "マンダヴィル・アメイジング・アクスを入手する",
+      "id": 3225,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 31234
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・ツヴァイハンダー",
+      "description": "マンダヴィル・アメイジング・ツヴァイハンダーを入手する",
+      "id": 3226,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 34388
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・ガンブレード",
+      "description": "マンダヴィル・アメイジング・ガンブレードを入手する",
+      "id": 3227,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 36081
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・スピア",
+      "description": "マンダヴィル・アメイジング・スピアを入手する",
+      "id": 3228,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 31636
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・ナックル",
+      "description": "マンダヴィル・アメイジング・ナックルを入手する",
+      "id": 3229,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 30825
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・ナイフ",
+      "description": "マンダヴィル・アメイジング・ナイフを入手する",
+      "id": 3230,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 33611
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・サムライブレード",
+      "description": "マンダヴィル・アメイジング・サムライブレードを入手する",
+      "id": 3231,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 36539
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・サイズ",
+      "description": "マンダヴィル・アメイジング・サイズを入手する",
+      "id": 3232,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 37250
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・ハープボウ",
+      "description": "マンダヴィル・アメイジング・ハープボウを入手する",
+      "id": 3233,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 32025
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・リボルバー",
+      "description": "マンダヴィル・アメイジング・リボルバーを入手する",
+      "id": 3234,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 34484
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・チャクラム",
+      "description": "マンダヴィル・アメイジング・チャクラムを入手する",
+      "id": 3235,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 36280
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・ロッド",
+      "description": "マンダヴィル・アメイジング・ロッドを入手する",
+      "id": 3236,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 32869
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・インデックス",
+      "description": "マンダヴィル・アメイジング・インデックスを入手する",
+      "id": 3237,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 33373
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・レイピア",
+      "description": "マンダヴィル・アメイジング・レイピアを入手する",
+      "id": 3238,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 36838
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・ケーン",
+      "description": "マンダヴィル・アメイジング・ケーンを入手する",
+      "id": 3239,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 32454
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・コーデックス",
+      "description": "マンダヴィル・アメイジング・コーデックスを入手する",
+      "id": 3240,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 33378
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・トルクエタム",
+      "description": "マンダヴィル・アメイジング・トルクエタムを入手する",
+      "id": 3241,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 34984
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・アメイジング・ミルプレーヴェ",
+      "description": "マンダヴィル・アメイジング・ミルプレーヴェを入手する",
+      "id": 3242,
+      "patch": 6.35,
+      "points": 10,
+      "category": 75,
+      "icon": 37048
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ソード＆マンダヴィル・マジェスティック・シールド",
+      "description": "マンダヴィル・マジェスティック・ソードとマンダヴィル・マジェスティック・シールドを入手する",
+      "id": 3285,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 30665
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・バルディッシュ",
+      "description": "マンダヴィル・マジェスティック・バルディッシュを入手する",
+      "id": 3286,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 31239
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・グレートソード",
+      "description": "マンダヴィル・マジェスティック・グレートソードを入手する",
+      "id": 3287,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 34393
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・バヨネット",
+      "description": "マンダヴィル・マジェスティック・バヨネットを入手する",
+      "id": 3288,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 36085
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・スピア",
+      "description": "マンダヴィル・マジェスティック・スピアを入手する",
+      "id": 3289,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 31641
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・フィスト",
+      "description": "マンダヴィル・マジェスティック・フィストを入手する",
+      "id": 3290,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 30829
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ナイフ",
+      "description": "マンダヴィル・マジェスティック・ナイフを入手する",
+      "id": 3291,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 33615
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・サムライブレード",
+      "description": "マンダヴィル・マジェスティック・サムライブレードを入手する",
+      "id": 3292,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 36543
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ウォーサイズ",
+      "description": "マンダヴィル・マジェスティック・ウォーサイズを入手する",
+      "id": 3293,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 37254
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ハープボウ",
+      "description": "マンダヴィル・マジェスティック・ハープボウを入手する",
+      "id": 3294,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 32029
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ハンドガン",
+      "description": "マンダヴィル・マジェスティック・ハンドガンを入手する",
+      "id": 3295,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 34488
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・チャクラム",
+      "description": "マンダヴィル・マジェスティック・チャクラムを入手する",
+      "id": 3296,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 36284
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・スタッフ",
+      "description": "マンダヴィル・マジェスティック・スタッフを入手する",
+      "id": 3297,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 32874
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・インデックス",
+      "description": "マンダヴィル・マジェスティック・インデックスを入手する",
+      "id": 3298,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 33382
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・デーゲン",
+      "description": "マンダヴィル・マジェスティック・デーゲンを入手する",
+      "id": 3299,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 36842
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ワンド",
+      "description": "マンダヴィル・マジェスティック・ワンドを入手する",
+      "id": 3300,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 32459
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・コーデックス",
+      "description": "マンダヴィル・マジェスティック・コーデックスを入手する",
+      "id": 3301,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 33381
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・オーラリー",
+      "description": "マンダヴィル・マジェスティック・オーラリーを入手する",
+      "id": 3302,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 34986
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ウィング",
+      "description": "マンダヴィル・マジェスティック・ウィングを入手する",
+      "id": 3303,
+      "patch": 6.4,
+      "points": 10,
+      "category": 75,
+      "icon": 37051
+    }
+  }
+]

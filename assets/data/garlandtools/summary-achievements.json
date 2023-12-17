@@ -1,0 +1,1955 @@
+[
+  {
+    "i": 129,
+    "n": "古の武器：コルタナ＆ホーリーシールド",
+    "c": 30446,
+    "t": 62,
+    "b": "The True"
+  },
+  {
+    "i": 130,
+    "n": "古の武器：スファライ",
+    "c": 31034,
+    "t": 62,
+    "b": "Coeurlfist"
+  },
+  {
+    "i": 131,
+    "n": "古の武器：ブラビューラ",
+    "c": 31440,
+    "t": 62,
+    "b": "Ironeater"
+  },
+  {
+    "i": 132,
+    "n": "古の武器：ゲイボルグ",
+    "c": 31842,
+    "t": 62,
+    "b": "Of the Vengeful Lance"
+  },
+  {
+    "i": 133,
+    "n": "古の武器：アルテミスの弓",
+    "c": 32238,
+    "t": 62,
+    "b": "The Godsbow"
+  },
+  {
+    "i": 134,
+    "n": "古の武器：タイラス",
+    "c": 32626,
+    "t": 62,
+    "b": "The White"
+  },
+  {
+    "i": 135,
+    "n": "古の武器：星屑のロッド",
+    "c": 33012,
+    "t": 62,
+    "b": "Starcaller"
+  },
+  {
+    "i": 136,
+    "n": "蘇りし古の武器",
+    "c": 2502,
+    "t": 62,
+    "b": "The Insatiable"
+  },
+  {
+    "i": 597,
+    "n": "古の武器：ウイユヴェール",
+    "c": 33457,
+    "t": 62,
+    "b": "Green Eyes"
+  },
+  {
+    "i": 598,
+    "n": "古の武器：マダレムジエン",
+    "c": 33458,
+    "t": 62,
+    "b": "The Strategist"
+  },
+  {
+    "i": 925,
+    "n": "黄道の輝き",
+    "c": 501,
+    "t": 62,
+    "b": "Obtain a relic weapon animus."
+  },
+  {
+    "i": 926,
+    "n": "星々の輝き",
+    "c": 501,
+    "t": 62,
+    "b": "Obtain a relic weapon novus."
+  },
+  {
+    "i": 1028,
+    "n": "ネクサスの輝き",
+    "c": 501,
+    "t": 62,
+    "b": "Obtain a relic weapon nexus."
+  },
+  {
+    "i": 1053,
+    "n": "古の武器：吉光",
+    "c": 33855,
+    "t": 62,
+    "b": "The Shadow"
+  },
+  {
+    "i": 1054,
+    "n": "ゾディアックウェポンオーナー",
+    "c": 3226,
+    "t": 63,
+    "b": "Obtain a Zodiac Weapon."
+  },
+  {
+    "i": 1081,
+    "n": "ゾディアックウェポン・ゼータ",
+    "c": 3226,
+    "t": 63,
+    "b": "Z"
+  },
+  {
+    "i": 1406,
+    "n": "アニマウェポン：アルマス＆アンキレー",
+    "c": 30537,
+    "t": 64,
+    "b": "Obtain the anima weapons Ancile and Almace."
+  },
+  {
+    "i": 1407,
+    "n": "アニマウェポン：ウルスラグナ",
+    "c": 31103,
+    "t": 64,
+    "b": "Obtain the anima weapons Verethragna."
+  },
+  {
+    "i": 1408,
+    "n": "アニマウェポン：ウコンバサラ",
+    "c": 31508,
+    "t": 64,
+    "b": "Obtain the anima weapon Ukonvasara."
+  },
+  {
+    "i": 1409,
+    "n": "アニマウェポン：ロンゴミアント",
+    "c": 31908,
+    "t": 64,
+    "b": "Obtain the anima weapon Rhongomiant."
+  },
+  {
+    "i": 1410,
+    "n": "アニマウェポン：ガーンデーヴァ",
+    "c": 32304,
+    "t": 64,
+    "b": "Obtain the anima weapon Gandiva."
+  },
+  {
+    "i": 1411,
+    "n": "アニマウェポン：マジェスタス",
+    "c": 32684,
+    "t": 64,
+    "b": "Obtain the anima weapon Majestas."
+  },
+  {
+    "i": 1412,
+    "n": "アニマウェポン：フヴェルゲルミル",
+    "c": 33052,
+    "t": 64,
+    "b": "Obtain the anima weapon Hvergelmir."
+  },
+  {
+    "i": 1413,
+    "n": "アニマウェポン：ドラコノミコン",
+    "c": 33538,
+    "t": 64,
+    "b": "Obtain the anima weapon the <Emphasis>Draconomicon"
+  },
+  {
+    "i": 1414,
+    "n": "アニマウェポン：テトラビブロス",
+    "c": 33539,
+    "t": 64,
+    "b": "Obtain the anima weapon <Emphasis>Tetrabiblos</Emp"
+  },
+  {
+    "i": 1415,
+    "n": "アニマウェポン：神無",
+    "c": 33891,
+    "t": 64,
+    "b": "Obtain the anima weapons Kannagi."
+  },
+  {
+    "i": 1416,
+    "n": "アニマウェポン：アルマゲドン",
+    "c": 34664,
+    "t": 64,
+    "b": "Obtain the anima weapon Armageddon."
+  },
+  {
+    "i": 1417,
+    "n": "アニマウェポン：ノートゥング",
+    "c": 34264,
+    "t": 64,
+    "b": "Obtain the anima weapon Nothung."
+  },
+  {
+    "i": 1418,
+    "n": "アニマウェポン：デネブ",
+    "c": 34864,
+    "t": 64,
+    "b": "Obtain the anima weapon Deneb."
+  },
+  {
+    "i": 1499,
+    "n": "アニマウェポン：アルマス・コンダクト＆アンキレー・コンダクト",
+    "c": 30537,
+    "t": 64,
+    "b": "Obtain both a hyperconductive Ancile and Almace."
+  },
+  {
+    "i": 1500,
+    "n": "アニマウェポン：ウルスラグナ・コンダクト",
+    "c": 31103,
+    "t": 64,
+    "b": "Obtain a pair of hyperconductive Verethragna."
+  },
+  {
+    "i": 1501,
+    "n": "アニマウェポン：ウコンバサラ・コンダクト",
+    "c": 31508,
+    "t": 64,
+    "b": "Obtain a hyperconductive Ukonvasara."
+  },
+  {
+    "i": 1502,
+    "n": "アニマウェポン：ロンゴミアント・コンダクト",
+    "c": 31908,
+    "t": 64,
+    "b": "Obtain a hyperconductive Rhongomiant."
+  },
+  {
+    "i": 1503,
+    "n": "アニマウェポン：ガーンデーヴァ・コンダクト",
+    "c": 32304,
+    "t": 64,
+    "b": "Obtain a hyperconductive Gandiva."
+  },
+  {
+    "i": 1504,
+    "n": "アニマウェポン：マジェスタス・コンダクト",
+    "c": 32684,
+    "t": 64,
+    "b": "Obtain a hyperconductive Majestas."
+  },
+  {
+    "i": 1505,
+    "n": "アニマウェポン：フヴェルゲルミル・コンダクト",
+    "c": 33052,
+    "t": 64,
+    "b": "Obtain a hyperconductive Hvergelmir."
+  },
+  {
+    "i": 1506,
+    "n": "アニマウェポン：ドラコノミコン・コンダクト",
+    "c": 33538,
+    "t": 64,
+    "b": "Obtain a hyperconductive copy of the <Emphasis>Dra"
+  },
+  {
+    "i": 1507,
+    "n": "アニマウェポン：テトラビブロス・コンダクト",
+    "c": 33539,
+    "t": 64,
+    "b": "Obtain a hyperconductive copy of <Emphasis>Tetrabi"
+  },
+  {
+    "i": 1508,
+    "n": "アニマウェポン：神無【伝】",
+    "c": 33891,
+    "t": 64,
+    "b": "Obtain a pair of hyperconductive Kannagi."
+  },
+  {
+    "i": 1509,
+    "n": "アニマウェポン：アルマゲドン・コンダクト",
+    "c": 34664,
+    "t": 64,
+    "b": "Obtain a hyperconductive Armageddon."
+  },
+  {
+    "i": 1510,
+    "n": "アニマウェポン：ノートゥング・コンダクト",
+    "c": 34264,
+    "t": 64,
+    "b": "Obtain a hyperconductive Nothung."
+  },
+  {
+    "i": 1511,
+    "n": "アニマウェポン：デネブ・コンダクト",
+    "c": 34864,
+    "t": 64,
+    "b": "Obtain a hyperconductive Deneb."
+  },
+  {
+    "i": 1605,
+    "n": "アニマウェポン：セインズソード＆セインズシールド",
+    "c": 30545,
+    "t": 64,
+    "b": "Obtain both the Sword of the Twin Thegns and the S"
+  },
+  {
+    "i": 1606,
+    "n": "アニマウェポン：スルタンズフィスト",
+    "c": 31113,
+    "t": 64,
+    "b": "Obtain a pair of Sultan's Fists."
+  },
+  {
+    "i": 1607,
+    "n": "アニマウェポン：ブラッドエンペラーアクス",
+    "c": 31517,
+    "t": 64,
+    "b": "Obtain an Axe of the Blood Emperor."
+  },
+  {
+    "i": 1608,
+    "n": "アニマウェポン：オーバーロードトライデント",
+    "c": 31917,
+    "t": 64,
+    "b": "Obtain a Trident of the Overlord."
+  },
+  {
+    "i": 1609,
+    "n": "アニマウェポン：オウタークボウ",
+    "c": 32312,
+    "t": 64,
+    "b": "Obtain a Bow of the Autarch."
+  },
+  {
+    "i": 1610,
+    "n": "アニマウェポン：ホワイトザールケーン",
+    "c": 32693,
+    "t": 64,
+    "b": "Obtain a Cane of the White Tsar."
+  },
+  {
+    "i": 1611,
+    "n": "アニマウェポン：ブラックハーンロッド",
+    "c": 33061,
+    "t": 64,
+    "b": "Obtain a Rod of the Black Khan."
+  },
+  {
+    "i": 1612,
+    "n": "アニマウェポン：ブック・オブ・マッドクィーン",
+    "c": 33554,
+    "t": 64,
+    "b": "Obtain a Book of the Mad Queen."
+  },
+  {
+    "i": 1613,
+    "n": "アニマウェポン：ワード・オブ・マグネート",
+    "c": 33555,
+    "t": 64,
+    "b": "Obtain a Word of the Magnate."
+  },
+  {
+    "i": 1614,
+    "n": "アニマウェポン：ソーンプリンスブレード",
+    "c": 33899,
+    "t": 64,
+    "b": "Obtain a pair of Spurs of the Thorn Prince."
+  },
+  {
+    "i": 1615,
+    "n": "アニマウェポン：ダイナストファイア",
+    "c": 34673,
+    "t": 64,
+    "b": "Obtain a Flame of the Dynast."
+  },
+  {
+    "i": 1616,
+    "n": "アニマウェポン：タイラントディバイダー",
+    "c": 34272,
+    "t": 64,
+    "b": "Obtain a Guillotine of the Tyrant."
+  },
+  {
+    "i": 1617,
+    "n": "アニマウェポン：ラストエアープラニスフィア",
+    "c": 34872,
+    "t": 64,
+    "b": "Obtain a Sphere of the Last Heir."
+  },
+  {
+    "i": 1667,
+    "n": "アニマウェポン：セインズソード・シャープ＆セインズシールド・シャープ",
+    "c": 30545,
+    "t": 64,
+    "b": "Obtain both a sharpened Sword of the Twin Thegns a"
+  },
+  {
+    "i": 1668,
+    "n": "アニマウェポン：スルタンズフィスト・シャープ",
+    "c": 31113,
+    "t": 64,
+    "b": "Obtain a pair of sharpened Sultan's Fists."
+  },
+  {
+    "i": 1669,
+    "n": "アニマウェポン：ブラッドエンペラーアクス・シャープ",
+    "c": 31517,
+    "t": 64,
+    "b": "Obtain a sharpened Axe of the Blood Emperor."
+  },
+  {
+    "i": 1670,
+    "n": "アニマウェポン：オーバーロードトライデント・シャープ",
+    "c": 31917,
+    "t": 64,
+    "b": "Obtain a sharpened Trident of the Overlord."
+  },
+  {
+    "i": 1671,
+    "n": "アニマウェポン：オウタークボウ・シャープ",
+    "c": 32312,
+    "t": 64,
+    "b": "Obtain a sharpened Bow of the Autarch."
+  },
+  {
+    "i": 1672,
+    "n": "アニマウェポン：ホワイトザールケーン・シャープ",
+    "c": 32693,
+    "t": 64,
+    "b": "Obtain a sharpened Cane of the White Tsar."
+  },
+  {
+    "i": 1673,
+    "n": "アニマウェポン：ブラックハーンロッド・シャープ",
+    "c": 33061,
+    "t": 64,
+    "b": "Obtain a sharpened Rod of the Black Khan."
+  },
+  {
+    "i": 1674,
+    "n": "アニマウェポン：ブック・オブ・マッドクィーン・シャープ",
+    "c": 33554,
+    "t": 64,
+    "b": "Obtain a sharpened Book of the Mad Queen."
+  },
+  {
+    "i": 1675,
+    "n": "アニマウェポン：ワード・オブ・マグネート・シャープ",
+    "c": 33555,
+    "t": 64,
+    "b": "Obtain a sharpened Word of the Magnate."
+  },
+  {
+    "i": 1676,
+    "n": "アニマウェポン：ソーンプリンスブレード・シャープ",
+    "c": 33899,
+    "t": 64,
+    "b": "Obtain a pair of sharpened Spurs of the Thorn Prin"
+  },
+  {
+    "i": 1677,
+    "n": "アニマウェポン：ダイナストファイア・シャープ",
+    "c": 34673,
+    "t": 64,
+    "b": "Obtain a sharpened Flame of the Dynast."
+  },
+  {
+    "i": 1678,
+    "n": "アニマウェポン：タイラントディバイダー・シャープ",
+    "c": 34272,
+    "t": 64,
+    "b": "Obtain a sharpened Guillotine of the Tyrant."
+  },
+  {
+    "i": 1679,
+    "n": "アニマウェポン：ラストエアープラニスフィア・シャープ",
+    "c": 34872,
+    "t": 64,
+    "b": "Obtain a sharpened Sphere of the Last Heir."
+  },
+  {
+    "i": 1695,
+    "n": "アニマウェポン：エーティル＆プリュウェン",
+    "c": 30551,
+    "t": 64,
+    "b": "Obtain Aettir and Priwen."
+  },
+  {
+    "i": 1696,
+    "n": "アニマウェポン：ニエーペル",
+    "c": 31119,
+    "t": 64,
+    "b": "Obtain a pair of Nyepels."
+  },
+  {
+    "i": 1697,
+    "n": "アニマウェポン：ミノス",
+    "c": 31523,
+    "t": 64,
+    "b": "Obtain Minos."
+  },
+  {
+    "i": 1698,
+    "n": "アニマウェポン：アラドヴァル",
+    "c": 31923,
+    "t": 64,
+    "b": "Obtain Areadbhar."
+  },
+  {
+    "i": 1699,
+    "n": "アニマウェポン：テルパンダー",
+    "c": 32318,
+    "t": 64,
+    "b": "Obtain Terpander."
+  },
+  {
+    "i": 1700,
+    "n": "アニマウェポン：シンドリ",
+    "c": 32699,
+    "t": 64,
+    "b": "Obtain Sindri."
+  },
+  {
+    "i": 1701,
+    "n": "アニマウェポン：カラダンダ",
+    "c": 33068,
+    "t": 64,
+    "b": "Obtain Kaladanda."
+  },
+  {
+    "i": 1702,
+    "n": "アニマウェポン：ミメーシス",
+    "c": 33566,
+    "t": 64,
+    "b": "Obtain a copy of <Emphasis>Mimesis</Emphasis>."
+  },
+  {
+    "i": 1703,
+    "n": "アニマウェポン：アナバシス",
+    "c": 33567,
+    "t": 64,
+    "b": "Obtain a copy of <Emphasis>Anabasis</Emphasis>."
+  },
+  {
+    "i": 1704,
+    "n": "アニマウェポン：サンダン",
+    "c": 33905,
+    "t": 64,
+    "b": "Obtain a pair of Sandungs."
+  },
+  {
+    "i": 1705,
+    "n": "アニマウェポン：デスロック",
+    "c": 34679,
+    "t": 64,
+    "b": "Obtain Deathlocke."
+  },
+  {
+    "i": 1706,
+    "n": "アニマウェポン：クロノス",
+    "c": 34278,
+    "t": 64,
+    "b": "Obtain Cronus."
+  },
+  {
+    "i": 1707,
+    "n": "アニマウェポン：カノープス",
+    "c": 34878,
+    "t": 64,
+    "b": "Obtain Canopus."
+  },
+  {
+    "i": 1708,
+    "n": "アニマウェポン：エーティル・ルクス＆プリュウェン・ルクス",
+    "c": 30552,
+    "t": 64,
+    "b": "Obtain Aettir Lux and Priwen Lux."
+  },
+  {
+    "i": 1709,
+    "n": "アニマウェポン：ニエーペル・ルクス",
+    "c": 31120,
+    "t": 64,
+    "b": "Obtain a pair of Nyepels Lux."
+  },
+  {
+    "i": 1710,
+    "n": "アニマウェポン：ミノス・ルクス",
+    "c": 31524,
+    "t": 64,
+    "b": "Obtain Minos Lux."
+  },
+  {
+    "i": 1711,
+    "n": "アニマウェポン：アラドヴァル・ルクス",
+    "c": 31924,
+    "t": 64,
+    "b": "Obtain Areadbhar Lux."
+  },
+  {
+    "i": 1712,
+    "n": "アニマウェポン：テルパンダー・ルクス",
+    "c": 32319,
+    "t": 64,
+    "b": "Obtain Terpander Lux."
+  },
+  {
+    "i": 1713,
+    "n": "アニマウェポン：シンドリ・ルクス",
+    "c": 32700,
+    "t": 64,
+    "b": "Obtain Sindri Lux."
+  },
+  {
+    "i": 1714,
+    "n": "アニマウェポン：カラダンダ・ルクス",
+    "c": 33069,
+    "t": 64,
+    "b": "Obtain Kaladanda Lux."
+  },
+  {
+    "i": 1715,
+    "n": "アニマウェポン：ミメーシス・ルクス",
+    "c": 33568,
+    "t": 64,
+    "b": "Obtain a copy of <Emphasis>Mimesis Lux</Emphasis>."
+  },
+  {
+    "i": 1716,
+    "n": "アニマウェポン：アナバシス・ルクス",
+    "c": 33569,
+    "t": 64,
+    "b": "Obtain a copy of <Emphasis>Anabasis Lux</Emphasis>"
+  },
+  {
+    "i": 1717,
+    "n": "アニマウェポン：サンダン・ルクス",
+    "c": 33906,
+    "t": 64,
+    "b": "Obtain a pair of Sandungs Lux."
+  },
+  {
+    "i": 1718,
+    "n": "アニマウェポン：デスロック・ルクス",
+    "c": 34680,
+    "t": 64,
+    "b": "Obtain Deathlocke Lux."
+  },
+  {
+    "i": 1719,
+    "n": "アニマウェポン：クロノス・ルクス",
+    "c": 34279,
+    "t": 64,
+    "b": "Obtain Cronus Lux."
+  },
+  {
+    "i": 1720,
+    "n": "アニマウェポン：カノープス・ルクス",
+    "c": 34879,
+    "t": 64,
+    "b": "Obtain Canopus Lux."
+  },
+  {
+    "i": 2030,
+    "n": "エウレカウェポン：ガラティン・アネモス＆エヴァラック・アネモス",
+    "c": 30575,
+    "t": 66,
+    "b": "Obtain Galatyn Anemos and Evalach Anemos."
+  },
+  {
+    "i": 2031,
+    "n": "エウレカウェポン：ファルシャ・アネモス",
+    "c": 31541,
+    "t": 66,
+    "b": "Obtain Farsha Anemos."
+  },
+  {
+    "i": 2032,
+    "n": "エウレカウェポン：カラドボルグ・アネモス",
+    "c": 34299,
+    "t": 66,
+    "b": "Obtain Caladbolg Anemos."
+  },
+  {
+    "i": 2033,
+    "n": "エウレカウェポン：竜の髭【風】",
+    "c": 31947,
+    "t": 66,
+    "b": "Obtain Ryunohige Anemos."
+  },
+  {
+    "i": 2034,
+    "n": "エウレカウェポン：スダルシャナ・アネモス",
+    "c": 31142,
+    "t": 66,
+    "b": "Obtain a pair of Sudarshana Chakra Anemos."
+  },
+  {
+    "i": 2035,
+    "n": "エウレカウェポン：凪【風】",
+    "c": 33921,
+    "t": 66,
+    "b": "Obtain a pair of Nagi Anemos."
+  },
+  {
+    "i": 2036,
+    "n": "エウレカウェポン：菊一文字【風】",
+    "c": 36412,
+    "t": 66,
+    "b": "Obtain Kiku-ichimonji Anemos."
+  },
+  {
+    "i": 2037,
+    "n": "エウレカウェポン：フェイルノート・アネモス",
+    "c": 32342,
+    "t": 66,
+    "b": "Obtain Failnaught Anemos."
+  },
+  {
+    "i": 2038,
+    "n": "エウレカウェポン：アウトサイダー・アネモス",
+    "c": 34693,
+    "t": 66,
+    "b": "Obtain Outsider Anemos."
+  },
+  {
+    "i": 2039,
+    "n": "エウレカウェポン：ヴァナルガンド・アネモス",
+    "c": 33093,
+    "t": 66,
+    "b": "Obtain Vanargand Anemos."
+  },
+  {
+    "i": 2040,
+    "n": "エウレカウェポン：レメゲトン・アネモス",
+    "c": 33237,
+    "t": 66,
+    "b": "Obtain a copy of <Emphasis>Lemegeton</Emphasis> An"
+  },
+  {
+    "i": 2041,
+    "n": "エウレカウェポン：ミュルグレス・アネモス",
+    "c": 36701,
+    "t": 66,
+    "b": "Obtain Murgleis Anemos."
+  },
+  {
+    "i": 2042,
+    "n": "エウレカウェポン：アイムール・アネモス",
+    "c": 32724,
+    "t": 66,
+    "b": "Obtain Aymur Anemos."
+  },
+  {
+    "i": 2043,
+    "n": "エウレカウェポン：オルガノン・アネモス",
+    "c": 33240,
+    "t": 66,
+    "b": "Obtain a copy of <Emphasis>Organum</Emphasis> Anem"
+  },
+  {
+    "i": 2044,
+    "n": "エウレカウェポン：プレアデス・アネモス",
+    "c": 34900,
+    "t": 66,
+    "b": "Obtain Pleiades Anemos."
+  },
+  {
+    "i": 2082,
+    "n": "エウレカウェポン：エレメンタルソード＆エレメンタルシールド",
+    "c": 30586,
+    "t": 66,
+    "b": "Obtain an elemental sword and an elemental shield."
+  },
+  {
+    "i": 2083,
+    "n": "エウレカウェポン：エレメンタルバトルアクス",
+    "c": 31560,
+    "t": 66,
+    "b": "Obtain an elemental battleaxe."
+  },
+  {
+    "i": 2084,
+    "n": "エウレカウェポン：エレメンタルディバイダー",
+    "c": 34314,
+    "t": 66,
+    "b": "Obtain an elemental guillotine."
+  },
+  {
+    "i": 2085,
+    "n": "エウレカウェポン：エレメンタルランス",
+    "c": 31960,
+    "t": 66,
+    "b": "Obtain an elemental lance."
+  },
+  {
+    "i": 2086,
+    "n": "エウレカウェポン：エレメンタルナックル",
+    "c": 31152,
+    "t": 66,
+    "b": "Obtain a pair of elemental knuckles."
+  },
+  {
+    "i": 2087,
+    "n": "エウレカウェポン：エレメンタルナイフ",
+    "c": 33938,
+    "t": 66,
+    "b": "Obtain a pair of elemental knives."
+  },
+  {
+    "i": 2088,
+    "n": "エウレカウェポン：エレメンタルブレード",
+    "c": 36468,
+    "t": 66,
+    "b": "Obtain an elemental blade."
+  },
+  {
+    "i": 2089,
+    "n": "エウレカウェポン：エレメンタルハープボウ",
+    "c": 32351,
+    "t": 66,
+    "b": "Obtain an elemental harp bow."
+  },
+  {
+    "i": 2090,
+    "n": "エウレカウェポン：エレメンタルハンドゴンネ",
+    "c": 34437,
+    "t": 66,
+    "b": "Obtain an elemental handgonne."
+  },
+  {
+    "i": 2091,
+    "n": "エウレカウェポン：エレメンタルロッド",
+    "c": 33103,
+    "t": 66,
+    "b": "Obtain an elemental rod."
+  },
+  {
+    "i": 2092,
+    "n": "エウレカウェポン：エレメンタルグリモア",
+    "c": 33258,
+    "t": 66,
+    "b": "Obtain an elemental grimoire."
+  },
+  {
+    "i": 2093,
+    "n": "エウレカウェポン：エレメンタルタック",
+    "c": 36769,
+    "t": 66,
+    "b": "Obtain an elemental tuck."
+  },
+  {
+    "i": 2094,
+    "n": "エウレカウェポン：エレメンタルケーン",
+    "c": 32735,
+    "t": 66,
+    "b": "Obtain an elemental cane."
+  },
+  {
+    "i": 2095,
+    "n": "エウレカウェポン：エレメンタルコーデックス",
+    "c": 33257,
+    "t": 66,
+    "b": "Obtain an elemental codex."
+  },
+  {
+    "i": 2096,
+    "n": "エウレカウェポン：エレメンタルアストロメーター",
+    "c": 34911,
+    "t": 66,
+    "b": "Obtain an elemental astrometer."
+  },
+  {
+    "i": 2143,
+    "n": "エウレカウェポン：ピューロスソード＆ピューロスシールド",
+    "c": 30586,
+    "t": 66,
+    "b": "Obtain a Pyros sword and a Pyros shield."
+  },
+  {
+    "i": 2144,
+    "n": "エウレカウェポン：ピューロスバトルアクス",
+    "c": 31560,
+    "t": 66,
+    "b": "Obtain a Pyros battleaxe."
+  },
+  {
+    "i": 2145,
+    "n": "エウレカウェポン：ピューロスディバイダー",
+    "c": 34314,
+    "t": 66,
+    "b": "Obtain a Pyros guillotine."
+  },
+  {
+    "i": 2146,
+    "n": "エウレカウェポン：ピューロスランス",
+    "c": 31960,
+    "t": 66,
+    "b": "Obtain a Pyros lance."
+  },
+  {
+    "i": 2147,
+    "n": "エウレカウェポン：ピューロスナックル",
+    "c": 31152,
+    "t": 66,
+    "b": "Obtain a pair of Pyros knuckles."
+  },
+  {
+    "i": 2148,
+    "n": "エウレカウェポン：ピューロスナイフ",
+    "c": 33938,
+    "t": 66,
+    "b": "Obtain a pair of Pyros knives."
+  },
+  {
+    "i": 2149,
+    "n": "エウレカウェポン：ピューロスブレード",
+    "c": 36468,
+    "t": 66,
+    "b": "Obtain a Pyros blade."
+  },
+  {
+    "i": 2150,
+    "n": "エウレカウェポン：ピューロスハープボウ",
+    "c": 32351,
+    "t": 66,
+    "b": "Obtain a Pyros harp bow."
+  },
+  {
+    "i": 2151,
+    "n": "エウレカウェポン：ピューロスハンドゴンネ",
+    "c": 34437,
+    "t": 66,
+    "b": "Obtain a Pyros handgonne."
+  },
+  {
+    "i": 2152,
+    "n": "エウレカウェポン：ピューロスロッド",
+    "c": 33103,
+    "t": 66,
+    "b": "Obtain a Pyros rod."
+  },
+  {
+    "i": 2153,
+    "n": "エウレカウェポン：ピューロスグリモア",
+    "c": 33258,
+    "t": 66,
+    "b": "Obtain a Pyros grimoire."
+  },
+  {
+    "i": 2154,
+    "n": "エウレカウェポン：ピューロスタック",
+    "c": 36769,
+    "t": 66,
+    "b": "Obtain a Pyros tuck."
+  },
+  {
+    "i": 2155,
+    "n": "エウレカウェポン：ピューロスケーン",
+    "c": 32735,
+    "t": 66,
+    "b": "Obtain a Pyros cane."
+  },
+  {
+    "i": 2156,
+    "n": "エウレカウェポン：ピューロスコーデックス",
+    "c": 33257,
+    "t": 66,
+    "b": "Obtain a Pyros codex."
+  },
+  {
+    "i": 2157,
+    "n": "エウレカウェポン：ピューロスアストロメーター",
+    "c": 34911,
+    "t": 66,
+    "b": "Obtain a Pyros astrometer."
+  },
+  {
+    "i": 2212,
+    "n": "エウレカウェポン：アンテア・エウレカ＆ベレロフォン・エウレカ",
+    "c": 30598,
+    "t": 66,
+    "b": "Obtain Antea Eureka and Bellerophon Eureka."
+  },
+  {
+    "i": 2213,
+    "n": "エウレカウェポン：シャマシュ・エウレカ",
+    "c": 31572,
+    "t": 66,
+    "b": "Obtain Shamash Eureka."
+  },
+  {
+    "i": 2214,
+    "n": "エウレカウェポン：シフィアス・エウレカ",
+    "c": 34327,
+    "t": 66,
+    "b": "Obtain Xiphias Eureka."
+  },
+  {
+    "i": 2215,
+    "n": "エウレカウェポン：ダボヤ・エウレカ",
+    "c": 31974,
+    "t": 66,
+    "b": "Obtain Daboya Eureka."
+  },
+  {
+    "i": 2216,
+    "n": "エウレカウェポン：デゥムズィ・エウレカ",
+    "c": 31164,
+    "t": 66,
+    "b": "Obtain a pair of Dumuzis Eureka."
+  },
+  {
+    "i": 2217,
+    "n": "エウレカウェポン：鵲【禁】",
+    "c": 33950,
+    "t": 66,
+    "b": "Obtain a pair of Kasasagi Eureka."
+  },
+  {
+    "i": 2218,
+    "n": "エウレカウェポン：鳥頭の太刀【禁】",
+    "c": 36481,
+    "t": 66,
+    "b": "Obtain Torigashira Eureka."
+  },
+  {
+    "i": 2219,
+    "n": "エウレカウェポン：キルキナエ・エウレカ",
+    "c": 32363,
+    "t": 66,
+    "b": "Obtain Circinae Eureka."
+  },
+  {
+    "i": 2220,
+    "n": "エウレカウェポン：モルフリッス・エウレカ",
+    "c": 34449,
+    "t": 66,
+    "b": "Obtain Mollfrith Eureka."
+  },
+  {
+    "i": 2221,
+    "n": "エウレカウェポン：パイケア・エウレカ",
+    "c": 33116,
+    "t": 66,
+    "b": "Obtain Paikea Eureka."
+  },
+  {
+    "i": 2222,
+    "n": "エウレカウェポン：トゥア・エウレカ",
+    "c": 33282,
+    "t": 66,
+    "b": "Obtain Tuah Eureka."
+  },
+  {
+    "i": 2223,
+    "n": "エウレカウェポン：ブルネロ・エウレカ",
+    "c": 36781,
+    "t": 66,
+    "b": "Obtain Brunello Eureka."
+  },
+  {
+    "i": 2224,
+    "n": "エウレカウェポン：ローズクーベルト・エウレカ",
+    "c": 32747,
+    "t": 66,
+    "b": "Obtain Rose Couverte Eureka."
+  },
+  {
+    "i": 2225,
+    "n": "エウレカウェポン：ジェバト・エウレカ",
+    "c": 33281,
+    "t": 66,
+    "b": "Obtain Jebat Eureka."
+  },
+  {
+    "i": 2226,
+    "n": "エウレカウェポン：アルビレオ・エウレカ",
+    "c": 34923,
+    "t": 66,
+    "b": "Obtain Albireo Eureka."
+  },
+  {
+    "i": 2569,
+    "n": "レジスタンス・ウェポン：オナーバウンド＆テナシティ",
+    "c": 30620,
+    "t": 68,
+    "b": "Obtain Honorbound and Tenacity."
+  },
+  {
+    "i": 2570,
+    "n": "レジスタンス・ウェポン：スカルレンダー",
+    "c": 31593,
+    "t": 68,
+    "b": "Obtain Skullrender."
+  },
+  {
+    "i": 2571,
+    "n": "レジスタンス・ウェポン：ウォウボーン",
+    "c": 34352,
+    "t": 68,
+    "b": "Obtain Woeborn."
+  },
+  {
+    "i": 2572,
+    "n": "レジスタンス・ウェポン：クラウンブレード",
+    "c": 36041,
+    "t": 68,
+    "b": "Obtain a Crownsblade."
+  },
+  {
+    "i": 2573,
+    "n": "レジスタンス・ウェポン：ドライツァック",
+    "c": 31995,
+    "t": 68,
+    "b": "Obtain Dreizack."
+  },
+  {
+    "i": 2574,
+    "n": "レジスタンス・ウェポン：サンサーラ",
+    "c": 31186,
+    "t": 68,
+    "b": "Obtain a pair of Samsara."
+  },
+  {
+    "i": 2575,
+    "n": "レジスタンス・ウェポン：骨不知",
+    "c": 33970,
+    "t": 68,
+    "b": "Obtain a pair of Honeshirazu."
+  },
+  {
+    "i": 2576,
+    "n": "レジスタンス・ウェポン：星切",
+    "c": 36502,
+    "t": 68,
+    "b": "Obtain Hoshikiri."
+  },
+  {
+    "i": 2577,
+    "n": "レジスタンス・ウェポン：ブリリアンス",
+    "c": 32386,
+    "t": 68,
+    "b": "Obtain Brilliance."
+  },
+  {
+    "i": 2578,
+    "n": "レジスタンス・ウェポン：ローマン",
+    "c": 34468,
+    "t": 68,
+    "b": "Obtain a Lawman."
+  },
+  {
+    "i": 2579,
+    "n": "レジスタンス・ウェポン：エンチュフラ",
+    "c": 36244,
+    "t": 68,
+    "b": "Obtain a pair of Enchufla."
+  },
+  {
+    "i": 2580,
+    "n": "レジスタンス・ウェポン：ソウルスカージ",
+    "c": 33140,
+    "t": 68,
+    "b": "Obtain Soulscourge."
+  },
+  {
+    "i": 2581,
+    "n": "レジスタンス・ウェポン：エスピリトゥス",
+    "c": 33322,
+    "t": 68,
+    "b": "Obtain a copy of <Emphasis>Espiritus</Emphasis>."
+  },
+  {
+    "i": 2582,
+    "n": "レジスタンス・ウェポン：テイルキーパー",
+    "c": 36801,
+    "t": 68,
+    "b": "Obtain Talekeeper."
+  },
+  {
+    "i": 2583,
+    "n": "レジスタンス・ウェポン：イングリム",
+    "c": 32769,
+    "t": 68,
+    "b": "Obtain Ingrimm."
+  },
+  {
+    "i": 2584,
+    "n": "レジスタンス・ウェポン：アカデモス",
+    "c": 33321,
+    "t": 68,
+    "b": "Obtain a copy of <Emphasis>Akademos</Emphasis>."
+  },
+  {
+    "i": 2585,
+    "n": "レジスタンス・ウェポン：ソールスティス",
+    "c": 34945,
+    "t": 68,
+    "b": "Obtain Solstice."
+  },
+  {
+    "i": 2694,
+    "n": "レジスタンス・ウェポン：オナーバウンド・リコレクション＆テナシティ・リコレクション",
+    "c": 30620,
+    "t": 68,
+    "b": "Obtain Honorbound and Tenacity recollections."
+  },
+  {
+    "i": 2695,
+    "n": "レジスタンス・ウェポン：スカルレンダー・リコレクション",
+    "c": 31593,
+    "t": 68,
+    "b": "Obtain a Skullrender recollection."
+  },
+  {
+    "i": 2696,
+    "n": "レジスタンス・ウェポン：ウォウボーン・リコレクション",
+    "c": 34352,
+    "t": 68,
+    "b": "Obtain a Woeborn recollection."
+  },
+  {
+    "i": 2697,
+    "n": "レジスタンス・ウェポン：クラウンブレード・リコレクション",
+    "c": 36041,
+    "t": 68,
+    "b": "Obtain a Crownsblade recollection."
+  },
+  {
+    "i": 2698,
+    "n": "レジスタンス・ウェポン：ドライツァック・リコレクション",
+    "c": 31995,
+    "t": 68,
+    "b": "Obtain a Dreizack recollection."
+  },
+  {
+    "i": 2699,
+    "n": "レジスタンス・ウェポン：サンサーラ・リコレクション",
+    "c": 31186,
+    "t": 68,
+    "b": "Obtain a Samsara recollection."
+  },
+  {
+    "i": 2700,
+    "n": "レジスタンス・ウェポン：骨不知【記】",
+    "c": 33970,
+    "t": 68,
+    "b": "Obtain a Honeshirazu recollection."
+  },
+  {
+    "i": 2701,
+    "n": "レジスタンス・ウェポン：星切【記】",
+    "c": 36502,
+    "t": 68,
+    "b": "Obtain a Hoshikiri recollection."
+  },
+  {
+    "i": 2702,
+    "n": "レジスタンス・ウェポン：ブリリアンス・リコレクション",
+    "c": 32386,
+    "t": 68,
+    "b": "Obtain a Brilliance recollection."
+  },
+  {
+    "i": 2703,
+    "n": "レジスタンス・ウェポン：ローマン・リコレクション",
+    "c": 34468,
+    "t": 68,
+    "b": "Obtain a Lawman recollection."
+  },
+  {
+    "i": 2704,
+    "n": "レジスタンス・ウェポン：エンチュフラ・リコレクション",
+    "c": 36244,
+    "t": 68,
+    "b": "Obtain an Enchufla recollection."
+  },
+  {
+    "i": 2705,
+    "n": "レジスタンス・ウェポン：ソウルスカージ・リコレクション",
+    "c": 33140,
+    "t": 68,
+    "b": "Obtain a Soulscourge recollection."
+  },
+  {
+    "i": 2706,
+    "n": "レジスタンス・ウェポン：エスピリトゥス・リコレクション",
+    "c": 33322,
+    "t": 68,
+    "b": "Obtain an <Emphasis>Espiritus</Emphasis> recollect"
+  },
+  {
+    "i": 2707,
+    "n": "レジスタンス・ウェポン：テイルキーパー・リコレクション",
+    "c": 36801,
+    "t": 68,
+    "b": "Obtain a Talekeeper recollection."
+  },
+  {
+    "i": 2708,
+    "n": "レジスタンス・ウェポン：イングリム・リコレクション",
+    "c": 32769,
+    "t": 68,
+    "b": "Obtain an Ingrimm recollection."
+  },
+  {
+    "i": 2709,
+    "n": "レジスタンス・ウェポン：アカデモス・リコレクション",
+    "c": 33321,
+    "t": 68,
+    "b": "Obtain an <Emphasis>Akademos</Emphasis> recollecti"
+  },
+  {
+    "i": 2710,
+    "n": "レジスタンス・ウェポン：ソールスティス・リコレクション",
+    "c": 34945,
+    "t": 68,
+    "b": "Obtain a Solstice recollection."
+  },
+  {
+    "i": 2768,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・バスタードソードRE＆ジャッジオーダー・カイトシールドRE",
+    "c": 30629,
+    "t": 68,
+    "b": "Obtain an augmented law's order bastard sword and "
+  },
+  {
+    "i": 2769,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・ラブリュスRE",
+    "c": 31204,
+    "t": 68,
+    "b": "Obtain an augmented law's order labrys."
+  },
+  {
+    "i": 2770,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・ツヴァイハンダーRE",
+    "c": 34358,
+    "t": 68,
+    "b": "Obtain an augmented law's order zweihander."
+  },
+  {
+    "i": 2771,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・マナトリガーRE",
+    "c": 36050,
+    "t": 68,
+    "b": "Obtain an augmented law's order manatrigger."
+  },
+  {
+    "i": 2772,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・スピアRE",
+    "c": 31606,
+    "t": 68,
+    "b": "Obtain an augmented law's order spear."
+  },
+  {
+    "i": 2773,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・ナックルRE",
+    "c": 31194,
+    "t": 68,
+    "b": "Obtain a pair of augmented law's order knuckles."
+  },
+  {
+    "i": 2774,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・ナイフRE",
+    "c": 33980,
+    "t": 68,
+    "b": "Obtain a pair of augmented law's order knives."
+  },
+  {
+    "i": 2775,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・サムライブレードRE",
+    "c": 36509,
+    "t": 68,
+    "b": "Obtain an augmented law's order samurai blade."
+  },
+  {
+    "i": 2776,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・コンポジットボウRE",
+    "c": 32393,
+    "t": 68,
+    "b": "Obtain an augmented law's order composite bow."
+  },
+  {
+    "i": 2777,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・リボルバーRE",
+    "c": 34404,
+    "t": 68,
+    "b": "Obtain an augmented law's order revolver."
+  },
+  {
+    "i": 2778,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・チャクラムRE",
+    "c": 36249,
+    "t": 68,
+    "b": "Obtain a pair of augmented law's order chakrams."
+  },
+  {
+    "i": 2779,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・ロッドRE",
+    "c": 33148,
+    "t": 68,
+    "b": "Obtain an augmented law's order rod."
+  },
+  {
+    "i": 2780,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・インデックスRE",
+    "c": 33213,
+    "t": 68,
+    "b": "Obtain an augmented law's order index."
+  },
+  {
+    "i": 2781,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・レイピアRE",
+    "c": 36808,
+    "t": 68,
+    "b": "Obtain an augmented law's order rapier."
+  },
+  {
+    "i": 2782,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・ケーンRE",
+    "c": 32777,
+    "t": 68,
+    "b": "Obtain an augmented law's order cane."
+  },
+  {
+    "i": 2783,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・コーデックスRE",
+    "c": 33214,
+    "t": 68,
+    "b": "Obtain an augmented law's order codex."
+  },
+  {
+    "i": 2784,
+    "n": "レジスタンス・ウェポン：ジャッジオーダー・アストロメーターRE",
+    "c": 34952,
+    "t": 68,
+    "b": "Obtain an augmented law's order astrometer."
+  },
+  {
+    "i": 2857,
+    "n": "レジスタンス・ウェポン：ブレイズオナー＆ブレイズフォーティチュード",
+    "c": 30633,
+    "t": 68,
+    "b": "Obtain Blade's Honor and Blade's Fortitude."
+  },
+  {
+    "i": 2858,
+    "n": "レジスタンス・ウェポン：ブレイズヴァラー",
+    "c": 31208,
+    "t": 68,
+    "b": "Obtain Blade's Valor."
+  },
+  {
+    "i": 2859,
+    "n": "レジスタンス・ウェポン：ブレイズジャスティス",
+    "c": 34362,
+    "t": 68,
+    "b": "Obtain Blade's Justice."
+  },
+  {
+    "i": 2860,
+    "n": "レジスタンス・ウェポン：ブレイズリゾルヴ",
+    "c": 36054,
+    "t": 68,
+    "b": "Obtain Blade's Resolve."
+  },
+  {
+    "i": 2861,
+    "n": "レジスタンス・ウェポン：ブレイズグローリー",
+    "c": 31610,
+    "t": 68,
+    "b": "Obtain Blade's Glory."
+  },
+  {
+    "i": 2862,
+    "n": "レジスタンス・ウェポン：ブレイズセレネティー",
+    "c": 31198,
+    "t": 68,
+    "b": "Obtain Blade's Serenity."
+  },
+  {
+    "i": 2863,
+    "n": "レジスタンス・ウェポン：ブレイズサトゥルティー",
+    "c": 33984,
+    "t": 68,
+    "b": "Obtain Blade's Subtlety."
+  },
+  {
+    "i": 2864,
+    "n": "レジスタンス・ウェポン：ブレイズフィアルティー",
+    "c": 36513,
+    "t": 68,
+    "b": "Obtain Blade's Fealty."
+  },
+  {
+    "i": 2865,
+    "n": "レジスタンス・ウェポン：ブレイズミューズ",
+    "c": 32397,
+    "t": 68,
+    "b": "Obtain Blade's Muse."
+  },
+  {
+    "i": 2866,
+    "n": "レジスタンス・ウェポン：ブレイズインジェヌイティー",
+    "c": 34408,
+    "t": 68,
+    "b": "Obtain Blade's Ingenuity."
+  },
+  {
+    "i": 2867,
+    "n": "レジスタンス・ウェポン：ブレイズユーフォリア",
+    "c": 36253,
+    "t": 68,
+    "b": "Obtain Blade's Euphoria."
+  },
+  {
+    "i": 2868,
+    "n": "レジスタンス・ウェポン：ブレイズフューリー",
+    "c": 33152,
+    "t": 68,
+    "b": "Obtain Blade's Fury."
+  },
+  {
+    "i": 2869,
+    "n": "レジスタンス・ウェポン：ブレイズアキュメン",
+    "c": 33222,
+    "t": 68,
+    "b": "Obtain Blade's Acumen."
+  },
+  {
+    "i": 2870,
+    "n": "レジスタンス・ウェポン：ブレイズテンペランス",
+    "c": 36812,
+    "t": 68,
+    "b": "Obtain Blade's Temperance."
+  },
+  {
+    "i": 2871,
+    "n": "レジスタンス・ウェポン：ブレイズマーシー",
+    "c": 32781,
+    "t": 68,
+    "b": "Obtain Blade's Mercy."
+  },
+  {
+    "i": 2872,
+    "n": "レジスタンス・ウェポン：ブレイズウィズダム",
+    "c": 33221,
+    "t": 68,
+    "b": "Obtain Blade's Wisdom."
+  },
+  {
+    "i": 2873,
+    "n": "レジスタンス・ウェポン：ブレイズプロヴェデンス",
+    "c": 34956,
+    "t": 68,
+    "b": "Obtain Blade's Providence."
+  },
+  {
+    "i": 3128,
+    "n": "マンダヴィルウェポン：マンダヴィル・ソード＆マンダヴィル・カイトシールド",
+    "c": 30654,
+    "t": 75,
+    "b": "Obtain a Manderville sword and Manderville kite sh"
+  },
+  {
+    "i": 3129,
+    "n": "マンダヴィルウェポン：マンダヴィル・アクス",
+    "c": 31228,
+    "t": 75,
+    "b": "Obtain a Manderville axe."
+  },
+  {
+    "i": 3130,
+    "n": "マンダヴィルウェポン：マンダヴィル・ツヴァイハンダー",
+    "c": 34382,
+    "t": 75,
+    "b": "Obtain a Manderville zweihander."
+  },
+  {
+    "i": 3131,
+    "n": "マンダヴィルウェポン：マンダヴィル・ガンブレード",
+    "c": 36075,
+    "t": 75,
+    "b": "Obtain a Manderville gunblade."
+  },
+  {
+    "i": 3132,
+    "n": "マンダヴィルウェポン：マンダヴィル・スピア",
+    "c": 31630,
+    "t": 75,
+    "b": "Obtain a Manderville spear."
+  },
+  {
+    "i": 3133,
+    "n": "マンダヴィルウェポン：マンダヴィル・ナックル",
+    "c": 30819,
+    "t": 75,
+    "b": "Obtain a pair of Manderville knuckles."
+  },
+  {
+    "i": 3134,
+    "n": "マンダヴィルウェポン：マンダヴィル・ナイフ",
+    "c": 33605,
+    "t": 75,
+    "b": "Obtain a pair of Manderville knives."
+  },
+  {
+    "i": 3135,
+    "n": "マンダヴィルウェポン：マンダヴィル・サムライブレード",
+    "c": 36533,
+    "t": 75,
+    "b": "Obtain a Manderville samurai blade."
+  },
+  {
+    "i": 3136,
+    "n": "マンダヴィルウェポン：マンダヴィル・サイズ",
+    "c": 37242,
+    "t": 75,
+    "b": "Obtain a Manderville scythe."
+  },
+  {
+    "i": 3137,
+    "n": "マンダヴィルウェポン：マンダヴィル・ハープボウ",
+    "c": 32019,
+    "t": 75,
+    "b": "Obtain a Manderville harp bow."
+  },
+  {
+    "i": 3138,
+    "n": "マンダヴィルウェポン：マンダヴィル・リボルバー",
+    "c": 34478,
+    "t": 75,
+    "b": "Obtain a Manderville revolver."
+  },
+  {
+    "i": 3139,
+    "n": "マンダヴィルウェポン：マンダヴィル・チャクラム",
+    "c": 36274,
+    "t": 75,
+    "b": "Obtain a pair of Manderville chakrams."
+  },
+  {
+    "i": 3140,
+    "n": "マンダヴィルウェポン：マンダヴィル・ロッド",
+    "c": 32863,
+    "t": 75,
+    "b": "Obtain a Manderville rod."
+  },
+  {
+    "i": 3141,
+    "n": "マンダヴィルウェポン：マンダヴィル・インデックス",
+    "c": 33362,
+    "t": 75,
+    "b": "Obtain a Manderville index."
+  },
+  {
+    "i": 3142,
+    "n": "マンダヴィルウェポン：マンダヴィル・レイピア",
+    "c": 36832,
+    "t": 75,
+    "b": "Obtain a Manderville rapier."
+  },
+  {
+    "i": 3143,
+    "n": "マンダヴィルウェポン：マンダヴィル・ケーン",
+    "c": 32448,
+    "t": 75,
+    "b": "Obtain a Manderville cane."
+  },
+  {
+    "i": 3144,
+    "n": "マンダヴィルウェポン：マンダヴィル・コーデックス",
+    "c": 33361,
+    "t": 75,
+    "b": "Obtain a Manderville codex."
+  },
+  {
+    "i": 3145,
+    "n": "マンダヴィルウェポン：マンダヴィル・トルクエタム",
+    "c": 34976,
+    "t": 75,
+    "b": "Obtain a Manderville torquetum."
+  },
+  {
+    "i": 3146,
+    "n": "マンダヴィルウェポン：マンダヴィル・ミルプレーヴェ",
+    "c": 37040,
+    "t": 75,
+    "b": "Obtain an array of Manderville milpreves."
+  },
+  {
+    "i": 3224,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・ソード＆マンダヴィル・アメイジング・カイトシールド",
+    "c": 30660,
+    "t": 75,
+    "b": "Obtain an amazing Manderville sword and amazing Ma"
+  },
+  {
+    "i": 3225,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・アクス",
+    "c": 31234,
+    "t": 75,
+    "b": "Obtain an amazing Manderville axe."
+  },
+  {
+    "i": 3226,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・ツヴァイハンダー",
+    "c": 34388,
+    "t": 75,
+    "b": "Obtain an amazing Manderville zweihander."
+  },
+  {
+    "i": 3227,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・ガンブレード",
+    "c": 36081,
+    "t": 75,
+    "b": "Obtain an amazing Manderville gunblade."
+  },
+  {
+    "i": 3228,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・スピア",
+    "c": 31636,
+    "t": 75,
+    "b": "Obtain an amazing Manderville spear."
+  },
+  {
+    "i": 3229,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・ナックル",
+    "c": 30825,
+    "t": 75,
+    "b": "Obtain a pair of amazing Manderville knuckles."
+  },
+  {
+    "i": 3230,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・ナイフ",
+    "c": 33611,
+    "t": 75,
+    "b": "Obtain a pair of amazing Manderville knives."
+  },
+  {
+    "i": 3231,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・サムライブレード",
+    "c": 36539,
+    "t": 75,
+    "b": "Obtain an amazing Manderville samurai blade."
+  },
+  {
+    "i": 3232,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・サイズ",
+    "c": 37250,
+    "t": 75,
+    "b": "Obtain an amazing Manderville scythe."
+  },
+  {
+    "i": 3233,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・ハープボウ",
+    "c": 32025,
+    "t": 75,
+    "b": "Obtain an amazing Manderville harp bow."
+  },
+  {
+    "i": 3234,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・リボルバー",
+    "c": 34484,
+    "t": 75,
+    "b": "Obtain an amazing Manderville revolver."
+  },
+  {
+    "i": 3235,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・チャクラム",
+    "c": 36280,
+    "t": 75,
+    "b": "Obtain a pair of amazing Manderville chakrams."
+  },
+  {
+    "i": 3236,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・ロッド",
+    "c": 32869,
+    "t": 75,
+    "b": "Obtain an amazing Manderville rod."
+  },
+  {
+    "i": 3237,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・インデックス",
+    "c": 33373,
+    "t": 75,
+    "b": "Obtain an amazing Manderville index."
+  },
+  {
+    "i": 3238,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・レイピア",
+    "c": 36838,
+    "t": 75,
+    "b": "Obtain an amazing Manderville rapier."
+  },
+  {
+    "i": 3239,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・ケーン",
+    "c": 32454,
+    "t": 75,
+    "b": "Obtain an amazing Manderville cane."
+  },
+  {
+    "i": 3240,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・コーデックス",
+    "c": 33378,
+    "t": 75,
+    "b": "Obtain an amazing Manderville codex."
+  },
+  {
+    "i": 3241,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・トルクエタム",
+    "c": 34984,
+    "t": 75,
+    "b": "Obtain an amazing Manderville torquetum."
+  },
+  {
+    "i": 3242,
+    "n": "マンダヴィルウェポン：マンダヴィル・アメイジング・ミルプレーヴェ",
+    "c": 37048,
+    "t": 75,
+    "b": "Obtain an array of amazing Manderville milpreves."
+  },
+  {
+    "i": 3285,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ソード＆マンダヴィル・マジェスティック・シールド",
+    "c": 30665,
+    "t": 75,
+    "b": "Obtain a majestic Manderville sword and majestic M"
+  },
+  {
+    "i": 3286,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・バルディッシュ",
+    "c": 31239,
+    "t": 75,
+    "b": "Obtain a majestic Manderville bardiche."
+  },
+  {
+    "i": 3287,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・グレートソード",
+    "c": 34393,
+    "t": 75,
+    "b": "Obtain a majestic Manderville greatsword."
+  },
+  {
+    "i": 3288,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・バヨネット",
+    "c": 36085,
+    "t": 75,
+    "b": "Obtain a majestic Manderville bayonet."
+  },
+  {
+    "i": 3289,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・スピア",
+    "c": 31641,
+    "t": 75,
+    "b": "Obtain a majestic Manderville spear."
+  },
+  {
+    "i": 3290,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・フィスト",
+    "c": 30829,
+    "t": 75,
+    "b": "Obtain a pair of majestic Manderville fists."
+  },
+  {
+    "i": 3291,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ナイフ",
+    "c": 33615,
+    "t": 75,
+    "b": "Obtain a pair of majestic Manderville knives."
+  },
+  {
+    "i": 3292,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・サムライブレード",
+    "c": 36543,
+    "t": 75,
+    "b": "Obtain a majestic Manderville samurai blade."
+  },
+  {
+    "i": 3293,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ウォーサイズ",
+    "c": 37254,
+    "t": 75,
+    "b": "Obtain a majestic Manderville war scythe."
+  },
+  {
+    "i": 3294,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ハープボウ",
+    "c": 32029,
+    "t": 75,
+    "b": "Obtain a majestic Manderville harp bow."
+  },
+  {
+    "i": 3295,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ハンドガン",
+    "c": 34488,
+    "t": 75,
+    "b": "Obtain a majestic Manderville pistol."
+  },
+  {
+    "i": 3296,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・チャクラム",
+    "c": 36284,
+    "t": 75,
+    "b": "Obtain a pair of majestic Manderville chakrams."
+  },
+  {
+    "i": 3297,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・スタッフ",
+    "c": 32874,
+    "t": 75,
+    "b": "Obtain a majestic Manderville staff."
+  },
+  {
+    "i": 3298,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・インデックス",
+    "c": 33382,
+    "t": 75,
+    "b": "Obtain a majestic Manderville index."
+  },
+  {
+    "i": 3299,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・デーゲン",
+    "c": 36842,
+    "t": 75,
+    "b": "Obtain a majestic Manderville degen."
+  },
+  {
+    "i": 3300,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ワンド",
+    "c": 32459,
+    "t": 75,
+    "b": "Obtain a majestic Manderville wand."
+  },
+  {
+    "i": 3301,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・コーデックス",
+    "c": 33381,
+    "t": 75,
+    "b": "Obtain a majestic Manderville codex."
+  },
+  {
+    "i": 3302,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・オーラリー",
+    "c": 34986,
+    "t": 75,
+    "b": "Obtain a majestic Manderville orrery."
+  },
+  {
+    "i": 3303,
+    "n": "マンダヴィルウェポン：マンダヴィル・マジェスティック・ウィング",
+    "c": 37051,
+    "t": 75,
+    "b": "Obtain an array of majestic Manderville wings."
+  }
+]
