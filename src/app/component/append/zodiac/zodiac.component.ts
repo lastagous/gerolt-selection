@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AppendBaseComponent } from '../append-base/append-base.component';
 
 @Component({
@@ -6,7 +6,42 @@ import { AppendBaseComponent } from '../append-base/append-base.component';
   templateUrl: './zodiac.component.html',
   styleUrls: ['../append-base/append-base.component.less'],
 })
-export class ZodiacComponent extends AppendBaseComponent {
+export class ZodiacComponent extends AppendBaseComponent implements OnInit {
+  ngOnInit(): void {
+    this.useItems = [
+      [[[6267], [1]]],
+      [[[6268], [3]]],
+      [
+        [[7851], [1]],
+        [[7852], [1]],
+        [[7853], [1]],
+        [[7854], [1]],
+        [[7855], [1]],
+        [[7856], [1]],
+        [[7857], [1]],
+        [[7858], [1]],
+        [[7859], [1]],
+        [[7860], [1]],
+        [[7861], [1]],
+        [[7862], [1]],
+      ],
+      [],
+      [
+        [[7885], [3]],
+        [[7883], [75]],
+      ],
+      [],
+      [
+        [65893, [1, 1, 1, 1, 1]],
+        [65894, [1, 1, 1, 1, 1]],
+        [65895, [1, 1, 1, 1, 1]],
+        [65896, [1, 1, 1, 1, 1]],
+      ],
+      [],
+    ];
+    this.createTreeNodes();
+  }
+
   public getMateria(job: string) {
     switch (job) {
       case 'PLD':

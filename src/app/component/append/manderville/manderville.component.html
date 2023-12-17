@@ -1,6 +1,62 @@
 <div class="gs-app-append-manderville">
   <div class="gs-app-append-manderville-details">
     <p-accordion
+      ><p-accordionTab header="必要アイテム" *ngIf="getTreeNodes(index).length">
+        <p-treeTable [value]="getTreeNodes(index)">
+          <ng-template pTemplate="body" let-rowNode let-rowData="rowData">
+            <tr [ttRow]="rowNode">
+              <td>
+                <div class="gs-app-append-items-td">
+                  <p-treeTableToggler [rowNode]="rowNode"></p-treeTableToggler>
+                  <div class="gs-app-append-items-content">
+                    <ng-container *ngFor="let data of rowData.datas">
+                      <div>
+                        <img [src]="data.iconUrl" />
+                        <a *ngIf="data.tooltipUrl" class="eorzeadb_link" [href]="data.tooltipUrl" target="_blank">
+                          <div class="gs-app-append-items-name">{{ data.name }}</div>
+                        </a>
+                        <div class="gs-app-append-items-name" *ngIf="!data.tooltipUrl">{{ data.name }}</div>
+                      </div>
+                    </ng-container>
+                  </div>
+                </div>
+              </td>
+              <td *ngIf="rowData.urlType === itemUrlType">
+                <div class="gs-app-append-items-td">
+                  <div class="gs-app-append-items-content">
+                    <ng-container *ngFor="let data of rowData.datas">
+                      <div class="gs-app-append-items-amount">x {{ data.amount }}</div>
+                    </ng-container>
+                  </div>
+                </div>
+              </td>
+              <td *ngIf="rowData.parent">
+                <div class="gs-app-append-items-td">
+                  <i class="pi pi-angle-double-right"></i>
+                </div>
+              </td>
+              <td *ngIf="rowData.parent">
+                <div class="gs-app-append-items-td">
+                  <img [src]="rowData.parentIconUrl" />
+                  <a
+                    *ngIf="rowData.parentTooltipUrl"
+                    class="eorzeadb_link"
+                    [href]="rowData.parentTooltipUrl"
+                    target="_blank"
+                  >
+                    <div class="gs-app-append-items-name">{{ rowData.parentName }}</div>
+                  </a>
+                  <div class="gs-app-append-items-name" *ngIf="!rowData.parentTooltipUrl">{{ rowData.parentName }}</div>
+                </div>
+              </td>
+              <td *ngIf="rowData.parent">
+                <div class="gs-app-append-items-td">
+                  <div class="gs-app-append-items-amount">x {{ rowData.parentAmount }}</div>
+                </div>
+              </td>
+            </tr>
+          </ng-template></p-treeTable
+        > </p-accordionTab
       ><p-accordionTab header="作成手順"
         ><div *ngIf="index == 0">
           <p>ヒルディブランド関連のクエストを進め、帰ってきたヒルディブランドまでクリアする。</p>
