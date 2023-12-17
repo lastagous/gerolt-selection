@@ -259,28 +259,37 @@ const items = async () => {
   fs.writeFileSync('src/assets/data/xivapi/items.json', jsonString);
 
   const gItems: GItem[] = [];
-  for (let item of items.Results as Item[]) {
-    const result = await garlandtools.item(item.ID);
-    gItems.push(result);
-  }
-
-  const currencyIds = new Set(
-    gItems.flatMap((item) =>
-      item.item.tradeShops?.flatMap((trade) =>
-        trade.listings.flatMap((list) => list.currency.flatMap((currency) => Number(currency.id)))
-      )
-    )
+  await recuersiveGItems(
+    gItems,
+    (items.Results as Item[]).map((item) => item.ID)
   );
-
-  for (let currencyId of currencyIds) {
-    if (currencyId && gItems.find((item) => item.item.id !== currencyId)) {
-      const result = await garlandtools.item(currencyId);
-      gItems.push(result);
-    }
-  }
   const gJsonString = JSON.stringify(gItems, null, 2);
   // [info] fs relative path 'root' is execute command in folder
   fs.writeFileSync('src/assets/data/garlandtools/items.json', gJsonString);
+};
+
+const recuersiveGItems = async (result: GItem[], ids: (number | undefined)[]): Promise<void> => {
+  const findItems: GItem[] = [];
+  for (let id of ids) {
+    if (id && !result.find((item) => item.item.id === id)) {
+      const gItem: GItem = await garlandtools.item(id);
+      result.push(gItem);
+      findItems.push(gItem);
+    }
+  }
+
+  const findIds = Array.from(
+    new Set(
+      findItems.flatMap((findItem) =>
+        findItem.item.tradeShops?.flatMap((trade) =>
+          trade.listings.flatMap((list) => list.currency.flatMap((currency) => Number(currency.id)))
+        )
+      )
+    )
+  );
+  if (findIds.length) {
+    await recuersiveGItems(result, findIds);
+  }
 };
 
 const relations = () => {
@@ -373,10 +382,10 @@ const relations = () => {
 
 const tooltips = async () => {
   const items = require('../assets/data/xivapi/items.json') as Item[];
+  const gItems = require('../assets/data/garlandtools/items.json') as GItem[];
   const quests = require('../assets/data/garlandtools/quests.json') as Quest[];
   const achievements = require('../assets/data/garlandtools/achievements.json') as Achievement[];
   const instances = require('../assets/data/garlandtools/instances.json') as Instance[];
-  const npcs = require('../assets/data/garlandtools/npcs.json') as Npc[];
   // The information registered in tooltips is not queried, so if new information is required, set tooltips to just an empty array.
   const tooltips = require('../assets/data/local/tooltips.json') as Tooltip[];
   const urlBase = 'https://jp.finalfantasyxiv.com/lodestone/playguide/db/';
@@ -398,7 +407,7 @@ const tooltips = async () => {
         `max_gear_lv=${item.EquipSlotCategory ? item.LevelEquip : ''}`,
         `q=${encodeURIComponent(item.Name_ja)}`,
       ].join('&')}`;
-      tooltipId = await getTooltip(url);
+      tooltipId = await getTooltip(url, item.Name_ja);
     }
 
     console.log(`${item.Name_ja} -> ${tooltipId}`);
@@ -415,12 +424,51 @@ const tooltips = async () => {
     fs.writeFileSync('src/assets/data/local/tooltips.json', jsonString);
   }
 
+  for (let item of gItems) {
+    if (tooltips.find((tooltip) => tooltip.id == item.item.id && tooltip.urlType == 'item')) continue;
+    let tooltipId;
+    const url = `${urlBase}item/?&${[
+      'db_search_category=item',
+      `category2=${
+        item.item.slot
+          ? item.item.slot == 1 || item.item.slot == 13
+            ? 1
+            : 3
+          : item.item.category === 61 || item.item.category === 63
+          ? 7
+          : item.item.category === 46
+          ? 5
+          : 6
+      }`,
+      `category3=${item.item.category}`,
+      `min_item_lv=${item.item.ilvl && item.item.ilvl !== 1 && item.item.stackSize !== 999 ? item.item.ilvl : ''}`,
+      `max_item_lv=${item.item.ilvl && item.item.ilvl !== 1 && item.item.stackSize !== 999 ? item.item.ilvl : ''}`,
+      `min_gear_lv=${item.item.elvl ? item.item.elvl : ''}`,
+      `max_gear_lv=${item.item.elvl ? item.item.elvl : ''}`,
+      `q=${encodeURIComponent(item.item.name)}`,
+    ].join('&')}`;
+    tooltipId = await getTooltip(url, item.item.name);
+
+    console.log(`${item.item.name} -> ${tooltipId}`);
+
+    if (!tooltipId) continue;
+    tooltips.push({
+      urlType: 'item',
+      id: item.item.id,
+      tooltipId: tooltipId,
+    } as Tooltip);
+
+    const jsonString = JSON.stringify(tooltips, null, 2);
+    // [info] fs relative path 'root' is execute command in folder
+    fs.writeFileSync('src/assets/data/local/tooltips.json', jsonString);
+  }
+
   for (let quest of quests) {
     if (tooltips.find((tooltip) => tooltip.id == quest.quest.id && tooltip.urlType == 'quest')) continue;
     const url = `${urlBase}quest/?&${['db_search_category=quest', `q=${encodeURIComponent(quest.quest.name)}`].join(
       '&'
     )}`;
-    const tooltipId = await getTooltip(url);
+    const tooltipId = await getTooltip(url, quest.quest.name);
     console.log(`${quest.quest.name} -> ${tooltipId}`);
 
     if (!tooltipId) continue;
@@ -442,7 +490,7 @@ const tooltips = async () => {
       'db_search_category=achievement',
       `q=${encodeURIComponent(achievement.achievement.name)}`,
     ].join('&')}`;
-    const tooltipId = await getTooltip(url);
+    const tooltipId = await getTooltip(url, achievement.achievement.name);
     console.log(`${achievement.achievement.name} -> ${tooltipId}`);
 
     if (!tooltipId) continue;
@@ -465,7 +513,7 @@ const tooltips = async () => {
       `max_lv=${instance.instance.max_lvl}`,
       `q=${encodeURIComponent(instance.instance.name.replace(/\(.+?\)/, ''))}`,
     ].join('&')}`;
-    const tooltipId = await getTooltip(url);
+    const tooltipId = await getTooltip(url, instance.instance.name);
     console.log(`${instance.instance.name} -> ${tooltipId}`);
 
     if (!tooltipId) continue;
@@ -481,7 +529,7 @@ const tooltips = async () => {
   }
 };
 
-const getTooltip = async (url: string): Promise<string | undefined> => {
+const getTooltip = async (url: string, check: string): Promise<string | undefined> => {
   let page;
   try {
     page = await superagent.get(url);
@@ -491,7 +539,14 @@ const getTooltip = async (url: string): Promise<string | undefined> => {
     page = await superagent.get(url);
   }
   const $ = cheerio.load(page.text);
-  return $('.db-table__txt--detail_link').attr('href')?.split('/')[5];
+  let target;
+  $('.db-table__txt--detail_link').each(function (i, elem) {
+    if ($(this).text() === check) {
+      target = $(this).attr('href')?.split('/')[5];
+    }
+  });
+
+  return target;
 };
 
 const main = async () => {

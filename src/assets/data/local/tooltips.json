@@ -8688,5 +8688,580 @@
     "urlType": "duty",
     "id": 64008,
     "tooltipId": "6c96f8da252"
+  },
+  {
+    "urlType": "item",
+    "id": 26819,
+    "tooltipId": "8c5a623a256"
+  },
+  {
+    "urlType": "item",
+    "id": 17817,
+    "tooltipId": "3c882e55adc"
+  },
+  {
+    "urlType": "item",
+    "id": 17832,
+    "tooltipId": "0fb7ae2af4e"
+  },
+  {
+    "urlType": "item",
+    "id": 17818,
+    "tooltipId": "cb93bf6b158"
+  },
+  {
+    "urlType": "item",
+    "id": 17819,
+    "tooltipId": "6c584244708"
+  },
+  {
+    "urlType": "item",
+    "id": 17820,
+    "tooltipId": "e2798d88fa1"
+  },
+  {
+    "urlType": "item",
+    "id": 17821,
+    "tooltipId": "4796abc6cdd"
+  },
+  {
+    "urlType": "item",
+    "id": 17822,
+    "tooltipId": "bd335d34679"
+  },
+  {
+    "urlType": "item",
+    "id": 17823,
+    "tooltipId": "fc19866b6b2"
+  },
+  {
+    "urlType": "item",
+    "id": 17824,
+    "tooltipId": "05d52e8c4d5"
+  },
+  {
+    "urlType": "item",
+    "id": 17825,
+    "tooltipId": "1b53b74082c"
+  },
+  {
+    "urlType": "item",
+    "id": 17826,
+    "tooltipId": "f3c98042af2"
+  },
+  {
+    "urlType": "item",
+    "id": 17827,
+    "tooltipId": "c3340a58fcb"
+  },
+  {
+    "urlType": "item",
+    "id": 17828,
+    "tooltipId": "826d7a57113"
+  },
+  {
+    "urlType": "item",
+    "id": 17829,
+    "tooltipId": "0dfa276fb69"
+  },
+  {
+    "urlType": "item",
+    "id": 17830,
+    "tooltipId": "3a39199e0dc"
+  },
+  {
+    "urlType": "item",
+    "id": 17831,
+    "tooltipId": "e7cc606a851"
+  },
+  {
+    "urlType": "item",
+    "id": 17742,
+    "tooltipId": "0901284268b"
+  },
+  {
+    "urlType": "item",
+    "id": 17743,
+    "tooltipId": "a630cc0fd0e"
+  },
+  {
+    "urlType": "item",
+    "id": 17744,
+    "tooltipId": "a8dc3a0b314"
+  },
+  {
+    "urlType": "item",
+    "id": 17745,
+    "tooltipId": "16ba6514445"
+  },
+  {
+    "urlType": "item",
+    "id": 17746,
+    "tooltipId": "6bccaec6e19"
+  },
+  {
+    "urlType": "item",
+    "id": 17747,
+    "tooltipId": "e887c3d5871"
+  },
+  {
+    "urlType": "item",
+    "id": 17748,
+    "tooltipId": "7b65f1e5b70"
+  },
+  {
+    "urlType": "item",
+    "id": 17749,
+    "tooltipId": "09e5ad025aa"
+  },
+  {
+    "urlType": "item",
+    "id": 17750,
+    "tooltipId": "5ce2cc87445"
+  },
+  {
+    "urlType": "item",
+    "id": 17751,
+    "tooltipId": "f3d133c45b8"
+  },
+  {
+    "urlType": "item",
+    "id": 17752,
+    "tooltipId": "c4697a915cb"
+  },
+  {
+    "urlType": "item",
+    "id": 17753,
+    "tooltipId": "fd08a5aab6d"
+  },
+  {
+    "urlType": "item",
+    "id": 17754,
+    "tooltipId": "635dd5ddc89"
+  },
+  {
+    "urlType": "item",
+    "id": 17755,
+    "tooltipId": "c98cbc91e43"
+  },
+  {
+    "urlType": "item",
+    "id": 17756,
+    "tooltipId": "d9c8c922586"
+  },
+  {
+    "urlType": "item",
+    "id": 17757,
+    "tooltipId": "2eed5cce0c4"
+  },
+  {
+    "urlType": "item",
+    "id": 17758,
+    "tooltipId": "23d47ccb0d7"
+  },
+  {
+    "urlType": "item",
+    "id": 17759,
+    "tooltipId": "923635cee1e"
+  },
+  {
+    "urlType": "item",
+    "id": 17760,
+    "tooltipId": "a8042164c4d"
+  },
+  {
+    "urlType": "item",
+    "id": 17761,
+    "tooltipId": "438948f2987"
+  },
+  {
+    "urlType": "item",
+    "id": 17762,
+    "tooltipId": "7a81b763e60"
+  },
+  {
+    "urlType": "item",
+    "id": 17763,
+    "tooltipId": "10eef1a4a9b"
+  },
+  {
+    "urlType": "item",
+    "id": 17764,
+    "tooltipId": "e64140a4d67"
+  },
+  {
+    "urlType": "item",
+    "id": 17765,
+    "tooltipId": "e5e8774e8e5"
+  },
+  {
+    "urlType": "item",
+    "id": 17766,
+    "tooltipId": "e0971c9e81c"
+  },
+  {
+    "urlType": "item",
+    "id": 17767,
+    "tooltipId": "b1ecbea1a7b"
+  },
+  {
+    "urlType": "item",
+    "id": 17768,
+    "tooltipId": "ee5b76b45f1"
+  },
+  {
+    "urlType": "item",
+    "id": 17769,
+    "tooltipId": "66443269e62"
+  },
+  {
+    "urlType": "item",
+    "id": 17770,
+    "tooltipId": "590c8bfb6fb"
+  },
+  {
+    "urlType": "item",
+    "id": 17771,
+    "tooltipId": "ad3a849fe81"
+  },
+  {
+    "urlType": "item",
+    "id": 17772,
+    "tooltipId": "61adde1ad26"
+  },
+  {
+    "urlType": "item",
+    "id": 17773,
+    "tooltipId": "91d5a7fa13f"
+  },
+  {
+    "urlType": "item",
+    "id": 17774,
+    "tooltipId": "7cd28c415c6"
+  },
+  {
+    "urlType": "item",
+    "id": 17775,
+    "tooltipId": "75694602311"
+  },
+  {
+    "urlType": "item",
+    "id": 17776,
+    "tooltipId": "7ed24274593"
+  },
+  {
+    "urlType": "item",
+    "id": 17777,
+    "tooltipId": "5622699221f"
+  },
+  {
+    "urlType": "item",
+    "id": 17778,
+    "tooltipId": "74db02f8531"
+  },
+  {
+    "urlType": "item",
+    "id": 17779,
+    "tooltipId": "7f162b980c1"
+  },
+  {
+    "urlType": "item",
+    "id": 17780,
+    "tooltipId": "0620fa9c3fb"
+  },
+  {
+    "urlType": "item",
+    "id": 17781,
+    "tooltipId": "a9fc560e41c"
+  },
+  {
+    "urlType": "item",
+    "id": 17782,
+    "tooltipId": "d56e00e2bf2"
+  },
+  {
+    "urlType": "item",
+    "id": 17783,
+    "tooltipId": "99f6eebff00"
+  },
+  {
+    "urlType": "item",
+    "id": 17784,
+    "tooltipId": "bc1a29ae3fa"
+  },
+  {
+    "urlType": "item",
+    "id": 17785,
+    "tooltipId": "51b16b5abe5"
+  },
+  {
+    "urlType": "item",
+    "id": 17786,
+    "tooltipId": "78cef681040"
+  },
+  {
+    "urlType": "item",
+    "id": 17787,
+    "tooltipId": "071bb3e28d5"
+  },
+  {
+    "urlType": "item",
+    "id": 17788,
+    "tooltipId": "2c94679000f"
+  },
+  {
+    "urlType": "item",
+    "id": 17789,
+    "tooltipId": "4cc71f8df40"
+  },
+  {
+    "urlType": "item",
+    "id": 17790,
+    "tooltipId": "20860631c0c"
+  },
+  {
+    "urlType": "item",
+    "id": 17791,
+    "tooltipId": "1616b1a7632"
+  },
+  {
+    "urlType": "item",
+    "id": 17792,
+    "tooltipId": "c3ea316a889"
+  },
+  {
+    "urlType": "item",
+    "id": 17793,
+    "tooltipId": "1a5f1bb6a01"
+  },
+  {
+    "urlType": "item",
+    "id": 17794,
+    "tooltipId": "861b72f8840"
+  },
+  {
+    "urlType": "item",
+    "id": 17795,
+    "tooltipId": "3aaa071f7dc"
+  },
+  {
+    "urlType": "item",
+    "id": 17796,
+    "tooltipId": "5da24c233e9"
+  },
+  {
+    "urlType": "item",
+    "id": 17797,
+    "tooltipId": "4051fd089f1"
+  },
+  {
+    "urlType": "item",
+    "id": 17798,
+    "tooltipId": "ba2d5370eb4"
+  },
+  {
+    "urlType": "item",
+    "id": 17799,
+    "tooltipId": "e09b193c09e"
+  },
+  {
+    "urlType": "item",
+    "id": 17800,
+    "tooltipId": "4cf0a1dfd1d"
+  },
+  {
+    "urlType": "item",
+    "id": 17801,
+    "tooltipId": "87e99e3852f"
+  },
+  {
+    "urlType": "item",
+    "id": 17802,
+    "tooltipId": "c3c8513bbfa"
+  },
+  {
+    "urlType": "item",
+    "id": 17803,
+    "tooltipId": "0219d7187f5"
+  },
+  {
+    "urlType": "item",
+    "id": 17804,
+    "tooltipId": "83064991047"
+  },
+  {
+    "urlType": "item",
+    "id": 17805,
+    "tooltipId": "2fda5c6e651"
+  },
+  {
+    "urlType": "item",
+    "id": 17806,
+    "tooltipId": "6da6d217fa8"
+  },
+  {
+    "urlType": "item",
+    "id": 17807,
+    "tooltipId": "ab67a3c9345"
+  },
+  {
+    "urlType": "item",
+    "id": 17808,
+    "tooltipId": "5b6925dfaed"
+  },
+  {
+    "urlType": "item",
+    "id": 17809,
+    "tooltipId": "e23bc7cab59"
+  },
+  {
+    "urlType": "item",
+    "id": 17810,
+    "tooltipId": "3194ca4316b"
+  },
+  {
+    "urlType": "item",
+    "id": 17811,
+    "tooltipId": "c496b51abcf"
+  },
+  {
+    "urlType": "item",
+    "id": 17812,
+    "tooltipId": "c7044b32ec9"
+  },
+  {
+    "urlType": "item",
+    "id": 17813,
+    "tooltipId": "c89aa20e327"
+  },
+  {
+    "urlType": "item",
+    "id": 17814,
+    "tooltipId": "b5dad14071a"
+  },
+  {
+    "urlType": "item",
+    "id": 17815,
+    "tooltipId": "2f0fa481e80"
+  },
+  {
+    "urlType": "item",
+    "id": 17816,
+    "tooltipId": "9342a7d2fd0"
+  },
+  {
+    "urlType": "item",
+    "id": 21803,
+    "tooltipId": "3dd8bb72081"
+  },
+  {
+    "urlType": "item",
+    "id": 13571,
+    "tooltipId": "a03d6a2e78a"
+  },
+  {
+    "urlType": "item",
+    "id": 13570,
+    "tooltipId": "17a17459c3f"
+  },
+  {
+    "urlType": "item",
+    "id": 13573,
+    "tooltipId": "3641624c6c5"
+  },
+  {
+    "urlType": "item",
+    "id": 13569,
+    "tooltipId": "90bb4502a83"
+  },
+  {
+    "urlType": "item",
+    "id": 13572,
+    "tooltipId": "92d01f792f6"
+  },
+  {
+    "urlType": "item",
+    "id": 13574,
+    "tooltipId": "c4502866d2f"
+  },
+  {
+    "urlType": "item",
+    "id": 13582,
+    "tooltipId": "e6f03add15c"
+  },
+  {
+    "urlType": "item",
+    "id": 13589,
+    "tooltipId": "dc6f27dbcc8"
+  },
+  {
+    "urlType": "item",
+    "id": 13584,
+    "tooltipId": "a8c273eaf4c"
+  },
+  {
+    "urlType": "item",
+    "id": 13591,
+    "tooltipId": "d59a10a968e"
+  },
+  {
+    "urlType": "item",
+    "id": 13586,
+    "tooltipId": "75913fea7aa"
+  },
+  {
+    "urlType": "item",
+    "id": 13593,
+    "tooltipId": "e570163a3cc"
+  },
+  {
+    "urlType": "item",
+    "id": 13588,
+    "tooltipId": "e2cb5b255c7"
+  },
+  {
+    "urlType": "item",
+    "id": 13595,
+    "tooltipId": "d8e72c48ac6"
+  },
+  {
+    "urlType": "item",
+    "id": 26821,
+    "tooltipId": "b27acfc4093"
+  },
+  {
+    "urlType": "item",
+    "id": 32179,
+    "tooltipId": "26561132523"
+  },
+  {
+    "urlType": "item",
+    "id": 33886,
+    "tooltipId": "b4d47c86272"
+  },
+  {
+    "urlType": "item",
+    "id": 26823,
+    "tooltipId": "69939b00f9b"
+  },
+  {
+    "urlType": "item",
+    "id": 13581,
+    "tooltipId": "916c9315ff0"
+  },
+  {
+    "urlType": "item",
+    "id": 13583,
+    "tooltipId": "9dcd825a8cb"
+  },
+  {
+    "urlType": "item",
+    "id": 13585,
+    "tooltipId": "129912457f3"
+  },
+  {
+    "urlType": "item",
+    "id": 13587,
+    "tooltipId": "1363610bbd2"
   }
 ]
