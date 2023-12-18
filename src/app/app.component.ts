@@ -51,7 +51,7 @@ export class AppComponent implements OnInit {
   }
 
   public getImageSrc(image: string): string {
-    return `../assets/img/${image}.png`;
+    return `assets/img/${image}.png`;
   }
 
   title = 'ゲロルトの工匠記録';
