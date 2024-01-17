@@ -12,6 +12,7 @@ export class MandervilleComponent extends AppendBaseComponent implements OnInit 
       [[this.steps[0].quests[0].quest.id, [3]]],
       [[this.steps[1].quests[0].quest.id, [3]]],
       [[this.steps[2].quests[0].quest.id, [3]]],
+      [[this.steps[3].quests[0].quest.id, [3]]],
     ];
     this.createTreeNodes();
   }

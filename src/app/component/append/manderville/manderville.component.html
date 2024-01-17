@@ -154,6 +154,38 @@
             3 つをラザハンにいるゲロルトに渡す。
           </p>
         </div>
+        <div *ngIf="index == 3">
+          <p>ヒルディブランド関連のクエストを進め、マンダヴィル家の謎までクリアする。</p>
+          <p-divider></p-divider>
+          <p>
+            {{ step.classJobCategory.Name_ja }}でゲロルトから<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[0].quest.name }}</a
+            >を受注する。
+          </p>
+          <p>
+            ※2 本目以降は、{{ step.classJobCategory.Name_ja }}でマンダヴィル家の職人から<a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[1].quest.id, questUrlType)"
+              target="_blank"
+            >
+              {{ step.quests[1].quest.name }}</a
+            >を受注する。
+          </p>
+          <p-divider></p-divider>
+          <p>
+            <a
+              class="eorzeadb_link"
+              [href]="getTooltip(step.quests[0].quest.usedItems[0], itemUrlType)"
+              target="_blank"
+              >{{ getPartial(step.quests[0].quest.usedItems[0], itemUrlType, step.quests[0].partials).obj.n }}</a
+            >
+            3 つをラザハンにいるゲロルトに渡す。
+          </p>
+        </div>
       </p-accordionTab></p-accordion
     >
   </div>

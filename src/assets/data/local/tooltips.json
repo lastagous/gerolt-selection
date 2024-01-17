@@ -9263,5 +9263,20 @@
     "urlType": "item",
     "id": 13587,
     "tooltipId": "1363610bbd2"
+  },
+  {
+    "urlType": "duty",
+    "id": 20014,
+    "tooltipId": "17ba391b62b"
+  },
+  {
+    "urlType": "item",
+    "id": 41032,
+    "tooltipId": "ab0859babb3"
+  },
+  {
+    "urlType": "duty",
+    "id": 20088,
+    "tooltipId": "17ba391b62b"
   }
 ]

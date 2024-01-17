@@ -1951,5 +1951,138 @@
     "c": 37051,
     "t": 75,
     "b": "Obtain an array of majestic Manderville wings."
+  },
+  {
+    "i": 3380,
+    "n": "マンダヴィルウェポン：マンダヴィラス・ファルシオン＆マンダヴィラス・カイトシールド",
+    "c": 30670,
+    "t": 75,
+    "b": "Obtain a Mandervillous falchion and Mandervillous "
+  },
+  {
+    "i": 3381,
+    "n": "マンダヴィルウェポン：マンダヴィラス・バトルアクス",
+    "c": 31244,
+    "t": 75,
+    "b": "Obtain a Mandervillous battleaxe."
+  },
+  {
+    "i": 3382,
+    "n": "マンダヴィルウェポン：マンダヴィラス・グレートソード",
+    "c": 34398,
+    "t": 75,
+    "b": "Obtain a Mandervillous greatsword."
+  },
+  {
+    "i": 3383,
+    "n": "マンダヴィルウェポン：マンダヴィラス・ガンブレード",
+    "c": 36090,
+    "t": 75,
+    "b": "Obtain a Mandervillous gunblade."
+  },
+  {
+    "i": 3384,
+    "n": "マンダヴィルウェポン：マンダヴィラス・トライデント",
+    "c": 31646,
+    "t": 75,
+    "b": "Obtain a Mandervillous trident."
+  },
+  {
+    "i": 3385,
+    "n": "マンダヴィルウェポン：マンダヴィラス・フィスト",
+    "c": 30834,
+    "t": 75,
+    "b": "Obtain a pair of Mandervillous fists."
+  },
+  {
+    "i": 3386,
+    "n": "マンダヴィルウェポン：マンダヴィラス・ナイフ",
+    "c": 33620,
+    "t": 75,
+    "b": "Obtain a pair of Mandervillous knives."
+  },
+  {
+    "i": 3387,
+    "n": "マンダヴィルウェポン：マンダヴィラス・サムライブレード",
+    "c": 36548,
+    "t": 75,
+    "b": "Obtain a Mandervillous samurai blade."
+  },
+  {
+    "i": 3388,
+    "n": "マンダヴィルウェポン：マンダヴィラス・ザグナル",
+    "c": 37259,
+    "t": 75,
+    "b": "Obtain a Mandervillous zaghnal."
+  },
+  {
+    "i": 3389,
+    "n": "マンダヴィルウェポン：マンダヴィラス・コンパウンドボウ",
+    "c": 32034,
+    "t": 75,
+    "b": "Obtain a Mandervillous compound bow."
+  },
+  {
+    "i": 3390,
+    "n": "マンダヴィルウェポン：マンダヴィラス・リボルバー",
+    "c": 34493,
+    "t": 75,
+    "b": "Obtain a Mandervillous revolver."
+  },
+  {
+    "i": 3391,
+    "n": "マンダヴィルウェポン：マンダヴィラス・チャクラム",
+    "c": 36289,
+    "t": 75,
+    "b": "Obtain a pair of Mandervillous chakrams."
+  },
+  {
+    "i": 3392,
+    "n": "マンダヴィルウェポン：マンダヴィラス・ロッド",
+    "c": 32879,
+    "t": 75,
+    "b": "Obtain a Mandervillous rod."
+  },
+  {
+    "i": 3393,
+    "n": "マンダヴィルウェポン：マンダヴィラス・インデックス",
+    "c": 33392,
+    "t": 75,
+    "b": "Obtain a Mandervillous index."
+  },
+  {
+    "i": 3394,
+    "n": "マンダヴィルウェポン：マンダヴィラス・レイピア",
+    "c": 36847,
+    "t": 75,
+    "b": "Obtain a Mandervillous rapier."
+  },
+  {
+    "i": 3395,
+    "n": "マンダヴィルウェポン：マンダヴィラス・ケーン",
+    "c": 32464,
+    "t": 75,
+    "b": "Obtain a Mandervillous cane."
+  },
+  {
+    "i": 3396,
+    "n": "マンダヴィルウェポン：マンダヴィラス・コーデックス",
+    "c": 33391,
+    "t": 75,
+    "b": "Obtain a Mandervillous codex."
+  },
+  {
+    "i": 3397,
+    "n": "マンダヴィルウェポン：マンダヴィラス・トルクエタム",
+    "c": 34991,
+    "t": 75,
+    "b": "Obtain a Mandervillous torquetum."
+  },
+  {
+    "i": 3398,
+    "n": "マンダヴィルウェポン：マンダヴィラス・ウィング",
+    "c": 37056,
+    "t": 75,
+    "b": "Obtain an array of Mandervillous wings."
   }
 ]

@@ -3079,5 +3079,214 @@
       "category": 75,
       "icon": 37051
     }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・ファルシオン＆マンダヴィラス・カイトシールド",
+      "description": "マンダヴィラス・ファルシオンとマンダヴィラス・カイトシールドを入手する",
+      "id": 3380,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 30670
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・バトルアクス",
+      "description": "マンダヴィラス・バトルアクスを入手する",
+      "id": 3381,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 31244
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・グレートソード",
+      "description": "マンダヴィラス・グレートソードを入手する",
+      "id": 3382,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 34398
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・ガンブレード",
+      "description": "マンダヴィラス・ガンブレードを入手する",
+      "id": 3383,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 36090
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・トライデント",
+      "description": "マンダヴィラス・トライデントを入手する",
+      "id": 3384,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 31646
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・フィスト",
+      "description": "マンダヴィラス・フィストを入手する",
+      "id": 3385,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 30834
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・ナイフ",
+      "description": "マンダヴィラス・ナイフを入手する",
+      "id": 3386,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 33620
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・サムライブレード",
+      "description": "マンダヴィラス・サムライブレードを入手する",
+      "id": 3387,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 36548
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・ザグナル",
+      "description": "マンダヴィラス・ザグナルを入手する",
+      "id": 3388,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 37259
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・コンパウンドボウ",
+      "description": "マンダヴィラス・コンパウンドボウを入手する",
+      "id": 3389,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 32034
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・リボルバー",
+      "description": "マンダヴィラス・リボルバーを入手する",
+      "id": 3390,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 34493
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・チャクラム",
+      "description": "マンダヴィラス・チャクラムを入手する",
+      "id": 3391,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 36289
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・ロッド",
+      "description": "マンダヴィラス・ロッドを入手する",
+      "id": 3392,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 32879
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・インデックス",
+      "description": "マンダヴィラス・インデックスを入手する",
+      "id": 3393,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 33392
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・レイピア",
+      "description": "マンダヴィラス・レイピアを入手する",
+      "id": 3394,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 36847
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・ケーン",
+      "description": "マンダヴィラス・ケーンを入手する",
+      "id": 3395,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 32464
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・コーデックス",
+      "description": "マンダヴィラス・コーデックスを入手する",
+      "id": 3396,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 33391
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・トルクエタム",
+      "description": "マンダヴィラス・トルクエタムを入手する",
+      "id": 3397,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 34991
+    }
+  },
+  {
+    "achievement": {
+      "name": "マンダヴィルウェポン：マンダヴィラス・ウィング",
+      "description": "マンダヴィラス・ウィングを入手する",
+      "id": 3398,
+      "patch": 6.55,
+      "points": 10,
+      "category": 75,
+      "icon": 37056
+    }
   }
 ]
