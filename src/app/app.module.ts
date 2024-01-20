@@ -18,6 +18,7 @@ import { SkeletonModule } from 'primeng/skeleton';
 import { AccordionModule } from 'primeng/accordion';
 import { SidebarModule } from 'primeng/sidebar';
 import { TreeTableModule } from 'primeng/treetable';
+import { TagModule } from 'primeng/tag';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
@@ -67,6 +68,7 @@ import { MandervilleComponent } from './component/append/manderville/manderville
     SidebarModule,
     SkeletonModule,
     TableModule,
+    TagModule,
     ToastModule,
     TooltipModule,
     TreeTableModule,
