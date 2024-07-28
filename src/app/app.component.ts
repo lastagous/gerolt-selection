@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PrimeNGConfig } from 'primeng/api';
 import { LogoStore } from './store/logo.store';
 import { LogoModel } from './model/logo.model';
-import { StepByStepStore } from './component/step-by-step/step-by-step.store';
+import { StepByStepStore } from './store/step-by-step.store';
 
 @Component({
   selector: 'app-root',

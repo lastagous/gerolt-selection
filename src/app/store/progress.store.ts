@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { StepByStepStore } from '../component/step-by-step/step-by-step.store';
+import { StepByStepStore } from './step-by-step.store';
 import { Util } from '../util/util';
 import { StorageCharacterModel } from '../model/localstorage.model';
 
@@ -45,7 +45,7 @@ export class ProgressStore {
     let completeRate = '';
     let totalRaito = 0;
     this._stepByStepStore.weapons.forEach((weapon) => {
-      const raito = this.getWeaponRate(weapon, character);
+      const raito = this.getWeaponRate(weapon.key, character);
       totalRaito += raito;
       const totalBlocks = 8;
       const blockNum = Math.floor(raito / (1 / totalBlocks));

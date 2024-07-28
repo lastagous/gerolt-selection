@@ -1,0 +1,8 @@
+<div class="app-relic-weapon-list">
+  <p-listbox class="app-relic-weapon-list-listbox" [options]="weapons" [(ngModel)]="selectedWeapon">
+    <ng-template let-weapon pTemplate="item">
+      <img class="app-relic-weapon-list-listbox-icon" [src]="getWeaponIcon(weapon.key)" />
+      <span class="app-relic-weapon-list-listbox-name">{{ weapon.name }}</span>
+    </ng-template>
+  </p-listbox>
+</div>

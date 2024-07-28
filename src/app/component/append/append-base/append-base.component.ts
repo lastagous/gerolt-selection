@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { GItem, ItemCurrency2, Listing2, Quest, QuestPartial } from 'src/types/garlandtools';
-import { StepByStepStore } from '../../step-by-step/step-by-step.store';
+import { StepByStepStore } from '../../../store/step-by-step.store';
 import { TreeNode } from 'primeng/api';
 import { Relation } from 'src/types/local';
 import questsJson from '../../../../assets/data/garlandtools/quests.json';

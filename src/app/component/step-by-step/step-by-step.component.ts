@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { StepByStepStore } from './step-by-step.store';
+import { StepByStepStore } from '../../store/step-by-step.store';
 import { ProgressStore } from 'src/app/store/progress.store';
 import { LocalstorageStore } from 'src/app/store/local-storage.store';
 import { Relation } from 'src/types/local';
@@ -17,7 +17,7 @@ export class StepByStepComponent {
   ) {}
 
   public get weapons(): string[] {
-    return this._stepByStepStore.weapons;
+    return [];
   }
 
   public get jobs(): string[] {
@@ -53,7 +53,7 @@ export class StepByStepComponent {
   }
 
   public onWeaponClick(weapon: string): void {
-    this._stepByStepStore.selectedWeapon = weapon;
+    this._stepByStepStore.selectedWeapon.key = weapon;
   }
 
   public onJobClick(job: string): void {
@@ -87,7 +87,7 @@ export class StepByStepComponent {
   }
 
   public isWeaponSelected(weapon: string): boolean {
-    return this._stepByStepStore.selectedWeapon === weapon;
+    return this._stepByStepStore.selectedWeapon.key === weapon;
   }
 
   public isJobSelected(job: string): boolean {
@@ -103,7 +103,7 @@ export class StepByStepComponent {
   public getJobRateCssText(job: string): string {
     return this._progressStore.getChartCssText(
       this._progressStore.getJobRate(
-        this._stepByStepStore.selectedWeapon,
+        this._stepByStepStore.selectedWeapon.key,
         job,
         this._localStorageStore.selectedCharacter
       )

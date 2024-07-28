@@ -19,6 +19,8 @@ import { AccordionModule } from 'primeng/accordion';
 import { SidebarModule } from 'primeng/sidebar';
 import { TreeTableModule } from 'primeng/treetable';
 import { TagModule } from 'primeng/tag';
+import { ListboxModule } from 'primeng/listbox';
+import { SplitterModule } from 'primeng/splitter';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
@@ -28,7 +30,7 @@ import { LogoStore } from './store/logo.store';
 import { LocalStorageService } from './service/local-storage.service';
 import { LocalstorageStore } from './store/local-storage.store';
 import { StepByStepComponent } from './component/step-by-step/step-by-step.component';
-import { StepByStepStore } from './component/step-by-step/step-by-step.store';
+import { StepByStepStore } from './store/step-by-step.store';
 import { ProgressStore } from './store/progress.store';
 import { FFxivCollectService } from './service/ffxivcollect.service';
 import { FFxivCollectStore } from './store/ffxivcollect.store';
@@ -38,6 +40,7 @@ import { AppendBaseComponent } from './component/append/append-base/append-base.
 import { EulekaComponent } from './component/append/euleka/euleka.component';
 import { ResistanceComponent } from './component/append/resistance/resistance.component';
 import { MandervilleComponent } from './component/append/manderville/manderville.component';
+import { RelicWeaponListComponent } from './component/relic-weapon-list/relic-weapon-list.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +54,7 @@ import { MandervilleComponent } from './component/append/manderville/manderville
     SearchLodestoneComponent,
     StepByStepComponent,
     ZodiacComponent,
+    RelicWeaponListComponent,
   ],
   imports: [
     AccordionModule,
@@ -62,11 +66,13 @@ import { MandervilleComponent } from './component/append/manderville/manderville
     FormsModule,
     HttpClientModule,
     InputTextModule,
+    ListboxModule,
     RippleModule,
     RouterModule.forRoot([{ path: '', component: AppComponent }]),
     ScrollPanelModule,
     SidebarModule,
     SkeletonModule,
+    SplitterModule,
     TableModule,
     TagModule,
     ToastModule,

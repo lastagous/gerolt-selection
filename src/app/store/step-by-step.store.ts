@@ -1,19 +1,30 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Instance } from 'src/types/garlandtools';
-import tooltipsJson from '../../../assets/data/local/tooltips.json';
-import relationsJson from '../../../assets/data/local/relations.json';
+import tooltipsJson from '../../assets/data/local/tooltips.json';
+import relationsJson from '../../assets/data/local/relations.json';
 import { LocalstorageStore } from 'src/app/store/local-storage.store';
 import { Util } from 'src/app/util/util';
-import instancesJson from '../../../assets/data/garlandtools/instances.json';
-import itemsJson from '../../../assets/data/xivapi/items.json';
+import instancesJson from '../../assets/data/garlandtools/instances.json';
+import itemsJson from '../../assets/data/xivapi/items.json';
 import { Relation, Tooltip } from 'src/types/local';
 import { Item } from 'src/types/xivapi';
 
+export interface WeaponModel {
+  key: string;
+  name: string;
+}
+
 @Injectable()
 export class StepByStepStore {
-  private _weapons: BehaviorSubject<string[]> = new BehaviorSubject<string[]>(['ZW', 'AW', 'EW', 'RW', 'MW']);
-  private _selectedWeapon: BehaviorSubject<string> = new BehaviorSubject<string>('');
+  private _weapons: BehaviorSubject<WeaponModel[]> = new BehaviorSubject<WeaponModel[]>([
+    { key: 'ZW', name: 'Zodiac Weapon' },
+    { key: 'AW', name: 'Anima Weapon' },
+    { key: 'EW', name: 'Euleka Weapon' },
+    { key: 'RW', name: 'Resistance Weapon' },
+    { key: 'MW', name: 'Manderville Weapon' },
+  ]);
+  private _selectedWeapon: BehaviorSubject<WeaponModel> = new BehaviorSubject<WeaponModel>({} as WeaponModel);
   private _jobs: BehaviorSubject<string[]> = new BehaviorSubject<string[]>([]);
   private _selectedJob: BehaviorSubject<string> = new BehaviorSubject<string>('');
   private _steps: BehaviorSubject<Relation[]> = new BehaviorSubject<Relation[]>([]);
@@ -24,8 +35,8 @@ export class StepByStepStore {
 
   constructor(private _localStorageStore: LocalstorageStore) {
     this.selectedWeapon$.subscribe((selectedWeapon) => {
-      this.jobs = Util.getJobs(selectedWeapon);
-      const level = Util.getLevel(selectedWeapon);
+      this.jobs = Util.getJobs(selectedWeapon.key);
+      const level = Util.getLevel(selectedWeapon.key);
       this.steps = this._relations
         .filter(
           (relation) =>
@@ -36,7 +47,7 @@ export class StepByStepStore {
         .sort((a: Relation, b: Relation) => (a.items[0].LevelItem >= b.items[0].LevelItem ? 1 : -1));
     });
     this.selectedJob$.subscribe((job) => {
-      const level = Util.getLevel(this.selectedWeapon);
+      const level = Util.getLevel(this.selectedWeapon.key);
       this.steps = this._relations
         .filter(
           (relation) =>
@@ -48,27 +59,27 @@ export class StepByStepStore {
     });
   }
 
-  public get weapons$(): Observable<string[]> {
+  public get weapons$(): Observable<WeaponModel[]> {
     return this._weapons.asObservable();
   }
 
-  public get weapons(): string[] {
+  public get weapons(): WeaponModel[] {
     return this._weapons.value;
   }
 
-  private set weapons(value: string[]) {
+  private set weapons(value: WeaponModel[]) {
     this._weapons.next(value);
   }
 
-  public get selectedWeapon$(): Observable<string> {
+  public get selectedWeapon$(): Observable<WeaponModel> {
     return this._selectedWeapon.asObservable();
   }
 
-  public get selectedWeapon(): string {
+  public get selectedWeapon(): WeaponModel {
     return this._selectedWeapon.value;
   }
 
-  public set selectedWeapon(value: string) {
+  public set selectedWeapon(value: WeaponModel) {
     this._selectedWeapon.next(value);
   }
 
