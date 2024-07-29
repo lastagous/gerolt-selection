@@ -21,6 +21,7 @@ import { TreeTableModule } from 'primeng/treetable';
 import { TagModule } from 'primeng/tag';
 import { ListboxModule } from 'primeng/listbox';
 import { SplitterModule } from 'primeng/splitter';
+import { ProgressBarModule } from 'primeng/progressbar';
 
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
@@ -42,6 +43,7 @@ import { ResistanceComponent } from './component/append/resistance/resistance.co
 import { MandervilleComponent } from './component/append/manderville/manderville.component';
 import { RelicWeaponListComponent } from './component/relic-weapon-list/relic-weapon-list.component';
 import { SelectedCharacterComponent } from './component/selected-character/selected-character.component';
+import { RelicProgressListComponent } from './component/relic-progress-list/relic-progress-list.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +59,7 @@ import { SelectedCharacterComponent } from './component/selected-character/selec
     ZodiacComponent,
     RelicWeaponListComponent,
     SelectedCharacterComponent,
+    RelicProgressListComponent,
   ],
   imports: [
     AccordionModule,
@@ -69,6 +72,7 @@ import { SelectedCharacterComponent } from './component/selected-character/selec
     HttpClientModule,
     InputTextModule,
     ListboxModule,
+    ProgressBarModule,
     RippleModule,
     RouterModule.forRoot([{ path: '', component: AppComponent }]),
     ScrollPanelModule,

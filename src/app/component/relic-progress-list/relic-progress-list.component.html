@@ -1,0 +1,51 @@
+<div class="app-relic-progress-list">
+  <div class="app-relic-progress-list-left">
+    <div class="app-relic-progress-list-container">
+      <div class="app-relic-progress-list-container-column" *ngFor="let job of tankList">
+        <img [src]="job.jobIcon.quest" />
+        <p-progressBar
+          [value]="getJobRate(job.name.en_abbreviation)"
+          [style]="{ width: '100px', height: '6px' }"
+        ></p-progressBar>
+      </div>
+    </div>
+    <div class="app-relic-progress-list-container">
+      <div class="app-relic-progress-list-container-column" *ngFor="let job of meleeList">
+        <img [src]="job.jobIcon.quest" />
+        <p-progressBar
+          [value]="getJobRate(job.name.en_abbreviation)"
+          [style]="{ width: '100px', height: '6px' }"
+        ></p-progressBar>
+      </div>
+    </div>
+  </div>
+  <div class="app-relic-progress-list-right">
+    <div class="app-relic-progress-list-container">
+      <div class="app-relic-progress-list-container-column" *ngFor="let job of healerList">
+        <img [src]="job.jobIcon.quest" />
+        <p-progressBar
+          [value]="getJobRate(job.name.en_abbreviation)"
+          [style]="{ width: '100px', height: '6px' }"
+        ></p-progressBar>
+      </div>
+    </div>
+    <div class="app-relic-progress-list-container">
+      <div class="app-relic-progress-list-container-column" *ngFor="let job of rangeList">
+        <img [src]="job.jobIcon.quest" />
+        <p-progressBar
+          [value]="getJobRate(job.name.en_abbreviation)"
+          [style]="{ width: '100px', height: '6px' }"
+        ></p-progressBar>
+      </div>
+    </div>
+    <div class="app-relic-progress-list-container">
+      <div class="app-relic-progress-list-container-column" *ngFor="let job of casterList">
+        <img [src]="job.jobIcon.quest" />
+        <p-progressBar
+          [value]="getJobRate(job.name.en_abbreviation)"
+          [style]="{ width: '100px', height: '6px' }"
+        ></p-progressBar>
+      </div>
+    </div>
+  </div>
+</div>
