@@ -1,0 +1,47 @@
+<div class="app-selected-character">
+  <div *ngIf="!selectedCharacter" class="app-selected-character-empty-message">
+    Search ボタンからキャラクターを検索してください！
+  </div>
+  <div *ngIf="selectedCharacter" class="app-selected-character-container">
+    <div class="app-selected-character-container-icon">
+      <img class="app-selected-character-container-icon-image" [src]="getCharacterAvaterSrc(selectedCharacter)" />
+    </div>
+    <div class="app-selected-character-container-description">
+      <div class="app-selected-character-container-description-name">
+        <i *ngIf="isUndisclosedAchievements(selectedCharacter)" class="pi pi-eye-slash"></i>
+        <span [pTooltip]="getCharacterName(selectedCharacter)" tooltipPosition="top">{{
+          getCharacterName(selectedCharacter)
+        }}</span>
+      </div>
+      <div class="app-selected-character-container-description-timestamp" pTooltip="最終更新" tooltipPosition="bottom">
+        <i class="pi pi-history"></i>
+        <span>{{ getUpdateTime(selectedCharacter.updateTimestamp) }}日前</span>
+      </div>
+    </div>
+    <div class="app-selected-character-container-buttons">
+      <p-button
+        icon="pi pi-refresh"
+        styleClass="p-button-rounded p-button-outlined"
+        pTooltip="更新"
+        tooltipPosition="top"
+        (click)="onSearchButtonClick(selectedCharacter)"
+      ></p-button>
+      <p-button
+        icon="pi pi-trash"
+        styleClass="p-button-rounded p-button-outlined p-button-danger"
+        pTooltip="削除"
+        tooltipPosition="top"
+        (click)="onSearchRemoveClick(selectedCharacter)"
+      ></p-button>
+      <p-button
+        *ngIf="!isUndisclosedAchievements(selectedCharacter)"
+        icon="pi pi-twitter"
+        label="Share"
+        styleClass="p-button-rounded p-button-outlined p-button-sm"
+        pTooltip="ポストする！"
+        tooltipPosition="bottom"
+        (click)="onShareClick(selectedCharacter)"
+      ></p-button>
+    </div>
+  </div>
+</div>

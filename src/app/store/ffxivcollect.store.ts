@@ -45,6 +45,7 @@ export class FFxivCollectStore {
                   achievements: achievements,
                 } as FFxivCollectStorageModel,
               } as StorageCharacterModel);
+              this._localStorageStore.selectedCharacter = this._localStorageStore.characters[0];
               this._isCharacterFetcing = false;
               resolve();
             },

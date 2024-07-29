@@ -15,6 +15,8 @@ export class LocalstorageStore {
   constructor(private _localStorageService: LocalStorageService) {
     const characters = this._localStorageService.getItem('characters');
     this._charactersSubject.next(characters ? characters : []);
+    const selectedCharacter = this._localStorageService.getItem('selectedCharacter');
+    this._selectedCharacterSubject.next(selectedCharacter);
   }
 
   public get characters(): StorageCharacterModel[] {
@@ -32,6 +34,7 @@ export class LocalstorageStore {
 
   public set selectedCharacter(value: StorageCharacterModel) {
     this._selectedCharacterSubject.next(value);
+    this._localStorageService.setItem('selectedCharacter', value);
   }
 
   public setCharacter(value: StorageCharacterModel): void {

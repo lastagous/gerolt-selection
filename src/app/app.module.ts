@@ -25,11 +25,11 @@ import { SplitterModule } from 'primeng/splitter';
 import { AppComponent } from './app.component';
 import { SearchLodestoneComponent } from './component/search-lodestone/search-lodestone.component';
 import { XivapiStore } from './store/xivapi.store';
-import { CharacterListComponent } from './component/character-list/character-list.component';
+import { CharacterListComponent } from './component/old/character-list/character-list.component';
 import { LogoStore } from './store/logo.store';
 import { LocalStorageService } from './service/local-storage.service';
 import { LocalstorageStore } from './store/local-storage.store';
-import { StepByStepComponent } from './component/step-by-step/step-by-step.component';
+import { StepByStepComponent } from './component/old/step-by-step/step-by-step.component';
 import { StepByStepStore } from './store/step-by-step.store';
 import { ProgressStore } from './store/progress.store';
 import { FFxivCollectService } from './service/ffxivcollect.service';
@@ -41,6 +41,7 @@ import { EulekaComponent } from './component/append/euleka/euleka.component';
 import { ResistanceComponent } from './component/append/resistance/resistance.component';
 import { MandervilleComponent } from './component/append/manderville/manderville.component';
 import { RelicWeaponListComponent } from './component/relic-weapon-list/relic-weapon-list.component';
+import { SelectedCharacterComponent } from './component/selected-character/selected-character.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { RelicWeaponListComponent } from './component/relic-weapon-list/relic-we
     StepByStepComponent,
     ZodiacComponent,
     RelicWeaponListComponent,
+    SelectedCharacterComponent,
   ],
   imports: [
     AccordionModule,

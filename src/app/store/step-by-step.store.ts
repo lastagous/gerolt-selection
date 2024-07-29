@@ -24,7 +24,7 @@ export class StepByStepStore {
     { key: 'RW', name: 'Resistance Weapon' },
     { key: 'MW', name: 'Manderville Weapon' },
   ]);
-  private _selectedWeapon: BehaviorSubject<WeaponModel> = new BehaviorSubject<WeaponModel>({} as WeaponModel);
+  private _selectedWeapon: BehaviorSubject<WeaponModel> = new BehaviorSubject<WeaponModel>(this.weapons[0]);
   private _jobs: BehaviorSubject<string[]> = new BehaviorSubject<string[]>([]);
   private _selectedJob: BehaviorSubject<string> = new BehaviorSubject<string>('');
   private _steps: BehaviorSubject<Relation[]> = new BehaviorSubject<Relation[]>([]);

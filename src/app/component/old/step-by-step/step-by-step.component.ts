@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { StepByStepStore } from '../../store/step-by-step.store';
+import { StepByStepStore } from '../../../store/step-by-step.store';
 import { ProgressStore } from 'src/app/store/progress.store';
 import { LocalstorageStore } from 'src/app/store/local-storage.store';
 import { Relation } from 'src/types/local';
