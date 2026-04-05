@@ -9,6 +9,11 @@
     getSteps,
     getJobRate,
   } from "../../stores/progress";
+  import ZodiacInstructions from "./instructions/ZodiacInstructions.svelte";
+  import AnimaInstructions from "./instructions/AnimaInstructions.svelte";
+  import EurekaInstructions from "./instructions/EurekaInstructions.svelte";
+  import ResistanceInstructions from "./instructions/ResistanceInstructions.svelte";
+  import MandervilleInstructions from "./instructions/MandervilleInstructions.svelte";
 
   const LODESTONE_BASE = "https://jp.finalfantasyxiv.com/lodestone/playguide/db/";
 
@@ -110,10 +115,29 @@
         <!-- 展開コンテンツ -->
         {#if expandedIndex === i}
           <div class="border-t border-gs-border p-3 space-y-3 text-sm">
+
+            <!-- 作成手順 -->
+            <div>
+              <p class="text-xs text-gs-muted mb-2">作成手順</p>
+              <div class="space-y-1 leading-relaxed">
+                {#if $selectedWeapon.key === "ZW"}
+                  <ZodiacInstructions {step} stepIndex={i} {steps} {tooltips} />
+                {:else if $selectedWeapon.key === "AW"}
+                  <AnimaInstructions {step} stepIndex={i} {steps} {tooltips} />
+                {:else if $selectedWeapon.key === "EW"}
+                  <EurekaInstructions {step} stepIndex={i} {steps} {tooltips} />
+                {:else if $selectedWeapon.key === "RW"}
+                  <ResistanceInstructions {step} stepIndex={i} {tooltips} />
+                {:else if $selectedWeapon.key === "MW"}
+                  <MandervilleInstructions {step} stepIndex={i} {tooltips} />
+                {/if}
+              </div>
+            </div>
+
             <!-- クエスト -->
             {#if questList.length > 0}
               <div>
-                <p class="text-xs text-gs-muted mb-1.5">クエスト</p>
+                <p class="text-xs text-gs-muted mb-1.5">関連クエスト</p>
                 <ul class="space-y-1">
                   {#each questList as q}
                     <li class="flex items-center gap-2">
@@ -170,6 +194,7 @@
                 </ul>
               </div>
             {/if}
+
           </div>
         {/if}
       </div>
