@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Header from "../../components/layout/Header.svelte";
+import Footer from "../../components/layout/Footer.astro";
+import RelicWeaponList from "../../components/ui/RelicWeaponList.svelte";
+import RelicProgressList from "../../components/ui/RelicProgressList.svelte";
+import SearchCharacter from "../../components/ui/SearchCharacter.svelte";
+import SelectedCharacter from "../../components/ui/SelectedCharacter.svelte";
+import StepDetail from "../../components/ui/StepDetail.svelte";
+import "../../styles/global.css";
+---
+
+<BaseLayout
+  title="ゲロルトの工匠記録 | FF14"
+  description="FF14 レリック武器（パッチ 2.0〜6.x）の作成進捗を管理するツール。武器・ジョブごとに達成済みの実績を確認できます。"
+>
+  <div class="flex flex-col min-h-screen">
+    <!-- ヘッダー -->
+    <Header client:load />
+
+    <!-- メインコンテンツ -->
+    <main class="flex-1 flex justify-center px-4 py-4">
+      <div class="w-full max-w-screen-xl flex gap-4">
+
+        <!-- 左カラム: 武器選択・進捗・キャラクター検索 -->
+        <aside class="flex flex-col gap-3 w-56 flex-shrink-0">
+          <RelicWeaponList client:load />
+          <RelicProgressList client:load />
+          <SearchCharacter client:load />
+          <SelectedCharacter client:load />
+        </aside>
+
+        <!-- 右カラム: ステップ詳細 -->
+        <div class="flex-1 min-w-0">
+          <StepDetail client:load />
+        </div>
+
+      </div>
+    </main>
+
+    <Footer />
+  </div>
+
+  <!-- localStorage 初期化 -->
+  <script>
+    import { initCharacterStore } from "../../stores/character";
+    initCharacterStore();
+  </script>
+
+  <!-- Lodestone ツールチップ外部スクリプト -->
+  <script
+    src="https://eorzea-database.net/v2/js/tooltip.min.js"
+    is:inline
+  ></script>
+</BaseLayout>

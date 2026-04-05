@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-gs-dark text-gs-text h-full;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+}
+
+@layer components {
+  .gs-panel {
+    @apply bg-gs-panel border border-gs-border rounded-lg;
+  }
+
+  .gs-btn {
+    @apply inline-flex items-center justify-center px-3 py-1.5 rounded border border-gs-border
+      bg-gs-panel text-gs-text text-sm hover:border-gs-gold hover:text-gs-gold transition-colors;
+  }
+
+  .gs-btn-primary {
+    @apply gs-btn border-gs-gold text-gs-gold hover:bg-gs-gold hover:text-gs-dark;
+  }
+
+  .gs-btn-danger {
+    @apply gs-btn border-red-500 text-red-400 hover:bg-red-500 hover:text-white;
+  }
+
+  .gs-input {
+    @apply w-full bg-gs-dark border border-gs-border rounded px-3 py-1.5
+      text-gs-text text-sm placeholder-gs-muted
+      focus:outline-none focus:border-gs-gold;
+  }
+
+  .gs-input-error {
+    @apply border-red-500 focus:border-red-500;
+  }
+
+  .gs-progress-bar {
+    @apply h-1.5 rounded-full bg-gs-border overflow-hidden;
+  }
+
+  .gs-progress-fill {
+    @apply h-full rounded-full bg-gs-orange transition-all;
+  }
+}
+
+/* Lodestone ツールチップとの競合回避 */
+#eorzea-database img {
+  display: inline !important;
+  max-width: none !important;
+}
+
+#eorzea-database table {
+  border-collapse: separate !important;
+  width: auto !important;
+}
