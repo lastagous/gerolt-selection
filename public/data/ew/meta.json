@@ -1,0 +1,3557 @@
+{
+  "MNK": [
+    {
+      "nameJa": "スダルシャナ",
+      "levelItem": 335,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 21943,
+          "iconId": 31142,
+          "nameJa": "スダルシャナ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "スダルシャナ+1",
+      "levelItem": 340,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 21959,
+          "iconId": 31142,
+          "nameJa": "スダルシャナ+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "スダルシャナ+2",
+      "levelItem": 345,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 21975,
+          "iconId": 31142,
+          "nameJa": "スダルシャナ+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "スダルシャナ・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 21991,
+          "iconId": 31142,
+          "nameJa": "スダルシャナ・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2034,
+          "name": "エウレカウェポン：スダルシャナ・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "スダルシャナ・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 22926,
+          "iconId": 31142,
+          "nameJa": "スダルシャナ・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "スダルシャナ・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 22942,
+          "iconId": 31142,
+          "nameJa": "スダルシャナ・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルナックル",
+      "levelItem": 370,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 22958,
+          "iconId": 31152,
+          "nameJa": "エレメンタルナックル"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2086,
+          "name": "エウレカウェポン：エレメンタルナックル"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルナックル+1",
+      "levelItem": 375,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 24040,
+          "iconId": 31152,
+          "nameJa": "エレメンタルナックル+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルナックル+2",
+      "levelItem": 380,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 24056,
+          "iconId": 31152,
+          "nameJa": "エレメンタルナックル+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスナックル",
+      "levelItem": 385,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 24072,
+          "iconId": 31152,
+          "nameJa": "ピューロスナックル"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2147,
+          "name": "エウレカウェポン：ピューロスナックル"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスナックル",
+      "levelItem": 390,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 24644,
+          "iconId": 31152,
+          "nameJa": "ヒュダトスナックル"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスナックル+1",
+      "levelItem": 395,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 24660,
+          "iconId": 31152,
+          "nameJa": "ヒュダトスナックル+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "デゥムズィ",
+      "levelItem": 400,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 24676,
+          "iconId": 31162,
+          "nameJa": "デゥムズィ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "デゥムズィ・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 24692,
+          "iconId": 31164,
+          "nameJa": "デゥムズィ・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2216,
+          "name": "エウレカウェポン：デゥムズィ・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "デゥムズィ・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 24708,
+          "iconId": 31164,
+          "nameJa": "デゥムズィ・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "WAR": [
+    {
+      "nameJa": "ファルシャ",
+      "levelItem": 335,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 21944,
+          "iconId": 31541,
+          "nameJa": "ファルシャ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファルシャ+1",
+      "levelItem": 340,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 21960,
+          "iconId": 31541,
+          "nameJa": "ファルシャ+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファルシャ+2",
+      "levelItem": 345,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 21976,
+          "iconId": 31541,
+          "nameJa": "ファルシャ+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファルシャ・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 21992,
+          "iconId": 31541,
+          "nameJa": "ファルシャ・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2031,
+          "name": "エウレカウェポン：ファルシャ・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファルシャ・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 22927,
+          "iconId": 31541,
+          "nameJa": "ファルシャ・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファルシャ・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 22943,
+          "iconId": 31541,
+          "nameJa": "ファルシャ・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルバトルアクス",
+      "levelItem": 370,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 22959,
+          "iconId": 31560,
+          "nameJa": "エレメンタルバトルアクス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2083,
+          "name": "エウレカウェポン：エレメンタルバトルアクス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルバトルアクス+1",
+      "levelItem": 375,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 24041,
+          "iconId": 31560,
+          "nameJa": "エレメンタルバトルアクス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルバトルアクス+2",
+      "levelItem": 380,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 24057,
+          "iconId": 31560,
+          "nameJa": "エレメンタルバトルアクス+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスバトルアクス",
+      "levelItem": 385,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 24073,
+          "iconId": 31560,
+          "nameJa": "ピューロスバトルアクス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2144,
+          "name": "エウレカウェポン：ピューロスバトルアクス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスバトルアクス",
+      "levelItem": 390,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 24645,
+          "iconId": 31560,
+          "nameJa": "ヒュダトスバトルアクス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスバトルアクス+1",
+      "levelItem": 395,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 24661,
+          "iconId": 31560,
+          "nameJa": "ヒュダトスバトルアクス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "シャマシュ",
+      "levelItem": 400,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 24677,
+          "iconId": 31570,
+          "nameJa": "シャマシュ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "シャマシュ・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 24693,
+          "iconId": 31572,
+          "nameJa": "シャマシュ・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2213,
+          "name": "エウレカウェポン：シャマシュ・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "シャマシュ・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 24709,
+          "iconId": 31572,
+          "nameJa": "シャマシュ・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "DRG": [
+    {
+      "nameJa": "竜の髭",
+      "levelItem": 335,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 21945,
+          "iconId": 31947,
+          "nameJa": "竜の髭"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "竜の髭+1",
+      "levelItem": 340,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 21961,
+          "iconId": 31947,
+          "nameJa": "竜の髭+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "竜の髭+2",
+      "levelItem": 345,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 21977,
+          "iconId": 31947,
+          "nameJa": "竜の髭+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "竜の髭【風】",
+      "levelItem": 355,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 21993,
+          "iconId": 31947,
+          "nameJa": "竜の髭【風】"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2033,
+          "name": "エウレカウェポン：竜の髭【風】"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "竜の髭【氷】",
+      "levelItem": 360,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 22928,
+          "iconId": 31947,
+          "nameJa": "竜の髭【氷】"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "竜の髭【氷】+1",
+      "levelItem": 365,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 22944,
+          "iconId": 31947,
+          "nameJa": "竜の髭【氷】+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルランス",
+      "levelItem": 370,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 22960,
+          "iconId": 31960,
+          "nameJa": "エレメンタルランス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2085,
+          "name": "エウレカウェポン：エレメンタルランス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルランス+1",
+      "levelItem": 375,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 24042,
+          "iconId": 31960,
+          "nameJa": "エレメンタルランス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルランス+2",
+      "levelItem": 380,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 24058,
+          "iconId": 31960,
+          "nameJa": "エレメンタルランス+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスランス",
+      "levelItem": 385,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 24074,
+          "iconId": 31960,
+          "nameJa": "ピューロスランス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2146,
+          "name": "エウレカウェポン：ピューロスランス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスランス",
+      "levelItem": 390,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 24646,
+          "iconId": 31960,
+          "nameJa": "ヒュダトスランス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスランス+1",
+      "levelItem": 395,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 24662,
+          "iconId": 31960,
+          "nameJa": "ヒュダトスランス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ダボヤ",
+      "levelItem": 400,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 24678,
+          "iconId": 31970,
+          "nameJa": "ダボヤ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ダボヤ・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 24694,
+          "iconId": 31974,
+          "nameJa": "ダボヤ・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2215,
+          "name": "エウレカウェポン：ダボヤ・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ダボヤ・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 24710,
+          "iconId": 31974,
+          "nameJa": "ダボヤ・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "BRD": [
+    {
+      "nameJa": "フェイルノート",
+      "levelItem": 335,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 21946,
+          "iconId": 32342,
+          "nameJa": "フェイルノート"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "フェイルノート+1",
+      "levelItem": 340,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 21962,
+          "iconId": 32342,
+          "nameJa": "フェイルノート+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "フェイルノート+2",
+      "levelItem": 345,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 21978,
+          "iconId": 32342,
+          "nameJa": "フェイルノート+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "フェイルノート・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 21994,
+          "iconId": 32342,
+          "nameJa": "フェイルノート・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2037,
+          "name": "エウレカウェポン：フェイルノート・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "フェイルノート・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 22929,
+          "iconId": 32342,
+          "nameJa": "フェイルノート・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "フェイルノート・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 22945,
+          "iconId": 32342,
+          "nameJa": "フェイルノート・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルハープボウ",
+      "levelItem": 370,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 22961,
+          "iconId": 32351,
+          "nameJa": "エレメンタルハープボウ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2089,
+          "name": "エウレカウェポン：エレメンタルハープボウ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルハープボウ+1",
+      "levelItem": 375,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 24043,
+          "iconId": 32351,
+          "nameJa": "エレメンタルハープボウ+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルハープボウ+2",
+      "levelItem": 380,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 24059,
+          "iconId": 32351,
+          "nameJa": "エレメンタルハープボウ+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスハープボウ",
+      "levelItem": 385,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 24075,
+          "iconId": 32351,
+          "nameJa": "ピューロスハープボウ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2150,
+          "name": "エウレカウェポン：ピューロスハープボウ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスハープボウ",
+      "levelItem": 390,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 24647,
+          "iconId": 32351,
+          "nameJa": "ヒュダトスハープボウ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスハープボウ+1",
+      "levelItem": 395,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 24663,
+          "iconId": 32351,
+          "nameJa": "ヒュダトスハープボウ+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "キルキナエ",
+      "levelItem": 400,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 24679,
+          "iconId": 32361,
+          "nameJa": "キルキナエ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "キルキナエ・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 24695,
+          "iconId": 32363,
+          "nameJa": "キルキナエ・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2219,
+          "name": "エウレカウェポン：キルキナエ・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "キルキナエ・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 24711,
+          "iconId": 32363,
+          "nameJa": "キルキナエ・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "NIN": [
+    {
+      "nameJa": "凪",
+      "levelItem": 335,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 21947,
+          "iconId": 33921,
+          "nameJa": "凪"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "凪+1",
+      "levelItem": 340,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 21963,
+          "iconId": 33921,
+          "nameJa": "凪+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "凪+2",
+      "levelItem": 345,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 21979,
+          "iconId": 33921,
+          "nameJa": "凪+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "凪【風】",
+      "levelItem": 355,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 21995,
+          "iconId": 33921,
+          "nameJa": "凪【風】"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2035,
+          "name": "エウレカウェポン：凪【風】"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "凪【氷】",
+      "levelItem": 360,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 22930,
+          "iconId": 33921,
+          "nameJa": "凪【氷】"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "凪【氷】+1",
+      "levelItem": 365,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 22946,
+          "iconId": 33921,
+          "nameJa": "凪【氷】+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルナイフ",
+      "levelItem": 370,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 22962,
+          "iconId": 33938,
+          "nameJa": "エレメンタルナイフ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2087,
+          "name": "エウレカウェポン：エレメンタルナイフ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルナイフ+1",
+      "levelItem": 375,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 24044,
+          "iconId": 33938,
+          "nameJa": "エレメンタルナイフ+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルナイフ+2",
+      "levelItem": 380,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 24060,
+          "iconId": 33938,
+          "nameJa": "エレメンタルナイフ+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスナイフ",
+      "levelItem": 385,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 24076,
+          "iconId": 33938,
+          "nameJa": "ピューロスナイフ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2148,
+          "name": "エウレカウェポン：ピューロスナイフ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスナイフ",
+      "levelItem": 390,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 24648,
+          "iconId": 33938,
+          "nameJa": "ヒュダトスナイフ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスナイフ+1",
+      "levelItem": 395,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 24664,
+          "iconId": 33938,
+          "nameJa": "ヒュダトスナイフ+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "鵲",
+      "levelItem": 400,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 24680,
+          "iconId": 33948,
+          "nameJa": "鵲"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "鵲【禁】",
+      "levelItem": 405,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 24696,
+          "iconId": 33950,
+          "nameJa": "鵲【禁】"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2217,
+          "name": "エウレカウェポン：鵲【禁】"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "鵲【改】",
+      "levelItem": 405,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 24712,
+          "iconId": 33950,
+          "nameJa": "鵲【改】"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "DRK": [
+    {
+      "nameJa": "カラドボルグ",
+      "levelItem": 335,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 21948,
+          "iconId": 34299,
+          "nameJa": "カラドボルグ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "カラドボルグ+1",
+      "levelItem": 340,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 21964,
+          "iconId": 34299,
+          "nameJa": "カラドボルグ+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "カラドボルグ+2",
+      "levelItem": 345,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 21980,
+          "iconId": 34299,
+          "nameJa": "カラドボルグ+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "カラドボルグ・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 21996,
+          "iconId": 34299,
+          "nameJa": "カラドボルグ・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2032,
+          "name": "エウレカウェポン：カラドボルグ・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "カラドボルグ・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 22931,
+          "iconId": 34299,
+          "nameJa": "カラドボルグ・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "カラドボルグ・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 22947,
+          "iconId": 34299,
+          "nameJa": "カラドボルグ・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルディバイダー",
+      "levelItem": 370,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 22963,
+          "iconId": 34314,
+          "nameJa": "エレメンタルディバイダー"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2084,
+          "name": "エウレカウェポン：エレメンタルディバイダー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルディバイダー+1",
+      "levelItem": 375,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 24045,
+          "iconId": 34314,
+          "nameJa": "エレメンタルディバイダー+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルディバイダー+2",
+      "levelItem": 380,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 24061,
+          "iconId": 34314,
+          "nameJa": "エレメンタルディバイダー+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスディバイダー",
+      "levelItem": 385,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 24077,
+          "iconId": 34314,
+          "nameJa": "ピューロスディバイダー"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2145,
+          "name": "エウレカウェポン：ピューロスディバイダー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスディバイダー",
+      "levelItem": 390,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 24649,
+          "iconId": 34314,
+          "nameJa": "ヒュダトスディバイダー"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスディバイダー+1",
+      "levelItem": 395,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 24665,
+          "iconId": 34314,
+          "nameJa": "ヒュダトスディバイダー+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "シフィアス",
+      "levelItem": 400,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 24681,
+          "iconId": 34324,
+          "nameJa": "シフィアス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "シフィアス・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 24697,
+          "iconId": 34327,
+          "nameJa": "シフィアス・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2214,
+          "name": "エウレカウェポン：シフィアス・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "シフィアス・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 24713,
+          "iconId": 34327,
+          "nameJa": "シフィアス・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "MCH": [
+    {
+      "nameJa": "アウトサイダー",
+      "levelItem": 335,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 21949,
+          "iconId": 34693,
+          "nameJa": "アウトサイダー"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アウトサイダー+1",
+      "levelItem": 340,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 21965,
+          "iconId": 34693,
+          "nameJa": "アウトサイダー+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アウトサイダー+2",
+      "levelItem": 345,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 21981,
+          "iconId": 34693,
+          "nameJa": "アウトサイダー+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アウトサイダー・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 21997,
+          "iconId": 34693,
+          "nameJa": "アウトサイダー・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2038,
+          "name": "エウレカウェポン：アウトサイダー・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "アウトサイダー・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 22932,
+          "iconId": 34693,
+          "nameJa": "アウトサイダー・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アウトサイダー・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 22948,
+          "iconId": 34693,
+          "nameJa": "アウトサイダー・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルハンドゴンネ",
+      "levelItem": 370,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 22964,
+          "iconId": 34437,
+          "nameJa": "エレメンタルハンドゴンネ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2090,
+          "name": "エウレカウェポン：エレメンタルハンドゴンネ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルハンドゴンネ+1",
+      "levelItem": 375,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 24046,
+          "iconId": 34437,
+          "nameJa": "エレメンタルハンドゴンネ+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルハンドゴンネ+2",
+      "levelItem": 380,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 24062,
+          "iconId": 34437,
+          "nameJa": "エレメンタルハンドゴンネ+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスハンドゴンネ",
+      "levelItem": 385,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 24078,
+          "iconId": 34437,
+          "nameJa": "ピューロスハンドゴンネ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2151,
+          "name": "エウレカウェポン：ピューロスハンドゴンネ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスハンドゴンネ",
+      "levelItem": 390,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 24650,
+          "iconId": 34437,
+          "nameJa": "ヒュダトスハンドゴンネ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスハンドゴンネ+1",
+      "levelItem": 395,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 24666,
+          "iconId": 34437,
+          "nameJa": "ヒュダトスハンドゴンネ+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "モルフリッス",
+      "levelItem": 400,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 24682,
+          "iconId": 34447,
+          "nameJa": "モルフリッス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "モルフリッス・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 24698,
+          "iconId": 34449,
+          "nameJa": "モルフリッス・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2220,
+          "name": "エウレカウェポン：モルフリッス・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "モルフリッス・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 24714,
+          "iconId": 34449,
+          "nameJa": "モルフリッス・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "WHM": [
+    {
+      "nameJa": "アイムール",
+      "levelItem": 335,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 21950,
+          "iconId": 32724,
+          "nameJa": "アイムール"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アイムール+1",
+      "levelItem": 340,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 21966,
+          "iconId": 32724,
+          "nameJa": "アイムール+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アイムール+2",
+      "levelItem": 345,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 21982,
+          "iconId": 32724,
+          "nameJa": "アイムール+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アイムール・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 21998,
+          "iconId": 32724,
+          "nameJa": "アイムール・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2042,
+          "name": "エウレカウェポン：アイムール・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "アイムール・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 22933,
+          "iconId": 32724,
+          "nameJa": "アイムール・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アイムール・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 22949,
+          "iconId": 32724,
+          "nameJa": "アイムール・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルケーン",
+      "levelItem": 370,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 22965,
+          "iconId": 32735,
+          "nameJa": "エレメンタルケーン"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2094,
+          "name": "エウレカウェポン：エレメンタルケーン"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルケーン+1",
+      "levelItem": 375,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 24047,
+          "iconId": 32735,
+          "nameJa": "エレメンタルケーン+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルケーン+2",
+      "levelItem": 380,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 24063,
+          "iconId": 32735,
+          "nameJa": "エレメンタルケーン+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスケーン",
+      "levelItem": 385,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 24079,
+          "iconId": 32735,
+          "nameJa": "ピューロスケーン"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2155,
+          "name": "エウレカウェポン：ピューロスケーン"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスケーン",
+      "levelItem": 390,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 24651,
+          "iconId": 32735,
+          "nameJa": "ヒュダトスケーン"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスケーン+1",
+      "levelItem": 395,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 24667,
+          "iconId": 32735,
+          "nameJa": "ヒュダトスケーン+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ローズクーベルト",
+      "levelItem": 400,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 24683,
+          "iconId": 32745,
+          "nameJa": "ローズクーベルト"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ローズクーベルト・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 24699,
+          "iconId": 32747,
+          "nameJa": "ローズクーベルト・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2224,
+          "name": "エウレカウェポン：ローズクーベルト・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ローズクーベルト・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 24715,
+          "iconId": 32747,
+          "nameJa": "ローズクーベルト・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "BLM": [
+    {
+      "nameJa": "ヴァナルガンド",
+      "levelItem": 335,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 21951,
+          "iconId": 33093,
+          "nameJa": "ヴァナルガンド"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヴァナルガンド+1",
+      "levelItem": 340,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 21967,
+          "iconId": 33093,
+          "nameJa": "ヴァナルガンド+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヴァナルガンド+2",
+      "levelItem": 345,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 21983,
+          "iconId": 33093,
+          "nameJa": "ヴァナルガンド+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヴァナルガンド・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 21999,
+          "iconId": 33093,
+          "nameJa": "ヴァナルガンド・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2039,
+          "name": "エウレカウェポン：ヴァナルガンド・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヴァナルガンド・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 22934,
+          "iconId": 33093,
+          "nameJa": "ヴァナルガンド・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヴァナルガンド・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 22950,
+          "iconId": 33093,
+          "nameJa": "ヴァナルガンド・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルロッド",
+      "levelItem": 370,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 22966,
+          "iconId": 33103,
+          "nameJa": "エレメンタルロッド"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2091,
+          "name": "エウレカウェポン：エレメンタルロッド"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルロッド+1",
+      "levelItem": 375,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 24048,
+          "iconId": 33103,
+          "nameJa": "エレメンタルロッド+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルロッド+2",
+      "levelItem": 380,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 24064,
+          "iconId": 33103,
+          "nameJa": "エレメンタルロッド+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスロッド",
+      "levelItem": 385,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 24080,
+          "iconId": 33103,
+          "nameJa": "ピューロスロッド"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2152,
+          "name": "エウレカウェポン：ピューロスロッド"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスロッド",
+      "levelItem": 390,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 24652,
+          "iconId": 33103,
+          "nameJa": "ヒュダトスロッド"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスロッド+1",
+      "levelItem": 395,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 24668,
+          "iconId": 33103,
+          "nameJa": "ヒュダトスロッド+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "パイケア",
+      "levelItem": 400,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 24684,
+          "iconId": 33113,
+          "nameJa": "パイケア"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "パイケア・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 24700,
+          "iconId": 33116,
+          "nameJa": "パイケア・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2221,
+          "name": "エウレカウェポン：パイケア・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "パイケア・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 24716,
+          "iconId": 33116,
+          "nameJa": "パイケア・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "SMN": [
+    {
+      "nameJa": "レメゲトン",
+      "levelItem": 335,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 21952,
+          "iconId": 33237,
+          "nameJa": "レメゲトン"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "レメゲトン+1",
+      "levelItem": 340,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 21968,
+          "iconId": 33237,
+          "nameJa": "レメゲトン+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "レメゲトン+2",
+      "levelItem": 345,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 21984,
+          "iconId": 33237,
+          "nameJa": "レメゲトン+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "レメゲトン・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 22000,
+          "iconId": 33237,
+          "nameJa": "レメゲトン・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2040,
+          "name": "エウレカウェポン：レメゲトン・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "レメゲトン・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 22935,
+          "iconId": 33237,
+          "nameJa": "レメゲトン・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "レメゲトン・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 22951,
+          "iconId": 33237,
+          "nameJa": "レメゲトン・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルグリモア",
+      "levelItem": 370,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 22967,
+          "iconId": 33258,
+          "nameJa": "エレメンタルグリモア"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2092,
+          "name": "エウレカウェポン：エレメンタルグリモア"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルグリモア+1",
+      "levelItem": 375,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 24049,
+          "iconId": 33258,
+          "nameJa": "エレメンタルグリモア+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルグリモア+2",
+      "levelItem": 380,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 24065,
+          "iconId": 33258,
+          "nameJa": "エレメンタルグリモア+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスグリモア",
+      "levelItem": 385,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 24081,
+          "iconId": 33258,
+          "nameJa": "ピューロスグリモア"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2153,
+          "name": "エウレカウェポン：ピューロスグリモア"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスグリモア",
+      "levelItem": 390,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 24653,
+          "iconId": 33258,
+          "nameJa": "ヒュダトスグリモア"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスグリモア+1",
+      "levelItem": 395,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 24669,
+          "iconId": 33258,
+          "nameJa": "ヒュダトスグリモア+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "トゥア",
+      "levelItem": 400,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 24685,
+          "iconId": 33278,
+          "nameJa": "トゥア"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "トゥア・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 24701,
+          "iconId": 33282,
+          "nameJa": "トゥア・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2222,
+          "name": "エウレカウェポン：トゥア・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "トゥア・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 24717,
+          "iconId": 33282,
+          "nameJa": "トゥア・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "SCH": [
+    {
+      "nameJa": "オルガノン",
+      "levelItem": 335,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 21953,
+          "iconId": 33240,
+          "nameJa": "オルガノン"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "オルガノン+1",
+      "levelItem": 340,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 21969,
+          "iconId": 33240,
+          "nameJa": "オルガノン+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "オルガノン+2",
+      "levelItem": 345,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 21985,
+          "iconId": 33240,
+          "nameJa": "オルガノン+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "オルガノン・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 22001,
+          "iconId": 33240,
+          "nameJa": "オルガノン・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2043,
+          "name": "エウレカウェポン：オルガノン・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "オルガノン・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 22936,
+          "iconId": 33240,
+          "nameJa": "オルガノン・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "オルガノン・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 22952,
+          "iconId": 33240,
+          "nameJa": "オルガノン・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルコーデックス",
+      "levelItem": 370,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 22968,
+          "iconId": 33257,
+          "nameJa": "エレメンタルコーデックス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2095,
+          "name": "エウレカウェポン：エレメンタルコーデックス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルコーデックス+1",
+      "levelItem": 375,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 24050,
+          "iconId": 33257,
+          "nameJa": "エレメンタルコーデックス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルコーデックス+2",
+      "levelItem": 380,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 24066,
+          "iconId": 33257,
+          "nameJa": "エレメンタルコーデックス+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスコーデックス",
+      "levelItem": 385,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 24082,
+          "iconId": 33257,
+          "nameJa": "ピューロスコーデックス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2156,
+          "name": "エウレカウェポン：ピューロスコーデックス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスコーデックス",
+      "levelItem": 390,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 24654,
+          "iconId": 33257,
+          "nameJa": "ヒュダトスコーデックス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスコーデックス+1",
+      "levelItem": 395,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 24670,
+          "iconId": 33257,
+          "nameJa": "ヒュダトスコーデックス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ジェバト",
+      "levelItem": 400,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 24686,
+          "iconId": 33277,
+          "nameJa": "ジェバト"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ジェバト・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 24702,
+          "iconId": 33281,
+          "nameJa": "ジェバト・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2225,
+          "name": "エウレカウェポン：ジェバト・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ジェバト・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 24718,
+          "iconId": 33281,
+          "nameJa": "ジェバト・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "AST": [
+    {
+      "nameJa": "プレアデス",
+      "levelItem": 335,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 21954,
+          "iconId": 34900,
+          "nameJa": "プレアデス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "プレアデス+1",
+      "levelItem": 340,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 21970,
+          "iconId": 34900,
+          "nameJa": "プレアデス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "プレアデス+2",
+      "levelItem": 345,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 21986,
+          "iconId": 34900,
+          "nameJa": "プレアデス+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "プレアデス・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 22002,
+          "iconId": 34900,
+          "nameJa": "プレアデス・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2044,
+          "name": "エウレカウェポン：プレアデス・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "プレアデス・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 22937,
+          "iconId": 34900,
+          "nameJa": "プレアデス・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "プレアデス・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 22953,
+          "iconId": 34900,
+          "nameJa": "プレアデス・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルアストロメーター",
+      "levelItem": 370,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 22969,
+          "iconId": 34911,
+          "nameJa": "エレメンタルアストロメーター"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2096,
+          "name": "エウレカウェポン：エレメンタルアストロメーター"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルアストロメーター+1",
+      "levelItem": 375,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 24051,
+          "iconId": 34911,
+          "nameJa": "エレメンタルアストロメーター+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルアストロメーター+2",
+      "levelItem": 380,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 24067,
+          "iconId": 34911,
+          "nameJa": "エレメンタルアストロメーター+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスアストロメーター",
+      "levelItem": 385,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 24083,
+          "iconId": 34911,
+          "nameJa": "ピューロスアストロメーター"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2157,
+          "name": "エウレカウェポン：ピューロスアストロメーター"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスアストロメーター",
+      "levelItem": 390,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 24655,
+          "iconId": 34911,
+          "nameJa": "ヒュダトスアストロメーター"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスアストロメーター+1",
+      "levelItem": 395,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 24671,
+          "iconId": 34911,
+          "nameJa": "ヒュダトスアストロメーター+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アルビレオ",
+      "levelItem": 400,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 24687,
+          "iconId": 34921,
+          "nameJa": "アルビレオ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アルビレオ・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 24703,
+          "iconId": 34923,
+          "nameJa": "アルビレオ・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2226,
+          "name": "エウレカウェポン：アルビレオ・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "アルビレオ・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 24719,
+          "iconId": 34923,
+          "nameJa": "アルビレオ・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "SAM": [
+    {
+      "nameJa": "菊一文字",
+      "levelItem": 335,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 21955,
+          "iconId": 36412,
+          "nameJa": "菊一文字"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "菊一文字+1",
+      "levelItem": 340,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 21971,
+          "iconId": 36412,
+          "nameJa": "菊一文字+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "菊一文字+2",
+      "levelItem": 345,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 21987,
+          "iconId": 36412,
+          "nameJa": "菊一文字+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "菊一文字【風】",
+      "levelItem": 355,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 22003,
+          "iconId": 36412,
+          "nameJa": "菊一文字【風】"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2036,
+          "name": "エウレカウェポン：菊一文字【風】"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "菊一文字【氷】",
+      "levelItem": 360,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 22938,
+          "iconId": 36412,
+          "nameJa": "菊一文字【氷】"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "菊一文字【氷】+1",
+      "levelItem": 365,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 22954,
+          "iconId": 36412,
+          "nameJa": "菊一文字【氷】+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルブレード",
+      "levelItem": 370,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 22970,
+          "iconId": 36468,
+          "nameJa": "エレメンタルブレード"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2088,
+          "name": "エウレカウェポン：エレメンタルブレード"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルブレード+1",
+      "levelItem": 375,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 24052,
+          "iconId": 36468,
+          "nameJa": "エレメンタルブレード+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルブレード+2",
+      "levelItem": 380,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 24068,
+          "iconId": 36468,
+          "nameJa": "エレメンタルブレード+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスブレード",
+      "levelItem": 385,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 24084,
+          "iconId": 36468,
+          "nameJa": "ピューロスブレード"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2149,
+          "name": "エウレカウェポン：ピューロスブレード"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスブレード",
+      "levelItem": 390,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 24656,
+          "iconId": 36468,
+          "nameJa": "ヒュダトスブレード"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスブレード+1",
+      "levelItem": 395,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 24672,
+          "iconId": 36468,
+          "nameJa": "ヒュダトスブレード+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "鳥頭の太刀",
+      "levelItem": 400,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 24688,
+          "iconId": 36478,
+          "nameJa": "鳥頭の太刀"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "鳥頭の太刀【禁】",
+      "levelItem": 405,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 24704,
+          "iconId": 36481,
+          "nameJa": "鳥頭の太刀【禁】"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2218,
+          "name": "エウレカウェポン：鳥頭の太刀【禁】"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "鳥頭の太刀【改】",
+      "levelItem": 405,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 24720,
+          "iconId": 36481,
+          "nameJa": "鳥頭の太刀【改】"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "RDM": [
+    {
+      "nameJa": "ミュルグレス",
+      "levelItem": 335,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 21956,
+          "iconId": 36701,
+          "nameJa": "ミュルグレス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ミュルグレス+1",
+      "levelItem": 340,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 21972,
+          "iconId": 36701,
+          "nameJa": "ミュルグレス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ミュルグレス+2",
+      "levelItem": 345,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 21988,
+          "iconId": 36701,
+          "nameJa": "ミュルグレス+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ミュルグレス・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 22004,
+          "iconId": 36701,
+          "nameJa": "ミュルグレス・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2041,
+          "name": "エウレカウェポン：ミュルグレス・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ミュルグレス・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 22939,
+          "iconId": 36701,
+          "nameJa": "ミュルグレス・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ミュルグレス・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 22955,
+          "iconId": 36701,
+          "nameJa": "ミュルグレス・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルタック",
+      "levelItem": 370,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 22971,
+          "iconId": 36769,
+          "nameJa": "エレメンタルタック"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2093,
+          "name": "エウレカウェポン：エレメンタルタック"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルタック+1",
+      "levelItem": 375,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 24053,
+          "iconId": 36769,
+          "nameJa": "エレメンタルタック+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルタック+2",
+      "levelItem": 380,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 24069,
+          "iconId": 36769,
+          "nameJa": "エレメンタルタック+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスタック",
+      "levelItem": 385,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 24085,
+          "iconId": 36769,
+          "nameJa": "ピューロスタック"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2154,
+          "name": "エウレカウェポン：ピューロスタック"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスタック",
+      "levelItem": 390,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 24657,
+          "iconId": 36769,
+          "nameJa": "ヒュダトスタック"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスタック+1",
+      "levelItem": 395,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 24673,
+          "iconId": 36769,
+          "nameJa": "ヒュダトスタック+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ブルネロ",
+      "levelItem": 400,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 24689,
+          "iconId": 36779,
+          "nameJa": "ブルネロ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ブルネロ・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 24705,
+          "iconId": 36781,
+          "nameJa": "ブルネロ・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2223,
+          "name": "エウレカウェポン：ブルネロ・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ブルネロ・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 24721,
+          "iconId": 36781,
+          "nameJa": "ブルネロ・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "PLD": [
+    {
+      "nameJa": "ガラティン",
+      "levelItem": 335,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 21942,
+          "iconId": 30575,
+          "nameJa": "ガラティン"
+        },
+        {
+          "id": 21957,
+          "iconId": 30169,
+          "nameJa": "エヴァラック"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ガラティン+1",
+      "levelItem": 340,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 21958,
+          "iconId": 30575,
+          "nameJa": "ガラティン+1"
+        },
+        {
+          "id": 21973,
+          "iconId": 30169,
+          "nameJa": "エヴァラック+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ガラティン+2",
+      "levelItem": 345,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 21974,
+          "iconId": 30575,
+          "nameJa": "ガラティン+2"
+        },
+        {
+          "id": 21989,
+          "iconId": 30169,
+          "nameJa": "エヴァラック+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ガラティン・アネモス",
+      "levelItem": 355,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 21990,
+          "iconId": 30575,
+          "nameJa": "ガラティン・アネモス"
+        },
+        {
+          "id": 22005,
+          "iconId": 30169,
+          "nameJa": "エヴァラック・アネモス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2030,
+          "name": "エウレカウェポン：ガラティン・アネモス＆エヴァラック・アネモス"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ガラティン・パゴス",
+      "levelItem": 360,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 22925,
+          "iconId": 30575,
+          "nameJa": "ガラティン・パゴス"
+        },
+        {
+          "id": 22940,
+          "iconId": 30169,
+          "nameJa": "エヴァラック・パゴス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ガラティン・パゴス+1",
+      "levelItem": 365,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 22941,
+          "iconId": 30575,
+          "nameJa": "ガラティン・パゴス+1"
+        },
+        {
+          "id": 22956,
+          "iconId": 30169,
+          "nameJa": "エヴァラック・パゴス+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルソード",
+      "levelItem": 370,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 22957,
+          "iconId": 30586,
+          "nameJa": "エレメンタルソード"
+        },
+        {
+          "id": 22972,
+          "iconId": 30179,
+          "nameJa": "エレメンタルシールド"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2082,
+          "name": "エウレカウェポン：エレメンタルソード＆エレメンタルシールド"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルソード+1",
+      "levelItem": 375,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 24039,
+          "iconId": 30586,
+          "nameJa": "エレメンタルソード+1"
+        },
+        {
+          "id": 24054,
+          "iconId": 30179,
+          "nameJa": "エレメンタルシールド+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "エレメンタルソード+2",
+      "levelItem": 380,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 24055,
+          "iconId": 30586,
+          "nameJa": "エレメンタルソード+2"
+        },
+        {
+          "id": 24070,
+          "iconId": 30179,
+          "nameJa": "エレメンタルシールド+2"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ピューロスソード",
+      "levelItem": 385,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 24071,
+          "iconId": 30586,
+          "nameJa": "ピューロスソード"
+        },
+        {
+          "id": 24086,
+          "iconId": 30179,
+          "nameJa": "ピューロスシールド"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2143,
+          "name": "エウレカウェポン：ピューロスソード＆ピューロスシールド"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスソード",
+      "levelItem": 390,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 24643,
+          "iconId": 30586,
+          "nameJa": "ヒュダトスソード"
+        },
+        {
+          "id": 24658,
+          "iconId": 30179,
+          "nameJa": "ヒュダトスシールド"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ヒュダトスソード+1",
+      "levelItem": 395,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 24659,
+          "iconId": 30586,
+          "nameJa": "ヒュダトスソード+1"
+        },
+        {
+          "id": 24674,
+          "iconId": 30179,
+          "nameJa": "ヒュダトスシールド+1"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アンテア",
+      "levelItem": 400,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 24675,
+          "iconId": 30596,
+          "nameJa": "アンテア"
+        },
+        {
+          "id": 24690,
+          "iconId": 30186,
+          "nameJa": "ベレロフォン"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アンテア・エウレカ",
+      "levelItem": 405,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 24691,
+          "iconId": 30598,
+          "nameJa": "アンテア・エウレカ"
+        },
+        {
+          "id": 24706,
+          "iconId": 30188,
+          "nameJa": "ベレロフォン・エウレカ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 2212,
+          "name": "エウレカウェポン：アンテア・エウレカ＆ベレロフォン・エウレカ"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "アンテア・カスタム",
+      "levelItem": 405,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 24707,
+          "iconId": 30598,
+          "nameJa": "アンテア・カスタム"
+        },
+        {
+          "id": 24722,
+          "iconId": 30188,
+          "nameJa": "ベレロフォン・カスタム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ]
+}

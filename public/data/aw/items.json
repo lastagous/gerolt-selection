@@ -1,0 +1,146 @@
+{
+  "luminousCrystals": [
+    { "itemId": 13571, "name": "発光性ファイアクリスタル",     "zone": "アジス・ラー",     "crystalItemId": 13575, "crystalName": "星極のクリスタル" },
+    { "itemId": 13570, "name": "発光性ウィンドクリスタル",     "zone": "アバラシア雲海",   "crystalItemId": 13575, "crystalName": "星極のクリスタル" },
+    { "itemId": 13573, "name": "発光性ライトニングクリスタル", "zone": "ドラヴァニア雲海", "crystalItemId": 13575, "crystalName": "星極のクリスタル" },
+    { "itemId": 13569, "name": "発光性アイスクリスタル",       "zone": "クルザス西部高地", "crystalItemId": 13576, "crystalName": "霊極のクリスタル" },
+    { "itemId": 13572, "name": "発光性アースクリスタル",       "zone": "高地ドラヴァニア", "crystalItemId": 13576, "crystalName": "霊極のクリスタル" },
+    { "itemId": 13574, "name": "発光性ウォータークリスタル",   "zone": "低地ドラヴァニア", "crystalItemId": 13576, "crystalName": "霊極のクリスタル" }
+  ],
+  "materials": [
+    {
+      "resultItemId": 13577, "resultName": "エンチャントラバー",
+      "mysteryItemId": 13582, "mysteryName": "謎めいた骨片",
+      "tribeItemId": 21076, "tribeCurrencyName": "アマルジャ鋼鉄刀貨",
+      "subItemId": 13589, "subName": "アダマンフランシスカ"
+    },
+    {
+      "resultItemId": 13578, "resultName": "アラグの上級硬化薬",
+      "mysteryItemId": 13584, "mysteryName": "謎めいた貝殻",
+      "tribeItemId": 21077, "tribeCurrencyName": "サハギン虹貝貨",
+      "subItemId": 13591, "subName": "チタンアロイミラー"
+    },
+    {
+      "resultItemId": 13579, "resultName": "神聖水",
+      "mysteryItemId": 13586, "mysteryName": "謎めいた原石",
+      "tribeItemId": 21078, "tribeCurrencyName": "コボルド鏡鉄錘貨",
+      "subItemId": 13593, "subName": "破魔矢"
+    },
+    {
+      "resultItemId": 13580, "resultName": "アラグの上級魔触媒",
+      "mysteryItemId": 13588, "mysteryName": "謎めいた種子",
+      "tribeItemId": 21075, "tribeCurrencyName": "シルフ金葉貨",
+      "subItemId": 13595, "subName": "ブリオッシュ・デ・ロワ"
+    }
+  ],
+  "mysteryCommonExchanges": [
+    { "itemId": 21074, "name": "バヌバヌ白骨貨",               "amount": 6   },
+    { "itemId": 21079, "name": "グナース偽黒銅貨",             "amount": 6   },
+    { "itemId": 21080, "name": "飾りクポの実",                 "amount": 18  },
+    { "itemId": 28,    "name": "アラガントームストーン:詩学",   "amount": 150 },
+    { "itemId": 27,    "name": "同盟記章",                     "amount": 300 }
+  ],
+  "crystalSandExchanges": [
+    {
+      "category": "制作青貨の手形",
+      "items": [
+        { "itemId": 12839, "name": "制作青貨の手形",   "iconId": 26171, "qty": 5,
+          "how": { "iconId": 65088, "label": "クラフタースクリップ紫貨 ×25 と交換" } }
+      ]
+    },
+    {
+      "category": "採集青貨の手形",
+      "items": [
+        { "itemId": 12841, "name": "採集青貨の手形",   "iconId": 26171, "qty": 5,
+          "how": { "iconId": 65087, "label": "ギャザラースクリップ紫貨 ×25 と交換" } }
+      ]
+    },
+    {
+      "category": "制作素材",
+      "items": [
+        { "itemId": 12913, "name": "ガーロンド鋼",             "iconId": 20966, "qty": 1, "how": "制作またはマーケットボード" },
+        { "itemId": 12912, "name": "セレスタイン",             "iconId": 21286, "qty": 1, "how": "制作またはマーケットボード" },
+        { "itemId": 12233, "name": "ハイアラガンキメラレザー", "iconId": 21831, "qty": 1, "how": "制作またはマーケットボード" }
+      ]
+    },
+    {
+      "category": "虫入りアンバー",
+      "items": [
+        { "itemId": 12236, "name": "虫入りアンバー", "iconId": 21270, "qty": 1,
+          "how": "ギルドリーヴ「リバーズミートの魔物退治」（Lv50 討伐任務）" }
+      ]
+    },
+    {
+      "category": "属性マテリガ（星極）",
+      "items": [
+        { "itemId": 5637, "name": "防火のマテリガ", "iconId": 20232, "qty": 1, "how": "マーケットボード" },
+        { "itemId": 5647, "name": "防風のマテリガ", "iconId": 20232, "qty": 1, "how": "マーケットボード" },
+        { "itemId": 5657, "name": "防雷のマテリガ", "iconId": 20232, "qty": 1, "how": "マーケットボード" }
+      ]
+    },
+    {
+      "category": "属性マテリガ（霊極）",
+      "items": [
+        { "itemId": 5642, "name": "防氷のマテリガ", "iconId": 20232, "qty": 1, "how": "マーケットボード" },
+        { "itemId": 5652, "name": "防土のマテリガ", "iconId": 20232, "qty": 1, "how": "マーケットボード" },
+        { "itemId": 5662, "name": "防水のマテリガ", "iconId": 20232, "qty": 1, "how": "マーケットボード" }
+      ]
+    },
+    {
+      "category": "デミマテリア",
+      "items": [
+        { "itemId": 8145, "name": "鍛人のデミマテリア", "iconId": 20245, "qty": 3, "how": "戦闘職装備の分解" },
+        { "itemId": 8146, "name": "鍛人のデミマテリラ", "iconId": 20246, "qty": 2, "how": "戦闘職装備の分解" },
+        { "itemId": 8148, "name": "工匠のデミマテリア", "iconId": 20241, "qty": 3, "how": "製作職・採集職装備の分解" },
+        { "itemId": 8149, "name": "工匠のデミマテリラ", "iconId": 20242, "qty": 2, "how": "製作職・採集職装備の分解" }
+      ]
+    },
+    {
+      "category": "ムーンストーン",
+      "items": [
+        { "itemId": 10124, "name": "ムーンストーン", "iconId": 21273, "qty": 5, "how": "マーケットボード" }
+      ]
+    },
+    {
+      "category": "蛮神関連素材（その1）",
+      "items": [
+        { "itemId": 6159, "name": "焔神イフリートの角",     "iconId": 22205, "qty": 1, "how": "極イフリート討滅戦" },
+        { "itemId": 6163, "name": "岩神タイタンの岩塊",     "iconId": 21206, "qty": 1, "how": "極タイタン討滅戦" },
+        { "itemId": 9378, "name": "氷神シヴァの涙",         "iconId": 21291, "qty": 1, "how": "極シヴァ討滅戦" }
+      ]
+    },
+    {
+      "category": "蛮神関連素材（その2）",
+      "items": [
+        { "itemId": 6161, "name": "嵐神ガルーダの羽根",       "iconId": 25901, "qty": 1, "how": "極ガルーダ討滅戦" },
+        { "itemId": 7160, "name": "水神リヴァイアサンの棘",   "iconId": 22304, "qty": 1, "how": "極リヴァイアサン討滅戦" },
+        { "itemId": 8020, "name": "雷神ラムウのオーブ",       "iconId": 21265, "qty": 1, "how": "極ラムウ討滅戦" }
+      ]
+    },
+    {
+      "category": "その他（その1）",
+      "items": [
+        { "itemId": 7885, "name": "ハイエンチャントインク", "iconId": 25923, "qty": 5,
+          "how": { "iconId": 65023, "label": "詩学 ×25 と交換（特殊武器素材）" } },
+        { "itemId": 6268, "name": "サベネアの霊薬",        "iconId": 20661, "qty": 5,
+          "how": { "iconId": 65023, "label": "詩学 ×20 と交換（特殊武器素材）" } }
+      ]
+    },
+    {
+      "category": "その他（その2）",
+      "items": [
+        { "itemId": 13626, "name": "マハ古銭",       "iconId": 26274, "qty": 2, "how": "ヴォイドアーク系アライアンスレイド" },
+        { "itemId": 9376,  "name": "アラグの魔触媒", "iconId": 27604, "qty": 5, "how": "マーケットボード" }
+      ]
+    },
+    {
+      "category": "謎めいた素材",
+      "items": [
+        { "itemId": 13582, "name": "謎めいた骨片", "iconId": 22216, "qty": 1, "how": "蛮族デイリー・詩学・同盟記章など" },
+        { "itemId": 13584, "name": "謎めいた貝殻", "iconId": 22263, "qty": 1, "how": "蛮族デイリー・詩学・同盟記章など" },
+        { "itemId": 13586, "name": "謎めいた原石", "iconId": 21478, "qty": 1, "how": "蛮族デイリー・詩学・同盟記章など" },
+        { "itemId": 13588, "name": "謎めいた種子", "iconId": 27459, "qty": 1, "how": "蛮族デイリー・詩学・同盟記章など" }
+      ]
+    }
+  ]
+}

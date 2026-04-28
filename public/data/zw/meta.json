@@ -1,0 +1,2614 @@
+{
+  "MNK": [
+    {
+      "nameJa": "スファライ",
+      "levelItem": 80,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 1746,
+          "iconId": 31034,
+          "nameJa": "スファライ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 130,
+          "name": "古の武器：スファライ"
+        }
+      ],
+      "quests": [
+        {
+          "id": 66657,
+          "name": "蘇る古の武器（スファライ）",
+          "location": "黒衣森：北部森林",
+          "icon": 100165,
+          "eventIcon": 71341,
+          "usedItems": [
+            1740,
+            1735,
+            6267
+          ],
+          "partials": [
+            {
+              "type": "npc",
+              "id": "1003075",
+              "obj": {
+                "n": "ゲロルト",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1001304",
+              "obj": {
+                "n": "ロウェナ",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1004582",
+              "obj": {
+                "n": "ファファジョニ上等闘兵",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1008161",
+              "obj": {
+                "n": "ぷくぷくモーグリ",
+                "c": null
+              }
+            },
+            {
+              "type": "item",
+              "id": "1746",
+              "obj": {
+                "n": "スファライ",
+                "c": 31034
+              }
+            },
+            {
+              "type": "item",
+              "id": "1740",
+              "obj": {
+                "n": "ワイルドリングセスタス",
+                "c": 31061
+              }
+            },
+            {
+              "type": "item",
+              "id": "1735",
+              "obj": {
+                "n": "未完のスファライ",
+                "c": 31035
+              }
+            },
+            {
+              "type": "item",
+              "id": "6267",
+              "obj": {
+                "n": "ラザハン焼入油",
+                "c": 22636
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66602",
+              "obj": {
+                "n": "廃王の帰還",
+                "c": null
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66241",
+              "obj": {
+                "n": "伝説の武具職人",
+                "c": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameJa": "スファライ・ゼニス",
+      "levelItem": 90,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 6258,
+          "iconId": 31034,
+          "nameJa": "スファライ・ゼニス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "スファライ・アートマ",
+      "levelItem": 100,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 7825,
+          "iconId": 31072,
+          "nameJa": "スファライ・アートマ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "スファライ・アニムス",
+      "levelItem": 100,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 7835,
+          "iconId": 31072,
+          "nameJa": "スファライ・アニムス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 925,
+          "name": "黄道の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "スファライ・ノウス",
+      "levelItem": 110,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 7864,
+          "iconId": 31072,
+          "nameJa": "スファライ・ノウス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 926,
+          "name": "星々の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "スファライ・ネクサス",
+      "levelItem": 115,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 8650,
+          "iconId": 31072,
+          "nameJa": "スファライ・ネクサス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1028,
+          "name": "ネクサスの輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "カイザーナックル",
+      "levelItem": 125,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 9492,
+          "iconId": 31082,
+          "nameJa": "カイザーナックル"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1054,
+          "name": "ゾディアックウェポンオーナー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "カイザーナックル・ゼータ",
+      "levelItem": 135,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 10055,
+          "iconId": 31082,
+          "nameJa": "カイザーナックル・ゼータ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1081,
+          "name": "ゾディアックウェポン・ゼータ"
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "WAR": [
+    {
+      "nameJa": "ブラビューラ",
+      "levelItem": 80,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 1816,
+          "iconId": 31440,
+          "nameJa": "ブラビューラ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 131,
+          "name": "古の武器：ブラビューラ"
+        }
+      ],
+      "quests": [
+        {
+          "id": 66655,
+          "name": "蘇る古の武器（ブラビューラ）",
+          "location": "黒衣森：北部森林",
+          "icon": 100165,
+          "eventIcon": 71341,
+          "usedItems": [
+            1810,
+            1805,
+            6267
+          ],
+          "partials": [
+            {
+              "type": "npc",
+              "id": "1003075",
+              "obj": {
+                "n": "ゲロルト",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1001304",
+              "obj": {
+                "n": "ロウェナ",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1004582",
+              "obj": {
+                "n": "ファファジョニ上等闘兵",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1008161",
+              "obj": {
+                "n": "ぷくぷくモーグリ",
+                "c": null
+              }
+            },
+            {
+              "type": "item",
+              "id": "1816",
+              "obj": {
+                "n": "ブラビューラ",
+                "c": 31440
+              }
+            },
+            {
+              "type": "item",
+              "id": "1810",
+              "obj": {
+                "n": "バーバリアンバルディッシュ",
+                "c": 31415
+              }
+            },
+            {
+              "type": "item",
+              "id": "1805",
+              "obj": {
+                "n": "未完のブラビューラ",
+                "c": 31441
+              }
+            },
+            {
+              "type": "item",
+              "id": "6267",
+              "obj": {
+                "n": "ラザハン焼入油",
+                "c": 22636
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66590",
+              "obj": {
+                "n": "いちばんの戦士",
+                "c": null
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66241",
+              "obj": {
+                "n": "伝説の武具職人",
+                "c": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameJa": "ブラビューラ・ゼニス",
+      "levelItem": 90,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 6259,
+          "iconId": 31440,
+          "nameJa": "ブラビューラ・ゼニス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ブラビューラ・アートマ",
+      "levelItem": 100,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 7826,
+          "iconId": 31478,
+          "nameJa": "ブラビューラ・アートマ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ブラビューラ・アニムス",
+      "levelItem": 100,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 7836,
+          "iconId": 31478,
+          "nameJa": "ブラビューラ・アニムス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 925,
+          "name": "黄道の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ブラビューラ・ノウス",
+      "levelItem": 110,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 7865,
+          "iconId": 31478,
+          "nameJa": "ブラビューラ・ノウス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 926,
+          "name": "星々の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ブラビューラ・ネクサス",
+      "levelItem": 115,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 8651,
+          "iconId": 31478,
+          "nameJa": "ブラビューラ・ネクサス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1028,
+          "name": "ネクサスの輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ラグナロク",
+      "levelItem": 125,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 9493,
+          "iconId": 31488,
+          "nameJa": "ラグナロク"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1054,
+          "name": "ゾディアックウェポンオーナー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ラグナロク・ゼータ",
+      "levelItem": 135,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 10056,
+          "iconId": 31488,
+          "nameJa": "ラグナロク・ゼータ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1081,
+          "name": "ゾディアックウェポン・ゼータ"
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "DRG": [
+    {
+      "nameJa": "ゲイボルグ",
+      "levelItem": 80,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 1885,
+          "iconId": 31842,
+          "nameJa": "ゲイボルグ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 132,
+          "name": "古の武器：ゲイボルグ"
+        }
+      ],
+      "quests": [
+        {
+          "id": 66658,
+          "name": "蘇る古の武器（ゲイボルグ）",
+          "location": "黒衣森：北部森林",
+          "icon": 100165,
+          "eventIcon": 71341,
+          "usedItems": [
+            1879,
+            1874,
+            6267
+          ],
+          "partials": [
+            {
+              "type": "npc",
+              "id": "1003075",
+              "obj": {
+                "n": "ゲロルト",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1001304",
+              "obj": {
+                "n": "ロウェナ",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1004582",
+              "obj": {
+                "n": "ファファジョニ上等闘兵",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1008161",
+              "obj": {
+                "n": "ぷくぷくモーグリ",
+                "c": null
+              }
+            },
+            {
+              "type": "item",
+              "id": "1885",
+              "obj": {
+                "n": "ゲイボルグ",
+                "c": 31842
+              }
+            },
+            {
+              "type": "item",
+              "id": "1879",
+              "obj": {
+                "n": "チャンピオンランス",
+                "c": 31820
+              }
+            },
+            {
+              "type": "item",
+              "id": "1874",
+              "obj": {
+                "n": "未完のゲイボルグ",
+                "c": 31843
+              }
+            },
+            {
+              "type": "item",
+              "id": "6267",
+              "obj": {
+                "n": "ラザハン焼入油",
+                "c": 22636
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66608",
+              "obj": {
+                "n": "蒼の竜騎士",
+                "c": null
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66241",
+              "obj": {
+                "n": "伝説の武具職人",
+                "c": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameJa": "ゲイボルグ・ゼニス",
+      "levelItem": 90,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 6260,
+          "iconId": 31842,
+          "nameJa": "ゲイボルグ・ゼニス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ゲイボルグ・アートマ",
+      "levelItem": 100,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 7827,
+          "iconId": 31877,
+          "nameJa": "ゲイボルグ・アートマ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ゲイボルグ・アニムス",
+      "levelItem": 100,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 7837,
+          "iconId": 31877,
+          "nameJa": "ゲイボルグ・アニムス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 925,
+          "name": "黄道の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ゲイボルグ・ノウス",
+      "levelItem": 110,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 7866,
+          "iconId": 31877,
+          "nameJa": "ゲイボルグ・ノウス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 926,
+          "name": "星々の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ゲイボルグ・ネクサス",
+      "levelItem": 115,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 8652,
+          "iconId": 31877,
+          "nameJa": "ゲイボルグ・ネクサス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1028,
+          "name": "ネクサスの輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ロンギヌス",
+      "levelItem": 125,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 9494,
+          "iconId": 31887,
+          "nameJa": "ロンギヌス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1054,
+          "name": "ゾディアックウェポンオーナー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ロンギヌス・ゼータ",
+      "levelItem": 135,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 10057,
+          "iconId": 31887,
+          "nameJa": "ロンギヌス・ゼータ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1081,
+          "name": "ゾディアックウェポン・ゼータ"
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "BRD": [
+    {
+      "nameJa": "アルテミスの弓",
+      "levelItem": 80,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 1955,
+          "iconId": 32238,
+          "nameJa": "アルテミスの弓"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 133,
+          "name": "古の武器：アルテミスの弓"
+        }
+      ],
+      "quests": [
+        {
+          "id": 66661,
+          "name": "蘇る古の武器（アルテミスの弓）",
+          "location": "黒衣森：北部森林",
+          "icon": 100165,
+          "eventIcon": 71341,
+          "usedItems": [
+            1949,
+            1944,
+            6267
+          ],
+          "partials": [
+            {
+              "type": "npc",
+              "id": "1003075",
+              "obj": {
+                "n": "ゲロルト",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1001304",
+              "obj": {
+                "n": "ロウェナ",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1004582",
+              "obj": {
+                "n": "ファファジョニ上等闘兵",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1008161",
+              "obj": {
+                "n": "ぷくぷくモーグリ",
+                "c": null
+              }
+            },
+            {
+              "type": "item",
+              "id": "1955",
+              "obj": {
+                "n": "アルテミスの弓",
+                "c": 32238
+              }
+            },
+            {
+              "type": "item",
+              "id": "1949",
+              "obj": {
+                "n": "ロングアーム・コンポジットボウ",
+                "c": 32216
+              }
+            },
+            {
+              "type": "item",
+              "id": "1944",
+              "obj": {
+                "n": "未完のアルテミスの弓",
+                "c": 32239
+              }
+            },
+            {
+              "type": "item",
+              "id": "6267",
+              "obj": {
+                "n": "ラザハン焼入油",
+                "c": 22636
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66626",
+              "obj": {
+                "n": "命の賛歌",
+                "c": null
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66241",
+              "obj": {
+                "n": "伝説の武具職人",
+                "c": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameJa": "アルテミスボウ・ゼニス",
+      "levelItem": 90,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 6261,
+          "iconId": 32238,
+          "nameJa": "アルテミスボウ・ゼニス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アルテミスボウ・アートマ",
+      "levelItem": 100,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 7828,
+          "iconId": 32273,
+          "nameJa": "アルテミスボウ・アートマ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "アルテミスボウ・アニムス",
+      "levelItem": 100,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 7838,
+          "iconId": 32273,
+          "nameJa": "アルテミスボウ・アニムス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 925,
+          "name": "黄道の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "アルテミスボウ・ノウス",
+      "levelItem": 110,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 7867,
+          "iconId": 32273,
+          "nameJa": "アルテミスボウ・ノウス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 926,
+          "name": "星々の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "アルテミスボウ・ネクサス",
+      "levelItem": 115,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 8653,
+          "iconId": 32273,
+          "nameJa": "アルテミスボウ・ネクサス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1028,
+          "name": "ネクサスの輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "与一の弓",
+      "levelItem": 125,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 9495,
+          "iconId": 32283,
+          "nameJa": "与一の弓"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1054,
+          "name": "ゾディアックウェポンオーナー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "与一の弓【絶】",
+      "levelItem": 135,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 10058,
+          "iconId": 32283,
+          "nameJa": "与一の弓【絶】"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1081,
+          "name": "ゾディアックウェポン・ゼータ"
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "WHM": [
+    {
+      "nameJa": "タイラス",
+      "levelItem": 80,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 2052,
+          "iconId": 32626,
+          "nameJa": "タイラス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 134,
+          "name": "古の武器：タイラス"
+        }
+      ],
+      "quests": [
+        {
+          "id": 66660,
+          "name": "蘇る古の武器（タイラス）",
+          "location": "黒衣森：北部森林",
+          "icon": 100165,
+          "eventIcon": 71341,
+          "usedItems": [
+            2049,
+            2046,
+            6267
+          ],
+          "partials": [
+            {
+              "type": "npc",
+              "id": "1003075",
+              "obj": {
+                "n": "ゲロルト",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1001304",
+              "obj": {
+                "n": "ロウェナ",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1004582",
+              "obj": {
+                "n": "ファファジョニ上等闘兵",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1008161",
+              "obj": {
+                "n": "ぷくぷくモーグリ",
+                "c": null
+              }
+            },
+            {
+              "type": "item",
+              "id": "2052",
+              "obj": {
+                "n": "タイラス",
+                "c": 32626
+              }
+            },
+            {
+              "type": "item",
+              "id": "2049",
+              "obj": {
+                "n": "マッドマンリビングロッド",
+                "c": 32651
+              }
+            },
+            {
+              "type": "item",
+              "id": "2046",
+              "obj": {
+                "n": "未完のタイラス",
+                "c": 32627
+              }
+            },
+            {
+              "type": "item",
+              "id": "6267",
+              "obj": {
+                "n": "ラザハン焼入油",
+                "c": 22636
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66620",
+              "obj": {
+                "n": "鎮撫の儀",
+                "c": null
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66241",
+              "obj": {
+                "n": "伝説の武具職人",
+                "c": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameJa": "タイラス・ゼニス",
+      "levelItem": 90,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 6262,
+          "iconId": 32626,
+          "nameJa": "タイラス・ゼニス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "タイラス・アートマ",
+      "levelItem": 100,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 7829,
+          "iconId": 32657,
+          "nameJa": "タイラス・アートマ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "タイラス・アニムス",
+      "levelItem": 100,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 7839,
+          "iconId": 32657,
+          "nameJa": "タイラス・アニムス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 925,
+          "name": "黄道の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "タイラス・ノウス",
+      "levelItem": 110,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 7868,
+          "iconId": 32657,
+          "nameJa": "タイラス・ノウス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 926,
+          "name": "星々の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "タイラス・ネクサス",
+      "levelItem": 115,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 8654,
+          "iconId": 32657,
+          "nameJa": "タイラス・ネクサス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1028,
+          "name": "ネクサスの輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ニルヴァーナ",
+      "levelItem": 125,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 9496,
+          "iconId": 32663,
+          "nameJa": "ニルヴァーナ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1054,
+          "name": "ゾディアックウェポンオーナー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ニルヴァーナ・ゼータ",
+      "levelItem": 135,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 10059,
+          "iconId": 32663,
+          "nameJa": "ニルヴァーナ・ゼータ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1081,
+          "name": "ゾディアックウェポン・ゼータ"
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "BLM": [
+    {
+      "nameJa": "星屑のロッド",
+      "levelItem": 80,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 2140,
+          "iconId": 33012,
+          "nameJa": "星屑のロッド"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 135,
+          "name": "古の武器：星屑のロッド"
+        }
+      ],
+      "quests": [
+        {
+          "id": 66659,
+          "name": "蘇る古の武器（星屑のロッド）",
+          "location": "黒衣森：北部森林",
+          "icon": 100165,
+          "eventIcon": 71341,
+          "usedItems": [
+            2102,
+            2135,
+            6267
+          ],
+          "partials": [
+            {
+              "type": "npc",
+              "id": "1003075",
+              "obj": {
+                "n": "ゲロルト",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1001304",
+              "obj": {
+                "n": "ロウェナ",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1004582",
+              "obj": {
+                "n": "ファファジョニ上等闘兵",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1008161",
+              "obj": {
+                "n": "ぷくぷくモーグリ",
+                "c": null
+              }
+            },
+            {
+              "type": "item",
+              "id": "2140",
+              "obj": {
+                "n": "星屑のロッド",
+                "c": 33012
+              }
+            },
+            {
+              "type": "item",
+              "id": "2102",
+              "obj": {
+                "n": "ブラッディセプター",
+                "c": 32846
+              }
+            },
+            {
+              "type": "item",
+              "id": "2135",
+              "obj": {
+                "n": "未完の星屑のロッド",
+                "c": 33013
+              }
+            },
+            {
+              "type": "item",
+              "id": "6267",
+              "obj": {
+                "n": "ラザハン焼入油",
+                "c": 22636
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66614",
+              "obj": {
+                "n": "黒魔法の導き手",
+                "c": null
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66241",
+              "obj": {
+                "n": "伝説の武具職人",
+                "c": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameJa": "スターダストロッド・ゼニス",
+      "levelItem": 90,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 6263,
+          "iconId": 33012,
+          "nameJa": "スターダストロッド・ゼニス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "スターダストロッド・アートマ",
+      "levelItem": 100,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 7830,
+          "iconId": 33026,
+          "nameJa": "スターダストロッド・アートマ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "スターダストロッド・アニムス",
+      "levelItem": 100,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 7840,
+          "iconId": 33026,
+          "nameJa": "スターダストロッド・アニムス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 925,
+          "name": "黄道の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "スターダストロッド・ノウス",
+      "levelItem": 110,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 7869,
+          "iconId": 33026,
+          "nameJa": "スターダストロッド・ノウス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 926,
+          "name": "星々の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "スターダストロッド・ネクサス",
+      "levelItem": 115,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 8655,
+          "iconId": 33026,
+          "nameJa": "スターダストロッド・ネクサス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1028,
+          "name": "ネクサスの輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "リリスロッド",
+      "levelItem": 125,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 9497,
+          "iconId": 33031,
+          "nameJa": "リリスロッド"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1054,
+          "name": "ゾディアックウェポンオーナー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "リリスロッド・ゼータ",
+      "levelItem": 135,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 10060,
+          "iconId": 33031,
+          "nameJa": "リリスロッド・ゼータ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1081,
+          "name": "ゾディアックウェポン・ゼータ"
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "SMN": [
+    {
+      "nameJa": "ウイユヴェール",
+      "levelItem": 80,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 2213,
+          "iconId": 33457,
+          "nameJa": "ウイユヴェール"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 597,
+          "name": "古の武器：ウイユヴェール"
+        }
+      ],
+      "quests": [
+        {
+          "id": 66662,
+          "name": "蘇る古の武器（ウイユヴェール）",
+          "location": "黒衣森：北部森林",
+          "icon": 100165,
+          "eventIcon": 71341,
+          "usedItems": [
+            2202,
+            2191,
+            6267
+          ],
+          "partials": [
+            {
+              "type": "npc",
+              "id": "1003075",
+              "obj": {
+                "n": "ゲロルト",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1001304",
+              "obj": {
+                "n": "ロウェナ",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1004582",
+              "obj": {
+                "n": "ファファジョニ上等闘兵",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1008161",
+              "obj": {
+                "n": "ぷくぷくモーグリ",
+                "c": null
+              }
+            },
+            {
+              "type": "item",
+              "id": "2213",
+              "obj": {
+                "n": "ウイユヴェール",
+                "c": 33457
+              }
+            },
+            {
+              "type": "item",
+              "id": "2202",
+              "obj": {
+                "n": "エルダイトキャスターピカトリクス",
+                "c": 33448
+              }
+            },
+            {
+              "type": "item",
+              "id": "2191",
+              "obj": {
+                "n": "未完のウイユヴェール",
+                "c": 33437
+              }
+            },
+            {
+              "type": "item",
+              "id": "6267",
+              "obj": {
+                "n": "ラザハン焼入油",
+                "c": 22636
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66632",
+              "obj": {
+                "n": "邪道と正道",
+                "c": null
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66241",
+              "obj": {
+                "n": "伝説の武具職人",
+                "c": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameJa": "ウイユヴェール・ゼニス",
+      "levelItem": 90,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 6264,
+          "iconId": 33457,
+          "nameJa": "ウイユヴェール・ゼニス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ウイユヴェール・アートマ",
+      "levelItem": 100,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 7831,
+          "iconId": 33478,
+          "nameJa": "ウイユヴェール・アートマ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ウイユヴェール・アニムス",
+      "levelItem": 100,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 7841,
+          "iconId": 33478,
+          "nameJa": "ウイユヴェール・アニムス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 925,
+          "name": "黄道の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ウイユヴェール・ノウス",
+      "levelItem": 110,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 7870,
+          "iconId": 33478,
+          "nameJa": "ウイユヴェール・ノウス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 926,
+          "name": "星々の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ウイユヴェール・ネクサス",
+      "levelItem": 115,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 8656,
+          "iconId": 33478,
+          "nameJa": "ウイユヴェール・ネクサス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1028,
+          "name": "ネクサスの輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "アポカリプス",
+      "levelItem": 125,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 9498,
+          "iconId": 33498,
+          "nameJa": "アポカリプス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1054,
+          "name": "ゾディアックウェポンオーナー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "アポカリプス・ゼータ",
+      "levelItem": 135,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 10061,
+          "iconId": 33498,
+          "nameJa": "アポカリプス・ゼータ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1081,
+          "name": "ゾディアックウェポン・ゼータ"
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "SCH": [
+    {
+      "nameJa": "エルダイトヒーラーピカトリクス",
+      "levelItem": 55,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 2201,
+          "iconId": 33447,
+          "nameJa": "エルダイトヒーラーピカトリクス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "マダレムジエン",
+      "levelItem": 80,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 2214,
+          "iconId": 33458,
+          "nameJa": "マダレムジエン"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 598,
+          "name": "古の武器：マダレムジエン"
+        }
+      ],
+      "quests": [
+        {
+          "id": 66663,
+          "name": "蘇る古の武器（マダレムジエン）",
+          "location": "黒衣森：北部森林",
+          "icon": 100165,
+          "eventIcon": 71341,
+          "usedItems": [
+            2201,
+            2192,
+            6267
+          ],
+          "partials": [
+            {
+              "type": "npc",
+              "id": "1003075",
+              "obj": {
+                "n": "ゲロルト",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1001304",
+              "obj": {
+                "n": "ロウェナ",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1004582",
+              "obj": {
+                "n": "ファファジョニ上等闘兵",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1008161",
+              "obj": {
+                "n": "ぷくぷくモーグリ",
+                "c": null
+              }
+            },
+            {
+              "type": "item",
+              "id": "2214",
+              "obj": {
+                "n": "マダレムジエン",
+                "c": 33458
+              }
+            },
+            {
+              "type": "item",
+              "id": "2201",
+              "obj": {
+                "n": "エルダイトヒーラーピカトリクス",
+                "c": 33447
+              }
+            },
+            {
+              "type": "item",
+              "id": "2192",
+              "obj": {
+                "n": "未完のマダレムジエン",
+                "c": 33438
+              }
+            },
+            {
+              "type": "item",
+              "id": "6267",
+              "obj": {
+                "n": "ラザハン焼入油",
+                "c": 22636
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66638",
+              "obj": {
+                "n": "次代の学者",
+                "c": null
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66241",
+              "obj": {
+                "n": "伝説の武具職人",
+                "c": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameJa": "マダレムジエン・ゼニス",
+      "levelItem": 90,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 6265,
+          "iconId": 33458,
+          "nameJa": "マダレムジエン・ゼニス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "マダレムジエン・アートマ",
+      "levelItem": 100,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 7832,
+          "iconId": 33479,
+          "nameJa": "マダレムジエン・アートマ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "マダレムジエン・アニムス",
+      "levelItem": 100,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 7842,
+          "iconId": 33479,
+          "nameJa": "マダレムジエン・アニムス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 925,
+          "name": "黄道の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "マダレムジエン・ノウス",
+      "levelItem": 110,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 7871,
+          "iconId": 33479,
+          "nameJa": "マダレムジエン・ノウス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 926,
+          "name": "星々の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "マダレムジエン・ネクサス",
+      "levelItem": 115,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 8657,
+          "iconId": 33479,
+          "nameJa": "マダレムジエン・ネクサス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1028,
+          "name": "ネクサスの輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ラストリゾート",
+      "levelItem": 125,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 9499,
+          "iconId": 33499,
+          "nameJa": "ラストリゾート"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1054,
+          "name": "ゾディアックウェポンオーナー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ラストリゾート・ゼータ",
+      "levelItem": 135,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 10062,
+          "iconId": 33499,
+          "nameJa": "ラストリゾート・ゼータ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1081,
+          "name": "ゾディアックウェポン・ゼータ"
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "NIN": [
+    {
+      "nameJa": "吉光",
+      "levelItem": 80,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 7888,
+          "iconId": 33855,
+          "nameJa": "吉光"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1053,
+          "name": "古の武器：吉光"
+        }
+      ],
+      "quests": [
+        {
+          "id": 67115,
+          "name": "蘇る古の武器（吉光）",
+          "location": "黒衣森：北部森林",
+          "icon": 100165,
+          "eventIcon": 71341,
+          "usedItems": [
+            9224,
+            7887,
+            6267
+          ],
+          "partials": [
+            {
+              "type": "npc",
+              "id": "1003075",
+              "obj": {
+                "n": "ゲロルト",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1001304",
+              "obj": {
+                "n": "ロウェナ",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1004582",
+              "obj": {
+                "n": "ファファジョニ上等闘兵",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1008161",
+              "obj": {
+                "n": "ぷくぷくモーグリ",
+                "c": null
+              }
+            },
+            {
+              "type": "item",
+              "id": "7888",
+              "obj": {
+                "n": "吉光",
+                "c": 33855
+              }
+            },
+            {
+              "type": "instance",
+              "id": "20019",
+              "obj": {
+                "n": "ドルムキマイラ討伐戦",
+                "c": 61804
+              }
+            },
+            {
+              "type": "instance",
+              "id": "20020",
+              "obj": {
+                "n": "ハイドラ討伐戦",
+                "c": 61804
+              }
+            },
+            {
+              "type": "item",
+              "id": "9224",
+              "obj": {
+                "n": "ヴァンパーナイフ",
+                "c": 33842
+              }
+            },
+            {
+              "type": "item",
+              "id": "7887",
+              "obj": {
+                "n": "未完の吉光",
+                "c": 33837
+              }
+            },
+            {
+              "type": "item",
+              "id": "6267",
+              "obj": {
+                "n": "ラザハン焼入油",
+                "c": 22636
+              }
+            },
+            {
+              "type": "quest",
+              "id": "65770",
+              "obj": {
+                "n": "雲晴れる夜に",
+                "c": null
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66241",
+              "obj": {
+                "n": "伝説の武具職人",
+                "c": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameJa": "吉光【改】",
+      "levelItem": 90,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 9250,
+          "iconId": 33855,
+          "nameJa": "吉光【改】"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "吉光【真我】",
+      "levelItem": 100,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 9251,
+          "iconId": 33860,
+          "nameJa": "吉光【真我】"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "吉光【入魂】",
+      "levelItem": 100,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 9252,
+          "iconId": 33860,
+          "nameJa": "吉光【入魂】"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 925,
+          "name": "黄道の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "吉光【新生】",
+      "levelItem": 110,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 9253,
+          "iconId": 33860,
+          "nameJa": "吉光【新生】"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 926,
+          "name": "星々の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "吉光【真打】",
+      "levelItem": 115,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 9254,
+          "iconId": 33860,
+          "nameJa": "吉光【真打】"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1028,
+          "name": "ネクサスの輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "佐助の刀",
+      "levelItem": 125,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 9501,
+          "iconId": 33870,
+          "nameJa": "佐助の刀"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1054,
+          "name": "ゾディアックウェポンオーナー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "佐助の刀【絶】",
+      "levelItem": 135,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 10064,
+          "iconId": 33870,
+          "nameJa": "佐助の刀【絶】"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1081,
+          "name": "ゾディアックウェポン・ゼータ"
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "GLA PLD": [
+    {
+      "nameJa": "アイオリアンシミター",
+      "levelItem": 55,
+      "jobNameJa": "剣術士 ナイト",
+      "items": [
+        {
+          "id": 1670,
+          "iconId": 30427,
+          "nameJa": "アイオリアンシミター"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "PGL MNK": [
+    {
+      "nameJa": "ワイルドリングセスタス",
+      "levelItem": 55,
+      "jobNameJa": "格闘士 モンク",
+      "items": [
+        {
+          "id": 1740,
+          "iconId": 31061,
+          "nameJa": "ワイルドリングセスタス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "MRD WAR": [
+    {
+      "nameJa": "バーバリアンバルディッシュ",
+      "levelItem": 55,
+      "jobNameJa": "斧術士 戦士",
+      "items": [
+        {
+          "id": 1810,
+          "iconId": 31415,
+          "nameJa": "バーバリアンバルディッシュ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "LNC DRG": [
+    {
+      "nameJa": "チャンピオンランス",
+      "levelItem": 55,
+      "jobNameJa": "槍術士 竜騎士",
+      "items": [
+        {
+          "id": 1879,
+          "iconId": 31820,
+          "nameJa": "チャンピオンランス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "ARC BRD": [
+    {
+      "nameJa": "ロングアーム・コンポジットボウ",
+      "levelItem": 55,
+      "jobNameJa": "弓術士 吟遊詩人",
+      "items": [
+        {
+          "id": 1949,
+          "iconId": 32216,
+          "nameJa": "ロングアーム・コンポジットボウ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "CNJ WHM": [
+    {
+      "nameJa": "マッドマンリビングロッド",
+      "levelItem": 55,
+      "jobNameJa": "幻術士 白魔道士",
+      "items": [
+        {
+          "id": 2049,
+          "iconId": 32651,
+          "nameJa": "マッドマンリビングロッド"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "THM BLM": [
+    {
+      "nameJa": "ブラッディセプター",
+      "levelItem": 55,
+      "jobNameJa": "呪術士 黒魔道士",
+      "items": [
+        {
+          "id": 2102,
+          "iconId": 32846,
+          "nameJa": "ブラッディセプター"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "ACN SMN": [
+    {
+      "nameJa": "エルダイトキャスターピカトリクス",
+      "levelItem": 55,
+      "jobNameJa": "巴術士 召喚士",
+      "items": [
+        {
+          "id": 2202,
+          "iconId": 33448,
+          "nameJa": "エルダイトキャスターピカトリクス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "ROG NIN": [
+    {
+      "nameJa": "ヴァンパーナイフ",
+      "levelItem": 55,
+      "jobNameJa": "双剣士 忍者",
+      "items": [
+        {
+          "id": 9224,
+          "iconId": 33842,
+          "nameJa": "ヴァンパーナイフ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    }
+  ],
+  "PLD": [
+    {
+      "nameJa": "コルタナ",
+      "levelItem": 80,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 1675,
+          "iconId": 30446,
+          "nameJa": "コルタナ"
+        },
+        {
+          "id": 2306,
+          "iconId": 30056,
+          "nameJa": "ホーリーシールド"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 129,
+          "name": "古の武器：コルタナ＆ホーリーシールド"
+        }
+      ],
+      "quests": [
+        {
+          "id": 66656,
+          "name": "蘇る古の武器（コルタナ）",
+          "location": "黒衣森：北部森林",
+          "icon": 100165,
+          "eventIcon": 71341,
+          "usedItems": [
+            1670,
+            1665,
+            6267
+          ],
+          "partials": [
+            {
+              "type": "npc",
+              "id": "1003075",
+              "obj": {
+                "n": "ゲロルト",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1001304",
+              "obj": {
+                "n": "ロウェナ",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1004582",
+              "obj": {
+                "n": "ファファジョニ上等闘兵",
+                "c": null
+              }
+            },
+            {
+              "type": "npc",
+              "id": "1008161",
+              "obj": {
+                "n": "ぷくぷくモーグリ",
+                "c": null
+              }
+            },
+            {
+              "type": "item",
+              "id": "1675",
+              "obj": {
+                "n": "コルタナ",
+                "c": 30446
+              }
+            },
+            {
+              "type": "item",
+              "id": "2306",
+              "obj": {
+                "n": "ホーリーシールド",
+                "c": 30056
+              }
+            },
+            {
+              "type": "item",
+              "id": "1670",
+              "obj": {
+                "n": "アイオリアンシミター",
+                "c": 30427
+              }
+            },
+            {
+              "type": "item",
+              "id": "1665",
+              "obj": {
+                "n": "未完のコルタナ",
+                "c": 30447
+              }
+            },
+            {
+              "type": "item",
+              "id": "6267",
+              "obj": {
+                "n": "ラザハン焼入油",
+                "c": 22636
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66596",
+              "obj": {
+                "n": "かざすは騎士の聖剣",
+                "c": null
+              }
+            },
+            {
+              "type": "quest",
+              "id": "66241",
+              "obj": {
+                "n": "伝説の武具職人",
+                "c": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameJa": "コルタナ・ゼニス",
+      "levelItem": 90,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 6257,
+          "iconId": 30446,
+          "nameJa": "コルタナ・ゼニス"
+        },
+        {
+          "id": 6266,
+          "iconId": 30056,
+          "nameJa": "ホーリーシールド・ゼニス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "コルタナ・アートマ",
+      "levelItem": 100,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 7824,
+          "iconId": 30486,
+          "nameJa": "コルタナ・アートマ"
+        },
+        {
+          "id": 7833,
+          "iconId": 30102,
+          "nameJa": "ホーリーシールド・アートマ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "コルタナ・アニムス",
+      "levelItem": 100,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 7834,
+          "iconId": 30486,
+          "nameJa": "コルタナ・アニムス"
+        },
+        {
+          "id": 7843,
+          "iconId": 30102,
+          "nameJa": "ホーリーシールド・アニムス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 925,
+          "name": "黄道の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "コルタナ・ノウス",
+      "levelItem": 110,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 7863,
+          "iconId": 30486,
+          "nameJa": "コルタナ・ノウス"
+        },
+        {
+          "id": 7872,
+          "iconId": 30102,
+          "nameJa": "ホーリーシールド・ノウス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 926,
+          "name": "星々の輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "コルタナ・ネクサス",
+      "levelItem": 115,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 8649,
+          "iconId": 30486,
+          "nameJa": "コルタナ・ネクサス"
+        },
+        {
+          "id": 8658,
+          "iconId": 30102,
+          "nameJa": "ホーリーシールド・ネクサス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1028,
+          "name": "ネクサスの輝き"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エクスカリバー",
+      "levelItem": 125,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 9491,
+          "iconId": 30515,
+          "nameJa": "エクスカリバー"
+        },
+        {
+          "id": 9500,
+          "iconId": 30109,
+          "nameJa": "イージスの盾"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1054,
+          "name": "ゾディアックウェポンオーナー"
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "エクスカリバー・ゼータ",
+      "levelItem": 135,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 10054,
+          "iconId": 30515,
+          "nameJa": "エクスカリバー・ゼータ"
+        },
+        {
+          "id": 10063,
+          "iconId": 30109,
+          "nameJa": "イージスシールド・ゼータ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 1081,
+          "name": "ゾディアックウェポン・ゼータ"
+        }
+      ],
+      "quests": []
+    }
+  ]
+}
