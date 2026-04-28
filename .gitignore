@@ -41,6 +41,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# Claude Code settings
+.claude/
+
 # wrangler files
 .wrangler
 .dev.vars*
