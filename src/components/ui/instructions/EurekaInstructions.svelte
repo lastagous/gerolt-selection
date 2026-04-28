@@ -1,61 +1,98 @@
-<script lang="ts">
-  import type { Relation } from "../../../stores/progress";
-  import { ITEM_NAMES } from "../../../data/lookup";
+<script context="module">
+  let _cache = null;
+  let _loadPromise = null;
 
-  export let step: Relation;
-  export let stepIndex: number;
-  export let steps: Relation[];
-  export let tooltips: any[] = [];
-
-  const LODESTONE_BASE = "https://jp.finalfantasyxiv.com/lodestone/playguide/db/";
-  function tooltipUrl(id: number, type: string): string {
-    const t = tooltips.find((x: any) => x.id === id && x.urlType === type);
-    return `${LODESTONE_BASE}${type}/${t ? t.tooltipId + "/" : ""}`;
+  function getEwData() {
+    if (_cache) return Promise.resolve(_cache);
+    if (!_loadPromise) {
+      _loadPromise = fetch("/data/ew/steps.json").then(r => r.json()).then(steps => {
+        _cache = { steps };
+        return _cache;
+      });
+    }
+    return _loadPromise;
   }
-  function itemUrl(id: number) { return tooltipUrl(id, "item"); }
-
-  const prevItems = stepIndex > 0 ? (steps[stepIndex - 1]?.items ?? []) : [];
-  const prevItemLinks = prevItems.map(item =>
-    `<a class="eorzeadb_link" href="${itemUrl(item.ID)}" target="_blank" rel="noopener">${item.Name_ja}</a>`
-  ).join("と");
 </script>
 
-{#if stepIndex === 0}
-  <p>ジョブクエストの報酬装備と<a class="eorzeadb_link" href={itemUrl(21801)} target="_blank" rel="noopener">{ITEM_NAMES[21801]}</a> 100 個をアネモス編のゲロルトに渡す。</p>
-{:else if stepIndex === 1}
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(21801)} target="_blank" rel="noopener">{ITEM_NAMES[21801]}</a> 400 個をアネモス編のゲロルトに渡す。</p>
-{:else if stepIndex === 2}
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(21801)} target="_blank" rel="noopener">{ITEM_NAMES[21801]}</a> 800 個をアネモス編のゲロルトに渡す。</p>
-{:else if stepIndex === 3}
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(21802)} target="_blank" rel="noopener">{ITEM_NAMES[21802]}</a> 3 個をアネモス編のゲロルトに渡す。</p>
-{:else if stepIndex === 4}
-  <p>EL (エレメンタルレベル) を25に上げ、クルルからのクエストを受注する。</p>
-  <hr class="border-gs-border my-2" />
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(23309)} target="_blank" rel="noopener">{ITEM_NAMES[23309]}</a> 5 個をパゴス編のゲロルトに渡す。</p>
-{:else if stepIndex === 5}
-  <p>{@html prevItemLinks}<a class="eorzeadb_link" href={itemUrl(23309)} target="_blank" rel="noopener">{ITEM_NAMES[23309]}</a> 10 個と<a class="eorzeadb_link" href={itemUrl(22976)} target="_blank" rel="noopener">{ITEM_NAMES[22976]}</a> 500 個をパゴス編のゲロルトに渡す。</p>
-{:else if stepIndex === 6}
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(23309)} target="_blank" rel="noopener">{ITEM_NAMES[23309]}</a> 16 個と<a class="eorzeadb_link" href={itemUrl(22975)} target="_blank" rel="noopener">{ITEM_NAMES[22975]}</a> 5 個をパゴス編のゲロルトに渡す。</p>
-{:else if stepIndex === 7}
-  <p>ロゴスアクションを 10 種類開放する。</p>
-  <hr class="border-gs-border my-2" />
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(24124)} target="_blank" rel="noopener">{ITEM_NAMES[24124]}</a> 150 個をピューロス編のゲロルトに渡す。</p>
-{:else if stepIndex === 8}
-  <p>ロゴスアクションを 20 種類開放する。</p>
-  <hr class="border-gs-border my-2" />
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(24124)} target="_blank" rel="noopener">{ITEM_NAMES[24124]}</a> 200 個をピューロス編のゲロルトに渡す。</p>
-{:else if stepIndex === 9}
-  <p>ロゴスアクションを 30 種類開放する。</p>
-  <hr class="border-gs-border my-2" />
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(24124)} target="_blank" rel="noopener">{ITEM_NAMES[24124]}</a> 300 個と<a class="eorzeadb_link" href={itemUrl(24123)} target="_blank" rel="noopener">{ITEM_NAMES[24123]}</a> 5 個をピューロス編のゲロルトに渡す。</p>
-{:else if stepIndex === 10}
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(24807)} target="_blank" rel="noopener">{ITEM_NAMES[24807]}</a> 50 個をヒュダトス編のゲロルトに渡す。</p>
-{:else if stepIndex === 11}
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(24807)} target="_blank" rel="noopener">{ITEM_NAMES[24807]}</a> 100 個をヒュダトス編のゲロルトに渡す。</p>
-{:else if stepIndex === 12}
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(24807)} target="_blank" rel="noopener">{ITEM_NAMES[24807]}</a> 100 個をヒュダトス編のゲロルトに渡す。</p>
-{:else if stepIndex === 13}
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(24807)} target="_blank" rel="noopener">{ITEM_NAMES[24807]}</a> 100 個と<a class="eorzeadb_link" href={itemUrl(24806)} target="_blank" rel="noopener">{ITEM_NAMES[24806]}</a> 5 個をヒュダトス編のゲロルトに渡す。</p>
-{:else if stepIndex === 14}
-  <p>{@html prevItemLinks}と<a class="eorzeadb_link" href={itemUrl(24808)} target="_blank" rel="noopener">{ITEM_NAMES[24808]}</a> 100 個をヒュダトス編のゲロルトに渡す。</p>
+<script>
+  import { onMount } from "svelte";
+  import { makeHelpers, iconUrl, itemUrl } from "./_helpers.js";
+
+  export let step;
+  export let stepIndex;
+  export let steps;
+
+  $: ({ buildPrevItemLinks } = makeHelpers(step));
+  $: prevItemLinks = buildPrevItemLinks(steps, stepIndex);
+
+  let stepsData = [];
+  let loaded = false;
+
+  onMount(async () => {
+    const d = await getEwData();
+    stepsData = d.steps;
+    loaded = true;
+  });
+
+  $: sd = stepsData[stepIndex] ?? null;
+</script>
+
+{#if !loaded}
+  <div class="text-xs text-gs-muted text-center py-2">読み込み中...</div>
+{:else if sd}
+  {#if sd.prerequisite}
+    <ol class="list-decimal space-y-2 pl-5">
+      <li class="pl-1"><p>EL (エレメンタルレベル) を25に上げ、<strong>クルル</strong>からのクエストを受注する。</p></li>
+      <li class="pl-1 space-y-1">
+        <p>{@html prevItemLinks}と以下のアイテムを{sd.area}の<strong>ゲロルト</strong>に渡す。</p>
+        {#each sd.materials as mat}
+          <p class="mt-1">
+            <img class="inline-block w-4 h-4 object-contain align-middle mr-0.5" src={iconUrl(mat.iconId)} alt="" /><a class="eorzeadb_link" href={itemUrl(mat.itemId)} target="_blank" rel="noopener">{mat.name}</a> {mat.qty} 個
+          </p>
+          <p class="text-xs text-gs-muted mt-1">※ {mat.note}</p>
+        {/each}
+      </li>
+    </ol>
+  {:else if sd.logosCount}
+    <ol class="list-decimal space-y-2 pl-5">
+      <li class="pl-1"><p>ロゴスアクションを {sd.logosCount} 種類開放する。</p></li>
+      <li class="pl-1 space-y-1">
+        {#if sd.materials.length === 1}
+          <p>{@html prevItemLinks}と<img class="inline-block w-4 h-4 object-contain align-middle mr-0.5" src={iconUrl(sd.materials[0].iconId)} alt="" /><a class="eorzeadb_link" href={itemUrl(sd.materials[0].itemId)} target="_blank" rel="noopener">{sd.materials[0].name}</a> {sd.materials[0].qty} 個を{sd.area}の<strong>ゲロルト</strong>に渡す。</p>
+          <p class="text-xs text-gs-muted mt-1">※ {sd.materials[0].note}</p>
+        {:else}
+          <p>{@html prevItemLinks}と以下のアイテムを{sd.area}の<strong>ゲロルト</strong>に渡す。</p>
+          <ul class="text-xs text-gs-muted mt-1 space-y-0.5">
+            {#each sd.materials as mat}
+              <li>
+                <img class="inline-block w-4 h-4 object-contain align-middle mr-0.5" src={iconUrl(mat.iconId)} alt="" /><a class="eorzeadb_link" href={itemUrl(mat.itemId)} target="_blank" rel="noopener">{mat.name}</a> {mat.qty} 個
+              </li>
+            {/each}
+          </ul>
+          <ul class="text-xs text-gs-muted mt-1 space-y-0.5">
+            {#each sd.materials as mat}
+              <li>※ {mat.note}</li>
+            {/each}
+          </ul>
+        {/if}
+      </li>
+    </ol>
+  {:else if sd.materials.length === 1}
+    <p>
+      {#if stepIndex === 0}ジョブクエストの報酬装備と{:else}{@html prevItemLinks}と{/if}<img class="inline-block w-4 h-4 object-contain align-middle mr-0.5" src={iconUrl(sd.materials[0].iconId)} alt="" /><a class="eorzeadb_link" href={itemUrl(sd.materials[0].itemId)} target="_blank" rel="noopener">{sd.materials[0].name}</a> {sd.materials[0].qty} 個を{sd.area}の<strong>ゲロルト</strong>に渡す。
+    </p>
+    <p class="text-xs text-gs-muted mt-1">※ {sd.materials[0].note}</p>
+  {:else}
+    <p>{@html prevItemLinks}と以下のアイテムを{sd.area}の<strong>ゲロルト</strong>に渡す。</p>
+    <ul class="text-xs text-gs-muted mt-1 space-y-0.5">
+      {#each sd.materials as mat}
+        <li><img class="inline-block w-4 h-4 object-contain align-middle mr-0.5" src={iconUrl(mat.iconId)} alt="" /><a class="eorzeadb_link" href={itemUrl(mat.itemId)} target="_blank" rel="noopener">{mat.name}</a> {mat.qty} 個</li>
+      {/each}
+    </ul>
+    <ul class="text-xs text-gs-muted mt-1 space-y-0.5">
+      {#each sd.materials as mat}
+        <li>※ {mat.note}</li>
+      {/each}
+    </ul>
+  {/if}
 {/if}
