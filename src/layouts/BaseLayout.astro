@@ -1,19 +1,37 @@
 ---
-export interface Props {
-  title: string;
-  description: string;
-  ogImage?: string;
-  ogType?: string;
-}
-
 const {
   title,
   description,
-  ogImage = "/og-default.png",
+  ogImage = "/logo/title/Gerolts-Artisan-Record_01.png",
   ogType = "website",
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImageURL = new URL(ogImage, Astro.site).href;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "ゲロルトの工匠記録",
+  "url": canonicalURL.href,
+  "description": description,
+  "applicationCategory": "GameApplication",
+  "operatingSystem": "Web",
+  "inLanguage": "ja",
+  "author": {
+    "@type": "Person",
+    "name": "lastagous"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "lastagous"
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "ゲロルトの工匠記録",
+    "url": Astro.site
+  }
+};
 ---
 
 <!doctype html>
@@ -24,12 +42,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#1a1a2e" />
     <link rel="canonical" href={canonicalURL} />
 
     <!-- OGP -->
+    <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={ogImageURL} />
     <meta property="og:locale" content="ja_JP" />
     <meta property="og:site_name" content="ゲロルトの工匠記録" />
     <meta property="og:type" content={ogType} />
@@ -38,23 +58,50 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={ogImageURL} />
 
     <!-- 構造化データ -->
-    <script type="application/ld+json">
-      {
-        JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "ゲロルトの工匠記録",
-          "url": "https://lastagous.com"
-        })
-      }
-    </script>
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
     <link rel="icon" type="image/png" href="/favicon-hat.png" />
+
+    <!-- ロゴ画像をバックグラウンドでプリフェッチ（ランダム選択のため全種を事前キャッシュ） -->
+    <link rel="prefetch" href="/logo/title/Fwt0U7IaQAMkANo.png" as="image" />
+    <link rel="prefetch" href="/logo/title/FwuUS9LacAEVOKe.png" as="image" />
+    <link rel="prefetch" href="/logo/title/Fwud8LBaYAA5fnu.png" as="image" />
+    <link rel="prefetch" href="/logo/title/IMG_1713.png" as="image" />
+    <link rel="prefetch" href="/logo/title/8793ca0a5f8347cd.png" as="image" />
+    <link rel="prefetch" href="/logo/title/Fwu05qPacAAY_bC.jpg" as="image" />
+    <link rel="prefetch" href="/logo/title/Gerolts-Artisan-Record_01.png" as="image" />
+    <link rel="prefetch" href="/logo/title/FwzgthhagAAPLlD.png" as="image" />
   </head>
   <body>
     <slot />
+    <script is:inline src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script is:inline>var eorzeadb = { cdn_prefix: "https://lds-img.finalfantasyxiv.com/" };</script>
+    <script is:inline src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
   </body>
 </html>
+
+<style is:global>
+  /* Tailwind preflight の打ち消し（#eorzeadb_tooltip 内） */
+  #eorzeadb_tooltip {
+    overflow: visible !important;
+    z-index: 99999 !important;
+  }
+  #eorzeadb_tooltip img {
+    display: inline !important;
+    max-width: none !important;
+  }
+  #eorzeadb_tooltip table {
+    border-collapse: separate !important;
+    width: auto !important;
+  }
+  #eorzeadb_tooltip .db-table__txt--type {
+    font-size: 12px !important;
+  }
+  #eorzeadb_tooltip .db-table__wrapper--npc_content {
+    display: grid !important;
+  }
+</style>
+

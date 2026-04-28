@@ -5,10 +5,33 @@
 @tailwind utilities;
 
 @layer base {
-  html,
+  html {
+    @apply bg-gs-dark;
+    scrollbar-width: thin;
+    scrollbar-color: #2a2a4a transparent;
+  }
+
   body {
-    @apply bg-gs-dark text-gs-text h-full;
+    @apply bg-gs-dark text-gs-text;
+    min-height: 100dvh;
     font-family: "Noto Sans JP", sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #2a2a4a transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #2a2a4a;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #c8a84b;
   }
 }
 
@@ -47,15 +70,30 @@
   .gs-progress-fill {
     @apply h-full rounded-full bg-gs-orange transition-all;
   }
+
+  .gs-sidebar-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #2a2a4a transparent;
+  }
+  .gs-sidebar-scroll::-webkit-scrollbar { width: 4px; }
+  .gs-sidebar-scroll::-webkit-scrollbar-track { background: transparent; }
+  .gs-sidebar-scroll::-webkit-scrollbar-thumb {
+    background-color: #2a2a4a;
+    border-radius: 2px;
+  }
+  .gs-sidebar-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #c8a84b;
+  }
 }
 
-/* Lodestone ツールチップとの競合回避 */
-#eorzea-database img {
-  display: inline !important;
-  max-width: none !important;
+/* 1本目作成時のみ必要なステップ */
+.gs-first-only {
+  @apply pl-2 border-l-2 border-gs-gold/50 bg-gs-gold/5 rounded-r;
 }
 
-#eorzea-database table {
-  border-collapse: separate !important;
-  width: auto !important;
+/* Lodestone DB リンクの共通スタイル */
+.eorzeadb_link {
+  @apply text-gs-gold underline underline-offset-2 decoration-gs-gold/40
+    hover:decoration-gs-gold transition-colors cursor-pointer;
 }
+

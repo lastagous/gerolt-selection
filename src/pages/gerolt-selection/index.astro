@@ -1,12 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Header from "../../components/layout/Header.svelte";
-import Footer from "../../components/layout/Footer.astro";
-import RelicWeaponList from "../../components/ui/RelicWeaponList.svelte";
-import RelicProgressList from "../../components/ui/RelicProgressList.svelte";
-import SearchCharacter from "../../components/ui/SearchCharacter.svelte";
-import SelectedCharacter from "../../components/ui/SelectedCharacter.svelte";
-import StepDetail from "../../components/ui/StepDetail.svelte";
+import AppShell from "../../components/layout/AppShell.svelte";
 import "../../styles/global.css";
 ---
 
@@ -15,41 +10,54 @@ import "../../styles/global.css";
   description="FF14 レリック武器（パッチ 2.0〜6.x）の作成進捗を管理するツール。武器・ジョブごとに達成済みの実績を確認できます。"
 >
   <div class="flex flex-col min-h-screen">
-    <!-- ヘッダー -->
     <Header client:load />
-
-    <!-- メインコンテンツ -->
-    <main class="flex-1 flex justify-center px-4 py-4">
-      <div class="w-full max-w-screen-xl flex gap-4">
-
-        <!-- 左カラム: 武器選択・進捗・キャラクター検索 -->
-        <aside class="flex flex-col gap-3 w-56 flex-shrink-0">
-          <RelicWeaponList client:load />
-          <RelicProgressList client:load />
-          <SearchCharacter client:load />
-          <SelectedCharacter client:load />
-        </aside>
-
-        <!-- 右カラム: ステップ詳細 -->
-        <div class="flex-1 min-w-0">
-          <StepDetail client:load />
-        </div>
-
-      </div>
+    <main class="flex-1">
+      <AppShell client:load />
     </main>
-
-    <Footer />
+    <footer class="border-t border-gs-border bg-gs-panel px-4 py-3 flex flex-wrap items-center justify-between gap-2 text-xs text-gs-muted">
+      <span>Illust: <a href="https://twitter.com/toto_lucas_ff14" target="_blank" rel="noopener" class="text-gs-gold hover:underline">ろにゃ</a></span>
+      <span>© SQUARE ENIX</span>
+    </footer>
   </div>
 
-  <!-- localStorage 初期化 -->
+  <!-- ストア初期化 + URL sync -->
   <script>
-    import { initCharacterStore } from "../../stores/character";
+    import { WEAPONS, selectedWeapon, selectedJob } from "../../stores/selection.js";
+    import { initCharacterStore } from "../../stores/character.js";
+
     initCharacterStore();
+
+    let _syncing = true;
+    let _curWeapon = WEAPONS[0];
+    let _curJob    = "";
+
+    selectedWeapon.subscribe(w => { _curWeapon = w; syncUrl(); });
+    selectedJob.subscribe(j    => { _curJob    = j; syncUrl(); });
+
+    function syncUrl() {
+      if (_syncing) return;
+      const p = new URLSearchParams(location.search);
+      p.set("weapon", _curWeapon.key);
+      if (_curJob) p.set("job", _curJob); else p.delete("job");
+      const qs = "?" + p.toString();
+      if (location.search !== qs)
+        history.replaceState(null, "", location.pathname + qs);
+    }
+
+    function readFromUrl() {
+      const p      = new URLSearchParams(location.search);
+      const wKey   = p.get("weapon");
+      const jKey   = p.get("job");
+      const weapon = wKey ? WEAPONS.find(w => w.key === wKey) : null;
+      if (weapon) {
+        selectedWeapon.set(weapon);
+        if (jKey && weapon.jobs.includes(jKey)) selectedJob.set(jKey);
+      }
+      _syncing = false;
+      syncUrl();
+    }
+
+    readFromUrl();
   </script>
 
-  <!-- Lodestone ツールチップ外部スクリプト -->
-  <script
-    src="https://eorzea-database.net/v2/js/tooltip.min.js"
-    is:inline
-  ></script>
 </BaseLayout>
