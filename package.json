@@ -5,27 +5,23 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "jsondata:achievements": "npx ts-node src/cmd/create-json.ts achievements",
-    "jsondata:quests": "npx ts-node src/cmd/create-json.ts quests",
-    "jsondata:npcs": "npx ts-node src/cmd/create-json.ts npcs",
-    "jsondata:instances": "npx ts-node src/cmd/create-json.ts instances",
-    "jsondata:items": "npx ts-node src/cmd/create-json.ts items",
-    "jsondata:tooltips": "npx ts-node src/cmd/create-json.ts tooltips",
-    "jsondata:relations": "npx ts-node src/cmd/create-json.ts relations",
-    "jsondata:all": "npx ts-node src/cmd/create-json.ts all"
+    "preview": "npm run build && wrangler dev",
+"deploy": "npm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/cloudflare": "11",
+    "@astrojs/sitemap": "^3.1.6",
     "@astrojs/svelte": "^5.7.2",
     "@astrojs/tailwind": "^5.1.3",
     "astro": "^4.16.18",
+    "postcss": "^8.4.49",
     "svelte": "^4.2.19",
-    "tailwindcss": "^3.4.17",
-    "postcss": "^8.4.49"
+    "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
     "@types/node": "^20.9.1",
-    "typescript": "~5.4.5"
+    "typescript": "~5.4.5",
+    "wrangler": "^4.85.0"
   }
 }
