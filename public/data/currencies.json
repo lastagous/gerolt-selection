@@ -1,0 +1,41 @@
+{
+  "tomestones": {
+    "legacy": {
+      "itemId": 28,
+      "iconId": 65023,
+      "name": "アラガントームストーン:詩学"
+    },
+    "semiCurrent": {
+      "itemId": 46,
+      "iconId": 65107,
+      "name": "アラガントームストーン：数理"
+    },
+    "current": {
+      "itemId": 49,
+      "iconId": 65137,
+      "name": "アラガントームストーン：記憶"
+    }
+  },
+  "scrips": {
+    "semiCurrentCrafter": {
+      "itemId": 33913,
+      "iconId": 65088,
+      "name": "クラフタースクリップ：紫貨"
+    },
+    "semiCurrentGatherer": {
+      "itemId": 33914,
+      "iconId": 65087,
+      "name": "ギャザラースクリップ：紫貨"
+    },
+    "currentCrafter": {
+      "itemId": 41784,
+      "iconId": 65110,
+      "name": "クラフタースクリップ：橙貨"
+    },
+    "currentGatherer": {
+      "itemId": 41785,
+      "iconId": 65109,
+      "name": "ギャザラースクリップ：橙貨"
+    }
+  }
+}

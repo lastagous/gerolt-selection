@@ -1,0 +1,155 @@
+[
+  {
+    "key": "penumbra",
+    "title": "ファントムペナンブラ",
+    "subtitle": "IL 745",
+    "patch": "Patch 7.25",
+    "achievementKey": null,
+    "questIds": [70856],
+    "onetime": [
+      {
+        "heading": "デミアートマを集める",
+        "bodyParts": [
+          { "type": "text", "html": "蜃気楼の町（クレセントアイル）の<strong>リュデルセイル</strong>からクエストを受注し、以下のデミアートマを各 3 個（計 18 個）納品する。<br>各色はクレセントアイル南征編の各エリア、または対応する黄金郷エリアの FATE / CE で入手できる。" }
+        ],
+        "items": [
+          { "itemId": 47744, "qty": 3, "how": { "type": "fate_ce", "zones": ["クレセントアイル南征編", "オルコ・パチャ"] } },
+          { "itemId": 47745, "qty": 3, "how": { "type": "fate_ce", "zones": ["クレセントアイル南征編", "コザマル・カ"] } },
+          { "itemId": 47746, "qty": 3, "how": { "type": "fate_ce", "zones": ["クレセントアイル南征編", "ヤクテル樹海"] } },
+          { "itemId": 47747, "qty": 3, "how": { "type": "fate_ce", "zones": ["クレセントアイル南征編", "シャーローニ荒野"] } },
+          { "itemId": 47748, "qty": 3, "how": { "type": "fate_ce", "zones": ["クレセントアイル南征編", "ヘリテージファウンド"] } },
+          { "itemId": 47749, "qty": 3, "how": { "type": "fate_ce", "zones": ["クレセントアイル南征編", "リビングメモリー"] } }
+        ],
+        "note": null
+      }
+    ],
+    "perWeapon": {
+      "questId": 70856,
+      "prevStageKey": null,
+      "oreItemId": 47750,
+      "oreQty": 3,
+      "oreHow": {
+        "type": "tome_exchange",
+        "tomeRole": "semiCurrent",
+        "tomeQty": 1500,
+        "npc": "アーミナ",
+        "location": "蜃気楼の町"
+      }
+    }
+  },
+  {
+    "key": "umbra",
+    "title": "ファントムウンブラ",
+    "subtitle": "IL 760",
+    "patch": "Patch 7.31",
+    "achievementKey": "umbra",
+    "questIds": [70916, 70917, 70918],
+    "onetime": [
+      {
+        "heading": "素材を集める",
+        "bodyParts": [
+          { "type": "quest", "id": 70916 },
+          { "type": "text", "html": " を受注し、以下のアイテムを集めて<strong>ゲロルト</strong>に渡す。" }
+        ],
+        "items": [
+          { "itemId": 46854, "qty": 1, "how": { "type": "gil_purchase", "amount": 300000, "npc": "ゴーペル", "location": "トライヨラ よろず屋" } },
+          { "itemId": 46852, "qty": 1, "how": { "type": "bicolor_exchange", "qty": 600, "bicolorItemId": 26807, "bicolorIconId": 65071, "npc": "ラルルック", "location": "ヤクテル樹海 広域交易商", "alsoMarket": true } },
+          { "itemId": 46855, "qty": 1, "how": { "type": "craft_or_market", "crafters": ["鍛治師", "甲冑師", "彫金師"], "recipe": "秘伝書12巻" } },
+          { "itemId": 46856, "qty": 1, "how": { "type": "craft_or_market", "crafters": ["木工師", "革細工師", "裁縫師"], "recipe": "秘伝書12巻" } },
+          { "itemId": 46857, "qty": 1, "how": { "type": "craft_or_market", "crafters": ["錬金術師", "調理師"], "recipe": "秘伝書12巻" } }
+        ],
+        "note": null
+      },
+      {
+        "heading": "マギスフィアボードを蓄積する",
+        "bodyParts": [
+          { "type": "quest", "id": 70917 },
+          { "type": "text", "html": " で4色のエーテルを各 10,000（計 40,000）蓄積する。コンテンツルーレットが主な入手手段。" }
+        ],
+        "nameLabel": "種類",
+        "items": [
+          { "name": "風エーテル", "how": { "type": "roulette", "name": "ハイレベリングルーレット" } },
+          { "name": "水エーテル", "how": { "type": "roulette", "name": "アライアンスレイドルーレット" } },
+          { "name": "火エーテル", "how": { "type": "roulette", "name": "討伐・討滅戦ルーレット" } },
+          { "name": "土エーテル", "how": { "type": "roulette", "name": "ノーマルレイドルーレット" } }
+        ],
+        "note": "※ 装備ジョブやクエスト受注ジョブ以外でもカウントされます。"
+      }
+    ],
+    "perWeapon": {
+      "questId": 70918,
+      "prevStageKey": "penumbra",
+      "oreItemId": 46850,
+      "oreQty": 3,
+      "oreHow": {
+        "type": "tome_exchange",
+        "tomeRole": "semiCurrent",
+        "tomeQty": 1500,
+        "npc": "アーミナ",
+        "location": "蜃気楼の町"
+      }
+    }
+  },
+  {
+    "key": "obscurum",
+    "title": "ファントムオブスキュラム",
+    "subtitle": "IL 775（最終段階）",
+    "patch": "Patch 7.41",
+    "achievementKey": "obscurum",
+    "questIds": [70990, 70991, 70992],
+    "onetime": [
+      {
+        "heading": "素材を集める",
+        "bodyParts": [
+          { "type": "quest", "id": 70990 },
+          { "type": "text", "html": " を受注し、以下のアイテムを集めて<strong>ゲロルト</strong>に渡す。" }
+        ],
+        "items": [
+          { "itemId": 50054, "qty": 1, "how": { "type": "gil_purchase", "amount": 500000, "npc": "ゴーペル", "location": "トライヨラ よろず屋" } },
+          { "itemId": 50055, "qty": 1, "how": { "type": "craft_or_market", "crafters": ["鍛治師", "甲冑師", "彫金師"], "recipe": "秘伝書12巻" } },
+          { "itemId": 50056, "qty": 1, "how": { "type": "craft_or_market", "crafters": ["木工師", "革細工師", "裁縫師"], "recipe": "秘伝書12巻" } },
+          { "itemId": 50057, "qty": 1, "how": { "type": "craft_or_market", "crafters": ["錬金術師", "調理師"], "recipe": "秘伝書12巻" } }
+        ],
+        "note": null
+      },
+      {
+        "heading": "クリスタルペーストを集める",
+        "bodyParts": [
+          { "type": "quest", "id": 70991 },
+          { "type": "text", "html": " で" },
+          { "type": "item", "id": 50059 },
+          { "type": "text", "html": "を合計 1,200 個、段階的に納品する（100 → 200 → 300 → 600 個）。" }
+        ],
+        "nameLabel": "方法",
+        "howLabel": "個数",
+        "items": [
+          { "name": "ルーレット：エキスパート",                  "how": { "type": "text", "value": "15 個 /回" } },
+          { "name": "ルーレット：レベルキャップ",                "how": { "type": "text", "value": "15 個 /回" } },
+          { "name": "ルーレット：レベリング",                    "how": { "type": "text", "value": "20 個 /回" } },
+          { "name": "クレセントアイル南征編 CE",                 "how": { "type": "text", "value": "5 個 /回" } },
+          { "name": "DDピルグリムトラバース",                    "how": { "type": "text", "value": "10〜26 個 /回" } },
+          { "name": "詩想エミネントグリーフ討滅戦",              "how": { "type": "text", "value": "個数未確認" } },
+          { "name": "至天の座アルカディア ヘビー級 1〜4層",      "how": { "type": "text", "value": "8 個 /ボス" } },
+          { "name": "至天の座アルカディア ヘビー級 零式 1〜4層", "how": { "type": "text", "value": "10〜18 個 /ボス" } },
+          { "name": "極グラシャラボラス討滅戦",                  "how": { "type": "text", "value": "9 個 /回" } },
+          { "name": "F.A.T.E.（黄金エリア）",                   "how": { "type": "text", "value": "3 個 /回" } },
+          { "name": "ヴァリアントダンジョン商客物語",            "how": { "type": "text", "value": "14 個（AVD: 16 個）" } }
+        ],
+        "note": null
+      }
+    ],
+    "perWeapon": {
+      "questId": 70992,
+      "prevStageKey": "umbra",
+      "oreItemId": 50058,
+      "oreQty": 3,
+      "oreHow": {
+        "type": "tome_exchange",
+        "tomeRole": "semiCurrent",
+        "tomeQty": 1500,
+        "npc": "アーミナ",
+        "location": "蜃気楼の町"
+      }
+    }
+  }
+]

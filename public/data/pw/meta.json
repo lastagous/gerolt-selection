@@ -1,0 +1,1151 @@
+{
+  "PLD": [
+    {
+      "nameJa": "ファントムペンアンブレー・ソード",
+      "levelItem": 745,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 47869,
+          "iconId": 30694,
+          "nameJa": "ファントムペンアンブレー・ソード"
+        },
+        {
+          "id": 47890,
+          "iconId": 30283,
+          "nameJa": "ファントムペンアンブレー・カイトシールド"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・ソード",
+      "levelItem": 760,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 47006,
+          "iconId": 30694,
+          "nameJa": "ファントムアンブラ・ソード"
+        },
+        {
+          "id": 47027,
+          "iconId": 30283,
+          "nameJa": "ファントムアンブラ・カイトシールド"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3752,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ソード",
+      "levelItem": 775,
+      "jobNameJa": "ナイト",
+      "items": [
+        {
+          "id": 50032,
+          "iconId": 30699,
+          "nameJa": "ファントムオブスキュラム・ソード"
+        },
+        {
+          "id": 50053,
+          "iconId": 30288,
+          "nameJa": "ファントムオブスキュラム・シールド"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3842,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "WAR": [
+    {
+      "nameJa": "ファントムペンアンブレー・バルディッシュ",
+      "levelItem": 745,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 47871,
+          "iconId": 31268,
+          "nameJa": "ファントムペンアンブレー・バルディッシュ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・バルディッシュ",
+      "levelItem": 760,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 47008,
+          "iconId": 31268,
+          "nameJa": "ファントムアンブラ・バルディッシュ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3753,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・バルディッシュ",
+      "levelItem": 775,
+      "jobNameJa": "戦士",
+      "items": [
+        {
+          "id": 50034,
+          "iconId": 31273,
+          "nameJa": "ファントムオブスキュラム・バルディッシュ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3843,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "DRK": [
+    {
+      "nameJa": "ファントムペンアンブレー・ディバイダー",
+      "levelItem": 745,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 47879,
+          "iconId": 34023,
+          "nameJa": "ファントムペンアンブレー・ディバイダー"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・ディバイダー",
+      "levelItem": 760,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 47016,
+          "iconId": 34023,
+          "nameJa": "ファントムアンブラ・ディバイダー"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3754,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ディバイダー",
+      "levelItem": 775,
+      "jobNameJa": "暗黒騎士",
+      "items": [
+        {
+          "id": 50042,
+          "iconId": 34028,
+          "nameJa": "ファントムオブスキュラム・ディバイダー"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3844,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "GNB": [
+    {
+      "nameJa": "ファントムペンアンブレー・バヨネット",
+      "levelItem": 745,
+      "jobNameJa": "ガンブレイカー",
+      "items": [
+        {
+          "id": 47884,
+          "iconId": 36114,
+          "nameJa": "ファントムペンアンブレー・バヨネット"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・バヨネット",
+      "levelItem": 760,
+      "jobNameJa": "ガンブレイカー",
+      "items": [
+        {
+          "id": 47021,
+          "iconId": 36114,
+          "nameJa": "ファントムアンブラ・バヨネット"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3755,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ガンブレード",
+      "levelItem": 775,
+      "jobNameJa": "ガンブレイカー",
+      "items": [
+        {
+          "id": 50047,
+          "iconId": 36119,
+          "nameJa": "ファントムオブスキュラム・ガンブレード"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3845,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "DRG": [
+    {
+      "nameJa": "ファントムペンアンブレー・スピア",
+      "levelItem": 745,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 47872,
+          "iconId": 31670,
+          "nameJa": "ファントムペンアンブレー・スピア"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・スピア",
+      "levelItem": 760,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 47009,
+          "iconId": 31670,
+          "nameJa": "ファントムアンブラ・スピア"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3756,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・フォーク",
+      "levelItem": 775,
+      "jobNameJa": "竜騎士",
+      "items": [
+        {
+          "id": 50035,
+          "iconId": 31675,
+          "nameJa": "ファントムオブスキュラム・フォーク"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3846,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "MNK": [
+    {
+      "nameJa": "ファントムペンアンブレー・ナックル",
+      "levelItem": 745,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 47870,
+          "iconId": 30858,
+          "nameJa": "ファントムペンアンブレー・ナックル"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・ナックル",
+      "levelItem": 760,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 47007,
+          "iconId": 30858,
+          "nameJa": "ファントムアンブラ・ナックル"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3757,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ジャマダル",
+      "levelItem": 775,
+      "jobNameJa": "モンク",
+      "items": [
+        {
+          "id": 50033,
+          "iconId": 30863,
+          "nameJa": "ファントムオブスキュラム・ジャマダル"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3847,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "NIN": [
+    {
+      "nameJa": "ファントムペンアンブレー・クリーバー",
+      "levelItem": 745,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 47878,
+          "iconId": 33644,
+          "nameJa": "ファントムペンアンブレー・クリーバー"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・クリーバー",
+      "levelItem": 760,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 47015,
+          "iconId": 33644,
+          "nameJa": "ファントムアンブラ・クリーバー"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3758,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ククリ",
+      "levelItem": 775,
+      "jobNameJa": "忍者",
+      "items": [
+        {
+          "id": 50041,
+          "iconId": 33649,
+          "nameJa": "ファントムオブスキュラム・ククリ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3848,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "VPR": [
+    {
+      "nameJa": "ファントムペンアンブレー・ツインファング",
+      "levelItem": 745,
+      "jobNameJa": "ヴァイパー",
+      "items": [
+        {
+          "id": 47888,
+          "iconId": 37447,
+          "nameJa": "ファントムペンアンブレー・ツインファング"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・ツインファング",
+      "levelItem": 760,
+      "jobNameJa": "ヴァイパー",
+      "items": [
+        {
+          "id": 47025,
+          "iconId": 37447,
+          "nameJa": "ファントムアンブラ・ツインファング"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3759,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ツインファング",
+      "levelItem": 775,
+      "jobNameJa": "ヴァイパー",
+      "items": [
+        {
+          "id": 50051,
+          "iconId": 37452,
+          "nameJa": "ファントムオブスキュラム・ツインファング"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3849,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "SAM": [
+    {
+      "nameJa": "ファントムペンアンブレー・ブレード",
+      "levelItem": 745,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 47882,
+          "iconId": 36572,
+          "nameJa": "ファントムペンアンブレー・ブレード"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・ブレード",
+      "levelItem": 760,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 47019,
+          "iconId": 36572,
+          "nameJa": "ファントムアンブラ・ブレード"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3760,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ブレード",
+      "levelItem": 775,
+      "jobNameJa": "侍",
+      "items": [
+        {
+          "id": 50045,
+          "iconId": 36577,
+          "nameJa": "ファントムオブスキュラム・ブレード"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3850,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "RPR": [
+    {
+      "nameJa": "ファントムペンアンブレー・ウォーサイズ",
+      "levelItem": 745,
+      "jobNameJa": "リーパー",
+      "items": [
+        {
+          "id": 47886,
+          "iconId": 37284,
+          "nameJa": "ファントムペンアンブレー・ウォーサイズ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・ウォーサイズ",
+      "levelItem": 760,
+      "jobNameJa": "リーパー",
+      "items": [
+        {
+          "id": 47023,
+          "iconId": 37284,
+          "nameJa": "ファントムアンブラ・ウォーサイズ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3761,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ウォーサイズ",
+      "levelItem": 775,
+      "jobNameJa": "リーパー",
+      "items": [
+        {
+          "id": 50049,
+          "iconId": 37289,
+          "nameJa": "ファントムオブスキュラム・ウォーサイズ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3851,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "BRD": [
+    {
+      "nameJa": "ファントムペンアンブレー・ハープボウ",
+      "levelItem": 745,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 47873,
+          "iconId": 32058,
+          "nameJa": "ファントムペンアンブレー・ハープボウ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・ハープボウ",
+      "levelItem": 760,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 47010,
+          "iconId": 32058,
+          "nameJa": "ファントムアンブラ・ハープボウ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3762,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ロングボウ",
+      "levelItem": 775,
+      "jobNameJa": "吟遊詩人",
+      "items": [
+        {
+          "id": 50036,
+          "iconId": 32063,
+          "nameJa": "ファントムオブスキュラム・ロングボウ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3852,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "MCH": [
+    {
+      "nameJa": "ファントムペンアンブレー・アークウィバス",
+      "levelItem": 745,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 47880,
+          "iconId": 34517,
+          "nameJa": "ファントムペンアンブレー・アークウィバス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・アークウィバス",
+      "levelItem": 760,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 47017,
+          "iconId": 34517,
+          "nameJa": "ファントムアンブラ・アークウィバス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3763,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・マスケトン",
+      "levelItem": 775,
+      "jobNameJa": "機工士",
+      "items": [
+        {
+          "id": 50043,
+          "iconId": 34522,
+          "nameJa": "ファントムオブスキュラム・マスケトン"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3853,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "DNC": [
+    {
+      "nameJa": "ファントムペンアンブレー・テルプナ",
+      "levelItem": 745,
+      "jobNameJa": "踊り子",
+      "items": [
+        {
+          "id": 47885,
+          "iconId": 36313,
+          "nameJa": "ファントムペンアンブレー・テルプナ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・テルプナ",
+      "levelItem": 760,
+      "jobNameJa": "踊り子",
+      "items": [
+        {
+          "id": 47022,
+          "iconId": 36313,
+          "nameJa": "ファントムアンブラ・テルプナ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3764,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・タスラム",
+      "levelItem": 775,
+      "jobNameJa": "踊り子",
+      "items": [
+        {
+          "id": 50048,
+          "iconId": 36318,
+          "nameJa": "ファントムオブスキュラム・タスラム"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3854,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "BLM": [
+    {
+      "nameJa": "ファントムペンアンブレー・スタッフ",
+      "levelItem": 745,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 47875,
+          "iconId": 32904,
+          "nameJa": "ファントムペンアンブレー・スタッフ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・スタッフ",
+      "levelItem": 760,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 47012,
+          "iconId": 32904,
+          "nameJa": "ファントムアンブラ・スタッフ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3765,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ロングポール",
+      "levelItem": 775,
+      "jobNameJa": "黒魔道士",
+      "items": [
+        {
+          "id": 50038,
+          "iconId": 32909,
+          "nameJa": "ファントムオブスキュラム・ロングポール"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3855,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "SMN": [
+    {
+      "nameJa": "ファントムペンアンブレー・インデックス",
+      "levelItem": 745,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 47876,
+          "iconId": 37838,
+          "nameJa": "ファントムペンアンブレー・インデックス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・インデックス",
+      "levelItem": 760,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 47013,
+          "iconId": 37838,
+          "nameJa": "ファントムアンブラ・インデックス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3766,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・インデックス",
+      "levelItem": 775,
+      "jobNameJa": "召喚士",
+      "items": [
+        {
+          "id": 50039,
+          "iconId": 37849,
+          "nameJa": "ファントムオブスキュラム・インデックス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3856,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "RDM": [
+    {
+      "nameJa": "ファントムペンアンブレー・レイピア",
+      "levelItem": 745,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 47883,
+          "iconId": 36871,
+          "nameJa": "ファントムペンアンブレー・レイピア"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・レイピア",
+      "levelItem": 760,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 47020,
+          "iconId": 36871,
+          "nameJa": "ファントムアンブラ・レイピア"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3767,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ハンガー",
+      "levelItem": 775,
+      "jobNameJa": "赤魔道士",
+      "items": [
+        {
+          "id": 50046,
+          "iconId": 36876,
+          "nameJa": "ファントムオブスキュラム・ハンガー"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3857,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "PCT": [
+    {
+      "nameJa": "ファントムペンアンブレー・フラットブラシ",
+      "levelItem": 745,
+      "jobNameJa": "ピクトマンサー",
+      "items": [
+        {
+          "id": 47889,
+          "iconId": 37657,
+          "nameJa": "ファントムペンアンブレー・フラットブラシ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・フラットブラシ",
+      "levelItem": 760,
+      "jobNameJa": "ピクトマンサー",
+      "items": [
+        {
+          "id": 47026,
+          "iconId": 37657,
+          "nameJa": "ファントムアンブラ・フラットブラシ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3768,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ラウンドブラシ",
+      "levelItem": 775,
+      "jobNameJa": "ピクトマンサー",
+      "items": [
+        {
+          "id": 50052,
+          "iconId": 37662,
+          "nameJa": "ファントムオブスキュラム・ラウンドブラシ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3858,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "WHM": [
+    {
+      "nameJa": "ファントムペンアンブレー・クルーク",
+      "levelItem": 745,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 47874,
+          "iconId": 32489,
+          "nameJa": "ファントムペンアンブレー・クルーク"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・クルーク",
+      "levelItem": 760,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 47011,
+          "iconId": 32489,
+          "nameJa": "ファントムアンブラ・クルーク"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3769,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ケーン",
+      "levelItem": 775,
+      "jobNameJa": "白魔道士",
+      "items": [
+        {
+          "id": 50037,
+          "iconId": 32494,
+          "nameJa": "ファントムオブスキュラム・ケーン"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3859,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "SCH": [
+    {
+      "nameJa": "ファントムペンアンブレー・コーデックス",
+      "levelItem": 745,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 47877,
+          "iconId": 37839,
+          "nameJa": "ファントムペンアンブレー・コーデックス"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・コーデックス",
+      "levelItem": 760,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 47014,
+          "iconId": 37839,
+          "nameJa": "ファントムアンブラ・コーデックス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3770,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・コーデックス",
+      "levelItem": 775,
+      "jobNameJa": "学者",
+      "items": [
+        {
+          "id": 50040,
+          "iconId": 37848,
+          "nameJa": "ファントムオブスキュラム・コーデックス"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3860,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "AST": [
+    {
+      "nameJa": "ファントムペンアンブレー・スターグローブ",
+      "levelItem": 745,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 47881,
+          "iconId": 34716,
+          "nameJa": "ファントムペンアンブレー・スターグローブ"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・スターグローブ",
+      "levelItem": 760,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 47018,
+          "iconId": 34716,
+          "nameJa": "ファントムアンブラ・スターグローブ"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3771,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・スターペンダント",
+      "levelItem": 775,
+      "jobNameJa": "占星術師",
+      "items": [
+        {
+          "id": 50044,
+          "iconId": 34721,
+          "nameJa": "ファントムオブスキュラム・スターペンダント"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3861,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ],
+  "SGE": [
+    {
+      "nameJa": "ファントムペンアンブレー・ペンデュラム",
+      "levelItem": 745,
+      "jobNameJa": "賢者",
+      "items": [
+        {
+          "id": 47887,
+          "iconId": 37080,
+          "nameJa": "ファントムペンアンブレー・ペンデュラム"
+        }
+      ],
+      "achievements": [],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムアンブラ・ペンデュラム",
+      "levelItem": 760,
+      "jobNameJa": "賢者",
+      "items": [
+        {
+          "id": 47024,
+          "iconId": 37080,
+          "nameJa": "ファントムアンブラ・ペンデュラム"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3772,
+          "name": null
+        }
+      ],
+      "quests": []
+    },
+    {
+      "nameJa": "ファントムオブスキュラム・ウィング",
+      "levelItem": 775,
+      "jobNameJa": "賢者",
+      "items": [
+        {
+          "id": 50050,
+          "iconId": 37085,
+          "nameJa": "ファントムオブスキュラム・ウィング"
+        }
+      ],
+      "achievements": [
+        {
+          "id": 3862,
+          "name": null
+        }
+      ],
+      "quests": []
+    }
+  ]
+}
