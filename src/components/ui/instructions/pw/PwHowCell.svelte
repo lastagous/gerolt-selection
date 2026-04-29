@@ -20,7 +20,7 @@
   {how.location} NPC「{how.npc}」に
   {#if tomeData}
     <img class="inline-block w-4 h-4 object-contain align-middle mx-0.5" src={iconUrl(tomeData.iconId)} alt="" />
-    <a href={itemUrl(tomeData.itemId)} target="_blank" rel="noopener" class="eorzeadb_link">{tomeData.name} ×{how.tomeQty}</a>
+    <strong>{tomeData.name} ×{how.tomeQty}</strong>
   {/if}
   を渡して交換
 {:else if how.type === "gil_purchase"}
@@ -30,7 +30,7 @@
 {:else if how.type === "bicolor_exchange"}
   {how.location}「{how.npc}」から
   <img class="inline-block w-4 h-4 object-contain align-middle mx-0.5" src={iconUrl(how.bicolorIconId)} alt="" />
-  <a href={itemUrl(how.bicolorItemId)} target="_blank" rel="noopener" class="eorzeadb_link">バイカラージェム ×{how.qty}</a>
+  <strong>バイカラージェム ×{how.qty}</strong>
   で交換{#if how.alsoMarket}、またはマーケット{/if}
 {:else if how.type === "craft_or_market"}
   クラフター（{how.crafters.join("・")}）製作 または マーケット（{how.recipe}レシピ）
