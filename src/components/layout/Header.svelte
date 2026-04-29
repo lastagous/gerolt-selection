@@ -108,7 +108,7 @@
           on:click={() => selectedWeapon.set(weapon)}
           title={weapon.name}
         >
-          <img src={`/icon/weapon/${weapon.key}.png`} alt={weapon.name} class="w-6 h-6 object-contain" />
+          <img src={`${base}/icon/weapon/${weapon.key}.png`} alt={weapon.name} class="w-6 h-6 object-contain" />
           <span class="hidden sm:block text-xs font-medium">{weapon.key}</span>
         </button>
       {/each}
