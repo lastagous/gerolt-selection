@@ -3,12 +3,10 @@ import svelte from "@astrojs/svelte";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 
-import cloudflare from "@astrojs/cloudflare";
-
 export default defineConfig({
   site: "https://lastagous.com",
   base: "",
-  output: "hybrid",
+  output: "static",
 
   integrations: [
     svelte(),
@@ -21,6 +19,4 @@ export default defineConfig({
   build: {
     assets: "_assets",
   },
-
-  adapter: cloudflare()
 });
