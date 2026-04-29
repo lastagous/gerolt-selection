@@ -1,4 +1,5 @@
 <script context="module">
+  import { base } from "../../../lib/base.js";
   let _cache = null;
   let _loadPromise = null;
 
@@ -6,8 +7,8 @@
     if (_cache) return Promise.resolve(_cache);
     if (!_loadPromise) {
       _loadPromise = Promise.all([
-        fetch("/data/rw/steps.json").then(r => r.json()),
-        fetch("/data/rw/quests.json").then(r => r.json()),
+        fetch(`${base}/data/rw/steps.json`).then(r => r.json()),
+        fetch(`${base}/data/rw/quests.json`).then(r => r.json()),
       ]).then(([steps, quests]) => {
         _cache = { steps, quests };
         return _cache;

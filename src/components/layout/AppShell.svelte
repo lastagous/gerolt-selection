@@ -4,6 +4,7 @@
   import StepToc from "../ui/StepToc.svelte";
   import AchievementDialog from "../ui/AchievementDialog.svelte";
   import { WEAPONS, selectedWeapon } from "../../stores/selection.js";
+  import { base } from "../../lib/base.js";
 
   let activeTab = "select";
   let achievementOpen = false;
@@ -23,7 +24,7 @@
             : 'text-gs-muted hover:text-gs-text hover:bg-white/5'}"
         on:click={() => selectedWeapon.set(weapon)}
       >
-        <img src={`/icon/weapon/${weapon.key}.png`} alt={weapon.name} class="w-6 h-6 object-contain" />
+        <img src={`${base}/icon/weapon/${weapon.key}.png`} alt={weapon.name} class="w-6 h-6 object-contain" />
         <span class="text-xs font-medium">{weapon.key}</span>
       </button>
     {/each}

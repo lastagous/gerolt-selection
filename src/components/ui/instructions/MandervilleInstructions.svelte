@@ -1,11 +1,12 @@
 <script context="module">
+  import { base } from "../../../lib/base.js";
   let _cache = null;
   let _loadPromise = null;
 
   function getMwData() {
     if (_cache) return Promise.resolve(_cache);
     if (!_loadPromise) {
-      _loadPromise = fetch("/data/mw/steps.json").then(r => r.json()).then(steps => {
+      _loadPromise = fetch(`${base}/data/mw/steps.json`).then(r => r.json()).then(steps => {
         _cache = { steps };
         return _cache;
       });

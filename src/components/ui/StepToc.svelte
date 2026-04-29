@@ -2,6 +2,7 @@
   import { selectedWeapon, selectedJob } from "../../stores/selection.js";
   import { selectedCharacter } from "../../stores/character.js";
   import { weaponMetas, loadWeaponMeta, getSteps } from "../../stores/progress.js";
+  import { base } from "../../lib/base.js";
 
   $: loadWeaponMeta($selectedWeapon.key);
   $: meta  = $weaponMetas[$selectedWeapon.key];
@@ -26,7 +27,7 @@
 {#if meta && $selectedJob && steps.length > 0}
   <div class="gs-panel p-3">
     <div class="flex items-center gap-1.5 mb-2">
-      <img src={`/icon/weapon/${$selectedWeapon.key}.png`} alt={$selectedWeapon.name} class="w-4 h-4 object-contain" />
+      <img src={`${base}/icon/weapon/${$selectedWeapon.key}.png`} alt={$selectedWeapon.name} class="w-4 h-4 object-contain" />
       <span class="text-xs font-medium text-gs-muted">{$selectedWeapon.name}</span>
     </div>
     <nav class="space-y-0.5">

@@ -4,6 +4,7 @@
   import { selectedCharacter } from "../../stores/character.js";
   import { weaponMetas, loadAllWeaponMetas, getJobRate } from "../../stores/progress.js";
   import ChangelogDialog from "../ui/ChangelogDialog.svelte";
+  import { base } from "../../lib/base.js";
   onMount(() => loadAllWeaponMetas());
 
   let changelogOpen = false;
@@ -11,14 +12,14 @@
   const LATEST_DATE = "2026.04.29";
 
   const LOGOS = [
-    { filePath: "/logo/title/Fwt0U7IaQAMkANo.png",              creatorName: "らすと",           link: "https://twitter.com/lastagous" },
-    { filePath: "/logo/title/FwuUS9LacAEVOKe.png",              creatorName: "",                 link: "" },
-    { filePath: "/logo/title/Fwud8LBaYAA5fnu.png",              creatorName: "しろっぽいおり",     link: "https://twitter.com/shiroi_nanka" },
-    { filePath: "/logo/title/IMG_1713.png",                     creatorName: "ろにゃ",             link: "https://twitter.com/toto_lucas_ff14" },
-    { filePath: "/logo/title/8793ca0a5f8347cd.png",             creatorName: "P",                link: "" },
-    { filePath: "/logo/title/Fwu05qPacAAY_bC.jpg",             creatorName: "あきち",             link: "https://twitter.com/CafeFreebird" },
-    { filePath: "/logo/title/Gerolts-Artisan-Record_01.png",   creatorName: "EGY-BBBBB",         link: "https://lit.link/egybbbbb" },
-    { filePath: "/logo/title/FwzgthhagAAPLlD.png",             creatorName: "せんや",             link: "https://twitter.com/seNya_yuki" },
+    { filePath: `${base}/logo/title/Fwt0U7IaQAMkANo.png`,              creatorName: "らすと",           link: "https://twitter.com/lastagous" },
+    { filePath: `${base}/logo/title/FwuUS9LacAEVOKe.png`,              creatorName: "",                 link: "" },
+    { filePath: `${base}/logo/title/Fwud8LBaYAA5fnu.png`,              creatorName: "しろっぽいおり",     link: "https://twitter.com/shiroi_nanka" },
+    { filePath: `${base}/logo/title/IMG_1713.png`,                     creatorName: "ろにゃ",             link: "https://twitter.com/toto_lucas_ff14" },
+    { filePath: `${base}/logo/title/8793ca0a5f8347cd.png`,             creatorName: "P",                link: "" },
+    { filePath: `${base}/logo/title/Fwu05qPacAAY_bC.jpg`,             creatorName: "あきち",             link: "https://twitter.com/CafeFreebird" },
+    { filePath: `${base}/logo/title/Gerolts-Artisan-Record_01.png`,   creatorName: "EGY-BBBBB",         link: "https://lit.link/egybbbbb" },
+    { filePath: `${base}/logo/title/FwzgthhagAAPLlD.png`,             creatorName: "せんや",             link: "https://twitter.com/seNya_yuki" },
   ];
 
   const logo = LOGOS[Math.floor(Math.random() * LOGOS.length)];
@@ -73,7 +74,7 @@
       {@const rate = Math.floor(getJobRate($weaponMetas[$selectedWeapon.key], $selectedJob, $selectedCharacter) * 100)}
       <nav class="hidden sm:flex items-center ml-4 min-w-0 flex-shrink overflow-hidden text-xs">
         <div class="flex items-center gap-1 text-gs-muted flex-shrink-0">
-          <img src={`/icon/weapon/${$selectedWeapon.key}.png`} alt={$selectedWeapon.name} class="w-4 h-4 object-contain" />
+          <img src={`${base}/icon/weapon/${$selectedWeapon.key}.png`} alt={$selectedWeapon.name} class="w-4 h-4 object-contain" />
           <span>{$selectedWeapon.name}</span>
         </div>
         <svg class="w-3 h-3 mx-1.5 flex-shrink-0 text-gs-border" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -81,7 +82,7 @@
         </svg>
         <div class="flex flex-col flex-shrink-0">
           <div class="flex items-center gap-1 text-gs-text font-medium">
-            <img src={`/icon/job/${$selectedJob}.png`} alt={$selectedJob} class="w-4 h-4 object-contain" />
+            <img src={`${base}/icon/job/${$selectedJob}.png`} alt={$selectedJob} class="w-4 h-4 object-contain" />
             <span>{$selectedJob}</span>
           </div>
           {#if $selectedCharacter}

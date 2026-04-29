@@ -9,12 +9,13 @@
     getJobRate, getWeaponRate,
   } from "../../stores/progress.js";
   import { WEAPONS } from "../../stores/selection.js";
+  import { base } from "../../lib/base.js";
 
   export let open = false;
   export let inline = false;
 
   const RUN_CHARS = (() => {
-    const imgs = ['/img/mnk.png', '/img/war.png', '/img/blm.png', '/img/sch.png'];
+    const imgs = [`${base}/img/mnk.png`, `${base}/img/war.png`, `${base}/img/blm.png`, `${base}/img/sch.png`];
     for (let i = imgs.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [imgs[i], imgs[j]] = [imgs[j], imgs[i]];
@@ -261,7 +262,7 @@
                     class="flex items-center gap-3 w-full px-2 py-2 text-left hover:bg-white/5 transition-colors rounded-lg"
                     on:click={() => (expandedWeapon = isExpanded ? null : weapon.key)}
                   >
-                    <img src={`/icon/weapon/${weapon.key}.png`} alt={weapon.name} class="w-5 h-5 object-contain flex-shrink-0" />
+                    <img src={`${base}/icon/weapon/${weapon.key}.png`} alt={weapon.name} class="w-5 h-5 object-contain flex-shrink-0" />
                     <span class="text-sm w-40 truncate flex-shrink-0">{weapon.name}</span>
                     <div class="flex-1 gs-progress-bar">
                       <div
@@ -289,7 +290,7 @@
                         {#each weapon.jobs as abbr}
                           {@const jrate = getJobRate($weaponMetas[weapon.key], abbr, $selectedCharacter)}
                           <div class="flex flex-col items-center gap-0.5 p-1.5 rounded">
-                            <img src={`/icon/job/${abbr}.png`} alt={abbr} class="w-6 h-6 object-contain" />
+                            <img src={`${base}/icon/job/${abbr}.png`} alt={abbr} class="w-6 h-6 object-contain" />
                             <span class="text-[10px] {jrate >= 1 ? 'text-gs-green' : 'text-gs-muted'}">{abbr}</span>
                             <div class="w-full h-0.5 rounded-full bg-gs-border overflow-hidden">
                               <div

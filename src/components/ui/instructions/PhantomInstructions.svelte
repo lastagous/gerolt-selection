@@ -1,4 +1,5 @@
 <script context="module">
+  import { base } from "../../../lib/base.js";
   const _cache = { stepsData: null, itemsMap: {}, questsMap: {} };
   let _loadPromise = null;
 
@@ -6,9 +7,9 @@
     if (_cache.stepsData) return Promise.resolve(_cache);
     if (!_loadPromise) {
       _loadPromise = Promise.all([
-        fetch("/data/pw/steps.json").then(r => r.json()),
-        fetch("/data/pw/items.json").then(r => r.json()),
-        fetch("/data/pw/quests.json").then(r => r.json()),
+        fetch(`${base}/data/pw/steps.json`).then(r => r.json()),
+        fetch(`${base}/data/pw/items.json`).then(r => r.json()),
+        fetch(`${base}/data/pw/quests.json`).then(r => r.json()),
       ]).then(([stepsData, itemsData, questsData]) => {
         for (const it of itemsData) _cache.itemsMap[it.id] = it;
         for (const q of questsData) _cache.questsMap[q.id] = q;

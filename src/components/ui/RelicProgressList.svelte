@@ -3,30 +3,31 @@
   import { selectedWeapon, selectedJob } from "../../stores/selection.js";
   import { selectedCharacter } from "../../stores/character.js";
   import { weaponMetas, loadWeaponMeta, getJobRate } from "../../stores/progress.js";
+  import { base } from "../../lib/base.js";
   export let onOpenAchievement = () => {};
 
   const JOBS = [
-    { abbr: "PLD", nameJa: "ナイト",        roll: "タンク",     iconPath: "/icon/job/PLD.png" },
-    { abbr: "WAR", nameJa: "戦士",          roll: "タンク",     iconPath: "/icon/job/WAR.png" },
-    { abbr: "DRK", nameJa: "暗黒騎士",      roll: "タンク",     iconPath: "/icon/job/DRK.png" },
-    { abbr: "GNB", nameJa: "ガンブレイカー", roll: "タンク",     iconPath: "/icon/job/GNB.png" },
-    { abbr: "MNK", nameJa: "モンク",        roll: "メレー",     iconPath: "/icon/job/MNK.png" },
-    { abbr: "DRG", nameJa: "竜騎士",        roll: "メレー",     iconPath: "/icon/job/DRG.png" },
-    { abbr: "NIN", nameJa: "忍者",          roll: "メレー",     iconPath: "/icon/job/NIN.png" },
-    { abbr: "SAM", nameJa: "侍",            roll: "メレー",     iconPath: "/icon/job/SAM.png" },
-    { abbr: "RPR", nameJa: "リーパー",      roll: "メレー",     iconPath: "/icon/job/RPR.png" },
-    { abbr: "VPR", nameJa: "ヴァイパー",    roll: "メレー",     iconPath: "/icon/job/VPR.png" },
-    { abbr: "BRD", nameJa: "吟遊詩人",      roll: "レンジ",     iconPath: "/icon/job/BRD.png" },
-    { abbr: "MCH", nameJa: "機工士",        roll: "レンジ",     iconPath: "/icon/job/MCH.png" },
-    { abbr: "DNC", nameJa: "踊り子",        roll: "レンジ",     iconPath: "/icon/job/DNC.png" },
-    { abbr: "BLM", nameJa: "黒魔道士",      roll: "キャスター",  iconPath: "/icon/job/BLM.png" },
-    { abbr: "SMN", nameJa: "召喚士",        roll: "キャスター",  iconPath: "/icon/job/SMN.png" },
-    { abbr: "RDM", nameJa: "赤魔道士",      roll: "キャスター",  iconPath: "/icon/job/RDM.png" },
-    { abbr: "PCT", nameJa: "ピクトマンサー", roll: "キャスター",  iconPath: "/icon/job/PCT.png" },
-    { abbr: "WHM", nameJa: "白魔道士",      roll: "ヒーラー",   iconPath: "/icon/job/WHM.png" },
-    { abbr: "SCH", nameJa: "学者",          roll: "ヒーラー",   iconPath: "/icon/job/SCH.png" },
-    { abbr: "AST", nameJa: "占星術師",      roll: "ヒーラー",   iconPath: "/icon/job/AST.png" },
-    { abbr: "SGE", nameJa: "賢者",          roll: "ヒーラー",   iconPath: "/icon/job/SGE.png" },
+    { abbr: "PLD", nameJa: "ナイト",        roll: "タンク",     iconPath: `${base}/icon/job/PLD.png` },
+    { abbr: "WAR", nameJa: "戦士",          roll: "タンク",     iconPath: `${base}/icon/job/WAR.png` },
+    { abbr: "DRK", nameJa: "暗黒騎士",      roll: "タンク",     iconPath: `${base}/icon/job/DRK.png` },
+    { abbr: "GNB", nameJa: "ガンブレイカー", roll: "タンク",     iconPath: `${base}/icon/job/GNB.png` },
+    { abbr: "MNK", nameJa: "モンク",        roll: "メレー",     iconPath: `${base}/icon/job/MNK.png` },
+    { abbr: "DRG", nameJa: "竜騎士",        roll: "メレー",     iconPath: `${base}/icon/job/DRG.png` },
+    { abbr: "NIN", nameJa: "忍者",          roll: "メレー",     iconPath: `${base}/icon/job/NIN.png` },
+    { abbr: "SAM", nameJa: "侍",            roll: "メレー",     iconPath: `${base}/icon/job/SAM.png` },
+    { abbr: "RPR", nameJa: "リーパー",      roll: "メレー",     iconPath: `${base}/icon/job/RPR.png` },
+    { abbr: "VPR", nameJa: "ヴァイパー",    roll: "メレー",     iconPath: `${base}/icon/job/VPR.png` },
+    { abbr: "BRD", nameJa: "吟遊詩人",      roll: "レンジ",     iconPath: `${base}/icon/job/BRD.png` },
+    { abbr: "MCH", nameJa: "機工士",        roll: "レンジ",     iconPath: `${base}/icon/job/MCH.png` },
+    { abbr: "DNC", nameJa: "踊り子",        roll: "レンジ",     iconPath: `${base}/icon/job/DNC.png` },
+    { abbr: "BLM", nameJa: "黒魔道士",      roll: "キャスター",  iconPath: `${base}/icon/job/BLM.png` },
+    { abbr: "SMN", nameJa: "召喚士",        roll: "キャスター",  iconPath: `${base}/icon/job/SMN.png` },
+    { abbr: "RDM", nameJa: "赤魔道士",      roll: "キャスター",  iconPath: `${base}/icon/job/RDM.png` },
+    { abbr: "PCT", nameJa: "ピクトマンサー", roll: "キャスター",  iconPath: `${base}/icon/job/PCT.png` },
+    { abbr: "WHM", nameJa: "白魔道士",      roll: "ヒーラー",   iconPath: `${base}/icon/job/WHM.png` },
+    { abbr: "SCH", nameJa: "学者",          roll: "ヒーラー",   iconPath: `${base}/icon/job/SCH.png` },
+    { abbr: "AST", nameJa: "占星術師",      roll: "ヒーラー",   iconPath: `${base}/icon/job/AST.png` },
+    { abbr: "SGE", nameJa: "賢者",          roll: "ヒーラー",   iconPath: `${base}/icon/job/SGE.png` },
   ];
   const ROLLS = ["タンク", "ヒーラー", "メレー", "レンジ", "キャスター"];
 

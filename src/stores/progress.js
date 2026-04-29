@@ -1,5 +1,6 @@
 import { writable } from "svelte/store";
 import { WEAPONS } from "./selection.js";
+import { base } from "../lib/base.js";
 
 const _cache   = new Map();
 const _loading = new Map();
@@ -10,7 +11,7 @@ export async function loadWeaponMeta(key) {
   if (typeof window === "undefined") return;
   if (_cache.has(key)) return _cache.get(key);
   if (_loading.has(key)) return _loading.get(key);
-  const p = fetch(`/data/${key.toLowerCase()}/meta.json`)
+  const p = fetch(`${base}/data/${key.toLowerCase()}/meta.json`)
     .then(r => r.json())
     .then(data => {
       _cache.set(key, data);

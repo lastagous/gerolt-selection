@@ -1,11 +1,12 @@
 <script context="module">
+  import { base } from "../../../lib/base.js";
   let _cache = null;
   let _loadPromise = null;
 
   function getEwData() {
     if (_cache) return Promise.resolve(_cache);
     if (!_loadPromise) {
-      _loadPromise = fetch("/data/ew/steps.json").then(r => r.json()).then(steps => {
+      _loadPromise = fetch(`${base}/data/ew/steps.json`).then(r => r.json()).then(steps => {
         _cache = { steps };
         return _cache;
       });
