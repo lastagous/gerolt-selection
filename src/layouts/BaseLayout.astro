@@ -6,8 +6,9 @@ const {
   ogType = "website",
 } = Astro.props;
 
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const ogImageURL = new URL(ogImage, Astro.site).href;
+const ogImageURL = new URL(base + ogImage, Astro.site).href;
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -63,17 +64,17 @@ const jsonLd = {
     <!-- 構造化データ -->
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
-    <link rel="icon" type="image/png" href="/favicon-hat.png" />
+    <link rel="icon" type="image/png" href={`${base}/favicon-hat.png`} />
 
     <!-- ロゴ画像をバックグラウンドでプリフェッチ（ランダム選択のため全種を事前キャッシュ） -->
-    <link rel="prefetch" href="/logo/title/Fwt0U7IaQAMkANo.png" as="image" />
-    <link rel="prefetch" href="/logo/title/FwuUS9LacAEVOKe.png" as="image" />
-    <link rel="prefetch" href="/logo/title/Fwud8LBaYAA5fnu.png" as="image" />
-    <link rel="prefetch" href="/logo/title/IMG_1713.png" as="image" />
-    <link rel="prefetch" href="/logo/title/8793ca0a5f8347cd.png" as="image" />
-    <link rel="prefetch" href="/logo/title/Fwu05qPacAAY_bC.jpg" as="image" />
-    <link rel="prefetch" href="/logo/title/Gerolts-Artisan-Record_01.png" as="image" />
-    <link rel="prefetch" href="/logo/title/FwzgthhagAAPLlD.png" as="image" />
+    <link rel="prefetch" href={`${base}/logo/title/Fwt0U7IaQAMkANo.png`} as="image" />
+    <link rel="prefetch" href={`${base}/logo/title/FwuUS9LacAEVOKe.png`} as="image" />
+    <link rel="prefetch" href={`${base}/logo/title/Fwud8LBaYAA5fnu.png`} as="image" />
+    <link rel="prefetch" href={`${base}/logo/title/IMG_1713.png`} as="image" />
+    <link rel="prefetch" href={`${base}/logo/title/8793ca0a5f8347cd.png`} as="image" />
+    <link rel="prefetch" href={`${base}/logo/title/Fwu05qPacAAY_bC.jpg`} as="image" />
+    <link rel="prefetch" href={`${base}/logo/title/Gerolts-Artisan-Record_01.png`} as="image" />
+    <link rel="prefetch" href={`${base}/logo/title/FwzgthhagAAPLlD.png`} as="image" />
   </head>
   <body>
     <slot />
