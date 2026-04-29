@@ -1,9 +1,11 @@
+import { base as appBase } from "../../../lib/base.js";
+
 const LODESTONE_BASE = "https://jp.finalfantasyxiv.com/lodestone/playguide/db/";
 
 export function iconUrl(iconId) {
-  const base = String(Math.floor(iconId / 1000) * 1000).padStart(6, "0");
-  const id   = String(iconId).padStart(6, "0");
-  return `/icon/ui/${base}/${id}.png`;
+  const dir = String(Math.floor(iconId / 1000) * 1000).padStart(6, "0");
+  const id  = String(iconId).padStart(6, "0");
+  return `${appBase}/icon/ui/${dir}/${id}.png`;
 }
 
 
