@@ -3,7 +3,12 @@
   import { WEAPONS, selectedWeapon, selectedJob } from "../../stores/selection.js";
   import { selectedCharacter } from "../../stores/character.js";
   import { weaponMetas, loadAllWeaponMetas, getJobRate } from "../../stores/progress.js";
+  import ChangelogDialog from "../ui/ChangelogDialog.svelte";
   onMount(() => loadAllWeaponMetas());
+
+  let changelogOpen = false;
+
+  const LATEST_DATE = "2026.04.29";
 
   const LOGOS = [
     { filePath: "/logo/title/Fwt0U7IaQAMkANo.png",              creatorName: "らすと",           link: "https://twitter.com/lastagous" },
@@ -50,6 +55,18 @@
         </div>
       </div>
     </div>
+
+    <!-- 更新履歴ボタン -->
+    <button
+      class="flex items-center gap-1 px-2 py-1 rounded text-xs text-gs-muted hover:text-gs-text hover:bg-white/5 transition-colors flex-shrink-0"
+      on:click={() => changelogOpen = true}
+      title="更新履歴"
+    >
+      <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+      </svg>
+      <span>{LATEST_DATE}</span>
+    </button>
 
     <!-- 中央: パンくずリスト -->
     {#if $weaponMetas[$selectedWeapon.key] && $selectedJob}
@@ -98,6 +115,8 @@
 
   </div>
 </header>
+
+<ChangelogDialog bind:open={changelogOpen} />
 
 <style>
   .gs-header       { @apply sticky top-0 z-30 w-full h-12 flex items-center px-4 border-b border-gs-border bg-gs-panel; }
