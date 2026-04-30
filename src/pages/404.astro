@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import "../styles/global.css";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<BaseLayout
+  title="ページが見つかりません | ゲロルトの工匠記録"
+  description="お探しのページが見つかりませんでした。"
+>
+  <div class="min-h-screen flex items-center justify-center px-4">
+    <div class="text-center">
+      <p class="text-8xl font-bold text-gs-gold opacity-30 leading-none select-none">404</p>
+      <p class="mt-4 text-lg font-medium text-gs-text">ページが見つかりません</p>
+      <p class="mt-2 text-sm text-gs-muted">お探しのページは存在しないか、移動した可能性があります。</p>
+      <a
+        href={`${base}/`}
+        class="inline-block mt-8 px-6 py-2.5 rounded border border-gs-gold text-gs-gold text-sm hover:bg-gs-gold hover:text-gs-dark transition-colors"
+      >
+        トップへ戻る
+      </a>
+    </div>
+  </div>
+</BaseLayout>
