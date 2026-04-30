@@ -148,7 +148,7 @@
             <tr class="bg-white/10">
               <th class="border border-gs-border px-2 py-1 text-left font-semibold whitespace-nowrap">{ot.nameLabel ?? "素材名"}</th>
               {#if hasQty}<th class="border border-gs-border px-2 py-1 text-center font-semibold">個数</th>{/if}
-              <th class="border border-gs-border px-2 py-1 text-left font-semibold">{ot.howLabel ?? "場所"}</th>
+              {#if !ot.hideHow}<th class="border border-gs-border px-2 py-1 text-left font-semibold">{ot.howLabel ?? "場所"}</th>{/if}
             </tr>
           </thead>
           <tbody>
@@ -175,9 +175,11 @@
                     {item.qty != null ? `×${item.qty}` : ""}
                   </td>
                 {/if}
-                <td class="border border-gs-border px-2 py-1">
-                  <PwHowCell how={item.how} {currencies} />
-                </td>
+                {#if !ot.hideHow}
+                  <td class="border border-gs-border px-2 py-1">
+                    <PwHowCell how={item.how} {currencies} />
+                  </td>
+                {/if}
               </tr>
             {/each}
           </tbody>

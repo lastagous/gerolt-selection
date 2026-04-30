@@ -121,7 +121,7 @@
           { "type": "text", "html": "を合計 1,200 個、段階的に納品する（100 → 200 → 300 → 600 個）。" }
         ],
         "nameLabel": "方法",
-        "howLabel": "個数",
+        "hideHow": true,
         "items": [
           { "name": "ルーレット：エキスパート",                  "how": { "type": "text", "value": "15 個 /回" } },
           { "name": "ルーレット：レベルキャップ",                "how": { "type": "text", "value": "15 個 /回" } },
